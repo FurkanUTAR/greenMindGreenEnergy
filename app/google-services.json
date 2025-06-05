@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611297610965",
+    "project_id": "green-mind-green-energy",
+    "storage_bucket": "green-mind-green-energy.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611297610965:android:2433a43be364ed2b15665c",
+        "android_client_info": {
+          "package_name": "com.example.greenmindgreenenergy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJE4ZOKtS0i2U6mAWW2v0S4niR_oz7QHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
