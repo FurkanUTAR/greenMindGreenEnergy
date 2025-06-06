@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".girisSayfaFragment">
+
+
+    <Button
+        android:id="@+id/anaSayfaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/anaSayfa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/projeHakkindaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/projeHakkinda"
+        app:layout_constraintEnd_toEndOf="@+id/anaSayfaButton"
+        app:layout_constraintStart_toStartOf="@+id/anaSayfaButton"
+        app:layout_constraintTop_toBottomOf="@+id/anaSayfaButton" />
+
+    <Button
+        android:id="@+id/aktivitelerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/aktiviteler"
+        app:layout_constraintEnd_toEndOf="@+id/projeHakkindaButton"
+        app:layout_constraintStart_toStartOf="@+id/projeHakkindaButton"
+        app:layout_constraintTop_toBottomOf="@+id/projeHakkindaButton" />
+
+    <Button
+        android:id="@+id/surdurulebilirEnerjiButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/surdurulebilirEnerji"
+        app:layout_constraintEnd_toEndOf="@+id/aktivitelerButton"
+        app:layout_constraintStart_toStartOf="@+id/aktivitelerButton"
+        app:layout_constraintTop_toBottomOf="@+id/aktivitelerButton" />
+
+    <Button
+        android:id="@+id/robotikVeKodlamaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/robotikVeKodlama"
+        app:layout_constraintEnd_toEndOf="@+id/surdurulebilirEnerjiButton"
+        app:layout_constraintStart_toStartOf="@+id/surdurulebilirEnerjiButton"
+        app:layout_constraintTop_toBottomOf="@+id/surdurulebilirEnerjiButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,5 +9,23 @@
         android:id="@+id/splashFragment"
         android:name="com.example.greenmindgreenenergy.splashFragment"
         android:label="fragment_splash"
-        tools:layout="@layout/fragment_splash" />
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_girisSayfaFragment"
+            app:destination="@id/girisSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/girisSayfaFragment"
+        android:name="com.example.greenmindgreenenergy.girisSayfaFragment"
+        android:label="fragment_giris_sayfa"
+        tools:layout="@layout/fragment_giris_sayfa" >
+        <action
+            android:id="@+id/action_girisSayfaFragment_to_anaSayfaFragment"
+            app:destination="@id/anaSayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/anaSayfaFragment"
+        android:name="com.example.greenmindgreenenergy.anaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" />
 </navigation>

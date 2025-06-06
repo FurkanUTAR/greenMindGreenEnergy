@@ -1,5 +1,36 @@
 <resources>
     <string name="app_name">Green Mind Green Energy</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="anaSayfa">Ana Sayfa</string>
+    <string name="projeHakkinda">Proje Hakkında</string>
+    <string name="aktiviteler">Aktiviteler</string>
+    <string name="surdurulebilirEnerji">Sürdürülebilir Enerji</string>
+    <string name="robotikVeKodlama">Robotik &amp; Kodlama</string>
+    <string name="yesilZihinlerYesilEnerji">Yeşil Zihinler Yeşil Enerji</string>
+    <string name="hakkimizda">Hakkımızda</string>
+    <string name="hakkimizdaText">Sürdürülebilir enerji ve robotik alanlarında yenilikçi çözümler üretmeyi hedefleyen bir ekibiz. Projemiz “Green Mind: Yeşil Enerji ile Zihinleri Aç”, çevre dostu teknolojilerle öğrencilerin ve toplumun enerji bilincini artırmayı hedefliyor. Güneş ve rüzgâr enerjisi gibi yenilenebilir kaynaklardan yararlanarak robotik sistemler geliştiriyoruz. Enerji tasarrufunu teşvik eden ve geleceğin mühendislerine ilham veren çalışmalar yürütüyoruz. Teknoloji ve doğayı bir araya getirerek daha yeşil bir dünyaya doğru adımlar atıyoruz.</string>
+
+    <string name="projeVizyonumuz">Proje Vizyonumuz</string>
+    <string name="projeHedefleri">Proje Hedefleri:</string>
+    <string name="projeHedefleriText">Sürdürülebilir enerji bilinci oluşturmak.\nRobotik ve kodlama becerilerini geliştirmek.\nAvrupa\'daki yenilikçi uygulamaları öğrenmek.</string>
+
+    <string name="hedefKitle">Hedef Kitle:</string>
+    <string name="hedefKitleText">Katılımcı öğrencilerin profilleri ve proje kapsamındaki beklentiler. Faaliyetler Eğitim Programı: Staj programının detaylı günlüğü (oryantasyon, eğitim ve uygulamalar).</string>
+
+    <string name="atolyeCalismalariVeSeminerler">Atölye Çalışmaları ve Seminerler:</string>
+    <string name="atolyeCalismalariVeSeminerlerText">Proje süresince düzenlenecek atölye çalışmaları ve konular.</string>
+
+    <string name="kulturelFaaliyetler">Kültürel Faaliyetler:</string>
+    <string name="kulturelFaaliyetlerText">Katılımcıların yer alacağı kültürel ve sosyal etkinlikler. Avrupa\'da stajın detayları ve aşamaları.</string>
+
+    <string name="beklenenOgrenmeCiktilari">Beklenen Öğrenme Çıktıları:</string>
+    <string name="beklenenOgrenmeCiktilariText">Robotik sistemler ve sürdürülebilir enerji teknolojilerinde hedeflenen öğrenme çıktıları.</string>
+
+    <string name="projeUygulamaAdimlari">Proje Uygulama Adımları</string>
+    <string name="projeTemelAdimlari">Projenin Temel Adımları</string>
+    <string name="projeTemelAdimlariText">1-Sürdürülebilirlik Odaklı İnovasyon\n2-Elde Öğrenme Deneyimi\n3-Uluslararası İşbirliği\n4-İleri Teknoloji Odağı\n5-Kapsamlı Destek Hizmetleri\n6-Eko-Dostu Okul Ortamı</string>
+
+    <string name="sonucText">Bu projede yeşil enerji ve robotik teknolojileri birleştirerek geleceği şekillendiren bir öğrenme ortamı yaratıyoruz.</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
