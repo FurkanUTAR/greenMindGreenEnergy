@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- ScrollView tüm içeriği kapsayacak -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/surdurulebilirEnerji"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+
+            <!-- İçerik Container -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Project Objectives Öncesi Görsel -->
+                <ImageView
+                    android:id="@+id/objectivesImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/yesil_enerji"
+                    android:contentDescription="@string/yesilZihinlerYesilEnerji" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/surdurulebilirEnerjiVeYesilCevreIcerikBasliklari"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/surdurulebilirEnerjiText1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/surdurulebilirEnerjiText1"/>
+
+                <TextView
+                    android:id="@+id/surdurulebilirEnerjiText2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/surdurulebilirEnerjiText2"/>
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/makalelerimiz"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <Button
+                    android:id="@+id/surdurulebilirEnerjiyeGirisButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/surdurulebilirEnerjiyeGiris" />
+
+                <Button
+                    android:id="@+id/yesilEnerjiKaynaklariButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yesilEnerjiKaynaklari" />
+
+                <Button
+                    android:id="@+id/fosilYakitlarinEtkileriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fosilYakitlarinEtkileri" />
+
+                <Button
+                    android:id="@+id/enerjiVerimliligiTeknikleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiVerimliligiTeknikleri" />
+
+                <Button
+                    android:id="@+id/gunesPanelleriTeknolojisiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gunesPanelleriTeknolojisi" />
+
+                <Button
+                    android:id="@+id/ruzgarTurbinleriVeCalismaPrensipleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ruzgarTurbinleriVeCalismaPrensipleri" />
+
+                <Button
+                    android:id="@+id/hidroelektrikEnerjiVeBarajlarButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hidroelektrikEnerjiVeBarajlar" />
+
+                <Button
+                    android:id="@+id/yesilBinalarVeEnerjiYönetimiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yesilBinalarVeEnerjiYönetimi" />
+
+                <Button
+                    android:id="@+id/karbonAyakIziHesaplamaButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/karbonAyakIziHesaplama" />
+
+                <Button
+                    android:id="@+id/enerjiDepolamaSistemleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiDepolamaSistemleri" />
+
+                <Button
+                    android:id="@+id/akilliSebekeSistemleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/akilliSebekeSistemleri" />
+
+                <Button
+                    android:id="@+id/hibritEnerjiSistemleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hibritEnerjiSistemleri" />
+
+                <Button
+                    android:id="@+id/surdurulebilirUlasimCozumleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/surdurulebilirUlasimCozumleri" />
+
+                <Button
+                    android:id="@+id/yenilenebilirEnerjiPolitikalariButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yenilenebilirEnerjiPolitikalari" />
+
+                <Button
+                    android:id="@+id/iklimDegisikligiVeEnerjiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iklimDegisikligiVeEnerji" />
+
+                <Button
+                    android:id="@+id/enerjiUretimindeRobotikUygulamalariButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiUretimindeRobotikUygulamalari" />
+
+                <Button
+                    android:id="@+id/enerjiVerimliligiIotKullanimiButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiVerimliligiIotKullanimi" />
+
+                <Button
+                    android:id="@+id/yesilCevreProjeleriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yesilCevreProjeleri" />
+
+                <Button
+                    android:id="@+id/toplumsalSurdurulebilirlikBilinciButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toplumsalSurdurulebilirlikBilinci" />
+
+                <Button
+                    android:id="@+id/geleceginEnerjiTeknolojileriButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/geleceginEnerjiTeknolojileri" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Loading Indicator (hala sabit) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

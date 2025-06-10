@@ -30,6 +30,114 @@
     <string name="projeTemelAdimlari">Projenin Temel Adımları</string>
     <string name="projeTemelAdimlariText">1-Sürdürülebilirlik Odaklı İnovasyon\n2-Elde Öğrenme Deneyimi\n3-Uluslararası İşbirliği\n4-İleri Teknoloji Odağı\n5-Kapsamlı Destek Hizmetleri\n6-Eko-Dostu Okul Ortamı</string>
 
+    <string name="projeTanitimText1">TOKİ Kayaşehir Mesleki ve Teknik Anadolu Lisesi olarak yürüttüğümüz Erasmus+ KA122-VET “Yeşil Zihin: Yeşil Enerjiyle Zihinleri Açın” projesi, yenilenebilir enerji ve çevre dostu teknolojiler konusunda öğrencilerimizin mesleki becerilerini geliştirmeyi ve uluslararası düzeyde deneyim kazanmalarını sağlamayı amaçlamaktadır.</string>
+    <string name="projeTanitimText2">Bu proje kapsamında öğrencilerimiz, Avrupa’da yenilenebilir enerji teknolojileri alanında faaliyet gösteren işletmelerde staj yaparak mesleki bilgi ve becerilerini geliştirme fırsatı yakalayacaklardır. Proje süresince öğrenciler, sürdürülebilir enerji sistemleri, yeşil teknoloji uygulamaları ve çevre dostu üretim süreçleri üzerine uygulamalı eğitim alacak, farklı ülkelerin yenilenebilir enerji politikalarını ve uygulamalarını yerinde gözlemleyerek küresel düzeyde bilinç kazanacaktır.</string>
+
+    <string name="projeAmaci">Proje Amacı</string>
+    <string name="projeAmaciText">
+Bu proje ile hedeflenen temel amaçlar şunlardır:
+\n✅ Öğrencilerin yenilenebilir enerji teknolojileri konusunda bilgi ve becerilerini artırmak
+\n✅ Uluslararası düzeyde mesleki deneyim kazanmalarını sağlamak
+\n✅ Çevre bilincini artırarak sürdürülebilir enerji uygulamalarına yönelik farkındalık oluşturmak
+\n✅ Meslek liselerinin kalite ve prestijini artırarak mezunların istihdam olanaklarını genişletmek
+\n✅ Öğrencilerin yabancı dil becerilerini geliştirmelerine yardımcı olmak
+\n✅ Farklı kültürleri tanıma ve küresel iş ortamlarına uyum sağlama yetkinliklerini artırmak</string>
+
+    <string name="projeAsamalari">Proje Aşamaları</string>
+    <string name="projeAsamalariText">
+📌 1. Planlama ve Hazırlık Aşaması (Ocak – Mart 2025)
+
+\n\nProje için öğrenci ve öğretmen seçim sürecinin başlatılması
+
+\n\nKatılımcılar için bilgilendirme toplantılarının düzenlenmesi
+
+\n\nHareketlilik öncesi dil ve kültürel hazırlık eğitimlerinin verilmesi
+
+\n\nStaj yapılacak işletmelerle iletişim kurulması ve iş planlarının oluşturulması
+
+\n\n📌 2. Hareketlilik Süreci (11-31 Mayıs 2025)
+
+\n\nSeçilen öğrencilerin belirlenen Avrupa ülkesine giderek stajlarına başlaması
+
+\n\nYenilenebilir enerji uygulamaları konusunda yerinde gözlem ve eğitimlerin alınması
+
+\n\nİşletmelerde aktif olarak proje ve üretim süreçlerine katılım sağlanması
+
+\n\nFarklı ülkelerin enerji politikaları ve uygulamaları hakkında bilgi edinilmesi
+
+\n\n📌 3. Raporlama ve Yaygınlaştırma Aşaması (Haziran – Temmuz 2025)
+
+\n\nÖğrencilerin staj süreci ile ilgili deneyim ve kazanımlarını raporlaması
+
+\n\nOkul içinde ve çeşitli platformlarda proje sonuçlarının paylaşılması
+
+\n\nÖğrencilerin edindikleri bilgileri sunumlar ve atölyeler ile diğer öğrencilere aktarması
+
+\n\nProje çıktılarının değerlendirilerek gelecek projeler için iyileştirme önerilerinin hazırlanması</string>
+
+    <string name="projeKazanimlari">Proje Kazanımları</string>
+    <string name="projeKazanimlariText1">
+🌿 Öğrenciler İçin Kazanımlar:
+\n✅ Yenilenebilir enerji alanında mesleki beceriler edinme
+\n✅ Uluslararası iş ortamlarında deneyim kazanma
+\n✅ Yabancı dil becerilerini geliştirme (İngilizce ve teknik terminoloji)
+\n✅ Farklı kültürleri tanıma ve çok kültürlü çalışma becerisi edinme
+\n✅ Sürdürülebilir enerji kaynakları hakkında bilinçlenme ve çevreci yaklaşım geliştirme
+\n✅ Öz güven kazanma ve bireysel sorumluluk bilincini artırma</string>
+    <string name="projeKazanimlariText2">
+🌍 Okul ve Eğitim Kurumu İçin Kazanımlar:
+\n✅ Meslek lisesi öğrencilerinin uluslararası deneyim kazanarak mezuniyet sonrası istihdam edilebilirliğini artırma
+\n✅ Yenilenebilir enerji ve yeşil teknoloji alanında eğitim kalitesini yükseltme
+\n✅ Öğrencilere sürdürülebilir kalkınma hedefleri doğrultusunda bilinç kazandırma
+\n✅ Okulumuzun uluslararası projelerle tanınırlığını artırma</string>
+
+    <string name="surdurulebilirEnerjiVeYesilCevreIcerikBasliklari">Sürdürülebilir Enerji ve Yeşil Çevre İçerik Başlıkları (Temelden İleri Seviyeye)</string>
+    <string name="surdurulebilirEnerjiText1">Sürdürülebilir Enerji ve Yeşil Çevre modülü, öğrencilere temiz enerji teknolojileri ve çevre koruma konularında farkındalık kazandırmayı amaçlamaktadır. İklim değişikliği ve çevresel bozulmanın yaşandığı günümüzde, yenilenebilir enerji kaynakları, karbon salınımını azaltma stratejileri ve bilinçli tüketim gibi kavramların genç nesillere öğretilmesi büyük önem taşır. Öğrenciler, uygulamalı projeler, araştırmalar ve gerçek yaşam uygulamaları yoluyla güneş, rüzgar, hidro ve jeotermal enerji sistemlerinin daha yeşil bir gezegene nasıl katkı sağladığını keşfeder.</string>
+    <string name="surdurulebilirEnerjiText2">Bu içerik yapısı, temel bilgilerden ileri düzey uygulamalara kadar geniş bir yelpazede eğitim sunmak üzere hazırlanmıştır. Enerji verimliliğinin temellerinden akıllı şebeke teknolojilerine, yapay zekâ destekli çevreci çözümlerden sürdürülebilir yaşam uygulamalarına kadar öğrenciler, geleceğin bilinçli yenilikçileri ve sürdürülebilirlik elçileri olmaya yönelik donanım kazanacaklardır.</string>
+    <string name="makalelerimiz">Makalelerimiz</string>
+    <string name="surdurulebilirEnerjiyeGiris">1.Sürdürülebilir Enerjiye Giriş</string>
+    <string name="yesilEnerjiKaynaklari">2.Yeşil Enerji Kaynakları</string>
+    <string name="fosilYakitlarinEtkileri">3.Fosil Yakıtların Etkileri</string>
+    <string name="enerjiVerimliligiTeknikleri">4.Enerji Verimliliği Teknikleri</string>
+    <string name="gunesPanelleriTeknolojisi">5.Güneş Panelleri Teknolojisi</string>
+    <string name="ruzgarTurbinleriVeCalismaPrensipleri">6.Rüzgar Türbinleri ve Çalışma Prensipleri</string>
+    <string name="hidroelektrikEnerjiVeBarajlar">7.Hidroelektrik Enerji ve Barajlar</string>
+    <string name="yesilBinalarVeEnerjiYönetimi">8.Yeşil Binalar ve Enerji Yönetimi</string>
+    <string name="karbonAyakIziHesaplama">9.Karbon Ayak İzi Hesaplama</string>
+    <string name="enerjiDepolamaSistemleri">10.Enerji Depolama Sistemleri</string>
+    <string name="akilliSebekeSistemleri">11.Akıllı Şebeke Sistemleri</string>
+    <string name="hibritEnerjiSistemleri">12.Hibrit Enerji Sistemleri</string>
+    <string name="surdurulebilirUlasimCozumleri">13.Sürdürülebilir Ulaşım Çözümleri</string>
+    <string name="yenilenebilirEnerjiPolitikalari">14.Yenilenebilir Enerji Politikaları</string>
+    <string name="iklimDegisikligiVeEnerji">15.İklim Değişikliği ve Enerji</string>
+    <string name="enerjiUretimindeRobotikUygulamalari">16.Enerji Üretiminde Robotik Uygulamaları</string>
+    <string name="enerjiVerimliligiIotKullanimi">17.Enerji Verimliliği IoT Kullanımı</string>
+    <string name="yesilCevreProjeleri">18.Yeşil Çevre Projeleri</string>
+    <string name="toplumsalSurdurulebilirlikBilinci">19.Toplumsal Sürdürülebilirlik Bilinci</string>
+    <string name="geleceginEnerjiTeknolojileri">20.Geleceğin Enerji Teknolojileri</string>
+
+    <string name="robotikVeKodlamaText">Bu proje, temelden ileri düzey projelere kadar geniş bir yelpazede eğitim sunarak öğrencileri robotik kodlama dünyasıyla tanıştırmayı amaçlamaktadır. Katılımcılar, pratik uygulamalarla robotik sistemler geliştirirken mikrodenetleyiciler, sensörler, motor kontrolü, görüntü işleme ve yapay zeka gibi alanlarda derinlemesine bilgi sahibi olurlar. Arduino’dan otonom araç algoritmalarına, IoT entegrasyonundan geleceğin biyomimetik robotik sistemlerine kadar uzanan bu süreç, öğrencilerin yenilikçi ve sürdürülebilir çözümler üretmesine olanak sağlıyor.Projemiz, teknolojiye olan ilgiyi artırarak geleceğin mühendislerini, yazılımcılarını ve yenilikçi liderlerini yetiştirmeyi hedefliyor. Şimdi konu konu içeriğimizi inceleyelim. Robotik Kodlama İçerik Konuları (Temelden İleri Düzeye)</string>
+    <string name="robotikKodlamayaGiris">1.Robotik Kodlamaya Giriş: Robot nedir? Robotik kodlamanın temelleri</string>
+    <string name="mikrodenetleyiciyeGiris">2.Mikrodenetleyiciye Giriş: Arduino, Raspberry Pi gibi cihazların tanıtımı</string>
+    <string name="elektronikBilesenlerVeSensorler">3.Elektronik Bileşenler ve Sensörler : Temel elektronik bileşenleri kullanma ve sensörlerle çalışma</string>
+    <string name="arduinoIleKodlama">4.Arduino ile Kodlama: Arduino platformunda temel kodlama teknikleri.</string>
+    <string name="motorKontrolSistemleri">5.Motor Kontrol Sistemleri: Servo motor ve DC motor kontrolü.</string>
+    <string name="sensorEntegrasyonu">6.Sensör Entegrasyonu: Robotlarda ultrasonik, Lidar ve IR sensörlerinin kullanımı</string>
+    <string name="algoritmaGelistirme">7.Algoritma Geliştirme : Robotik sistemler için temel algoritmalar oluşturma.</string>
+    <string name="mobilRobotikSistemler">8.Mobil Robotik Sistemler : Tekerlekli ve paletli robotların geliştirilmesi.</string>
+    <string name="otonomAraclarIcinAlgoritmalar">9.Otonom Araçlar için Algoritmalar : Çizgi izleyen robotlar ve otonom hareket algoritmaları.</string>
+    <string name="veriToplamaVeAnalizi">10.Veri Toplama ve Analizi : Robotik sistemlerden veri toplama ve analiz süreçleri</string>
+    <string name="yapayZekaTabanliRobotik">11.Yapay Zeka Tabanlı Robotik: Makine öğrenimi ile robotlara görev öğretimi</string>
+    <string name="endustriyelRobotikUygulamalari">12.Endüstriyel Robotik Uygulamaları: Fabrikalarda kullanılan robotik kollar ve sistemler</string>
+    <string name="rosIleCalisma">13.ROS (Robot İşletim Sistemi) ile çalışma: ROS tabanlı robotik projelerin temelleri</string>
+    <string name="goruntuIslemeveRobotik">14.Görüntü İşleme ve Robotik : Kameralar ile görüntü işleme ve robot kontrolü.</string>
+    <string name="robotikSistemlerinOptimizasyonu">15.Robotik Sistemlerin Optimizasyonu: Verimliliği artırmak için yazılım ve donanım optimizasyonu.</string>
+    <string name="robotikKollarinTasarimiVeKontrolu">16.Robotik Kolların Tasarımı ve Kontrolü: Mekanik kolların yapımı ve hareket kontrolü.</string>
+    <string name="robotlarIcinIoTEntegrasyonu">17.Robotlar için IoT Entegrasyonu: Robotları Nesnelerin İnternetine (IoT) bağlama</string>
+    <string name="suruHalindeCalisanRobotikSistemler">18.Sürü Halinde Çalışan Robotik Sistemler: Çoklu robot sistemlerinin koordinasyonu</string>
+    <string name="hibritRobotikSistemler">19.Hibrit Robotik Sistemler: Farklı enerji kaynakları ile çalışan robotlar.</string>
+    <string name="geleceginRobotikTeknolojileri">20.Geleceğin Robotik Teknolojileri : Yumuşak robotik ve biyomimetik sistemler.</string>
+
     <string name="sonucText">Bu projede yeşil enerji ve robotik teknolojileri birleştirerek geleceği şekillendiren bir öğrenme ortamı yaratıyoruz.</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>

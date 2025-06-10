@@ -35,5 +35,24 @@ class girisSayfaFragment : Fragment() {
             findNavController().navigate(action)
         }
 
+        binding.projeHakkindaButton.setOnClickListener{
+            val action = girisSayfaFragmentDirections.actionGirisSayfaFragmentToHakkimizdaSayfaFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.surdurulebilirEnerjiButton.setOnClickListener{
+            val action = girisSayfaFragmentDirections.actionGirisSayfaFragmentToSurdurulebilirEnerjiFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.robotikVeKodlamaButton.setOnClickListener{
+            val action = girisSayfaFragmentDirections.actionGirisSayfaFragmentToRobotikVeKodlamaFragment()
+            findNavController().navigate(action)
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "Green Mind Green Energy"
 include(":app")
- 

@@ -22,10 +22,32 @@
         <action
             android:id="@+id/action_girisSayfaFragment_to_anaSayfaFragment"
             app:destination="@id/anaSayfaFragment" />
+        <action
+            android:id="@+id/action_girisSayfaFragment_to_hakkimizdaSayfaFragment"
+            app:destination="@id/hakkimizdaSayfaFragment" />
+        <action
+            android:id="@+id/action_girisSayfaFragment_to_surdurulebilirEnerjiFragment"
+            app:destination="@id/surdurulebilirEnerjiFragment" />
+        <action
+            android:id="@+id/action_girisSayfaFragment_to_robotikVeKodlamaFragment"
+            app:destination="@id/robotikVeKodlamaFragment" />
     </fragment>
     <fragment
         android:id="@+id/anaSayfaFragment"
         android:name="com.example.greenmindgreenenergy.anaSayfaFragment"
         android:label="fragment_ana_sayfa"
         tools:layout="@layout/fragment_ana_sayfa" />
+    <fragment
+        android:id="@+id/hakkimizdaSayfaFragment"
+        android:name="com.example.greenmindgreenenergy.hakkimizdaSayfaFragment"
+        android:label="fragment_hakkimizda_sayfa"
+        tools:layout="@layout/fragment_hakkimizda_sayfa" />
+    <fragment
+        android:id="@+id/surdurulebilirEnerjiFragment"
+        android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiFragment"
+        android:label="surdurulebilirEnerjiFragment" />
+    <fragment
+        android:id="@+id/robotikVeKodlamaFragment"
+        android:name="com.example.greenmindgreenenergy.robotikVeKodlamaFragment"
+        android:label="robotikVeKodlamaFragment" />
 </navigation>
