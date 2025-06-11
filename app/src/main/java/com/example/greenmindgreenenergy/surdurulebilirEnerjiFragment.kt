@@ -55,6 +55,21 @@ class surdurulebilirEnerjiFragment : Fragment() {
             val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToGunesPanelleriTeknolojisi()
             findNavController().navigate(action)
         }
+
+        binding.ruzgarTurbinleriVeCalismaPrensipleriButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToRuzgarTurbinleriVeCalismaPrensipleriFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.hidroelektrikEnerjiVeBarajlarButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToHidroelektrikEnerjiVeBarajlarFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.yesilBinalarVeEnerjiYNetimiButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToYesilBinalarVeEnerjiYonetimiFragment()
+            findNavController().navigate(action)
+        }
     }
 
 }

@@ -61,6 +61,15 @@
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_gunesPanelleriTeknolojisi"
             app:destination="@id/gunesPanelleriTeknolojisi" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_ruzgarTurbinleriVeCalismaPrensipleriFragment"
+            app:destination="@id/ruzgarTurbinleriVeCalismaPrensipleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_hidroelektrikEnerjiVeBarajlarFragment"
+            app:destination="@id/hidroelektrikEnerjiVeBarajlarFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_yesilBinalarVeEnerjiYonetimiFragment"
+            app:destination="@id/yesilBinalarVeEnerjiYonetimiFragment" />
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
@@ -87,4 +96,17 @@
         android:name="com.example.greenmindgreenenergy.gunesPanelleriTeknolojisi"
         android:label="fragment_gunes_panelleri_teknolojisi"
         tools:layout="@layout/fragment_gunes_panelleri_teknolojisi" />
+    <fragment
+        android:id="@+id/ruzgarTurbinleriVeCalismaPrensipleriFragment"
+        android:name="com.example.greenmindgreenenergy.ruzgarTurbinleriVeCalismaPrensipleriFragment"
+        android:label="ruzgarTurbinleriVeCalismaPrensipleriFragment" />
+    <fragment
+        android:id="@+id/hidroelektrikEnerjiVeBarajlarFragment"
+        android:name="com.example.greenmindgreenenergy.hidroelektrikEnerjiVeBarajlarFragment"
+        android:label="fragment_hidroelektrik_enerji_ve_barajlar"
+        tools:layout="@layout/fragment_hidroelektrik_enerji_ve_barajlar" />
+    <fragment
+        android:id="@+id/yesilBinalarVeEnerjiYonetimiFragment"
+        android:name="com.example.greenmindgreenenergy.yesilBinalarVeEnerjiYonetimiFragment"
+        android:label="yesilBinalarVeEnerjiYonetimiFragment" />
 </navigation>

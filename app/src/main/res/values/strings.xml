@@ -304,5 +304,114 @@ Bu proje ile hedeflenen temel amaçlar şunlardır:
     <string name="sonuc">Sonuç</string>
     <string name="sonucText2">Güneş paneli teknolojisi, yeşil enerji devriminin öncüsüdür. Sürekli gelişen yapısıyla birlikte, yenilenebilir enerjinin daha erişilebilir ve güvenilir hale gelmesini sağlayarak günlük yaşamın bir parçası olmaya devam edecektir.</string>
 
+    <string name="girisText1">Rüzgar enerjisi, dünya genelinde en hızlı büyüyen yenilenebilir enerji kaynaklarından biridir. Rüzgar türbinleri, bu dönüşümün merkezinde yer alarak rüzgarın kinetik enerjisini elektrik enerjisine dönüştürür. Karbon salınımının azaltılması, enerji kaynaklarının çeşitlendirilmesi ve sürdürülebilirliğin artırılması ihtiyacı, rüzgar türbinlerinin kullanımını yaygınlaştırmıştır.</string>
+    <string name="ruzgarTurbiniNedir">1. Rüzgar Türbini Nedir?</string>
+    <string name="ruzgarTurbiniNedirText">Rüzgar türbini, rüzgarın hareket enerjisini yakalayarak önce mekanik, ardından elektrik enerjisine dönüştüren bir cihazdır. Genellikle açık arazilerde, kıyı bölgelerinde ve deniz üstü platformlarda kurulurlar.</string>
+    <string name="ruzgarTurbiniTurleri">2. Rüzgar Türbini Türleri</string>
+    <string name="ruzgarTurbiniTurleriText">Yatay Eksenli Türbinler (HAWT):
+\n\tEn yaygın türdür.
+\n\tPervane yatay bir eksende döner.
+\n\tYüksek rüzgar hızlarında verimlidir.
+\nDikey Eksenli Türbinler (VAWT):
+\n\tPervane dikey bir eksende döner.
+\n\tŞehir içinde düzensiz rüzgarlarda daha iyi çalışır.
+\n\tBakımı kolaydır, ancak verimi düşüktür.</string>
+    <string name="ruzgarTurbinininParcalari">3. Rüzgar Türbininin Parçaları</string>
+    <string name="ruzgarTurbinininParcalariText">Kanatlar: Rüzgar enerjisini yakalar.
+Rotor: Kanatlar ve merkez göbeği içerir.
+Nacelle (Gövde): Dişli kutusu, jeneratör ve kontrol sistemlerini barındırır.
+Kule: Kanatları ve nacelle’i taşır; yüksek rüzgarlara ulaşmayı sağlar.
+Temel: Türbini zemine veya deniz tabanına sabitler.</string>
+    <string name="calismaPrensibi">4. Çalışma Prensibi</string>
+    <string name="calismaPrensibiText">Rüzgar kanatlara çarpar ve dönmeye başlatır.
+\nRotor döner ve şaftı çevirir.
+\nDişli kutusu dönüş hızını artırır.
+\nJeneratör bu enerjiyi elektrik enerjisine çevirir.
+\nElektrik kablolarla şebekeye veya bataryaya iletilir.</string>
+    <string name="ruzgarTurbiniKullanimAlanlari">5. Rüzgar Türbini Kullanım Alanları</string>
+    <string name="ruzgarTurbiniKullanimAlanlariText">Büyük Rüzgar Çiftlikleri: Binlerce eve elektrik sağlar.
+\nDağıtık Sistemler: Çiftlikler ve işletmeler için özelleşmiş sistemler
+\nDeniz Üstü Projeler: Daha güçlü ve sürekli rüzgardan yararlanılır.
+\nHibrit Sistemler: Güneş enerjisi veya batarya ile entegre edilir.</string>
+    <string name="ruzgarEnerjisininAvantajlari">6. Rüzgar Enerjisinin Avantajları</string>
+    <string name="ruzgarEnerjisininAvantajlariText">Temiz ve Yenilenebilir: Sıfır emisyon üretir.
+\nÖlçeklenebilir: Küçük sistemlerden devasa çiftliklere kadar çeşitlidir.
+\nEkonomik: Kurulum sonrası işletme maliyeti düşüktür.
+\nArazi Kullanımı Verimli: Türbin altındaki alan tarımda kullanılabilir.</string>
+    <string name="zorluklarVeYenilikler">7. Zorluklar ve Yenilikler</string>
+    <string name="zorluklarVeYeniliklerText">Süreklilik Sorunu: Rüzgar her zaman esmeyebilir.
+\nGürültü ve Görsel Etki: Yerleşimlere yakınsa rahatsızlık yaratabilir.
+\nYaban Hayatı Etkisi: Özellikle kuşlar ve yarasalar etkilenebilir.
+\nÇözümler: Daha yüksek kuleler, sessiz kanatlar, hayvan dostu tasarımlar, yapay zekâ ile rüzgar tahmini</string>
+    <string name="sonucText3">Rüzgar türbinleri, sürdürülebilir enerjiye geçişte kritik bir rol oynamaktadır. Gelişen teknolojiler ve çevreci politikalarla birlikte, geleceğin enerji altyapısında daha fazla yer edineceklerdir.</string>
+
+    <string name="girisText2">Hidroelektrik enerji, dünyada en yaygın kullanılan yenilenebilir enerji türüdür. Akan veya düşen suyun kinetik enerjisinden yararlanarak temiz ve güvenilir elektrik üretimi sağlar. Bu sürecin merkezinde yer alan barajlar, su akışını kontrol etmemize, enerjiyi depolamamıza ve mevsimsel talebi dengelememize olanak tanır. Fosil yakıtlardan uzaklaşmaya çalışan dünya için hidroelektrik enerji, sürdürülebilir kalkınma adına güçlü bir çözümdür.</string>
+    <string name="hidroelektrikEnerjiNedir">1. Hidroelektrik Enerji Nedir?</string>
+    <string name="hidroelektrikEnerjiNedirText">Hidroelektrik enerji (hidro enerji), akan suyun enerjisinin elektrik enerjisine dönüştürülmesi sürecidir. Genellikle bu işlem, bir baraj yardımıyla oluşturulan rezervuar sayesinde gerçekleştirilir. Su serbest bırakıldığında, türbinlerden geçerek onları döndürür ve bağlı jeneratör yardımıyla elektrik üretimi gerçekleşir.</string>
+    <string name="hidroelektrikSisteminTemelBilesenleri">2. Hidroelektrik Sistemin Temel Bileşenleri</string>
+    <string name="hidroelektrikSisteminTemelBilesenleriText">Baraj: Suyu tutarak potansiyel enerji sağlar
+\nRezervuar: Su depolayarak kontrollü akış imkânı verir
+\nCebri Boru (Penstock): Suyu türbinlere yönlendirir
+\nTürbin: Su basıncıyla döner ve kinetik enerjiyi mekanik enerjiye çevirir
+\nJeneratör: Mekanik enerjiyi elektrik enerjisine çevirir
+\nİletim Hatları: Elektriği şebekeye taşır</string>
+    <string name="hidroelektrikSantralTurleri">3. Hidroelektrik Santral Türleri</string>
+    <string name="hidroelektrikSantralTurleriText">Depolamalı (Barajlı) Santraller: En yaygın olanıdır; büyük rezervuar ve baraj sistemleri kullanılır.
+\nNehir Tipi Santraller: Doğal nehir akışıyla çalışır, su depolaması azdır.
+\nPompaj Depolamalı Santraller: Talep azken suyu yukarı pompalar, talep arttığında enerji üretir.</string>
+    <string name="hidroelektrikEnerjininAvantajlari">4. Hidroelektrik Enerjinin Avantajları</string>
+    <string name="hidroelektrikEnerjininAvantajlariText">Temiz ve Yenilenebilir: Çalışma sırasında sera gazı salmaz
+\nGüvenilir ve Sürekli: Temel yük elektriğini sağlayabilir
+\nEsnek: Enerji depolama ve şebeke dengeleme kapasitesi vardır
+\nTarım ve Taşkın Kontrolüne Katkı: Çok yönlü toplumsal faydalar sağlar</string>
+    <string name="cevreselVeSosyalEtkiler">5. Çevresel ve Sosyal Etkiler</string>
+    <string name="cevreselVeSosyalEtkilerText">Ekosistem Bozulması: Balık göçleri ve sucul yaşam etkilenebilir
+\nYerinden Edilme: Büyük rezervuarlar bazen yerleşimleri taşımayı gerektirebilir
+\nTortu Birikimi: Rezervuar verimliliğini zamanla azaltabilir
+\n\nÇözümler: balık merdivenleri, tortu temizleme sistemleri, yerel halkla birlikte planlama süreçleri</string>
+    <string name="gelecekteHidroelektrikEnerji">6. Gelecekte Hidroelektrik Enerji</string>
+    <string name="gelecekteHidroelektrikEnerjiText">Mikro-Hidro Sistemler: Kırsal ve uzak bölgeler için idealdir
+\nAkıllı Şebeke Entegrasyonu: Verimlilik ve anlık tepki süresi artar
+\nİklim Değişikliğine Uyum: Yağış ve su rejimlerine göre daha esnek sistemler
+\nHibrit Sistemler: Güneş ve rüzgar ile entegre çözümler sağlar</string>
+    <string name="sonucText4">Hidroelektrik enerji ve barajlar, doğa ile teknolojinin uyumlu birlikteliğini temsil eder. Sorumlu yönetimle, sadece elektrik değil; umut, denge ve sürdürülebilir kalkınma da üretirler. Doğaya zarar vermeden, onunla birlikte çalışmak mümkündür.</string>
+
+    <string name="girisText3">Küresel çevresel sorunların arttığı bir çağda, sürdürülebilir şehirleşmenin önemi her geçen gün artıyor. Yeşil binalar ve entegre enerji yönetim sistemleri, iklim değişikliğiyle mücadelede, enerji tüketiminin azaltılmasında ve yaşam kalitesinin artırılmasında etkili bir çözüm sunar. Bu yapılar sadece betonarme yapılar değil; sağlıklı ve temiz bir şehir yaşamının dinamik parçalarıdır.</string>
+    <string name="yesilBinalarNedir">1. Yeşil Binalar Nedir?</string>
+    <string name="yesilBinalarNedirText">Yeşil binalar, çevresel etkileri en aza indirmek amacıyla tasarlanan, inşa edilen ve işletilen yapılardır. Enerji, su ve malzeme gibi kaynakları verimli kullanır ve kullanıcılarına konforlu, sağlıklı yaşam alanları sunar.</string>
+    <string name="yesilBinaTasarimininIlkeleri">2. Yeşil Bina Tasarımının İlkeleri</string>
+    <string name="yesilBinaTasarimininIlkeleriText">Enerji Verimliliği: Güneş, rüzgar, jeotermal gibi yenilenebilir enerji kullanımı
+\nSu Tasarrufu: Yağmur suyu toplama, gri su geri kazanımı, verimli armatürler
+\nSürdürülebilir Malzemeler: Geri dönüştürülmüş, yerel ve düşük emisyonlu malzemeler
+\nİç Mekân Kalitesi: Hava sirkülasyonu, doğal aydınlatma, temiz hava
+\nAkıllı Teknolojiler: Otomasyon sistemleri, enerji takibi ve yönetimi</string>
+    <string name="yesilBinalardaEnerjiYonetimi">3. Yeşil Binalarda Enerji Yönetimi</string>
+    <string name="yesilBinalardaEnerjiYonetimiText">Enerji yönetimi, binalardaki enerji tüketimini izleme, kontrol etme ve optimize etme sürecidir. Yeşil binalarda bu sistemler şunları içerir:
+\n\nAkıllı Ölçüm ve Sensörler: Tüketimi analiz eder, verimsizlikleri tespit eder
+\nHVAC Optimizasyonu: Yüksek verimli ısıtma-soğutma sistemleri
+\nAydınlatma Kontrolü: LED ve hareket sensörlü sistemler
+\nEnerji Depolama: Yenilenebilir kaynaklarla entegre batarya sistemleri
+\nTalep Tepkisi (Demand Response): Elektrik şebekesine göre tüketimin ayarlanması</string>
+    <string name="yesilBinalarinVeEnerjiYonetimininFaydalari">4. Yeşil Binaların ve Enerji Yönetiminin Faydaları</string>
+    <string name="yesilBinalarinVeEnerjiYonetimininFaydalariText">Çevresel:
+\n\tDaha düşük karbon salımı
+\n\tKentsel ısı adası etkisinin azalması
+\nEkonomik:
+\n\tDüşük enerji faturaları
+\n\tDaha yüksek gayrimenkul değeri
+\nSağlık ve Konfor:
+\n\tDaha iyi hava kalitesi
+\n\tGeliştirilmiş aydınlatma ve sıcaklık konforu</string>
+    <string name="sertifikalarVeStandartlar">5. Sertifikalar ve Standartlar</string>
+    <string name="sertifikalarVeStandartlarText">LEED (Enerji ve Çevre Tasarımında Liderlik)
+\nBREEAM (İngiltere Çevresel Performans Değerlendirme Standardı)
+\nWELL Bina Standardı
+\nEnergy Star
+\n\nBu sertifikalar, yeşil bina projelerinde kaliteyi ve sürdürülebilirliği teşvik eder.</string>
+    <string name="geleceginYesilSehirleri">6. Geleceğin Yeşil Şehirleri</string>
+    <string name="geleceginYesilSehirleriText">Geleceğin şehirleri; dikey bahçeler, güneş panelli çatılar, yeşil yollar ve yapay zekâ ile yönetilen enerji sistemleriyle donatılmış olacak. Nesnelerin İnterneti (IoT) ve yapay zekâ sayesinde kaynak kullanımı en verimli hâle gelecek, israf azalacak ve şehir yaşamı sağlıklı hâle dönüşecek.</string>
+    <string name="sonucText5">Yeşil binalar ve etkili enerji yönetimi, sürdürülebilir şehir hayatının temel taşlarıdır. Bu yapılar, yalnızca çevreyi korumakla kalmaz; aynı zamanda daha sağlıklı, mutlu ve dayanıklı toplumların temelini oluşturur. Geleceğin şehirleri doğa ile barışık, enerjiyle dost olmak zorundadır.</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
