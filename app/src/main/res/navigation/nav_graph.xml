@@ -52,6 +52,15 @@
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_yesilEnerjiKaynaklariFragment"
             app:destination="@id/yesilEnerjiKaynaklariFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_fosilYakitlarinEtkileriFragment"
+            app:destination="@id/fosilYakitlarinEtkileriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_enerjiVerimliligiTeknikleriFragment"
+            app:destination="@id/enerjiVerimliligiTeknikleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_gunesPanelleriTeknolojisi"
+            app:destination="@id/gunesPanelleriTeknolojisi" />
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
@@ -65,4 +74,17 @@
         android:id="@+id/yesilEnerjiKaynaklariFragment"
         android:name="com.example.greenmindgreenenergy.yesilEnerjiKaynaklariFragment"
         android:label="yesilEnerjiKaynaklariFragment" />
+    <fragment
+        android:id="@+id/fosilYakitlarinEtkileriFragment"
+        android:name="com.example.greenmindgreenenergy.fosilYakitlarinEtkileriFragment"
+        android:label="fosilYakitlarinEtkileriFragment" />
+    <fragment
+        android:id="@+id/enerjiVerimliligiTeknikleriFragment"
+        android:name="com.example.greenmindgreenenergy.enerjiVerimliligiTeknikleriFragment"
+        android:label="enerjiVerimliligiTeknikleriFragment" />
+    <fragment
+        android:id="@+id/gunesPanelleriTeknolojisi"
+        android:name="com.example.greenmindgreenenergy.gunesPanelleriTeknolojisi"
+        android:label="fragment_gunes_panelleri_teknolojisi"
+        tools:layout="@layout/fragment_gunes_panelleri_teknolojisi" />
 </navigation>

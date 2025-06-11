@@ -198,5 +198,111 @@ Bu proje ile hedeflenen temel amaçlar şunlardır:
     <string name="sonuc4">4. Sonuç</string>
     <string name="sonuc4Text">Yeşil enerji kaynakları, sürdürülebilir, temiz ve güvenli bir gelecek için vazgeçilmezdir. Teknoloji geliştikçe bu sistemler daha verimli ve ekonomik hale gelmektedir. Eğitimle ve toplumsal farkındalıkla yaygınlaştırılarak, çevre dostu çözümlerin temelini oluştururlar.</string>
 
+    <string name="fosilYakitlarNedir">1. Fosil Yakıtlar Nedir?</string>
+    <string name="fosilYakitlarNedirText">Fosil yakıtlar, milyonlarca yıl önce yaşamış canlıların kalıntılarından oluşmuş doğal enerji kaynaklarıdır. Başlıca türleri kömür, petrol ve doğal gazdır. Sanayi devriminden bu yana enerji üretiminde başrol oynamışlardır.</string>
+    <string name="fosilYakitlarinCevreselEtkileri">2. Fosil Yakıtların Çevresel Etkileri</string>
+    <string name="havaKirliligi">2.1. Hava Kirliliği</string>
+    <string name="havaKirliligiText">Fosil yakıtların yakılmasıyla karbon dioksit (CO₂), azot oksit (NOₓ) ve kükürt dioksit (SO₂) gibi gazlar atmosfere salınır. Sonuçları:
+\n\nSolunum hastalıkları
+\nAsit yağmurları
+\nKentlerde sis (smog) oluşumu</string>
+    <string name="seraGazlariVeIklimDegisikligi">2.2. Sera Gazları ve İklim Değişikliği</string>
+    <string name="seraGazlariVeIklimDegisikligiText">Fosil yakıtlar, sera gazı emisyonlarının başlıca kaynağıdır. Özellikle CO₂, atmosferde ısı tutarak küresel ısınmaya yol açar.
+\nEtkileri:
+\n\nBuzulların erimesi ve deniz seviyesinin yükselmesi
+\nAşırı hava olayları (sel, kuraklık, fırtına)
+\nBiyoçeşitlilik kaybı ve yaşam alanı yok oluşu</string>
+    <string name="suKirliligi">2.3. Su Kirliliği</string>
+    <string name="suKirliligiText">Petrol sızıntıları, kömür madenciliği atıkları ve kaya gazı çıkarımı, su kaynaklarını kirleterek hem insan hem de hayvan sağlığını tehdit eder.</string>
+    <string name="toprakBozulmasi">2.4. Toprak Bozulması</string>
+    <string name="toprakBozulmasiText">Madencilik ve sondaj faaliyetleri, ekosistemleri tahrip eder, toprağı verimsiz hale getirir ve çölleşmeyi hızlandırır.</string>
+    <string name="sosyalVeEkonomikEtkiler">3. Sosyal ve Ekonomik Etkiler</string>
+    <string name="sosyalVeEkonomikEtkilerText">Sağlık Maliyetleri: Solunum yolu hastalıkları, kanser ve kalp rahatsızlıkları yaygınlaşır.
+\nEnerji Güvensizliği: Fosil yakıtlara bağımlı ülkeler siyasi ve ekonomik krizlere açık hale gelir.
+\nEşitsizlik: Hava ve su kirliliğinden en çok yoksul ve dezavantajlı topluluklar etkilenir.</string>
+    <string name="fosilYakitlarinGecisSureci">4. Fosil Yakıtlardan Geçiş Süreci</string>
+    <string name="fosilYakitlarinGecisSureciText">Fosil yakıtlar hâlâ ulaştırma, elektrik ve sanayi için kullanılmakta; ancak yenilenebilir enerjiye geçiş sürdürülebilirlik için zorunludur. Bu süreçte:
+\n\nYeşil altyapı yatırımları
+\nTemiz ulaşım sistemleri
+\nKarbon vergisi politikaları
+\nEnerji verimliliği programları yaygınlaşmaktadır.</string>
+    <string name="sonuc5">5. Sonuç</string>
+    <string name="sonuc5Text">Fosil yakıtlar geçmişte önemli rol oynamış olsa da, çevresel, sağlık ve toplumsal zararları sürdürülemez boyuttadır. Yenilenebilir enerjiye geçiş, yalnızca teknolojik bir gelişim değil; aynı zamanda gezegenin geleceği için ahlaki bir sorumluluktur.</string>
+
+    <string name="enerjiVerimliligiNedir">1. Enerji Verimliliği Nedir?</string>
+    <string name="enerjiVerimliligiNedirText">Enerji verimliliği, aynı işi daha az enerjiyle yapmak anlamına gelir. Temel hedef, enerji israfını azaltmak, maliyetleri düşürmek ve çevresel etkileri en aza indirmektir. Enerji verimliliği, genellikle enerji kullanımını kısmaktan çok, akıllı teknolojiler ve gelişmiş sistemlerle aynı performansı daha az tüketimle sağlamaya dayanır.</string>
+    <string name="nedenEnerjiVerimliligiOnemlidir">2. Neden Enerji Verimliliği Önemlidir?</string>
+    <string name="nedenEnerjiVerimliligiOnemlidirText">🔋 Fatura maliyetlerini düşürür.
+\n🌍 Sera gazı salınımını azaltır ve iklim değişikliğiyle mücadele eder.
+\n⚙️ Enerji güvenliğini artırır, dışa bağımlılığı azaltır.
+\n🌱 Doğal kaynakların korunmasına katkı sağlar.
+\n🏢 Binaların performansını ve sanayinin verimliliğini artırır.</string>
+    <string name="yayginEnerjiVerimliligiTeknikleri">3. Yaygın Enerji Verimliliği Teknikleri</string>
+    <string name="binalarVeAltyapi">3.1. Binalar ve Altyapı</string>
+    <string name="binalarVeAltyapiText">LED Aydınlatma: Geleneksel ampullere göre %80 daha az enerji tüketir.
+\nYalıtım ve Akıllı Camlar: İç ortam sıcaklığını dengeler, enerji ihtiyacını azaltır.
+\nAkıllı Termostatlar: Isıtma/soğutma sistemlerini otomatik olarak optimize eder.
+\nYeşil Çatılar &amp; Pasif Tasarım: Güneş ışığı, havalandırma ve bitkilendirme ile doğa dostu alanlar sunar.</string>
+    <string name="cihazlarVeDonanimlar">3.2. Cihazlar ve Donanımlar</string>
+    <string name="cihazlarVeDonanimlarText">Enerji Verimlilik Sertifikalı (A+++) Cihazlar: Daha az elektrik tüketir.
+\nVerimli Isıtma-Soğutma Sistemleri: Sensörlerle çalışır, ihtiyaca göre enerji kullanır.
+\nDüşük Debili Musluklar: Su ısıtma ihtiyacını azaltır.</string>
+    <string name="sanayiVeUretim">3.3. Sanayi ve Üretim</string>
+    <string name="sanayiVeUretimText">Süreç Optimizasyonu: Makine çalışma sürelerini azaltır.
+\nHız Kontrollü Motorlar: İhtiyaca göre hız ayarlar.
+\nAtık Isı Geri Kazanımı: Boşa giden ısıyı yeniden kullanır.</string>
+    <string name="ulasim">3.4. Ulaşım</string>
+    <string name="ulasimText">Elektrikli ve Hibrit Araçlar: Fosil yakıtlara bağımlılığı azaltır.
+\nToplu Taşıma Sistemleri: Daha az enerjiyle daha çok insan taşır.
+\nAkıllı Trafik Yönetimi: Trafikte beklemeyi ve yakıt israfını önler.</string>
+    <string name="dijitalVeIoTCozumleri">3.5. Dijital ve IoT Çözümleri</string>
+    <string name="dijitalVeIoTCozumleriText">Akıllı Sayaçlar: Tüketimi anlık gösterir, kontrol sağlar.
+\nIoT Otomasyon Sistemleri: Kullanılmayan cihazları otomatik kapatır.
+\nEnerji Yönetim Sistemleri: Merkezi kontrolle enerji kullanımını optimize eder.</string>
+    <string name="kureselVeUlusalStratejiler">4. Küresel ve Ulusal Stratejiler</string>
+    <string name="kureselVeUlusalStratejilerText">Birçok ülke enerji verimliliğini artırmak için şu politikaları uygulamaktadır:
+\n\nKarbon vergisi ve verimli cihazlara teşvik
+\nYeşil bina sertifikaları (LEED, BREEAM)
+\nHalkı bilinçlendirme kampanyaları
+\nUluslararası iş birliği (örneğin: Paris Anlaşması)</string>
+    <string name="sonuc5Text2">Enerji verimliliği, karbon emisyonlarını azaltmanın en etkili ve ekonomik yollarından biridir. Yenilenebilir enerji teknolojilerini destekler ve sürdürülebilir bir geleceğin temel taşıdır. Daha az enerjiyle daha çok iş yapan sistemler, hem çevresel hem de ekonomik açıdan dünyayı daha yaşanabilir kılar.</string>
+
+    <string name="giris">Giriş</string>
+    <string name="girisText">Güneş paneli teknolojisi, enerji üretimi ve tüketimi anlayışımızda köklü değişiklikler yarattı. Yenilenebilir enerji kaynaklarına yönelik küresel eğilimle birlikte, güneş enerjisi karbon salınımını azaltmada, çevresel sürdürülebilirliği teşvik etmede ve enerji maliyetlerini düşürmede temel bir unsur haline geldi. Bu teknoloji, konut çatılarından dev sanayi tesislerine kadar her alanda kullanılmaktadır.</string>
+    <string name="gunesPaneliTeknolejisiNedir">1. Güneş Paneli Teknolojisi Nedir?</string>
+    <string name="gunesPaneliTeknolejisiNedirText">Güneş paneli teknolojisi, güneş ışığını fotovoltaik hücreler aracılığıyla elektrik enerjisine dönüştürmeyi sağlar. Bu hücreler genellikle silikon gibi yarı iletken maddelerden üretilir. Işığı emip elektronları serbest bırakarak elektrik akımı oluştururlar.
+\n\nİki ana güneş teknolojisi vardır:
+\n\nFotovoltaik (PV) Paneller: Güneş ışığını doğrudan elektriğe dönüştürür.
+\nYoğunlaştırılmış Güneş Enerjisi (CSP): Aynaları veya mercekleri kullanarak güneş ışığını yoğunlaştırır ve türbinler aracılığıyla elektrik üretir.</string>
+    <string name="gunesPaneliTurleri">2. Güneş Paneli Türleri</string>
+    <string name="gunesPaneliTurleriText">Monokristal Paneller: Yüksek verimlilik, uzun ömür, yüksek maliyet.
+\nPolikristal Paneller: Orta verimlilik, uygun fiyat, daha kısa ömür.
+\nİnce Film Paneller: Esnek, hafif, düşük verimli ancak taşınabilir çözümler veya kıvrımlı yüzeyler için idealdir.</string>
+    <string name="gunesPanelleriNasilCalisir">3. Güneş Panelleri Nasıl Çalışır?</string>
+    <string name="gunesPanelleriNasilCalisirText">Güneş ışığı hücrelere çarpar ve elektronlar uyarılır.
+\nElektron akışı oluşur, doğru akım (DC) üretilir.
+\nİnverter cihazı DC’yi AC’ye (alternatif akım) çevirir.
+\nFazla enerji bataryalarda depolanabilir ya da şebekeye aktarılabilir (net sayaç sistemi).</string>
+    <string name="gunesPaneliTeknolojisininKullanimAlanlari">4. Güneş Paneli Teknolojisinin Kullanım Alanları</string>
+    <string name="gunesPaneliTeknolojisininKullanimAlanlariText">Konutlar: Çatılara kurulan panellerle temiz enerji üretilir.
+\nSanayi ve Ticari Tesisler: Enerji maliyetlerini düşürmek amacıyla büyük sistemler kurulur.
+\nOkullar ve Üniversiteler: Enerji faturalarını azaltırken öğrencilere çevre bilinci kazandırılır.
+\nKırsal Alanlar: Elektrik altyapısının bulunmadığı bölgelerde enerji sağlar.</string>
+    <string name="gunesEnerjisininFaydalari">5. Güneş Enerjisinin Faydaları</string>
+    <string name="gunesEnerjisininFaydalariText">Çevre Dostu: Sera gazı salınımını azaltır.
+\nEkonomik: Elektrik faturalarında büyük tasarruf sağlar.
+\nEnerji Bağımsızlığı: Fosil yakıtlara ve dışa bağımlılığı azaltır.
+\nDüşük Bakım: Kurulumdan sonra az bakım gerektirir.</string>
+    <string name="zorluklarVeGelecekTrendler">6. Zorluklar ve Gelecek Trendler</string>
+    <string name="zorluklarVeGelecekTrendlerText">Yüksek Kurulum Maliyeti: Zamanla azalsa da hâlâ yüksektir.
+\nHava Koşullarına Bağımlılık: Verimlilik güneş ışığına bağlıdır.
+\nDepolama Gereksinimi: Verimli bataryalar veya şebeke entegrasyonu gerekir.
+\n\nGelecekteki gelişmeler:
+\nGüneş enerjili çatı kiremitleri ve yapı bütünleşik PV sistemleri
+\nDaha verimli ve şeffaf güneş panelleri
+\nYapay zeka ile entegre enerji yönetim sistemleri</string>
+    <string name="sonuc">Sonuç</string>
+    <string name="sonucText2">Güneş paneli teknolojisi, yeşil enerji devriminin öncüsüdür. Sürekli gelişen yapısıyla birlikte, yenilenebilir enerjinin daha erişilebilir ve güvenilir hale gelmesini sağlayarak günlük yaşamın bir parçası olmaya devam edecektir.</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
