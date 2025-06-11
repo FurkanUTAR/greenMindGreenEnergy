@@ -140,5 +140,63 @@ Bu proje ile hedeflenen temel amaçlar şunlardır:
 
     <string name="sonucText">Bu projede yeşil enerji ve robotik teknolojileri birleştirerek geleceği şekillendiren bir öğrenme ortamı yaratıyoruz.</string>
 
+
+    <string name="surdurulebilirEnerjiNedir">1. Sürdürülebilir Enerji Nedir?</string>
+    <string name="surdurulebilirEnerjiNedirText">Sürdürülebilir enerji; yenilenebilir, çevre dostu ve hem bugünün enerji ihtiyacını karşılayabilen hem de gelecek nesillerin ihtiyaçlarını tehlikeye atmayan enerji kaynaklarını ifade eder. Fosil yakıtların aksine tükenmez ve doğayı kirletmeyen bu enerji kaynakları arasında güneş, rüzgar, hidroelektrik ve jeotermal enerji başı çeker.</string>
+    <string name="nedenOnemlidir">2. Neden Önemlidir?</string>
+    <string name="nedenOnemlidirText">🌡️ İklim Değişikliğiyle Mücadele: Sera gazı salınımını azaltır.
+\n♻️ Kaynakların Korunması: Doğal kaynakların tükenmesini engeller.
+\n💡 Enerji Bağımsızlığı: Dışa bağımlılığı azaltır.
+\n🌱 Çevre Koruma: Hava, su ve toprak kirliliğini sınırlar.</string>
+    <string name="surdurulebilirEnerjininTemelOzellikleri">3. Sürdürülebilir Enerjinin Temel Özellikleri</string>
+    <string name="surdurulebilirEnerjininTemelOzellikleriText">Yenilenebilir: Doğal yollarla sürekli kendini yenileyebilir (güneş, rüzgar).
+\nDüşük Emisyon: Karbon salınımı yok denecek kadar azdır.
+\nYaygın Uygulama: Küçük ev sistemlerinden büyük enerji şebekelerine kadar uygundur.
+\nTeknolojik İnovasyon: Yapay zeka ve IoT ile bütünleşerek verimliliği artırır.</string>
+    <string name="temelSurdurulebilirEnerjiKaynaklari">4. Temel Sürdürülebilir Enerji Kaynakları</string>
+    <string name="temelSurdurulebilirEnerjiKaynaklariText">Güneş Enerjisi: Fotovoltaik paneller ve güneş kollektörleriyle elde edilir.
+\nRüzgar Enerjisi: Karada ve denizde rüzgar türbinleriyle üretilir.
+\nHidroelektrik: Nehir ve baraj sularından enerji üretimi.
+\nJeotermal Enerji: Yerin iç ısısından faydalanarak ısıtma ve elektrik üretimi.
+\nBiyokütle: Organik maddelerden elde edilen enerji.</string>
+    <string name="karsilasilanZorluklar">5. Karşılaşılan Zorluklar</string>
+    <string name="karsilasilanZorluklarText">Kurulum Maliyeti: Başlangıçta güneş ve rüzgar sistemleri pahalı olabilir.
+\nDepolama: Güneş ve rüzgar gibi değişken kaynaklar için pil ve enerji depolama sistemleri gerekir.
+\nAltyapı: Eski enerji şebekeleri modern sistemlere uyarlanmalıdır.</string>
+    <string name="egitimdekiYeri">6. Eğitimdeki Yeri</string>
+    <string name="egitimdekiYeriText">Sürdürülebilir enerji eğitimi; doğaya duyarlı, yenilikçi ve çözüm üreten nesiller yetiştirmek için büyük önem taşır. Yeşil temalı sınıflar, güneş enerjili laboratuvarlar ve etkileşimli atölyeler, dünyada birçok okulda yaygınlaşmaktadır.</string>
+
+    <string name="yesilEnerjiKaynaklariNedir">1. Yeşil Enerji Kaynakları Nedir?</string>
+    <string name="yesilEnerjiKaynaklariNedirText">Yeşil enerji kaynakları; doğal, yenilenebilir ve çevre dostu enerji kaynaklarıdır. Atmosfere zarar vermez, karbon salınımı oluşturmaz ve sınırlı doğal kaynakları tüketmeden enerji üretimi sağlar. Güneş, rüzgar, su, yer altı ısısı ve organik atıklar, bu kaynakların başlıcalarıdır. Yeşil enerji, iklim değişikliğiyle mücadelede, temiz çevre için kritik rol oynar.</string>
+    <string name="temelYesilEnerjiTurleri">2. Temel Yeşil Enerji Türleri</string>
+    <string name="gunesEnerjisi">2.1. Güneş Enerjisi</string>
+    <string name="gunesEnerjisiText">Güneş enerjisi, fotovoltaik (PV) paneller veya termal sistemler ile elde edilir. En bol bulunan enerji kaynağıdır.
+\n\nKullanım: evler, okullar, araçlar, uydular.
+\nAvantajlar: bakım maliyeti düşük, sessiz, her ölçekte uygulanabilir.</string>
+    <string name="ruzgarEnerjisi">2.2. Rüzgar Enerjisi</string>
+    <string name="ruzgarEnerjisiText">Rüzgar türbinleri, rüzgarın kinetik enerjisini elektrik enerjisine dönüştürür. Karada veya denizde kurulabilir.
+\n\nKullanım: kırsal elektrik sağlama, enerji şebekeleri.
+\nAvantajlar: temiz, düşük işletme maliyeti, büyük ölçekli üretime uygun.</string>
+    <string name="hidroelektrikEnerji">2.3. Hidroelektrik Enerji</string>
+    <string name="hidroelektrikEnerjiText">Hidroelektrik enerji, nehirler, barajlar ve gelgitler ile türbinlerin döndürülmesi yoluyla üretilir.
+\n\nKullanım: şehir elektriği, sulama sistemleri.
+\nAvantajlar: verimli, düzenli, yenilenebilir ve depolanabilir.</string>
+    <string name="jeotermalEnerji">2.4. Jeotermal Enerji</string>
+    <string name="jeotermalEnerjiText">Jeotermal enerji, yer altındaki ısı rezervlerini kullanarak doğrudan ısıtma veya buhar türbinleriyle elektrik üretimi sağlar.
+\n\nKullanım: ev ısıtması, bölgesel ısıtma, santraller.
+\nAvantajlar: sabit enerji üretimi, düşük emisyon, küçük alan ihtiyacı.</string>
+    <string name="biyokutleEnerjisi">2.5. Biyokütle Enerjisi</string>
+    <string name="biyokutleEnerjisiText">Biyokütle; odun, tarımsal atıklar, yosun gibi organik maddelerin yakılması veya fermente edilmesiyle enerji üretir.
+\n\nKullanım: biyoyakıt, biyogaz, biyokütle santralleri.
+\nAvantajlar: atıkları değerlendirir, sürdürülebilir şekilde karbon nötr olabilir.</string>
+    <string name="yesilEnerjininAvantajlari">3. Yeşil Enerjinin Avantajları</string>
+    <string name="yesilEnerjininAvantajlariText">✅ Hava ve su kirliliğini azaltır
+\n✅ Yakıt ithalatına olan bağımlılığı düşürür
+\n✅ Yeni istihdam alanları yaratır
+\n✅ Enerji bağımsızlığı sağlar
+\n✅ Ekosistemleri ve biyolojik çeşitliliği korur</string>
+    <string name="sonuc4">4. Sonuç</string>
+    <string name="sonuc4Text">Yeşil enerji kaynakları, sürdürülebilir, temiz ve güvenli bir gelecek için vazgeçilmezdir. Teknoloji geliştikçe bu sistemler daha verimli ve ekonomik hale gelmektedir. Eğitimle ve toplumsal farkındalıkla yaygınlaştırılarak, çevre dostu çözümlerin temelini oluştururlar.</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

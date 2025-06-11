@@ -45,9 +45,24 @@
     <fragment
         android:id="@+id/surdurulebilirEnerjiFragment"
         android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiFragment"
-        android:label="surdurulebilirEnerjiFragment" />
+        android:label="surdurulebilirEnerjiFragment" >
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_surdurulebilirEnerjiGirisFragment"
+            app:destination="@id/surdurulebilirEnerjiGirisFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_yesilEnerjiKaynaklariFragment"
+            app:destination="@id/yesilEnerjiKaynaklariFragment" />
+    </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
         android:name="com.example.greenmindgreenenergy.robotikVeKodlamaFragment"
         android:label="robotikVeKodlamaFragment" />
+    <fragment
+        android:id="@+id/surdurulebilirEnerjiGirisFragment"
+        android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiGirisFragment"
+        android:label="surdurulebilirEnerjiGirisFragment" />
+    <fragment
+        android:id="@+id/yesilEnerjiKaynaklariFragment"
+        android:name="com.example.greenmindgreenenergy.yesilEnerjiKaynaklariFragment"
+        android:label="yesilEnerjiKaynaklariFragment" />
 </navigation>
