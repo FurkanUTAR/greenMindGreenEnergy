@@ -79,6 +79,15 @@
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_akilliSebekeSistemleriFragment"
             app:destination="@id/akilliSebekeSistemleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_hibritEnerjiSistemleriFragment"
+            app:destination="@id/hibritEnerjiSistemleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_surdurulebilirUlasimCozumleriFragment"
+            app:destination="@id/surdurulebilirUlasimCozumleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_yenilenebilirEnerjiPolitikalariFragment"
+            app:destination="@id/yenilenebilirEnerjiPolitikalariFragment" />
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
@@ -133,4 +142,18 @@
         android:name="com.example.greenmindgreenenergy.akilliSebekeSistemleriFragment"
         android:label="fragment_akilli_sebeke_sistemleri"
         tools:layout="@layout/fragment_akilli_sebeke_sistemleri" />
+    <fragment
+        android:id="@+id/hibritEnerjiSistemleriFragment"
+        android:name="com.example.greenmindgreenenergy.hibritEnerjiSistemleriFragment"
+        android:label="hibritEnerjiSistemleriFragment" />
+    <fragment
+        android:id="@+id/surdurulebilirUlasimCozumleriFragment"
+        android:name="com.example.greenmindgreenenergy.surdurulebilirUlasimCozumleriFragment"
+        android:label="fragment_surdurulebilir_ulasim_cozumleri"
+        tools:layout="@layout/fragment_surdurulebilir_ulasim_cozumleri" />
+    <fragment
+        android:id="@+id/yenilenebilirEnerjiPolitikalariFragment"
+        android:name="com.example.greenmindgreenenergy.yenilenebilirEnerjiPolitikalariFragment"
+        android:label="fragment_yenilenebilir_enerji_politikalari"
+        tools:layout="@layout/fragment_yenilenebilir_enerji_politikalari" />
 </navigation>

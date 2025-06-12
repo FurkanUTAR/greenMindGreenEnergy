@@ -527,6 +527,144 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
 \nEvler ve topluluklar arası enerji paylaşımını yaygınlaştıracak</string>
     <string name="sonucText8">Akıllı şebeke sistemleri, geleceğin enerji altyapısının temelidir. Yenilenebilir enerji ile entegrasyonu, esnekliği ve kullanıcı dostu yapısıyla; daha temiz, daha dayanıklı ve daha akıllı bir enerji dünyasına kapı aralar.</string>
 
+    <string name="girisText7">Küresel enerji talebi arttıkça ve çevresel kaygılar büyüdükçe, Hibrit Enerji Sistemleri (HES) önemli bir çözüm olarak öne çıkmaktadır. Bu sistemler, güneş, rüzgar, dizel jeneratörler veya bataryalar gibi birden fazla enerji kaynağını bir araya getirerek güvenilir, verimli ve sürdürülebilir bir enerji tedariki sağlar. Hibrit sistemler, yenilenebilir enerjinin süreksizliğini dengeler ve esnek bir kullanım sunar.</string>
+    <string name="hibritEnerjiSistemiNedir">1. Hibrit Enerji Sistemi Nedir?</string>
+    <string name="hibritEnerjiSistemiNedirText">Hibrit enerji sistemi, birden fazla enerji kaynağını entegre ederek çalışan bir enerji üretim sistemidir. Genellikle yenilenebilir kaynaklarla geleneksel kaynaklar (jeneratör, şebeke) birlikte kullanılır. Amaç; enerji üretimini dengelemek, güvenilirliği artırmak ve fosil yakıtlara olan bağımlılığı azaltmaktır.</string>
+    <string name="hibritEnerjiSistemininBilesenleri">2. Hibrit Enerji Sisteminin Bileşenleri</string>
+    <string name="hibritEnerjiSistemininBilesenleriText">Birincil Yenilenebilir Kaynaklar:
+\n\tGüneş Panelleri – Güneş ışığından elektrik üretir
+\n\tRüzgar Türbinleri – Rüzgar enerjisini kullanır
+\nİkincil Yedek Kaynaklar:
+\n\tDizel Jeneratörler – Yenilenebilir kaynak yetersiz olduğunda devreye girer
+\n\tŞebeke Bağlantısı – Gerekli durumlarda elektrik sağlar
+\nEnerji Depolama:
+\n\tBatarya Bankaları – Fazla üretilen enerjiyi saklar
+\nGüç Elektroniği ve Kontrol Cihazları:
+\n\tİnvertörler, dönüştürücüler ve kontrol sistemleri enerji akışını düzenler</string>
+    <string name="hibritEnerjiSistemiTurleri">3. Hibrit Enerji Sistemi Türleri</string>
+    <string name="hibritEnerjiSistemiTurleriText">Güneş-Dizel Hibrit: Şebekeden bağımsız bölgelerde yaygın
+\nRüzgar-Güneş-Batarya Hibrit: Uzak ve kırsal alanlar için ideal
+\nŞebeke Bağlantılı Hibrit: Yenilenebilir enerji ve şebeke birleşimi
+\nMikroşebeke Sistemleri: Yerel ve bağımsız enerji sistemleri</string>
+    <string name="hibritEnerjiSistemlerininAvantajlari">4. Hibrit Enerji Sistemlerinin Avantajları</string>
+    <string name="hibritEnerjiSistemlerininAvantajlariText">Güvenilirlik: Kesintisiz enerji sağlar
+\nVerimlilik: Enerji üretimini ve tüketimini dengeler
+\nEsneklik: Farklı coğrafi ve iklim koşullarına uyum sağlar
+\nÇevresel Etki: Karbon salımını azaltır
+\nMaliyet Tasarrufu: Yakıt ve işletme giderlerini düşürür</string>
+    <string name="zorluklar">5. Zorluklar</string>
+    <string name="zorluklarText">Yüksek Başlangıç Maliyeti: Cihaz ve kurulum giderleri
+\nTeknik Karmaşıklık: Uzman mühendislik ve tasarım gerekir
+\nBakım Gerekliliği: Farklı sistemlerin düzenli servisi gerekir</string>
+    <string name="uygulamaAlanlari">6. Uygulama Alanları</string>
+    <string name="uygulamaAlanlariText">Kırsal Yerleşimler: Şebekeye uzak bölgelerde enerji çözümü
+\nAskeri Üsler: Güvenli ve bağımsız enerji sistemi
+\nAfet Yardımı: Kriz bölgelerinde hızlı enerji temini
+\nSanayi Alanları: Yük dengeleme ve yedek güç ihtiyaçları</string>
+    <string name="gelecekVizyonu">7. Gelecek Vizyonu</string>
+    <string name="gelecekVizyonuText">Hibrit enerji sistemleri gelişen teknolojilerle daha akıllı hale geliyor:
+\n\n\tYapay zekâ destekli kontrol sistemleri
+\n\tEnerji paylaşımı için blok zinciri uygulamaları
+\n\tModüler ve ölçeklenebilir mikroşebekeler
+\n\nMaliyetlerin azalması ve teknolojinin gelişmesiyle birlikte, hibrit sistemler küresel enerji dönüşümünde anahtar rol oynayacaktır.</string>
+    <string name="sonucText9">Hibrit enerji sistemleri, yenilenebilir ve geleneksel teknolojilerin uyumlu birleşimidir. Geleceğin sürdürülebilir, esnek ve bağımsız enerji altyapısını kurmak için vazgeçilmez bir çözümdür.</string>
+
+    <string name="girisText8">Ulaşım, küresel sera gazı emisyonlarının en büyük kaynaklarından biridir. Şehir nüfuslarının artması ve iklim değişikliğinin hızlanmasıyla birlikte, sürdürülebilir ulaşım çözümleri çevrenin korunması ve halk sağlığı açısından hayati bir öneme sahiptir. Bu sistemler; emisyonları azaltmayı, enerji verimliliğini artırmayı ve çevre dostu, erişilebilir ulaşım biçimlerini teşvik etmeyi amaçlar.</string>
+    <string name="surdurulebilirUlasimNedir">1. Sürdürülebilir Ulaşım Nedir?</string>
+    <string name="surdurulebilirUlasimNedirText">Sürdürülebilir ulaşım, çevre üzerindeki etkisi düşük olan ve bireylerin/toplumların hareketlilik ihtiyacını karşılayan ulaşım biçimlerini ifade eder. Enerji verimliliği, yenilenebilir enerji kullanımı, emisyon azaltımı ve erişilebilirlik gibi unsurlar temel alınır.</string>
+    <string name="surdurulebilirUlasiminTemelIlkeleri">2. Sürdürülebilir Ulaşımın Temel İlkeleri</string>
+    <string name="surdurulebilirUlasiminTemelIlkeleriText">Çevresel Sorumluluk: Hava ve gürültü kirliliğini azaltmak
+\nEnerji Verimliliği: Elektrikli ve hibrit araçların teşviki
+\nErişilebilirlik: Her gelir ve engel grubuna uygun ulaşım
+\nEntegre Hareketlilik: Farklı ulaşım modları arasında kolay geçiş
+\nTeknolojik Yenilik: Akıllı sistemler, veri analitiği ve yapay zekâ kullanımı</string>
+    <string name="surdurulebilirUlasimCozumleriTurleri">3. Sürdürülebilir Ulaşım Çözümleri Türleri</string>
+    <string name="surdurulebilirUlasimCozumleriTurleriText">Elektrikli Araçlar (EV):
+\n\tFosil yakıt yerine elektrikle çalışır
+\n\tYenilenebilir kaynakla şarj edildiğinde sıfır emisyon
+\nToplu Taşıma Sistemleri:
+\n\tElektrikli otobüsler, tramvaylar, metrolar
+\n\tTrafik sıkışıklığını ve hava kirliliğini azaltır
+\nBisiklet ve Yürüyüş Altyapısı:
+\n\tBisiklet yolları ve yaya dostu caddeler
+\n\tSıfır emisyon, sağlıklı yaşam
+\nAraç Paylaşımı (Carpooling):
+\n\tYolda daha az araç, daha verimli yakıt kullanımı
+\nYeşil Lojistik:
+\n\tElektrikli teslimat araçları, kargo bisikletleri
+\n\tAkıllı rota planlama sistemleri</string>
+    <string name="surdurulebilirUlasimdaSehirPlanlamasi">4. Sürdürülebilir Ulaşımda Şehir Planlaması</string>
+    <string name="surdurulebilirUlasimdaSehirPlanlamasiText">Şehirler, ulaşım dönüşümünde kilit rol oynar:
+\n\n\tKarma kullanımlı yerleşimlerle mesafeler kısalır
+\n\tUlaşım odaklı tasarımla toplu taşıma teşvik edilir
+\n\tElektrikli araçlar için şarj altyapısı yaygınlaşır
+\n\tAkıllı trafik sistemleri ile enerji ve zaman tasarrufu sağlanır</string>
+    <string name="surdurulebilirUlasiminFaydalari">5. Sürdürülebilir Ulaşımın Faydaları</string>
+    <string name="surdurulebilirUlasiminFaydalariText">Düşük Karbon Emisyonu: İklim hedeflerine katkı
+\nDaha Sağlıklı Toplumlar: Temiz hava ve fiziksel aktivite artışı
+\nFosil Yakıt Bağımlılığının Azalması
+\nEkonomik Kazançlar: Düşük ulaşım maliyetleri, yeşil istihdam
+\nYaşanabilir Kentler: Sessiz, temiz ve güvenli çevre</string>
+    <string name="zorluklarVeGelecekVizyonu">6. Zorluklar ve Gelecek Vizyonu</string>
+    <string name="zorluklarVeGelecekVizyonuText">Yüksek Altyapı Maliyeti
+\n\tKullanıcı Davranışı ve Alışkanlıklar
+\n\tYasal ve Politik Uyum Süreci
+\n\tYeni Teknolojilerin Başlangıç Maliyeti
+\nGelecek Vizyonu:
+\n\tOtonom elektrikli toplu taşıma
+\n\tGüneş enerjili toplu araçlar
+\n\tYapay zekâ ile yönlendirme sistemleri
+\n\tAkıllı hareketlilik (MaaS) platformları</string>
+    <string name="sonucText10">Sürdürülebilir ulaşım, bir tercihten öte zorunluluktur. Yeşil ulaşım yöntemlerine geçiş, iklim değişikliğiyle mücadelede, çevrenin korunmasında ve toplum sağlığının gelişmesinde önemli rol oynar. Gerekli altyapı ve toplumsal destekle ulaşımın geleceği çevreci olacaktır.</string>
+
+    <string name="girisText9">İklim değişikliği ve enerji güvenliği gibi küresel zorluklar karşısında, yenilenebilir enerji politikaları, ulusal ve uluslararası stratejilerin merkezinde yer almaktadır. Bu politikalar, fosil yakıtlardan temiz ve sürdürülebilir enerji kaynaklarına geçişi hızlandırmayı hedefler. Etkili bir politika çerçevesi, yatırımları teşvik ederken aynı zamanda yeşil enerji sistemlerinin geleceğini şekillendirir.</string>
+    <string name="yenilenebilirEnerjiPolitikasiNedir">1. Yenilenebilir Enerji Politikası Nedir?</string>
+    <string name="yenilenebilirEnerjiPolitikasiNedirText">Yenilenebilir enerji politikaları; hükümetler tarafından uygulanan yasal, düzenleyici ve mali önlemlerdir. Amaçları şunlardır:
+\n\n\tSera gazı emisyonlarını azaltmak
+\n\tEkonomik büyümeyi ve inovasyonu desteklemek
+\n\tEnerjiye erişimi ve güvenliğini sağlamak
+\n\tYeşil istihdam ve sanayi oluşturmak</string>
+    <string name="temelYenilenebilirEnerjiPolitikasiTurleri">2. Temel Yenilenebilir Enerji Politikası Türleri</string>
+    <string name="temelYenilenebilirEnerjiPolitikasiTurleriText">Alım Garantileri (Feed-in Tariffs):
+\n\tYenilenebilir elektrik için sabit alım fiyatı sunar
+\n\tKüçük ve orta ölçekli projeleri teşvik eder
+\nYenilenebilir Enerji Yükümlülükleri (RPS):
+\n\tElektrik üretiminin belirli bir yüzdesinin yenilenebilir kaynaklardan gelmesi zorunluluğu
+\nVergi Teşvikleri ve Sübvansiyonlar:
+\n\tGüneş paneli, rüzgar türbini gibi yatırımlarda maliyeti düşürür
+\nNet Ölçüm (Net Metering):
+\n\tEvlerdeki fazla elektriğin şebekeye satılmasını sağlar
+\nYeşil Kamu Alımları:
+\n\tKamu kurumlarının yeşil enerji tercih etmesini destekler
+\nKarbon Fiyatlandırması (Karbon Vergisi / Emisyon Ticareti):
+\n\tKarbon salımı için maliyet belirleyerek emisyonları azaltmayı teşvik eder</string>
+    <string name="dunyadanPolitikaOrnekleri">3. Dünyadan Politika Örnekleri</string>
+    <string name="dunyadanPolitikaOrnekleriText">Avrupa Birliği:
+\n\tYeşil Mutabakat, Fit for 55 paketi, hidrojen ve yenilenebilir yatırımlar
+\nABD:
+\n\tEnflasyon Düşürme Yasası kapsamında büyük ölçekli yeşil enerji destekleri
+\nÇin:
+\n\tRüzgar ve güneş kapasitesinde liderlik, üretim teknolojilerinde öncülük
+\nGelişmekte Olan Ülkeler:
+\n\tUluslararası destekle yürütülen off-grid güneş projeleri ve mini şebekeler</string>
+    <string name="politikaCevresininOnemi">4. Politika Çerçevesinin Önemi</string>
+    <string name="politikaCevresininOnemiText">Uzun Vadeli Vizyon: Özel sektöre güven verir
+\nDüzenleyici Netlik: Piyasada belirsizlikleri önler
+\nRekabet Ortamı: Fosil yakıtlarla rekabeti kolaylaştırır
+\nŞebeke Uyumu: Altyapının büyümeyi karşılayabilmesini sağlar</string>
+    <string name="uygulamadakiZorluklar">5. Uygulamadaki Zorluklar</string>
+    <string name="uygulamadakiZorluklarText">Politika Belirsizliği: Ani değişiklikler yatırımcıyı kaçırabilir
+\nFosil Yakıt Lobileri: Politik süreci yavaşlatır
+\nAltyapı Eksiklikleri: Zayıf şebeke ve yetersiz depolama kapasitesi
+\nSosyal Adalet: Geçiş sürecinde düşük gelirli kesimlerin korunması</string>
+    <string name="geleceginEnerjiPolitikalari">6. Geleceğin Enerji Politikaları</string>
+    <string name="geleceginEnerjiPolitikalariText">Merkeziyetsiz Enerji Piyasaları
+\nDijital Politikalar (blokzincir, yapay zekâ destekli tahmin sistemleri)
+\nSınır Ötesi Yeşil Enerji Ticareti
+\nİklim ve Enerji Yasalarının Entegrasyonu</string>
+    <string name="sonucText11">Yenilenebilir enerji politikaları, yeşil dönüşümün motorudur. Net teşvikler, düzenleyici istikrar ve uzun vadeli planlama sayesinde; sürdürülebilir bir enerji geleceği mümkün hale gelir. Devletler, sektörler ve bireyler el birliğiyle bu politikaları somut eylemlere dönüştürmelidir.</string>
+
+
 
 
 
