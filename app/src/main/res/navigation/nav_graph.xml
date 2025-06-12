@@ -88,6 +88,15 @@
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_yenilenebilirEnerjiPolitikalariFragment"
             app:destination="@id/yenilenebilirEnerjiPolitikalariFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_iklimDegisikligiVeEnerjiFragment"
+            app:destination="@id/iklimDegisikligiVeEnerjiFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_enerjiUretimindeRobotikUygulamalariFragment"
+            app:destination="@id/enerjiUretimindeRobotikUygulamalariFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_enerjiVerimliligindeIoTKullanimiFragment"
+            app:destination="@id/enerjiVerimliligindeIoTKullanimiFragment" />
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
@@ -156,4 +165,17 @@
         android:name="com.example.greenmindgreenenergy.yenilenebilirEnerjiPolitikalariFragment"
         android:label="fragment_yenilenebilir_enerji_politikalari"
         tools:layout="@layout/fragment_yenilenebilir_enerji_politikalari" />
+    <fragment
+        android:id="@+id/iklimDegisikligiVeEnerjiFragment"
+        android:name="com.example.greenmindgreenenergy.iklimDegisikligiVeEnerjiFragment"
+        android:label="fragment_iklim_degisikligi_ve_enerji"
+        tools:layout="@layout/fragment_iklim_degisikligi_ve_enerji" />
+    <fragment
+        android:id="@+id/enerjiUretimindeRobotikUygulamalariFragment"
+        android:name="com.example.greenmindgreenenergy.enerjiUretimindeRobotikUygulamalariFragment"
+        android:label="enerjiUretimindeRobotikUygulamalariFragment" />
+    <fragment
+        android:id="@+id/enerjiVerimliligindeIoTKullanimiFragment"
+        android:name="com.example.greenmindgreenenergy.enerjiVerimliligindeIoTKullanimiFragment"
+        android:label="enerjiVerimliligindeIoTKullanimiFragment" />
 </navigation>

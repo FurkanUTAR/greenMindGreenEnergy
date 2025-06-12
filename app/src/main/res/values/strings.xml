@@ -664,7 +664,125 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
 \nİklim ve Enerji Yasalarının Entegrasyonu</string>
     <string name="sonucText11">Yenilenebilir enerji politikaları, yeşil dönüşümün motorudur. Net teşvikler, düzenleyici istikrar ve uzun vadeli planlama sayesinde; sürdürülebilir bir enerji geleceği mümkün hale gelir. Devletler, sektörler ve bireyler el birliğiyle bu politikaları somut eylemlere dönüştürmelidir.</string>
 
+    <string name="girisText10">İklim değişikliği, 21. yüzyılın en acil sorunlarından biridir ve büyük ölçüde enerji üretim ve tüketim biçimimiz tarafından tetiklenmektedir. Kömür, petrol ve doğalgaz gibi fosil yakıtlar, başta karbondioksit (CO₂) olmak üzere sera gazlarının ana kaynağıdır. İklim değişikliğinin en kötü etkilerinden kaçınmak için enerji sistemlerimizin hızlı ve köklü bir dönüşüm geçirmesi gerekmektedir. Temiz ve yenilenebilir enerjiye geçiş, çevresel olduğu kadar küresel bir zorunluluktur.</string>
+    <string name="iklimDegisikligiVeEnerjiArasindakiBaglanti">1. İklim Değişikliği ve Enerji Arasındaki Bağlantı</string>
+    <string name="iklimDegisikligiVeEnerjiArasindakiBaglantiText">Enerji sektörü, küresel sera gazı emisyonlarının yaklaşık %75’ini oluşturur. Elektrik üretimi, ısınma ve ulaşımda fosil yakıtların yakılması:
+\n\n\tKüresel sıcaklık artışına
+\n\tBuzulların erimesine ve deniz seviyesinin yükselmesine
+\n\tAşırı hava olaylarına (sel, kuraklık, fırtına)
+\n\tBiyoçeşitlilik kaybına yol açmaktadır</string>
+    <string name="iklimDegisikligininEtkileri">2. İklim Değişikliğinin Etkileri</string>
+    <string name="iklimDegisikligininEtkileriText">İklim değişikliğinin etkileri küresel ve çok boyutludur:
+\n\n\tÇevresel: Çölleşme, buzul kaybı, deniz seviyesinde artış
+\n\tEkonomik: Tarım zararları, altyapı hasarları, iklim göçleri
+\n\tSosyal ve Sağlık: Salgın hastalıklar, gıda güvensizliği, su kıtlığı</string>
+    <string name="enerjiSektorununDonusumu">3. Enerji Sektörünün Dönüşümü</string>
+    <string name="enerjiSektorununDonusumuText">İklim değişikliğiyle mücadelede enerji sektörünün düşük karbonlu ve yenilenebilir kaynaklara geçmesi şarttır. Temel stratejiler şunlardır:
+\n\n\tElektrik Üretiminde Karbonsuzlaşma: Güneş, rüzgar, hidro ve jeotermal kaynaklara yatırım
+\n\tEnerji Verimliliği: Binalar, araçlar ve cihazların daha az enerjiyle çalışması
+\n\tElektrifikasyon: Isıtma ve ulaşım gibi alanlarda fosil yakıtlar yerine elektrik kullanımı
+\n\tAkıllı Şebekeler: Esnek ve dijital altyapı yatırımları</string>
+    <string name="uluslararasiAnlasmalarVeHedefler">4. Uluslararası Anlaşmalar ve Hedefler</string>
+    <string name="uluslararasiAnlasmalarVeHedeflerText">Enerji-iklim geçişini destekleyen küresel çerçeveler:
+\n\n\tParis Anlaşması (2015): Küresel ısınmayı 2°C’nin altında tutmayı hedefler
+\n\tBM Sürdürülebilir Kalkınma Hedefi 7: Herkes için temiz ve erişilebilir enerji
+\n\tCOP Zirveleri: İklim eyleminin tartışıldığı yıllık küresel toplantılar</string>
+    <string name="bireylerinVeToplumlarinRolu">5. Bireylerin ve Toplumların Rolü</string>
+    <string name="bireylerinVeToplumlarinRoluText">İklim değişikliğiyle mücadelede herkesin rolü vardır:
+\n\n\tEnerji tüketimini azaltmak
+\n\tTemiz ulaşım seçeneklerini tercih etmek
+\n\tYeşil enerji sağlayıcılarını desteklemek
+\n\tİklim dostu politikaları savunmak</string>
+    <string name="acilEylemGerekliligi">6. Acil Eylem Gerekliliği</string>
+    <string name="acilEylemGerekliligiText">Bilim insanları, küresel ısınmayı 1.5°C ile sınırlamanın geri dönüşü olmayan etkileri önlemek için kritik olduğunu vurguluyor. Bu hedef için:
+\n\n\tKüresel emisyonların 2030’a kadar %50 azaltılması,
+\n\t2050’ye kadar sıfır emisyon (net-zero) hedefi gereklidir.</string>
+    <string name="sonucText12">İklim değişikliği ile enerji arasındaki ilişki nettir ve çözümün anahtarı enerji dönüşümüdür. Dünyanın enerji üretim ve tüketim biçimini değiştirmek, gezegeni korumanın en etkili yoludur. Harekete geçmek için doğru zaman şimdi—hem küresel hem de bireysel ölçekte.</string>
 
+    <string name="girisText11">Küresel enerji talebinin arttığı ve sürdürülebilirliğin öncelik kazandığı bir dönemde, robotik teknolojiler, enerji üretiminde giderek daha önemli hale gelmektedir. Geleneksel santrallerden güneş ve rüzgar çiftliklerine, nükleer tesislere kadar her alanda robotlar verimliliği artırmakta, güvenliği sağlamakta ve insan hatasını azaltmaktadır. Enerji sistemlerine otomasyonun entegrasyonu, üretim süreçlerinde devrim yaratmaktadır.</string>
+    <string name="enerjiUretimindeNedenRobotik">1. Enerji Üretiminde Neden Robotik?</string>
+    <string name="enerjiUretimindeNedenRobotikText">Enerji üretim tesisleri genellikle zorlu, tehlikeli veya ulaşılması güç ortamlarda bulunur. Robotlar, insanların yapamayacağı veya riskli olan görevleri üstlenerek şu avantajları sunar:
+\n\n\tGüvenliğin Artması: Tehlikeli ortamlarda insan bulunma gerekliliği azalır
+\n\tYüksek Verimlilik: Sürekli çalışabilir, hızlı ve hassas hareket eder
+\n\tMaliyet Azalması: Bakım ve duruş süreleri en aza iner
+\n\tVeri Hassasiyeti: Gerçek zamanlı ve doğru veri toplanır</string>
+    <string name="farkliEnerjiAlanlarindaRobotikUygulamalari">2. Farklı Enerji Alanlarında Robotik Uygulamalar</string>
+    <string name="farkliEnerjiAlanlarindaRobotikUygulamalariText">a. Fosil Yakıtlı Santraller
+\n\tİnceleme Robotları: Kazanlar, borular ve türbin içlerine girerek çatlak ve korozyon tespiti yapar
+\n\tTemizlik Robotları: Kül ve kalıntı temizliğini otomatik hale getirir
+\n\tBakım Dronları: Ekipman ve altyapının durumunu gözlemler
+\n\n\tb. Yenilenebilir Enerji Sistemleri
+\n\tGüneş Enerji Santralleri:
+\n\t\tTemizlik Robotları: Panellerin yüzeyini temizleyerek verimi artırır
+\n\t\tDronlar: Büyük alanlarda kızılötesi sensörlerle arıza tespiti yapar
+\n\tRüzgar Türbinleri:
+\n\t\tTırmanan Robotlar: Yükseklerdeki türbin kanatlarını inceler ve tamir eder
+\n\t\tHava Dronları: Türbin performansını izler
+\n\tHidroelektrik Santraller:
+\n\t\tSualtı Robotları (ROV): Baraj duvarlarını ve türbinleri denetler
+\n\t\tOtomatik Kapak Sistemleri: Su akışını hassas şekilde kontrol eder
+\n\n\tc. Nükleer Enerji
+\n\tRadyasyona Dayanıklı Robotlar: Radyoaktif alanlarda bakım ve denetim görevleri yapar
+\n\tSöküm Robotları: Eski nükleer reaktörlerin güvenli şekilde sökülmesini sağlar</string>
+    <string name="enerjiRobotlarindaYapayZekaVeMakineOgrenimi">3. Enerji Robotlarında Yapay Zeka ve Makine Öğrenimi</string>
+    <string name="enerjiRobotlarindaYapayZekaVeMakineOgrenimiText">Yapay zekâ entegrasyonu ile robotlar daha akıllı hale gelmektedir:
+\n\n\tArıza tahmini ve önleyici bakım
+\n\tAnomali tespiti
+\n\tEnerji tüketimi tahmini
+\n\tOtonom karar verme ve mikroşebeke yönetimi</string>
+    <string name="robotikEnerjiUygulamalarininAvantajlari">4. Robotik Enerji Uygulamalarının Avantajları</string>
+    <string name="robotikEnerjiUygulamalarininAvantajlariText">İşçi Güvenliğinde Artış
+\n\n\tİnsan Hatalarının Azaltılması
+\n\tBakım Zamanlamasının Optimize Edilmesi
+\n\tUzaktan Kumanda ve Gerçek Zamanlı Kontrol
+\n\tZor Koşullara Uyum</string>
+    <string name="gelecekPerspektifi">5. Gelecek Perspektifi</string>
+    <string name="gelecekPerspektifiText">Robotik ve yapay zekâ geliştikçe enerji sektöründeki etkileri de artacak:
+\nGüneş ve rüzgar tarlalarında sürü robot teknolojisi
+\n\n\tOtonom robot ekipleriyle off-grid sistem yönetimi
+\n\tDijital ikizler ve akıllı şebekelerle tam entegrasyon
+\n\tRobotik enerji hasadı sistemleri</string>
+    <string name="sonucText13">Robotik uygulamalar, enerji üretimini daha güvenli, verimli ve sürdürülebilir hale getiriyor. Bu teknolojiler, geleceğin enerji sistemlerinin yapı taşı haline gelirken, küresel iklim hedeflerine ulaşmamızda da kritik rol oynayacaktır.</string>
+
+    <string name="girisText12">Dijital dönüşüm ve sürdürülebilirlik çağında, Nesnelerin İnterneti (IoT) enerji verimliliğinde önemli bir teknoloji olarak öne çıkmaktadır. IoT cihazları, enerji kullanımını gerçek zamanlı olarak izleyebilir, analiz edebilir ve optimize edebilir. Akıllı evlerden sanayi tesislerine ve enerji şebekelerine kadar IoT, enerji yönetimini daha akıllı, daha yeşil ve daha ekonomik hale getirmektedir.</string>
+    <string name="enerjiVerimliligindeIoTNedir">1. Enerji Verimliliğinde IoT Nedir?</string>
+    <string name="enerjiVerimliligindeIoTNedirText">Nesnelerin İnterneti, birbirine bağlı sensörlü cihazların veri toplamasına ve bu verileri analiz ederek sistemleri kontrol etmesine olanak tanır. Enerji verimliliği uygulamalarında bu cihazlar:
+\n\n\tEnerji tüketimini izler
+\n\tVerimsizlikleri tespit eder
+\n\tSistemleri otomatik olarak optimize eder
+\n\tGerçek zamanlı kontrol ve raporlama sağlar</string>
+    <string name="iotEnerjiVerimliligindekiUygulamaAlanlari">2. IoT’nin Enerji Verimliliğindeki Uygulama Alanları</string>
+    <string name="iotEnerjiVerimliligindekiUygulamaAlanlariText">a. Akıllı Ev ve Binalar
+\n\tAkıllı Termostatlar: Kullanıcıya ve hava durumuna göre sıcaklık ayarlaması
+\n\tAydınlatma Sistemleri: Hareket sensörleri ve zamanlayıcılarla enerji tasarrufu
+\n\tEnerji İzleyiciler: Cihaz bazında tüketim analizi
+\n\tUzaktan Kontrol: Kullanılmayan cihazları otomatik kapatma
+\nb. Sanayi ve Ticari Enerji Yönetimi
+\n\tTahmine Dayalı Bakım: Arıza oluşmadan erken uyarı
+\n\tGerçek Zamanlı Tüketim Takibi: Tepe tüketimlerin düşürülmesi
+\n\tHVAC Optimizasyonu: Kullanım yoğunluğuna göre iklimlendirme ayarı
+\nc. Akıllı Şebekeler ve Enerji Altyapısı
+\n\tAkıllı Sayaçlar: Detaylı enerji kullanım verisi sağlar
+\n\tYük Dengeleme: Talep ve arzı dengeler
+\n\tArıza Tespiti: Elektrik kesintisi ve sistem sorunları için otomatik bildirim
+\n\tDağıtık Enerji Kaynakları Yönetimi: Güneş, rüzgar ve batarya sistemleri</string>
+    <string name="iotEnerjiVerimliligineKatkilari">3. IoT’nin Enerji Verimliliğine Katkıları</string>
+    <string name="iotEnerjiVerimliligineKatkilariText">Enerji Maliyetlerinde Azalma
+\n\tÇevresel Etkiyi Azaltma: Daha az karbon salımı
+\n\tCihaz Ömrünün Uzatılması: Verimli kullanım ve düzenli bakım
+\n\tKullanıcı Bilinçlenmesi: Gerçek zamanlı tüketim bilgisi
+\n\tYasal Uyum: Enerji denetimleri için veri sağlama kolaylığı</string>
+    <string name="karsilasilanZorluklarVeDikkatEdilmesiGerekenler">4. Karşılaşılan Zorluklar ve Dikkat Edilmesi Gerekenler</string>
+    <string name="karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText">Siber Güvenlik: Bağlantılı cihazlar saldırılara açık olabilir
+\n\tVeri Yönetimi: Büyük hacimli verilerin depolanması ve işlenmesi gerekir
+\n\tYüksek Başlangıç Maliyeti: Sistem kurulumu yatırım gerektirir
+\n\tUyumluluk Sorunları: Farklı üreticilerin cihazlarının bir arada çalışabilmesi</string>
+    <string name="iotVeEnerjiVerimliligininGelecegi">5. IoT ve Enerji Verimliliğinin Geleceği</string>
+    <string name="iotVeEnerjiVerimliligininGelecegiText">Yapay Zeka ile Entegrasyon: Kullanım alışkanlıklarına göre akıllı kararlar
+\n\tEnerji Ticaretinde Blokzincir: Güvenli kullanıcılar arası enerji alışverişi
+\n\tYenilenebilir Enerji ile IoT: Üretim ve bakım optimizasyonu
+\n\tAkıllı Şehirler: Ulaşım, aydınlatma ve enerji sistemlerinin IoT ile yönetimi</string>
+    <string name="sonucText14">IoT, enerji verimliliğinde devrim yaratmaktadır. Gerçek zamanlı izleme, otomatik kontrol ve akıllı analizler sayesinde bireylerden büyük kurumlara kadar herkes daha az enerji ile daha fazla fayda sağlayabilir. Bu teknoloji, sürdürülebilir bir enerji geleceği için güçlü bir araçtır.</string>
 
 
 

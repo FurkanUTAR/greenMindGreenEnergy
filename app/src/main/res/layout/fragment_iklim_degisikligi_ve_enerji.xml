@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- ScrollView tüm içeriği kapsayacak -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Project Objectives Öncesi Görsel -->
+            <ImageView
+                android:id="@+id/objectivesImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/iklim_degisikligi_ve_enerji" />
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/iklimDegisikligiVeEnerji"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+
+            <!-- İçerik Container -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/giris"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/girisText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/girisText10"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iklimDegisikligiVeEnerjiArasindakiBaglanti"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/iklimDegisikligiVeEnerjiArasindakiBaglantiText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/iklimDegisikligiVeEnerjiArasindakiBaglantiText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iklimDegisikligininEtkileri"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/iklimDegisikligininEtkileriText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/iklimDegisikligininEtkileriText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiSektorununDonusumu"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/enerjiSektorununDonusumuText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/enerjiSektorununDonusumuText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/uluslararasiAnlasmalarVeHedefler"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/uluslararasiAnlasmalarVeHedeflerText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/uluslararasiAnlasmalarVeHedeflerText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bireylerinVeToplumlarinRolu"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/bireylerinVeToplumlarinRoluText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/bireylerinVeToplumlarinRoluText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/acilEylemGerekliligi"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/acilEylemGerekliligiText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/acilEylemGerekliligiText"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginVertical="8dp"
+                    android:background="#000000" />
+
+                <!-- Alt Başlık -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sonuc"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray"
+                    android:layout_marginBottom="16dp"/>
+
+                <!-- Giriş Paragrafları -->
+                <TextView
+                    android:id="@+id/sonucText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="4dp"
+                    android:text="@string/sonucText12"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Loading Indicator (hala sabit) -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
