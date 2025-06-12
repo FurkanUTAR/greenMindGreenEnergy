@@ -412,6 +412,124 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="geleceginYesilSehirleriText">Geleceğin şehirleri; dikey bahçeler, güneş panelli çatılar, yeşil yollar ve yapay zekâ ile yönetilen enerji sistemleriyle donatılmış olacak. Nesnelerin İnterneti (IoT) ve yapay zekâ sayesinde kaynak kullanımı en verimli hâle gelecek, israf azalacak ve şehir yaşamı sağlıklı hâle dönüşecek.</string>
     <string name="sonucText5">Yeşil binalar ve etkili enerji yönetimi, sürdürülebilir şehir hayatının temel taşlarıdır. Bu yapılar, yalnızca çevreyi korumakla kalmaz; aynı zamanda daha sağlıklı, mutlu ve dayanıklı toplumların temelini oluşturur. Geleceğin şehirleri doğa ile barışık, enerjiyle dost olmak zorundadır.</string>
 
+    <string name="girisText4">Küresel ısınma ve iklim değişikliği hız kazandıkça, bireylerin ve toplumların çevresel etkilerini anlaması giderek önem kazanıyor. Bu etkinin ölçülmesindeki en yaygın yöntemlerden biri karbon ayak izi hesaplamasıdır. Karbon ayak izimizi ölçmek ve azaltmak, sürdürülebilir bir gelecek için kritik bir adımdır.</string>
+    <string name="karbonAyakIziNedir">1. Karbon Ayak İzi Nedir?</string>
+    <string name="karbonAyakIziNedirText">Karbon ayak izi, insan faaliyetleri sonucunda atmosfere salınan toplam karbondioksit (CO₂) ve diğer sera gazlarının (örneğin metan ve azot oksit) miktarını ifade eder. Genellikle ton karbondioksit eşdeğeri (tCO₂e) olarak ölçülür.
+\n\nİki ana türü vardır:
+\n\n\tDoğrudan emisyonlar: Kontrol ettiğimiz kaynaklardan (araç yakıtı, doğalgaz kullanımı).
+\n\tDolaylı emisyonlar: Tükettiğimiz ürün ve hizmetlerin üretim süreçlerinden (gıda, elektrik, tekstil vb.).</string>
+    <string name="karbonAyakIzininBaslicaKaynaklari">2. Karbon Ayak İzinin Başlıca Kaynakları</string>
+    <string name="karbonAyakIzininBaslicaKaynaklariText">Ulaşım: Araba, uçak ve toplu taşıma kullanımı
+\nEnerji Tüketimi: Evde veya iş yerinde elektrik ve doğalgaz kullanımı
+\nBeslenme: Et ve süt ürünleri tüketimi, ithal gıdalar
+\nÜrün ve Hizmetler: Giyim, elektronik, çevrim içi alışveriş
+\nAtık: Çöp üretimi, geri dönüşüm alışkanlıkları</string>
+    <string name="karbonAyakIziNasilHesaplanir">3. Karbon Ayak İzi Nasıl Hesaplanır?</string>
+    <string name="karbonAyakIziNasilHesaplanirText">İnternetteki karbon ayak izi hesaplayıcılar sayesinde bireysel hesaplama yapılabilir. Genellikle şu başlıklar sorulur:
+\n\nUlaşım alışkanlıkları: Mesafe, ulaşım türü
+\nEv enerji kullanımı: Isıtma türü, elektrik tüketimi
+\nBeslenme: Et ve süt ürünleri tüketim sıklığı
+\nAlışveriş ve atık: Aylık alışveriş miktarı, geri dönüşüm davranışı
+\n\nSonuç olarak yıllık karbon salım miktarınız, ülke veya dünya ortalamasıyla karşılaştırmalı olarak gösterilir.</string>
+    <string name="nedenOnemlidir2">4. Neden Önemlidir?</string>
+    <string name="nedenOnemlidir2Text">Farkındalık: Kişi ve kuruluşlar etkilerini görebilir
+\nHedef Oluşturma: Sürdürülebilir yaşam tercihlerini yönlendirir
+\nPolitika Desteği: Devletlerin iklim politikalarına veri sağlar
+\nİklimle Mücadele: 1.5°C ısınma sınırını aşmamak için sera gazları azaltılmalıdır</string>
+    <string name="karbonAyakIziNasilAzaltilir">5. Karbon Ayak İzi Nasıl Azaltılır?</string>
+    <string name="karbonAyakIziNasilAzaltilirText">Toplu taşıma kullanın, bisiklete binin ya da yürüyün
+\nYenilenebilir enerji kaynaklarına geçin
+\nEv izolasyonunu ve enerji verimliliğini artırın
+\nEt tüketimini azaltın, yerel gıdalar tercih edin
+\nAz tüket, yeniden kullan, geri dönüştür
+\nKarbon dengelemesi yapın (ağaç dikme, temiz enerji yatırımları)</string>
+    <string name="isletmelerinVeKurumlarinSorumlulugu">6. İşletmelerin ve Kurumların Sorumluluğu</string>
+    <string name="isletmelerinVeKurumlarinSorumluluguText">Karbon muhasebe sistemleri
+\nYeşil tedarik zinciri uygulamaları
+\nÇalışan ulaşım stratejileri
+\nSürdürülebilir üretim ve ambalajlama
+\nKarbon dengeleme projeleri</string>
+    <string name="sonucText6">Karbon ayak izimizi hesaplamak, iklimle mücadelede ilk adımdır. Birey veya kuruluş fark etmeksizin, emisyonlarımızı bilmek ve azaltmak; gelecek nesiller için yaşanabilir bir dünya inşa etmenin anahtarıdır.</string>
+
+    <string name="girisText5">Dünya yenilenebilir enerjiye ve elektrifikasyona yöneldikçe, enerji depolama sistemleri (EDS) modern enerji altyapısının temel yapı taşlarından biri haline gelmiştir. Bu sistemler, güneş ve rüzgâr gibi yenilenebilir kaynaklardan üretilen fazla elektriği depolayarak, üretimin düşük ya da talebin yüksek olduğu zamanlarda kullanılmak üzere saklar. Etkili ve ölçeklenebilir enerji depolama, şebeke istikrarı ve sürdürülebilir enerji geçişi için kritik öneme sahiptir.</string>
+    <string name="enerjiDepolamaSistemiNedir">1. Enerji Depolama Sistemi Nedir?</string>
+    <string name="enerjiDepolamaSistemiNedirText">Enerji depolama sistemleri, bir zamanda üretilen enerjiyi daha sonra kullanmak üzere saklayan teknolojilerdir. Bu sistemler, enerji üretimi ile tüketimi arasındaki zaman farkını dengeler ve enerji altyapısına esneklik ve güvenilirlik kazandırır.</string>
+    <string name="enerjiDepolamaTurleri">2. Enerji Depolama Türleri</string>
+    <string name="enerjiDepolamaTurleriText">Batarya Tabanlı Sistemler (BESS):
+\n\tEn yaygın kullanılan türdür
+\n\tLityum-iyon, kurşun-asit ve katı hal bataryaları kullanılır
+\n\tEvlerde, iş yerlerinde ve elektrikli araçlarda kullanılır
+\nPompaj Hidro Depolama:
+\n\tFarklı yükseklikteki iki su rezervuarı kullanılır
+\n\tEnerji, potansiyel enerji olarak su şeklinde depolarise
+\nBasınçlı Hava Enerji Depolama (CAES):
+\n\tYer altı mağaralarına hava sıkıştırılarak enerji depolanır
+\n\tHava serbest bırakıldığında elektrik üretilir
+\nVolan Enerji Depolama:
+\n\tDönen bir kütlede kinetik enerji depolanır
+\n\tKısa süreli, yüksek güç ihtiyaçları için idealdir
+\nTermal Enerji Depolama:
+\n\tEnerji ısı olarak tutulur (örneğin erimiş tuz, su)
+\n\tGüneş enerjisi santrallerinde kullanılır</string>
+    <string name="enerjiDepolamaSistemlerininKullanimAlanlari">3. Enerji Depolama Sistemlerinin Kullanım Alanları</string>
+    <string name="enerjiDepolamaSistemlerininKullanimAlanlariText">Şebeke Dengeleme: Arz ve talep dalgalanmalarını dengeler
+\nYenilenebilir Enerji Entegrasyonu: Fazla üretilen enerji saklanır
+\nYedek Güç: Elektrik kesintilerinde destek sağlar
+\nElektrikli Araçlar (EV): Taşımada enerji bataryalarda taşınır
+\nBatarya Değişim İstasyonları: Şarj yerine hızlı batarya takas sistemleri</string>
+    <string name="enerjiDepolamaninFaydalari">4. Enerji Depolamanın Faydaları</string>
+    <string name="enerjiDepolamaninFaydalariText">Daha Güvenilir ve Dayanıklı Elektrik Şebekeleri
+\nEnerji Maliyetlerinde Azalma (Tepe Tıraşlama)
+\nFosil Yakıtlara Bağımlılığın Azaltılması
+\nYenilenebilir Enerji Kullanımının Artması
+\nYerel ve Dağıtık Enerji Sistemlerinin Desteklenmesi</string>
+    <string name="zorluklarVeYenilikler2">5. Zorluklar ve Yenilikler</string>
+    <string name="zorluklarVeYenilikler2Text">Yüksek Başlangıç Maliyeti: Özellikle büyük ölçekli sistemlerde
+\nBatarya Ömrü ve Geri Dönüşüm: Atık yönetimi sorunları
+\nTeknolojik Gelişim: Bazı sistemler henüz erken aşamada
+\n\nYenilikler:
+\n\nYüksek yoğunluklu katı hal bataryaları
+\nYapay zekâ ile enerji yönetimi
+\nIoT sensörleri ile akıllı şebeke entegrasyonu</string>
+    <string name="sonucText7">Enerji depolama sistemleri, enerjiyi üretme, saklama ve kullanma şeklimizi kökten değiştiriyor. Evlerden endüstriye, elektrikli araçlardan ulusal şebekelere kadar her alanda sürdürülebilir ve esnek enerji çözümleri sunarak yeşil bir geleceğin önünü açıyorlar.</string>
+
+    <string name="girisText6">Artan enerji talebi ve sürdürülebilirlik ihtiyacı, akıllı şebeke sistemlerinin geliştirilmesini hızlandırmıştır. Bu gelişmiş enerji ağları, geleneksel elektrik şebekelerine dijital iletişim, otomasyon ve gerçek zamanlı veri analizi entegre ederek enerji yönetimini daha esnek ve etkili hale getirir.</string>
+    <string name="akilliSebekeNedir">1. Akıllı Şebeke Nedir?</string>
+    <string name="akilliSebekeNedirText">Akıllı şebeke, dijital teknolojiyle donatılmış ve yerel tüketim değişikliklerine yanıt verebilen bir elektrik dağıtım ağıdır. Üreticileri, tüketicileri ve enerji depolama sistemlerini iki yönlü iletişimle birbirine bağlayarak anlık kontrol ve veri alışverişi sağlar.</string>
+    <string name="akilliSebekeninTemelOzellikleri">2. Akıllı Şebekenin Temel Özellikleri</string>
+    <string name="akilliSebekeninTemelOzellikleriText">İki Yönlü İletişim: Enerji şirketi ile kullanıcı arasında veri alışverişi
+\nGerçek Zamanlı İzleme: Akıllı sayaçlar ve sensörlerle tüketim takibi
+\nOtomasyon: Arızaları otomatik olarak tespit edip müdahale eder
+\nYenilenebilir Enerji Entegrasyonu: Güneş, rüzgar gibi kaynakları sisteme dahil eder
+\nVeri Analizi: Tahmine dayalı bakım, talep analizleri ve verimlilik optimizasyonu</string>
+    <string name="akilliSebekeninBilesenleri">3. Akıllı Şebekenin Bileşenleri</string>
+    <string name="akilliSebekeninBilesenleriText">Akıllı Sayaçlar: Elektrik tüketimini ölçer ve enerji firmasıyla iletişim kurar
+\nSensörler ve IoT Cihazları: Gerilim, frekans ve yük durumunu izler
+\nGelişmiş Ölçüm Altyapısı (AMI): Verilerin toplanmasını ve geri bildirimi sağlar
+\nKontrol Merkezleri: Verileri analiz eder, enerji akışını yönetir ve arızalara müdahale eder
+\nEnerji Depolama ve Dağıtık Üreticiler: Arz-talep dengesini kurar</string>
+    <string name="akilliSebekeninFaydalari">4. Akıllı Şebekenin Faydaları</string>
+    <string name="akilliSebekeninFaydalariText">Enerji Verimliliği: Kayıpları ve israfı azaltır
+\nŞebeke Güvenilirliği: Arızaları hızlı tespit eder ve izole eder
+\nTüketici Güçlendirme: Kullanım alışkanlıklarını görüp tasarruf sağlar
+\nÇevresel Etki: Yenilenebilir kaynakların entegrasyonunu artırır
+\nMaliyet Düşüşü: Kesinti sayısını azaltır, enerji yönetimini optimize eder</string>
+    <string name="uygulamaZorluklari">5. Uygulama Zorlukları</string>
+    <string name="uygulamaZorluklariText">Yüksek Kurulum Maliyeti: Altyapı yenilemeleri pahalı olabilir
+\nSiber Güvenlik Riski: Dijital bağlantılar saldırıya açık hale getirir
+\nVeri Mahremiyeti: Sürekli izleme, gizlilik endişesi yaratabilir
+\nYasal Zorluklar: Mevzuatın gelişmesi ve piyasanın uyumu gerekir</string>
+    <string name="akilliSebekelerinGelecegi">6. Akıllı Şebekelerin Geleceği</string>
+    <string name="akilliSebekelerinGelecegiText">Yapay zekâ, blok zinciri ve büyük veri ile akıllı şebekeler dönüşüm geçiriyor. Bu gelişmeler:
+\n\nEnerji tahminlerini daha isabetli kılacak
+\nMerkeziyetsiz enerji pazarlarını mümkün kılacak
+\nAnlık fiyatlandırma ve kişiselleştirilmiş tarifeleri getirecek
+\nEvler ve topluluklar arası enerji paylaşımını yaygınlaştıracak</string>
+    <string name="sonucText8">Akıllı şebeke sistemleri, geleceğin enerji altyapısının temelidir. Yenilenebilir enerji ile entegrasyonu, esnekliği ve kullanıcı dostu yapısıyla; daha temiz, daha dayanıklı ve daha akıllı bir enerji dünyasına kapı aralar.</string>
+
+
+
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

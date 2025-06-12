@@ -70,6 +70,21 @@ class surdurulebilirEnerjiFragment : Fragment() {
             val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToYesilBinalarVeEnerjiYonetimiFragment()
             findNavController().navigate(action)
         }
+
+        binding.karbonAyakIziHesaplamaButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToKarbonAyakIziHesaplamaFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.enerjiDepolamaSistemleriButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToEnerjiDepolamaSistemleriFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.akilliSebekeSistemleriButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToAkilliSebekeSistemleriFragment()
+            findNavController().navigate(action)
+        }
     }
 
 }
