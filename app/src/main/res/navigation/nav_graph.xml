@@ -97,6 +97,15 @@
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_enerjiVerimliligindeIoTKullanimiFragment"
             app:destination="@id/enerjiVerimliligindeIoTKullanimiFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_yesilCevreProjeleriFragment"
+            app:destination="@id/yesilCevreProjeleriFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_toplumsalSurdurulebilirlikBilinciFragment"
+            app:destination="@id/toplumsalSurdurulebilirlikBilinciFragment" />
+        <action
+            android:id="@+id/action_surdurulebilirEnerjiFragment_to_geleceginEnerjiTeknolojileriFragment"
+            app:destination="@id/geleceginEnerjiTeknolojileriFragment" />
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
@@ -178,4 +187,18 @@
         android:id="@+id/enerjiVerimliligindeIoTKullanimiFragment"
         android:name="com.example.greenmindgreenenergy.enerjiVerimliligindeIoTKullanimiFragment"
         android:label="enerjiVerimliligindeIoTKullanimiFragment" />
+    <fragment
+        android:id="@+id/yesilCevreProjeleriFragment"
+        android:name="com.example.greenmindgreenenergy.yesilCevreProjeleriFragment"
+        android:label="fragment_yesil_cevre_projeleri"
+        tools:layout="@layout/fragment_yesil_cevre_projeleri" />
+    <fragment
+        android:id="@+id/toplumsalSurdurulebilirlikBilinciFragment"
+        android:name="com.example.greenmindgreenenergy.toplumsalSurdurulebilirlikBilinciFragment"
+        android:label="fragment_toplumsal_surdurulebilirlik_bilinci"
+        tools:layout="@layout/fragment_toplumsal_surdurulebilirlik_bilinci" />
+    <fragment
+        android:id="@+id/geleceginEnerjiTeknolojileriFragment"
+        android:name="com.example.greenmindgreenenergy.geleceginEnerjiTeknolojileriFragment"
+        android:label="geleceginEnerjiTeknolojileriFragment" />
 </navigation>

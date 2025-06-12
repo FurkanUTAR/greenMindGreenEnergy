@@ -115,6 +115,21 @@ class surdurulebilirEnerjiFragment : Fragment() {
             val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToEnerjiVerimliligindeIoTKullanimiFragment()
             findNavController().navigate(action)
         }
+
+        binding.yesilCevreProjeleriButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToYesilCevreProjeleriFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.toplumsalSurdurulebilirlikBilinciButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToToplumsalSurdurulebilirlikBilinciFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.geleceginEnerjiTeknolojileriButton.setOnClickListener {
+            val action = surdurulebilirEnerjiFragmentDirections.actionSurdurulebilirEnerjiFragmentToGeleceginEnerjiTeknolojileriFragment()
+            findNavController().navigate(action)
+        }
     }
 
 }

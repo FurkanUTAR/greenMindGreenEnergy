@@ -784,8 +784,146 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
 \n\tAkıllı Şehirler: Ulaşım, aydınlatma ve enerji sistemlerinin IoT ile yönetimi</string>
     <string name="sonucText14">IoT, enerji verimliliğinde devrim yaratmaktadır. Gerçek zamanlı izleme, otomatik kontrol ve akıllı analizler sayesinde bireylerden büyük kurumlara kadar herkes daha az enerji ile daha fazla fayda sağlayabilir. Bu teknoloji, sürdürülebilir bir enerji geleceği için güçlü bir araçtır.</string>
 
+    <string name="girisText13">Çevresel tahribat ve iklim değişikliği hız kazandıkça, yeşil çevre projeleri küresel sürdürülebilirlik hareketinin vazgeçilmez bir parçası haline gelmiştir. Bu projeler, ekosistemlerin onarımı, kirliliğin azaltılması, biyolojik çeşitliliğin korunması ve toplumlarda çevre bilincinin artırılması gibi hedefler doğrultusunda yürütülmektedir. Devletler, sivil toplum kuruluşları, özel sektör ve bireyler giderek daha fazla çevre dostu projelere yatırım yapmaktadır.</string>
+    <string name="yesilCevreProjesiNedir">1. Yeşil Çevre Projesi Nedir?</string>
+    <string name="yesilCevreProjesiNedirText">Yeşil çevre projeleri, doğal ekosistemleri koruma ve onarma amacı taşıyan sürdürülebilir kalkınma odaklı girişimlerdir. Başlıca alanları şunlardır:
+\n\n\tAğaçlandırma ve ormanlaştırma
+\n\tYenilenebilir enerji kullanımı
+\n\tAtık yönetimi ve geri dönüşüm
+\n\tTemiz suya erişim ve kaynakların korunması
+\n\tYaban hayatı koruma
+\n\tKentsel yeşillendirme ve akıllı şehir projeleri
+\n\nBu projeler genellikle toplum temellidir ve hem eğitim hem de doğrudan çevresel faydalar sağlamayı amaçlar.</string>
+    <string name="yesilProjeOrnekleri">2. Yeşil Proje Örnekleri</string>
+    <string name="yesilProjeOrnekleriText">a. Ağaçlandırma Girişimleri
+\n\n\tBozulmuş alanların yeniden ormanlaştırılması
+\n\tŞehirlerde hava kalitesini artırmak için ağaç dikimi
+\n\tHalk katılımıyla yapılan fidan dikme kampanyaları
+\n\nb. Temiz Enerji Uygulamaları
+\n\tOkul ve kamu binalarına güneş panelleri kurulumu
+\n\tKırsal alanlarda rüzgar türbinleri
+\n\tDağlık bölgelerde mikro hidro sistemler
+\n\nc. Sürdürülebilir Atık Yönetimi
+\n\tKompost ve geri dönüşüm merkezleri
+\n\tPlastik kullanımını azaltma kampanyaları
+\n\tAtıktan enerji üretimi tesisleri
+\n\nd. Su Koruma Projeleri
+\n\tYağmur suyu toplama sistemleri
+\n\tSulak alanların restorasyonu
+\n\tNehir ve göllerde kirliliğin önlenmesi
+\n\ne. Çevre Eğitimi ve Farkındalık
+\n\tOkullarda doğa kulüpleri
+\n\tAtölye çalışmaları ve çevre temizlik günleri
+\n\tİş yerleri ve eğitim kurumları için yeşil sertifikalar</string>
+    <string name="yesilProjelerinFaydalari">3. Yeşil Projelerin Faydaları</string>
+    <string name="yesilProjelerinFaydalariText">Çevresel: Hava ve su kalitesinin artması, yaşam alanlarının korunması
+\nEkonomik: Yeşil istihdam alanları, enerji ve kaynak tasarrufu
+\nSosyal: Toplum katılımı, sağlık iyileşmeleri, çevre bilinci
+\nİklim Direnci: İklim değişikliğine karşı adaptasyon ve azaltım desteği</string>
+    <string name="karsilasilanZorluklar2">4. Karşılaşılan Zorluklar</string>
+    <string name="karsilasilanZorluklar2Text">Yetersiz finansman ve sürdürülebilir destek
+\nBürokratik engeller ve siyasi zorluklar
+\nToplumsal farkındalık eksikliği
+\nTeknik bilgi ve insan kaynağı ihtiyacı</string>
+    <string name="yesilProjelerinGelecegi">5. Yeşil Projelerin Geleceği</string>
+    <string name="yesilProjelerinGelecegiText">Yeşil finansman ve ESG yatırımlarının artmasıyla birlikte, çevre projelerinin önümüzdeki yıllarda daha da yaygınlaşması bekleniyor. Yapay zekâ, coğrafi bilgi sistemleri (GIS) ve IoT gibi teknolojiler, projelerin planlanması ve takibini kolaylaştıracaktır.</string>
+    <string name="sonucText15">Yeşil çevre projeleri, daha temiz, sağlıklı ve sürdürülebilir bir dünya inşa etmenin temel taşlarındandır. Bu projeler; doğayla insanı yakınlaştırır, çevre dostu davranışları teşvik eder ve ekosistemleri onarır. Her birey ve kurum bu çalışmalara katkı sunarak gezegenin geleceğine yatırım yapabilir.</string>
 
+    <string name="girisText14">Sürdürülebilir kalkınmanın genel çerçevesi içinde, toplumsal sürdürülebilirlik, genellikle çevresel ve ekonomik sürdürülebilirliğin gölgesinde kalır. Oysa ki toplumsal sürdürülebilirlik, bireylerin refahı, eşitlik, katılım ve toplumsal dayanıklılık gibi konuları temel alan, sürdürülebilirliğin en insani boyutudur. Bu bilincin artırılması, barışçıl, adil ve kapsayıcı toplumların inşası için hayati öneme sahiptir.</string>
+    <string name="toplumsalSurdurulebilirlikNedir">1. Toplumsal Sürdürülebilirlik Nedir?</string>
+    <string name="toplumsalSurdurulebilirlikNedirText">Toplumsal sürdürülebilirlik, bir toplumun şu özellikleri uzun vadede sürdürebilme kapasitesidir:
+\n\n\tAdalet, eşitlik ve insan haklarını sağlama
+\n\tFarklılıkları kabul edip kapsayıcılığı teşvik etme
+\n\tTemel ihtiyaçlara (barınma, eğitim, sağlık) erişimi garanti etme
+\n\tToplum üyelerinin karar alma süreçlerine katılımını sağlama
+\n\tDayanışma, empati ve toplumsal bütünlüğü koruma</string>
+    <string name="toplumsalSurdurulebilirliginTemelUnsurlari">2. Toplumsal Sürdürülebilirliğin Temel Unsurları</string>
+    <string name="toplumsalSurdurulebilirliginTemelUnsurlariText">Eşitlik ve İnsan Hakları
+\n\tEğitime, sağlığa ve istihdama eşit erişim
+\n\tDezavantajlı grupların korunması
+\nToplum Katılımı
+\n\tYerel karar süreçlerine halkın katılımı
+\n\tSivil toplum ve gönüllülüğün desteklenmesi
+\nKültürel Sürdürülebilirlik
+\n\tYerel kültürlere ve dillere saygı
+\n\tKültürlerarası diyalogun teşviki
+\nSağlık ve Refah
+\n\tBeden ve ruh sağlığını destekleyen programlar
+\n\tGüvenli ve kapsayıcı yaşam alanları
+\nEğitim ve İstihdamda Kapsayıcılık
+\n\tHer yaşta öğrenme fırsatları
+\n\tÇeşitliliği destekleyen iş ortamları</string>
+    <string name="toplumsalSurdurulebilirlikBilincininOnemi">3. Toplumsal Sürdürülebilirlik Bilincinin Önemi</string>
+    <string name="toplumsalSurdurulebilirlikBilincininOnemiText">Demokratik Katılımı Güçlendirir: Vatandaşlar toplumsal hayata daha aktif katılır
+\n\tHoşgörüyü ve Barışı Artırır: Ayrımcılığı ve çatışmayı azaltır
+\n\tYaşam Kalitesini Yükseltir: Temel ihtiyaçlara erişimi kolaylaştırır
+\n\tToplumsal Dayanıklılığı Artırır: Krizlerde toplumun toparlanma gücü artar
+\n\tSKH’lere Katkı Sağlar: Özellikle Hedef 1, 5, 10 ve 16’ya doğrudan destek sağlar</string>
+    <string name="bilinclendirmeFaaliyetlerineOrnekler">4. Bilinçlendirme Faaliyetlerine Örnekler</string>
+    <string name="bilinclendirmeFaaliyetlerineOrneklerText">Çeşitlilik ve kapsayıcılık üzerine halk atölyeleri
+\n\tOkul ve üniversitelerde farkındalık seminerleri
+\n\tMahalle şenlikleri ve kültürel kaynaşma günleri
+\n\tAkademik müfredatlarda sosyal sürdürülebilirlik modülleri
+\n\tKapsayıcı şehir planlaması toplantıları</string>
+    <string name="zorluklar2">5. Zorluklar</string>
+    <string name="zorluklar2Text">Eşitsizlik ve sistemsel ayrımcılık
+\n\tSiyasal temsil eksikliği
+\n\tDijital uçurum ve eğitimde eşitsizlik
+\n\tDeğişime karşı direnç ve toplumsal ilgisizlik</string>
+    <string name="gelecekVizyonu2">6. Gelecek Vizyonu</string>
+    <string name="gelecekVizyonu2Text">Küresel toplumlar çeşitlendikçe ve birbirine daha çok bağlandıkça, toplumsal sürdürülebilirlik bilinci daha da önemli hale gelecektir. Bu süreçte teknoloji, eğitim ve yerel liderlik önemli roller üstlenecektir."</string>
+    <string name="sonucText16">Toplumsal sürdürülebilirlik bilinci, barış, adalet ve dayanışma içinde yaşanabilir bir dünya kurmanın temelidir. Bireyleri eğitmek, toplumları katılıma teşvik etmek ve birlikte hareket etmek; daha güçlü, kapsayıcı ve dirençli bir geleceğin anahtarıdır.</string>
 
+    <string name="girisText15">İklim değişikliği, artan enerji talebi ve fosil yakıtların tükenmesiyle birlikte, geleceğin enerji teknolojileri, daha temiz, akıllı ve sürdürülebilir bir enerji sistemi inşa etmede kilit rol oynamaktadır. Gelişmiş güneş hücrelerinden yeşil hidrojene, füzyon enerjisinden yapay zekâ destekli akıllı şebekelere kadar birçok yenilik, enerji üretim ve tüketim alışkanlıklarımızı dönüştürüyor.</string>
+    <string name="nedenGeleceginEnerjiCozumlerineİhtiyacimizVar">1. Neden Geleceğin Enerji Çözümlerine İhtiyacımız Var?</string>
+    <string name="nedenGeleceginEnerjiCozumlerineİhtiyacimizVarText">Mevcut enerji modeli, büyük ölçüde kömür, petrol ve doğalgaza dayalı olup küresel sera gazı salımının temel kaynağıdır. Bu nedenle düşük karbonlu, yenilenebilir ve merkeziyetsiz enerji sistemlerine geçiş şu hedefler için kritiktir:
+\n\n\tİklim değişikliğinin etkilerini azaltmak
+\n\tEnerji güvenliğini artırmak
+\n\tEnerjiye evrensel erişimi sağlamak
+\n\tDijital ve elektrikli çağın ihtiyaçlarını karşılamak</string>
+    <string name="oneCikanGelecekEnerjiTeknolojileri">2. Öne Çıkan Gelecek Enerji Teknolojileri</string>
+    <string name="oneCikanGelecekEnerjiTeknolojileriText">a. Yeni Nesil Güneş Enerjisi
+\n\tPerovskit Güneş Hücreleri: Daha yüksek verim, daha düşük maliyet
+\n\tYüzer GES’ler: Göller ve barajlar üzerine kurulur
+\n\tYapı Entegre Fotovoltaikler (BIPV): Şeffaf güneş camları ve cepheler
+\nb. Gelişmiş Rüzgar Enerjisi
+\n\tYüzer Rüzgar Türbinleri: Derin denizlerde rüzgar enerjisi üretimi
+\n\tDikey Eksenli Türbinler: Şehir içinde daha verimli
+\n\tAkıllı Türbinler: Sensör ve yapay zekâ destekli performans kontrolü
+\nc. Yeşil Hidrojen
+\n\tYenilenebilir enerji ile sudan hidrojen üretimi
+\n\tSanayi, ısıtma ve ulaşımda kullanılabilir
+\n\tYakıldığında sıfır emisyon üretir
+\nd. Enerji Depolama Yenilikleri
+\n\tKatı Hal Bataryalar: Daha fazla enerji, daha hızlı şarj
+\n\tAğırlık Tabanlı Depolama: Yükseklik farkı kullanılarak enerji saklama
+\n\tTermal ve Havalı Depolama: Fazla enerjiyi ısı veya sıkıştırılmış hava olarak depolama
+\ne. Füzyon Enerjisi
+\n\tGüneşin enerji üretim modelini taklit eder
+\n\tTeorik olarak sınırsız ve temiz enerji kaynağı
+\n\tITER gibi deneysel reaktörlerle geliştiriliyor
+\nf. Yapay Zekâ ve Akıllı Sistemler
+\n\tŞebeke yönetimi, enerji tahmini ve ticareti için AI
+\n\tIoT ile akıllı sayaçlar ve cihazlar
+\n\tBlokzincir ile merkeziyetsiz enerji alışverişi</string>
+    <string name="yeniEnerjiTeknolojilerininFaydalari">3. Yeni Enerji Teknolojilerinin Faydaları</string>
+    <string name="yeniEnerjiTeknolojilerininFaydalariText">Düşük veya Sıfır Emisyon
+\n\tEnerji Bağımsızlığı
+\n\tUzun Vadede Ekonomik
+\n\tİklim Olaylarına Karşı Dayanıklı
+\n\tŞehir ve kırsal alanlara uygun esneklik</string>
+    <string name="zorluklarVeDikkatEdilmesiGerekenler">4. Zorluklar ve Dikkat Edilmesi Gerekenler</string>
+    <string name="zorluklarVeDikkatEdilmesiGerekenlerText">Yüksek Ar-Ge ve altyapı maliyetleri
+\n\tPolitika ve düzenleyici uyumsuzluklar
+\n\tToplumsal farkındalık ve alışkanlık değişimi
+\n\tTeknolojik olgunluk ve ölçeklenebilirlik sorunları</string>
+    <string name="gelecekVizyonu3">5. Gelecek Vizyonu</string>
+    <string name="gelecekVizyonu3Text">2050’ye kadar küresel enerji sisteminin büyük ölçüde karbonsuz, dijital ve dağıtık hale gelmesi bekleniyor. Geleceğin enerji teknolojileri şu alanlarda belirleyici olacak:
+\n\n\tAkıllı şehirler
+\n\n\tTemiz ulaşım sistemleri
+\n\n\tDöngüsel ekonomi yapıları
+\n\n\tİklim dirençli altyapılar</string>
+    <string name="sonucText17">Geleceğin enerji teknolojileri yalnızca birer yenilik değil, aynı zamanda birer taahhüttür: daha temiz, daha bağlantılı ve karbon nötr bir dünya için. Bu teknolojilere bugünden yatırım yapmak, sürdürülebilir bir yarının temelini atmak demektir.</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
