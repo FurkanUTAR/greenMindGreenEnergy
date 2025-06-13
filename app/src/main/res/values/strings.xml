@@ -1117,7 +1117,7 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="sonucText24">Tekerlekli ve paletli robotlar, robotik dünyasında önemli roller üstlenmektedir. Hangi sistemin seçileceği, görev ve çevre gereksinimlerine bağlıdır. Sürekli gelişen teknoloji ile daha yetenekli, uyarlanabilir ve akıllı robotik platformlar hayatımıza girmeye devam edecektir.</string>
 
 
-   <string name="ozet2">Otonom araçlar, çevrelerini yorumlayıp hareket kararları almak için büyük ölçüde hareket algoritmalarına dayanır. Bu makalede, temel bir örnek olan çizgi izleyen robotlar ele alınmakta ve bu robotların davranışlarını yönlendiren algoritmalar ile daha karmaşık otonom hareket sistemlerine geçiş süreci incelenmektedir.</string>
+    <string name="ozet2">Otonom araçlar, çevrelerini yorumlayıp hareket kararları almak için büyük ölçüde hareket algoritmalarına dayanır. Bu makalede, temel bir örnek olan çizgi izleyen robotlar ele alınmakta ve bu robotların davranışlarını yönlendiren algoritmalar ile daha karmaşık otonom hareket sistemlerine geçiş süreci incelenmektedir.</string>
 
     <string name="giris2">1. Giriş</string>
     <string name="giris2Text">Otonom hareket, modern robot teknolojisinin temelidir. Özellikle sürücüsüz araçlar, mobil robotlar ve otomatik yönlendirmeli araçlar (AGV) gibi uygulamalarda önemli rol oynar. Otonom davranış öğreniminin başlangıç noktası, çizgi izleyen robotlardır.</string>
@@ -1132,6 +1132,76 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="gelismisUygulamalarText">Otonom araçlar, şerit takibi ve engelden kaçınma için LIDAR, GPS, bilgisayarlı görü ve derin öğrenme kullanır.\nSürü robotlar, birden fazla robotun kolektif hareketini sağlayan algoritmalarla çalışır.</string>
 
     <string name="sonucText25">Çizgi izleyen robotlar, otonom araç teknolojisine giriş için somut ve öğretici bir yol sunar. Teknoloji geliştikçe, daha sofistike algoritmalar sayesinde bu sistemler daha güvenli, akıllı ve hareket kabiliyeti yüksek hâle gelmektedir.</string>
+
+
+    <string name="ozet3">Günümüz robotik sistemleri, gerçek zamanlı izleme ve otonom karar verme süreçlerini mümkün kılan gelişmiş sensörler ve veri toplama modülleriyle donatılmıştır. Bu makalede robotların nasıl veri topladığı, bu verileri nasıl işleyip analiz ettiği detaylı olarak açıklanmakta ve ham verilerin, karar mekanizmalarına nasıl dönüştüğü anlatılmaktadır.</string>
+
+    <string name="giris3">1. Giriş</string>
+    <string name="giris3Text">Robotik sadece hareket değil; aynı zamanda algılama ve yorumlamadır. Veri, robot zekâsının yakıtıdır. Basit sıcaklık ölçümlerinden yüksek çözünürlüklü 3D haritalamaya kadar pek çok veriye ihtiyaç duyan robotlar, çevrelerini bu şekilde anlayıp karar verirler. Süreç, veri toplamayla başlar ve anlamlı analizlerle sonuçlanır.</string>
+
+    <string name="veriToplama">2. Robotik Sistemlerde Veri Toplama</string>
+    <string name="veriToplamaText">Robotlar, çok çeşitli sensörlerle veri toplar:\n\nYakınlık Sensörleri (Ultrasonik, IR, LiDAR): Mesafe ölçer ve engelleri algılar.\nGörsel Sistemler (Kameralar, Derinlik Sensörleri): Nesne tanıma ve görüntü analizi sağlar.\nÇevresel Sensörler (Sıcaklık, Nem, Gaz): Ortam koşullarını izler.\nHareket Sensörleri (IMU, İvmeölçer, Jiroskop): Konum ve yön bilgisi sağlar.\nDokunma Sensörleri (Basınç, Kuvvet): Fiziksel etkileşimleri tespit eder.\n\nToplanan veriler robotun işlemcisine veya bulut sistemlerine aktarılır.</string>
+
+    <string name="veriIsleme">3. Veri İşleme ve Analiz Teknikleri</string>
+    <string name="veriIslemeText">Ham verilerin anlam kazanması için şu adımlar izlenir:\n\nÖnişleme: Gürültü azaltma, filtreleme ve normalizasyon.\nÖzellik Çıkartımı: Önemli verilerin (kenarlar, desenler, değişimler) belirlenmesi.\nMakine Öğrenimi Modelleri: Verileri sınıflandırma, tahmin etme veya gruplayarak öğrenme.\nGerçek Zamanlı Analiz: Robotun çevresel değişikliklere anında tepki vermesi.\nGörselleştirme: Verilerin 3D harita, grafik veya kontrol paneliyle sunulması.</string>
+
+    <string name="uygulamaAlanlari2">4. Uygulama Alanları</string>
+    <string name="uygulamaAlanlari2Text">Otonom Araçlar: Haritalama, konum belirleme (SLAM), rota planlama.\nEndüstriyel Robotlar: Titreşim, ısı ve tork verileriyle kestirimci bakım.\nHizmet Robotları: Kullanıcı davranışlarına göre hizmet ayarı.\nTarım Robotları: Görüntü ve çevresel verilerle mahsul analizi.</string>
+
+    <string name="zorluklar3">5. Zorluklar ve Gelecek Vizyonu</string>
+    <string name="zorluklar3Text">Veri Yığını: Gerekli bilgileri büyük veri akışından süzme.\nGecikme: Gerçek zamanlı kararlar için işlem süresini azaltma.\nEntegrasyon: Farklı kaynaklardan gelen verilerin uyumu.\nEdge AI ve IoT: Gelecek, verilerin yerel (uç) işlemcilerde işlenmesinde.</string>
+
+    <string name="sonucText26">Veri toplama ve analiz, robotik zekânın temelidir. Sensörleri çevrenin yorumlayıcısı, verileri ise kararın yapı taşı haline getiren bu süreç, robot teknolojilerini bilişsel sistemlere dönüştürmektedir. Makine öğrenmesi ve uç işlem teknolojilerindeki gelişmelerle birlikte robotlar çok daha zeki, çevik ve etkili hale gelmektedir.</string>
+
+
+    <string name="ozet4">Yapay zekâ (YZ), robotik alanını devrimsel biçimde dönüştürerek makinelerin öğrenmesini, uyum sağlamasını ve karar vermesini mümkün kılmıştır. Bu makalede, robotlara nesne tutma, çevrede gezinme gibi görevlerin makine öğrenmesi (ML) teknikleri kullanılarak nasıl öğretildiği açıklanmaktadır.</string>
+
+    <string name="giris4">1. Giriş</string>
+    <string name="giris4Text">Klasik robotik sistemlerde, tüm eylemler programcılar tarafından açıkça tanımlanmalıdır. YZ tabanlı robotik ise robotların deneyim yoluyla öğrenmesini, zamanla gelişmesini ve yeni durumlara genelleme yapabilmesini sağlar. Bu, davranışların manuel kodlaması yerine, verilerle eğitilen algoritmalar sayesinde gerçekleşir.</string>
+
+    <string name="makineOgrenmesi">2. Robotikte Makine Öğrenmesi Nedir?</string>
+    <string name="makineOgrenmesiText">Makine öğrenmesi, robotlara şu yetenekleri kazandırır:\n\nAlgılama: Sensörler ve kameralarla çevreyi tanıma.\nAnlama: Verilerdeki desenleri öğrenip bilgi çıkarımı yapma.\nEylem: Uygun tepkiler vererek görevleri yerine getirme.\n\nRobotlar, veri setleriyle ya da gerçek zamanlı denemelerle eğitilir ve öğrendiklerini uygulayabilir hale gelirler.</string>
+
+    <string name="mlTeknikleri">3. Robotikte Kullanılan ML Teknikleri</string>
+    <string name="mlTeknikleriText">Denetimli Öğrenme: Etiketlenmiş verilerle nesne tanıma veya görev öğrenme.\nPekiştirmeli Öğrenme (Reinforcement Learning): Doğru eylemler için ödül alarak öğrenme (örneğin: düşmeden yürümek).\nDenetimsiz Öğrenme: Etiket olmadan örüntü tanıma, kümeleme.\nDerin Öğrenme (Deep Learning): Görüntü analizi ve nesne tespiti gibi görevler için sinir ağları (özellikle CNN\'ler) kullanılır.</string>
+
+    <string name="gorevOgretimi">4. Robotlara Görev Öğretimi</string>
+    <string name="gorevOgretimiText">AI kullanılarak öğretilebilen bazı görevler:\n\nNesne Manipülasyonu: Görsel geri bildirimle nesne alma ve bırakma.\nOtonom Gezinme: SLAM ve CNN kombinasyonlarıyla haritalama.\nKonuşma Tanıma ve Tepki: NLP modelleriyle insan-komut anlama.\nİnsan-Robot Etkileşimi (HRI): Yüz ifadeleri, ton ve beden dilini yorumlama.</string>
+
+    <string name="uygulamalar">5. Gerçek Uygulamalar</string>
+    <string name="uygulamalarText">Sağlık: Yaşlılara yardım eden robotlar.\nÜretim: Çalışanlarla iş birliği yapan cobot\'lar.\nEğitim: Öğrenmeye göre uyum sağlayan öğretici robotlar.\nKeşif: Mars gibi ortamlarda öğrenen otonom robotlar.</string>
+
+    <string name="zorluklar4">6. Zorluklar</string>
+    <string name="zorluklar4Text">Veri Gereksinimi: Büyük veri setleri gerekir.\nGüvenlik: Öğrenilen davranışın tahmin edilebilir ve güvenli olması gerekir.\nTransfer Öğrenme: Simülasyondan gerçek dünyaya geçişte sorunlar.\nEtik Konular: Önyargı, gizlilik, hesap verilebilirlik.</string>
+
+    <string name="sonucText27">YZ destekli robotik, akıllı makineler çağının kapısını aralamaktadır. ML ile görev öğretimi, robotları sabit makinelerden esnek iş birlikçilerine dönüştürür. Algoritmaların gelişmesiyle birlikte, robotların insanlar arasında aktif ve güvenilir aktörler haline gelmesi kaçınılmazdır.</string>
+
+    <string name="ozet5">Endüstriyel robotlar, özellikle robot kolları, üretim süreçlerini daha hassas, verimli ve güvenli hale getirmiştir. Bu makalede, fabrika ortamlarında kullanılan robotik sistemlerin yapısı, türleri, kullanım alanları, avantajları ve gelecek vizyonu ele alınmaktadır.</string>
+
+    <string name="giris5">1. Giriş</string>
+    <string name="giris5Text">Üretimde otomasyon artık bir seçenek değil, zorunluluktur. Endüstriyel robotlar, akıllı fabrikaların ve Endüstri 4.0\'ın temel taşlarındandır. Robot kolları, en yaygın kullanılan sistemlerdir ve tekrarlı, tehlikeli veya yüksek hassasiyet gerektiren görevleri büyük bir tutarlılıkla yerine getirir.</string>
+
+    <string name="yapiBilesenler">2. Robotların Yapısı ve Bileşenleri</string>
+    <string name="yapiBilesenlerText">Bir robot kolu genellikle şu bileşenlerden oluşur:\n\nEklemler (Eksenler): Dönme veya doğrusal hareket sağlar.\nUç-Etkileyici (Gripper veya Takım): Nesnelerle etkileşimi sağlar (örneğin: kaynak torcu, vakum, matkap).\nKontrol Ünitesi: Komutları işler, sensör verilerini analiz eder.\nEnerji Kaynağı: Elektrik, hidrolik veya pnömatik olabilir.\nSensörler: Görsel algılama, kuvvet kontrolü ve kalibrasyon sağlar.</string>
+
+    <string name="robotTurleri2">3. Endüstriyel Robot Türleri</string>
+    <string name="robotTurleri2Text">Eklemli Robotlar: Çok eklemli, kaynak ve montaj için uygundur.\nSCARA Robotlar: Yüksek hızlı, hassas yerleştirme işlemleri.\nDelta Robotlar: Hızlı sıralama ve paketleme için paralel kol tasarımı.\nKartezyen Robotlar: CNC makineleri ve 3D yazıcılar için doğrusal eksenli sistemler.\nİşbirlikçi Robotlar (Cobots): İnsanlarla güvenli çalışabilecek sınırlı kuvvetli sistemler.</string>
+
+    <string name="kullanimAlanlari">4. Kullanım Alanları</string>
+    <string name="kullanimAlanlariText">Kaynak: Nokta veya ark kaynağında yüksek hassasiyet.\nMontaj: Otomotiv ve elektronik sektöründe vida sıkma, yerleştirme işlemleri.\nMalzeme Taşıma: Sıralama, paketleme, paletleme.\nKalite Kontrol: Görsel sistemlerle kusur ve hizasızlık tespiti.\nBoyama ve Kaplama: Zehirli kimyasallara maruz kalmadan eşit uygulama.</string>
+
+    <string name="avantajlar">5. Avantajlar</string>
+    <string name="avantajlarText">Verimlilik: 7/24 çalışabilme.\nHassasiyet: Mikrometre düzeyinde işlemler.\nGüvenlik: Tehlikeli işlerde insan ihtiyacını azaltır.\nEkonomiklik: İlk yatırım yüksek olsa da uzun vadede tasarruf sağlar.</string>
+
+    <string name="zorluklar5">6. Zorluklar</string>
+    <string name="zorluklar5Text">Yüksek Kurulum Maliyeti\nProgramlama Zorluğu\nMevcut Sistemlere Entegrasyon\nNitelikli İşgücü İhtiyacı</string>
+
+    <string name="gelecekTrendler">7. Gelecek Trendler</string>
+    <string name="gelecekTrendlerText">YZ Entegrasyonu: Gerçek zamanlı karar verme.\nDijital İkizler: Önceden simülasyon yaparak risk azaltma.\nIoT ve Edge Computing: Yerel veri işleme ile daha hızlı yanıtlar.\nEsnek Üretim: Görev öğrenebilen robotlar.</string>
+
+    <string name="sonucText28">Endüstriyel robot kolları, modern üretimin bel kemiğidir. Çeşitlilikleri, hızı ve uyarlanabilirlikleri ile fabrikaların verimliliğini ve rekabet gücünü artırmaya devam edeceklerdir.</string>
+
+
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>

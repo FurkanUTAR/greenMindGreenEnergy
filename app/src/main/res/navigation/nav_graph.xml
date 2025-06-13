@@ -138,6 +138,15 @@
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_otonomAraclarIcinAlgoritmaFragment"
             app:destination="@id/otonomAraclarIcinAlgoritmaFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_veriToplamaVeAnaliziFragment"
+            app:destination="@id/veriToplamaVeAnaliziFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_yapayZekaTabanliRobotikFragment"
+            app:destination="@id/yapayZekaTabanliRobotikFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_endustriyelRobotikUygulamalariFragment"
+            app:destination="@id/endustriyelRobotikUygulamalariFragment" />
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
@@ -268,4 +277,17 @@
         android:name="com.example.greenmindgreenenergy.otonomAraclarIcinAlgoritmaFragment"
         android:label="fragment_otonom_araclar_icin_algoritma"
         tools:layout="@layout/fragment_otonom_araclar_icin_algoritma" />
+    <fragment
+        android:id="@+id/yapayZekaTabanliRobotikFragment"
+        android:name="com.example.greenmindgreenenergy.yapayZekaTabanliRobotikFragment"
+        android:label="yapayZekaTabanliRobotikFragment" />
+    <fragment
+        android:id="@+id/endustriyelRobotikUygulamalariFragment"
+        android:name="com.example.greenmindgreenenergy.endustriyelRobotikUygulamalariFragment"
+        android:label="fragment_endustriyel_robotik_uygulamalari"
+        tools:layout="@layout/fragment_endustriyel_robotik_uygulamalari" />
+    <fragment
+        android:id="@+id/veriToplamaVeAnaliziFragment"
+        android:name="com.example.greenmindgreenenergy.veriToplamaVeAnaliziFragment"
+        android:label="veriToplamaVeAnaliziFragment" />
 </navigation>
