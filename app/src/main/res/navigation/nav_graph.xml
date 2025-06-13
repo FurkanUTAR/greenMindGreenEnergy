@@ -156,6 +156,15 @@
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_robotikSistemlerinOptimizasyonuFragment"
             app:destination="@id/robotikSistemlerinOptimizasyonuFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_robotKollarininTasarimiVeKontroluFragment"
+            app:destination="@id/robotKollarininTasarimiVeKontroluFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_robotlarIcinIotEntegrasyonu"
+            app:destination="@id/robotlarIcinIotEntegrasyonu" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_suruHalindeCalisanRobotikSistemlerFragment"
+            app:destination="@id/suruHalindeCalisanRobotikSistemlerFragment" />
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
@@ -311,4 +320,16 @@
         android:id="@+id/robotikSistemlerinOptimizasyonuFragment"
         android:name="com.example.greenmindgreenenergy.robotikSistemlerinOptimizasyonuFragment"
         android:label="robotikSistemlerinOptimizasyonuFragment" />
+    <fragment
+        android:id="@+id/robotKollarininTasarimiVeKontroluFragment"
+        android:name="com.example.greenmindgreenenergy.robotKollarininTasarimiVeKontroluFragment"
+        android:label="robotKollarininTasarimiVeKontroluFragment" />
+    <fragment
+        android:id="@+id/robotlarIcinIotEntegrasyonu"
+        android:name="com.example.greenmindgreenenergy.robotlarIcinIotEntegrasyonu"
+        android:label="robotlarIcinIotEntegrasyonu" />
+    <fragment
+        android:id="@+id/suruHalindeCalisanRobotikSistemlerFragment"
+        android:name="com.example.greenmindgreenenergy.suruHalindeCalisanRobotikSistemlerFragment"
+        android:label="suruHalindeCalisanRobotikSistemlerFragment" />
 </navigation>

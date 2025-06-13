@@ -1285,5 +1285,105 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="sonucText31">Robotik sistem optimizasyonu; yazılım mühendisliği, mekanik tasarım ve yapay zekânın birleşimini gerektirir. Doğru optimize edilmiş bir robot, hem enerji verimli hem de çevreyle daha uyumlu olur. Teknolojinin gelişmesiyle birlikte, bu sistemler daha akıllı ve kendini optimize edebilir hale gelecektir.</string>
 
 
+    <string name="ozet9">Robot kolları, modern otomasyonun en önemli ve çok yönlü bileşenlerinden biridir. Tasarımı ve kontrolü; mekanik mühendislik, elektronik ve yazılım alanlarının bütünleşmesini gerektirir. Bu makalede, robot kollarının yapısal tasarımı, hareket denklemleri, tahrik sistemleri ve kontrol stratejileri ele alınmaktadır.</string>
+
+    <!-- 1. Giriş -->
+    <string name="giris9">1. Giriş</string>
+    <string name="giris9Text">Robot kolları, insan kolunun hareketlerini taklit ederek montaj, kaynak, taşıma gibi görevleri gerçekleştirir. Endüstriyel robotlardan cerrahi sistemlere kadar birçok alanda yüksek doğruluk ve programlanabilirlikleriyle vazgeçilmezdir. Etkili bir robot kolu tasarımı, hem mekanik yapı hem de hareket kontrolü prensiplerine hâkimiyeti gerektirir.</string>
+
+    <!-- 2. Robot Kollarının Mekanik Tasarımı -->
+    <string name="mekanikTasarimBaslik">2. Robot Kollarının Mekanik Tasarımı</string>
+    <string name="yapisalElemanlar">2.1 Yapısal Elemanlar</string>
+    <string name="yapisalElemanlarText">• Bağlantılar ve Eklemler: Robot kolunun iskeletini oluşturur. Malzeme olarak genellikle alüminyum veya karbon kompozit kullanılır.\n• Serbestlik Derecesi (DoF): Kolun yapabileceği bağımsız hareket sayısı.\n• Yük Taşıma Kapasitesi ve Uzanım Mesafesi: Kolun erişim kabiliyeti ve taşıyabileceği yük miktarı.</string>
+    <string name="tahrikSistemleri">2.2 Tahrik Sistemleri</string>
+    <string name="tahrikSistemleriText">• Servo Motorlar: Yüksek hassasiyetli konum kontrolü sağlar.\n• Stepper Motorlar: Sabit adımlarla döner.\n• Hidrolik/Pnömatik Aktüatörler: Yüksek kuvvet ve hızlı tepki için kullanılır.</string>
+    <string name="ucEfektorler">2.3 Uç Efektörler</string>
+    <string name="ucEfektorlerText">• Tutan Gripperlar\n• Kaynak torçları, vidalama uçları, kameralar gibi görev odaklı araçlar.</string>
+
+    <!-- 3. Hareket Kontrolü -->
+    <string name="hareketKontroluBaslik">3. Hareket Kontrolü</string>
+    <string name="kinematikHesaplamalar">3.1 Kinematik Hesaplamalar</string>
+    <string name="kinematikHesaplamalarText">• İleri Kinematik: Eklemlerin açılarından uç efektör konumu hesaplama.\n• Ters Kinematik: Belirli bir konuma ulaşmak için gerekli eklem açılarını belirler.</string>
+    <string name="yorungePlanlamasi">3.2 Yörünge Planlaması</string>
+    <string name="yorungePlanlamasiText">• Akıcı, verimli ve çarpışmasız hareket için yörüngeler tasarlanır.\n• Bézier eğrileri, kübik spline\'lar ve gerçek zamanlı kısıtlar kullanılır.</string>
+    <string name="kontrolSistemleri">3.3 Kontrol Sistemleri</string>
+    <string name="kontrolSistemleriText">• PID Denetleyici: Temel kapalı devre kontrol.\n• Model Predictive Control (MPC): Gelecekteki durumlara göre kontrol stratejisi oluşturur.\n• İmpedans/Admittans Kontrolü: Belirsiz ortamlarda güvenli etkileşim sağlar.</string>
+
+    <!-- 4. Sensörler ve Geri Bildirim -->
+    <string name="sensorlerGeriBildirim">4. Sensörler ve Geri Bildirim</string>
+    <string name="sensorlerGeriBildirimText">• Enkoderler: Eklemlerin pozisyonunu ölçer.\n• Kuvvet/Tork Sensörleri: Temas anında direnç algılar.\n• Görüntü İşleme: Nesne tanıma ve adaptif kontrol sağlar.</string>
+
+    <!-- 5. Uygulama Alanları -->
+    <string name="uygulamaAlanlari3">5. Uygulama Alanları</string>
+    <string name="uygulamaAlanlari3Text">• Endüstriyel Otomasyon: Kaynak, boyama, montaj.\n• Tıp: Robot destekli ameliyatlar.\n• Uzay: Sıfır yer çekiminde nesne yönetimi.\n• Eğitim ve Ar-Ge: Robotik prensiplerin öğretimi.</string>
+
+    <!-- 6. Zorluklar ve Yenilikler -->
+    <string name="zorluklarYenilikler">6. Zorluklar ve Yenilikler</string>
+    <string name="zorluklarYeniliklerText">• Yüksek Hassasiyet Gerekliliği\n• İnsan-Robot İş Birliğinde Güvenlik\n• Maliyet-Performans Dengesi\n• YZ ile Adaptif Kontrol</string>
+
+    <string name="sonucText32">Robot kolu tasarımı ve kontrolü; mekanik yapı, elektronik devreler ve denetim teorisinin bütünleştiği bir alandır. YZ ve nesnelerin interneti (IoT) gibi teknolojilerin gelişimiyle birlikte, bu sistemler daha akıllı, esnek ve iş birliğine açık hale gelmektedir.</string>
+
+    <string name="ozet10">Robotik sistemlerin Nesnelerin İnterneti (IoT) ile entegrasyonu, otomasyon ve akıllı sistemler alanında yeni bir çağ başlatmıştır. Gerçek zamanlı veri paylaşımı, uzaktan kontrol ve bulut tabanlı karar alma yetenekleri sayesinde IoT destekli robotlar daha verimli, çevik ve iş birliğine açık hale gelmektedir. Bu makalede, IoT teknolojilerinin robotik sistemlere nasıl entegre edildiği ve bunun yarattığı dönüşüm ele alınmaktadır.</string>
+
+    <!-- 1. Giriş -->
+    <string name="giris10">1. Giriş</string>
+    <string name="giris10Text">IoT, cihazların internet üzerinden birbirine bağlanarak veri paylaşımı yapabilmesini sağlar. Robotlar bu ağa dahil edildiğinde; diğer cihazlarla etkileşim kurabilir, sensör verilerini analiz edebilir, uzaktan yönetilebilir hale gelir. Böylece robotlar yalnızca bağımsız makineler olmaktan çıkar, dijital ekosistemin aktif bir parçası olurlar.</string>
+
+    <!-- 2. Temel Bileşenler -->
+    <string name="temelBilesenlerBaslik">2. IoT Destekli Robotların Temel Bileşenleri</string>
+    <string name="temelBilesenlerText">• Sensörler: Ortamdan veri toplar (ısı, ışık, gaz, konum vs.).\n• Bağlantı Modülleri: Wi-Fi, Bluetooth, Zigbee, LTE veya 5G ile haberleşme sağlar.\n• Mikrodenetleyiciler/İşlemciler: Yerel karar verme ve aktüatör-sensör kontrolü yapar.\n• Bulut Hizmetleri: Veri depolama, analiz ve uzaktan kontrol sağlar.\n• Paneller &amp; Arayüzler: Robot durumunu gösterir, uzaktan müdahale imkânı tanır.</string>
+
+    <!-- 3. Kazanılan Yetenekler -->
+    <string name="kazanilanYeteneklerBaslik">3. IoT ile Kazanılan Yetenekler</string>
+    <string name="kazanilanYeteneklerText">• Uzaktan İzleme ve Kontrol: Robotlar dünyanın her yerinden kontrol edilebilir.\n• Tahmine Dayalı Bakım: Arızalar oluşmadan önce sensör verileriyle tahmin edilir.\n• Filo Yönetimi: Birden fazla robot senkronize çalışabilir.\n• Ortam Farkındalığı: Diğer cihazlardan gelen verilere göre robot davranışı şekillenir.\n• Veri Odaklı Karar Alma: Robotlar, bulut analizlerine göre dinamik olarak hareket eder.</string>
+
+    <!-- 4. Uygulama Alanları -->
+    <string name="uygulamaAlanlari4Baslik">4. Uygulama Alanları</string>
+    <string name="uygulamaAlanlari4Text">• Akıllı Üretim: Üretim hatlarına anında uyum sağlayan robotlar.\n• Sağlık: Hasta verilerini alan ve buna göre hareket eden robotlar.\n• Lojistik: Depo robotlarının anlık konum ve stok güncellemeleri.\n• Tarım: Toprak ve hava koşullarına göre hareket eden dronlar ve tarla robotları.\n• Akıllı Evler: Sesli komutlar ve otomatik zamanlamayla çalışan ev robotları.</string>
+
+    <!-- 5. Zorluklar -->
+    <string name="zorluklar8Baslik">5. Zorluklar</string>
+    <string name="zorluklar8Text">• Siber Güvenlik Riskleri\n• Veri Aşırı Yükü\n• Gecikme Sorunları\n• Cihazlar Arası Uyumsuzluk</string>
+
+    <string name="sonucText33">IoT entegrasyonu, robotları bağlantılı ve çevreye duyarlı akıllı sistemler haline getirir. 5G, yapay zekâ ve edge computing gibi teknolojilerin desteğiyle, bu sistemler daha çevik, iş birliğine açık ve verimli hale gelecektir.</string>
+
+
+    <string name="ozet11">Sürü robotik, karıncalar, arılar ve termitler gibi sosyal böceklerin kolektif davranışlarından esinlenmiş yenilikçi bir robotik alanıdır. Amaç; birçok basit robotun birlikte çalışarak karmaşık görevleri gerçekleştirmesidir. Bu makalede sürü robotik sistemlerinin temel ilkeleri, algoritmaları, yapıları ve uygulama alanları ele alınmaktadır.</string>
+
+    <!-- 1. Introduction -->
+    <string name="giris11">1. Giriş</string>
+    <string name="giris11Text">Sürü robotik, merkeziyetçi sistemlerin aksine dağıtık yapı, ölçeklenebilirlik ve hata toleransı prensiplerine dayanır. Her robot, sadece çevresinden ve komşularından aldığı bilgiyle karar vererek kolektif davranışı oluşturur.</string>
+
+    <!-- 2. Basic Features -->
+    <string name="temelOzelliklerBaslik">2. Temel Özellikler</string>
+    <string name="temelOzelliklerText">• Ölçeklenebilirlik: Yeni robotlar eklendikçe sistemin performansı artar.\n• Dayanıklılık: Bazı robotlar bozulsa bile sistem çalışmaya devam eder.\n• Basitlik: Her robot düşük işlem gücüne ve sınırlı sensörlere sahiptir.\n• Yerel Etkileşim: Robotlar yalnızca yakın çevresiyle iletişim kurar.</string>
+
+    <!-- 3. Coordination Methods -->
+    <string name="koordinasyonYontemleriBaslik">3. Koordinasyon Yöntemleri</string>
+    <string name="davranisTabanliKontrol">3.1 Davranış Tabanlı Kontrol</string>
+    <string name="davranisTabanliKontrolText">Her robot \"çarpışmadan kaç,\" \"takip et,\" \"birleş\" gibi basit kuralları izler.</string>
+    <string name="sanalKuvvetler">3.2 Sanal Kuvvetler</string>
+    <string name="sanalKuvvetlerText">Robotlar, birbirlerine çekici ve itici kuvvetler uygulayarak formasyon oluşturur.</string>
+    <string name="stigmerji">3.3 Stigmerji</string>
+    <string name="stigmerjiText">Ortama bırakılan izler veya işaretler yoluyla iletişim kurulur (örneğin dijital feromonlar).</string>
+    <string name="uzlasiAlgoritmalari">3.4 Uzlaşı Algoritmaları</string>
+    <string name="uzlasiAlgoritmalariText">Oy birliği, ortalama alma gibi yöntemlerle toplu karar verilir.</string>
+
+    <!-- 4. Communication Models -->
+    <string name="iletisimModelleriBaslik">4. İletişim Modelleri</string>
+    <string name="iletisimModelleriText">• Doğrudan: Robotlar arası kablosuz veri alışverişi (Wi-Fi, Zigbee).\n• Dolaylı: Ortam üzerinden (renk, ışık, işaretler) bilgi paylaşımı.</string>
+
+    <!-- 5. Application Areas -->
+    <string name="uygulamaAlanlari5Baslik">5. Uygulama Alanları</string>
+    <string name="uygulamaAlanlari5Text">• Arama Kurtarma: Geniş alanların taranması ve kurbanların tespiti.\n• Çevre Gözlemi: Yangın, gaz kaçağı veya hava kalitesi ölçümleri.\n• Tarım: Sıralı ekim, hasat, toprak analizi.\n• Askeri: Keşif, mayın tespiti, koordineli operasyonlar.\n• İnşaat: Küçük robotların modüler yapı inşası.</string>
+
+    <!-- 6. Challenges -->
+    <string name="zorluklar9Baslik">6. Zorluklar</string>
+    <string name="zorluklar9Text">• Çakışma ve Engelleme\n• Enerji Yönetimi\n• Konum Belirleme ve Haritalama\n• İletişim Gecikmeleri\n• Güvenlik ve Manipülasyon Tehlikesi</string>
+
+    <string name="sonucText34">Sürü robotik sistemler, bireysel zekadan kolektif zekaya geçişin simgesidir. Doğadan ilham alan koordinasyon yöntemleri ve dağıtık kontrol yaklaşımlarıyla bu sistemler, otomasyonun geleceğinde önemli bir yer tutacaktır. Yapay zekâ ve haberleşme teknolojileriyle birleştiğinde, robotlar birlikte çalışmayı öğrenerek yeni çağın iş gücü haline gelebilir.</string>
+
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
