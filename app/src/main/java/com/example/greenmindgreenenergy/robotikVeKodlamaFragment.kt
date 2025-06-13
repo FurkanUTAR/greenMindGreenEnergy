@@ -5,8 +5,14 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import com.example.greenmindgreenenergy.databinding.FragmentRobotikVeKodlamaBinding
+import com.example.greenmindgreenenergy.databinding.FragmentSurdurulebilirEnerjiBinding
 
 class robotikVeKodlamaFragment : Fragment() {
+
+    private var _binding: FragmentRobotikVeKodlamaBinding? = null
+    private val binding get() = _binding!!
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,7 +23,32 @@ class robotikVeKodlamaFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_robotik_ve_kodlama, container, false)
+        _binding = FragmentRobotikVeKodlamaBinding.inflate(inflater, container, false)
+        val view = binding.root
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding.robotikKodlamayaGirisButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToRobotikKodlamayaGirisFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.mikrodenetleyiciyeGirisButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToMikrodenetleyiciyeGirisFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.elektronikBilesenlerVeSensorlerButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToElektronikBilesenlerVeSensorlerFragment()
+            findNavController().navigate(action)
+        }
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

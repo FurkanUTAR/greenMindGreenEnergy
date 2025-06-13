@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Project Objectives Öncesi Görsel -->
+        <ImageView
+            android:id="@+id/objectivesImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/mikrodenetleyiciye_giris" />
+
+        <!-- Başlık -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikrodenetleyiciyeGiris"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 1. Mikrodenetleyici Nedir? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikrodenetleyiciNedir"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikrodenetleyiciNedirText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 1.1. Mikrodenetleyicilerin Temel Özellikleri -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikrodenetleyiciTemelOzellikler"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mikrodenetleyiciTemelOzelliklerText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#000000" />
+
+        <!-- 2. Arduino’ya Giriş -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoGiris"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- 2.1. Arduino Nedir? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoNedir"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoNedirText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 2.2. Popüler Arduino Kartları -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/populerArduinoKartlari"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/populerArduinoKartlariText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 2.3. Arduino Kullanım Alanları -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoKullanimAlanlari"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoKullanimAlanlariText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 2.4. Örnek Kod – LED Yakıp Söndürme (Arduino) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoOrnekKod"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/arduinoOrnekKodText"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:layout_marginBottom="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#000000" />
+
+        <!-- 3. Raspberry Pi’ye Giriş -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiGiris"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- 3.1. Raspberry Pi Nedir? -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiNedir"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiNedirText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 3.2. Popüler Raspberry Pi Modelleri -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/populerRaspberryPiModelleri"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/populerRaspberryPiModelleriText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 3.3. Raspberry Pi Kullanım Alanları -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiKullanimAlanlari"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiKullanimAlanlariText"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="12dp" />
+
+        <!-- 3.4. Örnek Kod – LED Yakıp Söndürme (Python & Raspberry Pi) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiOrnekKod"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/raspberryPiOrnekKodText"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:typeface="monospace"
+            android:layout_marginBottom="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="8dp"
+            android:background="#000000" />
+
+        <!-- 4. Sonuç -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sonuc"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sonucText19"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp" />
+
+    </LinearLayout>
+</ScrollView>

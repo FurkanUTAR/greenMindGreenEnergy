@@ -110,7 +110,17 @@
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
         android:name="com.example.greenmindgreenenergy.robotikVeKodlamaFragment"
-        android:label="robotikVeKodlamaFragment" />
+        android:label="robotikVeKodlamaFragment" >
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_robotikKodlamayaGirisFragment"
+            app:destination="@id/robotikKodlamayaGirisFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_mikrodenetleyiciyeGirisFragment"
+            app:destination="@id/mikrodenetleyiciyeGirisFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_elektronikBilesenlerVeSensorlerFragment"
+            app:destination="@id/elektronikBilesenlerVeSensorlerFragment" />
+    </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
         android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiGirisFragment"
@@ -201,4 +211,17 @@
         android:id="@+id/geleceginEnerjiTeknolojileriFragment"
         android:name="com.example.greenmindgreenenergy.geleceginEnerjiTeknolojileriFragment"
         android:label="geleceginEnerjiTeknolojileriFragment" />
+    <fragment
+        android:id="@+id/robotikKodlamayaGirisFragment"
+        android:name="com.example.greenmindgreenenergy.robotikKodlamayaGirisFragment"
+        android:label="robotikKodlamayaGirisFragment" />
+    <fragment
+        android:id="@+id/mikrodenetleyiciyeGirisFragment"
+        android:name="com.example.greenmindgreenenergy.mikrodenetleyiciyeGirisFragment"
+        android:label="mikrodenetleyiciyeGirisFragment" />
+    <fragment
+        android:id="@+id/elektronikBilesenlerVeSensorlerFragment"
+        android:name="com.example.greenmindgreenenergy.elektronikBilesenlerVeSensorlerFragment"
+        android:label="fragment_elektronik_bilesenler_ve_sensorler"
+        tools:layout="@layout/fragment_elektronik_bilesenler_ve_sensorler" />
 </navigation>

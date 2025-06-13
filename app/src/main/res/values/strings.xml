@@ -925,5 +925,82 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
 \n\n\tİklim dirençli altyapılar</string>
     <string name="sonucText17">Geleceğin enerji teknolojileri yalnızca birer yenilik değil, aynı zamanda birer taahhüttür: daha temiz, daha bağlantılı ve karbon nötr bir dünya için. Bu teknolojilere bugünden yatırım yapmak, sürdürülebilir bir yarının temelini atmak demektir.</string>
 
+
+    <string name="robotNedir">1. Robot Nedir?</string>
+    <string name="robotNedirText">Robot, belirli görevleri yerine getirmek için programlanabilen, sensörler ve aktüatörler aracılığıyla çevresini algılayan ve hareket edebilen bir makinedir. Robotlar sanayi, sağlık, uzay araştırmaları ve ev otomasyonu gibi birçok alanda kullanılmaktadır.</string>
+    <string name="robotlarinEvrimi">1.1. Robotların Evrimi</string>
+    <string name="robotlarinEvrimiText">• İlk Mekanik Sistemler: İnsan hareketlerini taklit eden basit makineler (ör. Jacquard tezgahı).\n• Endüstriyel Robotlar (1950‑1970): Fabrikalarda üretim için kullanılan robot kolları.\n• Mobil Robotlar (1980‑1990): Çevresini algılayabilen ve hareket edebilen robotlar.\n• Yapay Zeka Robotları (2000‑Günümüz): Otonom kararlar alabilen ve öğrenebilen robot sistemleri.</string>
+    <string name="robotTurleri">1.2. Robot Türleri</string>
+    <string name="robotTurleriText">• Endüstriyel Robotlar\n• Otonom Mobil Robotlar (AMR)\n• İnsansı Robotlar\n• Tıbbi Robotlar\n• Sürü Robotlar</string>
+    <string name="robotikKodlamaninTemelleri">2. Robotik Kodlamanın Temelleri</string>
+    <string name="robotikKodlamaninTemelleriText">Robotik kodlama, robotlara görevlerini nasıl yerine getireceklerini öğretmeyi sağlar. Bu süreç; sensör verilerinin işlenmesi, karar alma mekanizmalarının oluşturulması ve motorların kontrolü gibi aşamaları kapsar.</string>
+    <string name="robotikSisteminTemelBilesenleri">2.1. Robotik Sistemin Temel Bileşenleri</string>
+    <string name="robotikSisteminTemelBilesenleriText">Sensörler: Çevreden veri toplayan bileşenler.\nMikrodenetleyiciler: Verileri işleyerek robotu yöneten elektronik kartlar.\nAktüatörler: Motor ve servo sistemler.\nGüç Kaynağı: Batarya veya güneş enerjisi.\nİletişim Modülleri: Robotlar arası veri paylaşımı için Wi‑Fi, Bluetooth gibi sistemler.</string>
+    <string name="ornekArduinoIleBasitRobotikKodlama">2.2. Örnek: Arduino ile Basit Robotik Kodlama</string>
+    <string name="ornekArduinoIleBasitRobotikKodlamaText">int sensorPin = A0;\nint motorPin = 9;\n\nvoid setup() {\n    pinMode(motorPin, OUTPUT);\n}\n\nvoid loop() {\n    int sensorValue = analogRead(sensorPin);\n    if (sensorValue > 500) {\n        digitalWrite(motorPin, HIGH);\n    } else {\n        digitalWrite(motorPin, LOW);\n    }\n    delay(100);\n}</string>
+    <string name="sonucText18">Robotik kodlama, programlama ve donanımı birleştirerek otomatik sistemler geliştirmeyi sağlar. Geleceğin teknolojileri arasında yer alan bu alan, mühendislik ve yapay zeka gibi kariyer yollarına hazırlık için önemlidir.</string>
+
+    <!-- Makale Başlığı -->
+
+    <!-- 1. Mikrodenetleyici Nedir? -->
+    <string name="mikrodenetleyiciNedir">1. Mikrodenetleyici Nedir?</string>
+    <string name="mikrodenetleyiciNedirText">Mikrodenetleyici, gömülü sistemlerde belirli görevleri yerine getirmek için tasarlanmış küçük ve bağımsız bir bilgisayar çipidir. Genel amaçlı bilgisayarlardan farklı olarak mikrodenetleyiciler, donanımı kontrol etmek, sensörlerden veri işlemek ve aktüatörleri yönetmek için optimize edilmiştir.\n\nMikrodenetleyiciler, robotik, otomasyon, IoT (Nesnelerin İnterneti) ve tüketici elektroniği gibi birçok alanda yaygın olarak kullanılır.</string>
+
+    <!-- 1.1. Mikrodenetleyicilerin Temel Özellikleri -->
+    <string name="mikrodenetleyiciTemelOzellikler">1.1. Mikrodenetleyicilerin Temel Özellikleri</string>
+    <string name="mikrodenetleyiciTemelOzelliklerText">• Kompakt ve Entegre: CPU, RAM, depolama ve giriş/çıkış birimlerini içerir.\n• Düşük Güç Tüketimi: Pil ile çalışabilen cihazlar için uygundur.\n• Gerçek Zamanlı İşleme: Komutları anında yerine getirir.\n• Sensör ve Aktüatör Kontrolü: Sensörlerden veri alıp motorları ve ekranları kontrol eder.\n• Ekonomik: Tam ölçekli bilgisayarlara kıyasla düşük maliyetlidir.</string>
+
+    <!-- 2. Arduino’ya Giriş -->
+    <string name="arduinoGiris">2. Arduino’ya Giriş</string>
+    <string name="arduinoNedir">2.1. Arduino Nedir?</string>
+    <string name="arduinoNedirText">Arduino, elektronik projeler geliştirmek için kullanılan açık kaynaklı bir mikrodenetleyici platformudur. Arduino, donanım (Arduino kartları) ve yazılım (Arduino IDE) bileşenlerinden oluşur.</string>
+    <string name="populerArduinoKartlari">2.2. Popüler Arduino Kartları</string>
+    <string name="populerArduinoKartlariText">• Arduino Uno: Başlangıç için en yaygın kullanılan modeldir.\n• Arduino Mega: Daha fazla giriş/çıkış pinine sahiptir.\n• Arduino Nano: Küçük boyutlu projeler için idealdir.\n• Arduino Due: 32-bit işlemciye sahip yüksek performanslı bir modeldir.</string>
+    <string name="arduinoKullanimAlanlari">2.3. Arduino Kullanım Alanları</string>
+    <string name="arduinoKullanimAlanlariText">• Akıllı ev sistemleri.\n• Robotik projeler.\n• Hava durumu istasyonları.\n• IoT uygulamaları.</string>
+    <string name="arduinoOrnekKod">2.4. Örnek Kod – LED Yakıp Söndürme (Arduino)</string>
+    <string name="arduinoOrnekKodText">int led = 13;\n\nvoid setup() {\n    pinMode(led, OUTPUT);\n}\n\nvoid loop() {\n    digitalWrite(led, HIGH);\n    delay(1000);\n    digitalWrite(led, LOW);\n    delay(1000);\n}</string>
+
+    <!-- 3. Raspberry Pi’ye Giriş -->
+    <string name="raspberryPiGiris">3. Raspberry Pi’ye Giriş</string>
+    <string name="raspberryPiNedir">3.1. Raspberry Pi Nedir?</string>
+    <string name="raspberryPiNedirText">Raspberry Pi, öğrenme, kodlama ve elektronik projeleri için geliştirilmiş, uygun maliyetli ve küçük boyutlu bir tek kartlı bilgisayardır.</string>
+    <string name="populerRaspberryPiModelleri">3.2. Popüler Raspberry Pi Modelleri</string>
+    <string name="populerRaspberryPiModelleriText">• Raspberry Pi 4 Model B: Güçlü işlemci ve 8GB’a kadar RAM desteği.\n• Raspberry Pi 3 Model B+: Daha eski, ancak yaygın kullanılan bir model.\n• Raspberry Pi Zero: Küçük ve düşük maliyetli bir versiyon.</string>
+    <string name="raspberryPiKullanimAlanlari">3.3. Raspberry Pi Kullanım Alanları</string>
+    <string name="raspberryPiKullanimAlanlariText">• Ev medya merkezleri.\n• Yapay zeka ve makine öğrenimi projeleri.\n• Web sunucuları.\n• IoT uygulamaları.</string>
+    <string name="raspberryPiOrnekKod">3.4. Örnek Kod – LED Yakıp Söndürme (Python &amp; Raspberry Pi)</string>
+    <string name="raspberryPiOrnekKodText">import RPi.GPIO as GPIO\nimport time\n\nled = 18\nGPIO.setmode(GPIO.BCM)\nGPIO.setup(led, GPIO.OUT)\n\nwhile True:\n    GPIO.output(led, GPIO.HIGH)\n    time.sleep(1)\n    GPIO.output(led, GPIO.LOW)\n    time.sleep(1)</string>
+
+    <!-- 4. Sonuç -->
+    <string name="sonucText19">Arduino ve Raspberry Pi, mikrodenetleyici ve gömülü sistemler dünyasında devrim yaratmıştır. Arduino, donanım kontrolü için idealken, Raspberry Pi daha karmaşık hesaplama işlemleri için uygundur. Bu cihazları öğrenmek, robotik ve otomasyon projeleri geliştirmek isteyenler için büyük bir avantaj sağlar.</string>
+
+    <!-- 1. Giriş -->
+    <string name="elektronikGiris">1. Elektronik Bileşenler ve Sensörlere Giriş</string>
+    <string name="elektronikGirisText">Elektronik, modern teknolojinin temelidir ve akıllı cihazların, otomasyon sistemlerinin ve robotların geliştirilmesini sağlar. Temel elektronik bileşenleri ve sensörleri anlamak, işlevsel devreler ve robotik sistemler tasarlamak için önemlidir.</string>
+
+    <!-- 2. Temel Bileşenler -->
+    <string name="temelBilesenler">2. Temel Elektronik Bileşenler ve Görevleri</string>
+    <string name="direncler">2.1. Dirençler</string>
+    <string name="direnclerText">Elektrik akımını sınırlayan bileşenlerdir.\n\n• Birim: Ohm (Ω)\n• Kullanım Alanları: LED parlaklık kontrolü, voltaj bölücüler.</string>
+    <string name="kapasitorler">2.2. Kapasitörler</string>
+    <string name="kapasitorlerText">Elektrik enerjisini geçici olarak depolar ve gerektiğinde boşaltır.\n\n• Kullanım Alanları: Güç kaynağı stabilizasyonu, filtreleme devreleri.</string>
+
+    <!-- 3. Sensörlere Giriş -->
+    <string name="sensorlereGiris">3. Sensörlere Giriş</string>
+    <string name="sensorTurleri">3.1. Sensör Türleri ve Kullanım Alanları</string>
+    <string name="sensorTurleriText">• Sıcaklık Sensörleri: Akıllı termostatlar.\n• Işık Sensörleri: Otomatik aydınlatma sistemleri.\n• Hareket Sensörleri: Güvenlik sistemleri.\n• Mesafe Sensörleri: Robotik engel algılama.\n• Gaz Sensörleri: Hava kalitesi izleme.</string>
+
+    <!-- 4. Örnek: Ultrasonik Sensör -->
+    <string name="ultrasonikSensorOrnek">4. Sensörlerle Çalışma: Örnek – Arduino ile Ultrasonik Sensör Kullanımı</string>
+    <string name="devreKurulumu">4.1. Devre Kurulumu</string>
+    <string name="devreKurulumuText">• Arduino Uno\n• HC-SR04 Ultrasonik Sensör\n• Breadboard, Jumper Kablolar</string>
+    <string name="ornekKod">4.2. Örnek Kod</string>
+    <string name="ornekKodText">const int trigPin = 9;\nconst int echoPin = 10;\n\nvoid setup() {\n    pinMode(trigPin, OUTPUT);\n    pinMode(echoPin, INPUT);\n    Serial.begin(9600);\n}\n\nvoid loop() {\n    digitalWrite(trigPin, LOW);\n    delayMicroseconds(2);\n    digitalWrite(trigPin, HIGH);\n    delayMicroseconds(10);\n    digitalWrite(trigPin, LOW);\n    long duration = pulseIn(echoPin, HIGH);\n    long distance = duration * 0.034 / 2;\n    Serial.print(\"Mesafe: \");\n    Serial.println(distance);\n    delay(100);\n}</string>
+
+    <!-- 5. Sonuç -->
+    <string name="sonucText20">Elektronik bileşenleri ve sensörleri anlamak, akıllı sistemler tasarlamak için kritik öneme sahiptir. Bu bilgiler, IoT ve robotik gibi alanlarda inovasyon için temel sağlar.</string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
