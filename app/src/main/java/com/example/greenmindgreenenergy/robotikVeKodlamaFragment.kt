@@ -90,6 +90,21 @@ class robotikVeKodlamaFragment : Fragment() {
             val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToEndustriyelRobotikUygulamalariFragment()
             findNavController().navigate(action)
         }
+
+        binding.rosIleCalismaButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToRosileCalismakFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.goruntuIslemeveRobotikButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToGoruntuIslemeVeRobotikFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.robotikSistemlerinOptimizasyonuButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToRobotikSistemlerinOptimizasyonuFragment()
+            findNavController().navigate(action)
+        }
     }
 
     override fun onDestroyView() {

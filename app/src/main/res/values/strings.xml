@@ -1201,7 +1201,88 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
 
     <string name="sonucText28">Endüstriyel robot kolları, modern üretimin bel kemiğidir. Çeşitlilikleri, hızı ve uyarlanabilirlikleri ile fabrikaların verimliliğini ve rekabet gücünü artırmaya devam edeceklerdir.</string>
 
+    <string name="ozet6">Robot İşletim Sistemi (ROS), robot yazılımları geliştirmek için esnek ve modüler bir platform sunar. Gelişmiş robot projelerinde yaygın olarak kullanılan ROS, donanım soyutlaması, iletişim altyapısı ve araç seti ile robotların daha hızlı ve verimli geliştirilmesini sağlar. Bu makalede ROS\'un temel bileşenleri, mimarisi ve uygulama alanları ele alınmaktadır.</string>
 
+    <string name="giris6">1. Giriş</string>
+    <string name="giris6Text">Robotik sistemler karmaşıklaştıkça, modüler ve standartlaştırılmış bir yazılım altyapısına olan ihtiyaç artmıştır. ROS, geliştiricilerin yeniden kullanılabilir yazılım bileşenleriyle projeler üretmesine olanak tanır. Aynı zamanda açık kaynak kodlu yapısıyla iş birliğini ve inovasyonu destekler.</string>
+
+    <string name="rosNedir">2. ROS Nedir?</string>
+    <string name="rosNedirText">ROS klasik anlamda bir işletim sistemi değildir. Daha çok bir meta işletim sistemi olarak:\n\nDonanım soyutlaması\nDüşük seviyeli cihaz kontrolü\nİşlemler arası mesajlaşma\nPaket yönetimi gibi hizmetler sunar.\n\nGenellikle Ubuntu Linux üzerinde çalışır ve C++ ile Python dillerini destekler.</string>
+
+    <string name="temelBilesenler2">3. ROS\'un Temel Bileşenleri</string>
+    <string name="temelBilesenler2Text">Node (Düğüm): Hesaplama yapan bağımsız işlem birimi (örneğin: kamera verisi işleme).\nTopic (Kanal): Düğümler arası veri alışverişi için yayın-abone sistemi.\nService (Servis): İstek-yanıt tabanlı iletişim.\nMessage (Mesaj): Veri yapıları (örneğin: sensor_msgs/Image).\nMaster: Tüm düğümlerin birbirini bulmasını sağlar.\nLaunch File: XML yapısında, birden fazla düğümü aynı anda başlatır.</string>
+
+    <string name="araclarArayuzler">4. ROS Araçları ve Arayüzleri</string>
+    <string name="araclarArayuzlerText">RViz: Sensör verisi ve harita görselleştirme.\nGazebo: Gerçekçi fizik tabanlı simülasyon ortamı.\nrqt_graph: Düğümler arası veri akış grafiğini gösterir.\nrosbag: Mesajların kayıt ve tekrar oynatımı için kullanılır.</string>
+
+    <string name="gercekUygulamalar">5. Gerçek Uygulamalar</string>
+    <string name="gercekUygulamalarText">Otonom Araçlar: SLAM, rota planlama ve engel algılama.\nİHA\'lar: Gerçek zamanlı kontrol ve sensör verisi işleme.\nHizmet Robotları: Depo, hastane ve müşteri hizmetleri uygulamaları.\nEğitim: Öğrencilere robot programlama ve simülasyon eğitimi.</string>
+
+    <string name="avantajlar2">6. Avantajlar</string>
+    <string name="avantajlar2Text">Modüler ve yeniden kullanılabilir yapı\nGeniş açık kaynak topluluğu\nYZ ve ML ile kolay entegrasyon\nÇok çeşitli robotlara destek</string>
+
+    <string name="zorluklar6">7. Zorluklar</string>
+    <string name="zorluklar6Text">Zor öğrenme eğrisi\nGerçek zamanlılık eksikliği (ROS 1)\nBağımlılık yönetimi zorluğu\nLinux bilgisi gerekliliği</string>
+
+    <string name="not">Not: Yeni nesil ROS 2, bu sınırlamaların çoğunu aşarak daha güçlü ve platformlar arası bir yapı sunmaktadır.</string>
+
+    <string name="sonucText29">ROS, hem akademik hem de endüstriyel robot projelerinde standart haline gelmiştir. Mimarisi ve işleyiş prensiplerini öğrenmek, modern robotik projelerin temel taşıdır. ROS 2\'nin sunduğu yeniliklerle birlikte, robot geliştirme süreci daha güvenilir, esnek ve erişilebilir hale gelmektedir.</string>
+
+
+    <string name="ozet7">Robotik sistemlerde görüntü işleme teknolojisinin entegrasyonu, robotların çevreyi algılama, analiz etme ve buna göre hareket etme becerilerini büyük ölçüde artırmıştır. Kameralar ve görsel sensörler sayesinde robotlar nesne tanıma, çizgi takip, engel algılama gibi görevleri başarıyla gerçekleştirebilmektedir. Bu makalede görüntü işlemenin robotik sistemlerdeki rolü ve sağladığı katkılar detaylı olarak ele alınmaktadır.</string>
+
+    <string name="giris7">1. Giriş</string>
+    <string name="giris7Text">Geleneksel robotlarda algılama, genellikle basit mesafe sensörleriyle sınırlıydı. Ancak bilgisayarla görme ve görüntü işleme teknolojilerinin gelişmesiyle birlikte robotlar artık çevrelerini \"görebiliyor\" ve anlayabiliyor. Bu özellik, hassasiyet, karar verme ve uyum gerektiren görevler için kritik öneme sahiptir.</string>
+
+    <string name="goruntuIslemeNedir">2. Robotikte Görüntü İşleme Nedir?</string>
+    <string name="goruntuIslemeNedirText">Görüntü işleme, kameralar tarafından alınan görsel verilerin analiz edilip robot tarafından anlaşılabilir forma dönüştürülmesidir. Bu sayede robot:\n\nNesne algılama ve takip\nRenk ve şekil tanıma\nYüz ve jest tanıma\nDerinlik tahmini\nÇevre haritalama gibi görevleri yerine getirir.</string>
+
+    <string name="temelTeknikler2">3. Temel Teknikler ve Algoritmalar</string>
+    <string name="temelTeknikler2Text">Kenar Tespiti (Canny, Sobel): Nesnelerin sınırlarını belirler.\nKontur Tespiti: Şekil ve dış hat analizinde kullanılır.\nŞablon Eşleme: Görüntüde belli desenleri bulur.\nHough Dönüşümü: Doğru ve daire gibi geometrik yapıları tanımlar.\nCNN (Convolutional Neural Networks): Derin öğrenme ile nesne tanıma.\nOptik Akış: Görüntüdeki hareketi tahmin eder.</string>
+
+    <string name="uygulamalar2">4. Robot Kontrolünde Uygulamalar</string>
+    <string name="uygulamalar2Text">Otonom Gezinme: Görsel verilerle yol takibi ve engel algılama.\nPick and Place Robotlar: Görüntü ile nesne konumunu belirleyip alır.\nÇizgi İzleyen Robotlar: Kontrast çizgileri izleyerek yön bulur.\nİnsan-Robot Etkileşimi (HRI): Jest ve yüz ifadelerine yanıt verir.\nTarımsal Robotik: Görsel analizle olgunluk, hastalık tespiti yapar.</string>
+
+    <string name="araclarKutuphaneler">5. Kullanılan Araçlar ve Kütüphaneler</string>
+    <string name="araclarKutuphanelerText">OpenCV: Gerçek zamanlı görüntü işleme için açık kaynaklı kütüphane.\nTensorFlow/Keras: Görüntü tanıma modelleri için ML altyapısı.\nROS: Görüntü işleme düğümlerinin robot yazılımlarına entegrasyonu.\nYOLO, SSD, Faster R-CNN: Hızlı nesne tanıma algoritmaları.</string>
+
+    <string name="zorluklar7">6. Zorluklar</string>
+    <string name="zorluklar7Text">Işık koşullarına duyarlılık\nYüksek işlemci ihtiyacı\nKamera kalibrasyonu\nGürültü ve bulanıklık\nGerçek zamanlılık ihtiyacı</string>
+
+    <string name="sonucText30">Görüntü işleme, robotlara görsel zekâ kazandırır. Kamera ve algoritmalarla donatılan robotlar, çevresini daha iyi algılayarak akıllı kararlar alabilir. Yapay zekâ ve uç işlem gücünün artmasıyla birlikte, görüntü işleme robotların en güçlü araçlarından biri haline gelmektedir.</string>
+
+
+    <!-- 1. Giriş -->
+    <string name="giris8">1. Giriş</string>
+    <string name="giris8Text">Optimizasyon, verimli robotik sistemlerin temelidir. Fabrika otomasyonundan otonom araçlara kadar, performans darboğazları hem yazılımda hem de donanımda ortaya çıkabilir. Optimize edilmiş bir sistem, sadece daha hızlı çalışmakla kalmaz, aynı zamanda daha az enerji tüketir ve daha güvenilir hale gelir.</string>
+
+    <!-- 2. Yazılım Optimizasyonu -->
+    <string name="yazilimOptimizasyonuBaslik">2. Yazılım Optimizasyonu</string>
+
+    <!-- 2.1 Kod Verimliliği -->
+    <string name="kodVerimliligi">2.1 Kod Verimliliği</string>
+    <string name="kodVerimliligiText">• Hafif, modüler ve az bağımlılığa sahip kod yazımı\n• Performans kritik işlemler için C++ gibi derlenen diller\n• Döngülerin, algoritmaların ve bellek yönetiminin optimize edilmesi</string>
+
+    <!-- 2.2 Algoritmik Optimizasyon -->
+    <string name="algoritmikOptimizasyon">2.2 Algoritmik Optimizasyon</string>
+    <string name="algoritmikOptimizasyonText">• Etkin yol planlama algoritmaları (A*, RRT)\n• PID kontrolcülerde doğru kazanç ayarı\n• Kalman filtresi ve sensör füzyonu ile konum tahmini</string>
+
+    <!-- 2.3 Paralel İşleme -->
+    <string name="paralelIsleme">2.3 Paralel ve Gerçek Zamanlı İşleme</string>
+    <string name="paralelIslemeText">• Sensör ve motor geri bildirimleri için çoklu iş parçacığı\n• Gerçek zamanlı işletim sistemleri veya ROS 2\n• Görüntü işleme görevlerinde GPU hızlandırma</string>
+
+    <!-- 3. Donanım Optimizasyonu -->
+    <string name="donanimOptimizasyonuBaslik">3. Donanım Optimizasyonu</string>
+
+    <!-- 3.1 Bileşen Seçimi -->
+    <string name="bilesenSecimi">3.1 Bileşen Seçimi</string>
+    <string name="bilesenSecimiText">• Düşük enerji tüketimi için fırçasız DC motorlar\n• Mobil sistemlerde düşük güçlü sensörler\n• Enerji verimli mikrodenetleyiciler</string>
+
+    <!-- 3.2 Mekanik Tasarım -->
+    <string name="mekanikTasarim">3.2 Mekanik Tasarım</string>
+    <string name="mekanikTasarimText">• Hafif malzemeler (karbon fiber, alüminyum)\n• Verimli eklem yapılarıyla sürtünmenin azaltılması\n• Dinamik denge için ağırlık dağılımı optimizasyonu</string>
+
+    <string name="sonucText31">Robotik sistem optimizasyonu; yazılım mühendisliği, mekanik tasarım ve yapay zekânın birleşimini gerektirir. Doğru optimize edilmiş bir robot, hem enerji verimli hem de çevreyle daha uyumlu olur. Teknolojinin gelişmesiyle birlikte, bu sistemler daha akıllı ve kendini optimize edebilir hale gelecektir.</string>
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
