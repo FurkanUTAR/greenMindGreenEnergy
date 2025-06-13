@@ -120,6 +120,16 @@ class robotikVeKodlamaFragment : Fragment() {
             val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToSuruHalindeCalisanRobotikSistemlerFragment()
             findNavController().navigate(action)
         }
+
+        binding.hibritRobotikSistemlerButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToHibritRobotikSistemlerFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.geleceginRobotikTeknolojileriButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToGeleceginRobotikTeknolojileriFragment()
+            findNavController().navigate(action)
+        }
     }
 
     override fun onDestroyView() {

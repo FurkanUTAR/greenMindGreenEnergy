@@ -1384,6 +1384,65 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="sonucText34">Sürü robotik sistemler, bireysel zekadan kolektif zekaya geçişin simgesidir. Doğadan ilham alan koordinasyon yöntemleri ve dağıtık kontrol yaklaşımlarıyla bu sistemler, otomasyonun geleceğinde önemli bir yer tutacaktır. Yapay zekâ ve haberleşme teknolojileriyle birleştiğinde, robotlar birlikte çalışmayı öğrenerek yeni çağın iş gücü haline gelebilir.</string>
 
 
+    <string name="ozet12">Hibrit robotik sistemler, elektrik, güneş, yakıt hücresi ve içten yanmalı motorlar gibi birden fazla enerji kaynağını bir arada kullanarak çalışabilen robotlardır. Bu yaklaşım; daha uzun görev süresi, daha fazla güç ve sürdürülebilirlik sağlar. Bu makalede, hibrit robotların yapısı, enerji yönetimi stratejileri ve kullanım alanları ele alınmaktadır.</string>
+
+    <!-- 1. Introduction -->
+    <string name="giris12">1. Giriş</string>
+    <string name="giris12Text">Tek enerji kaynağıyla çalışan robotlar, özellikle uzun süreli veya dış mekân görevlerinde sınırlamalarla karşılaşabilir. Hibrit sistemler bu engeli aşarak, farklı enerji kaynaklarını entegre eder ve görev süresini uzatır, çevreye daha iyi uyum sağlar.</string>
+
+    <!-- 2. Energy Sources -->
+    <string name="enerjiKaynaklariBaslik">2. Kullanılan Enerji Kaynakları</string>
+    <string name="enerjiKaynaklariText">• Elektrik (Batarya): Sessiz, temiz ve iç mekân için idealdir.\n• Güneş Enerjisi: Dış ortamda sürdürülebilir enerji sağlar.\n• Hidrojen Yakıt Hücresi: Yüksek verimli, hızlı dolum avantajına sahip çevre dostu güç kaynağıdır.\n• İçten Yanmalı Motor (ICE): Zorlu arazide yüksek tork ve dayanıklılık sunar.\n• Kinetik Enerji Geri Kazanımı (KERS): Hareket esnasında enerji geri kazanımı sağlar.</string>
+
+    <!-- 3. Energy Management -->
+    <string name="enerjiYonetimiBaslik">3. Enerji Yönetimi ve Geçiş Sistemi</string>
+    <string name="enerjiYonetimiText">Akıllı Kontrolcüler enerji geçişini şu kriterlere göre yönetir:\n• Batarya seviyesi\n• Güneş ışığı durumu\n• Görev tipi ve güç ihtiyacı\n• Çevresel koşullar\n\nEnerji Toplama Modülleri bekleme anlarında pasif şarj sağlar.</string>
+
+    <!-- 4. System Architecture -->
+    <string name="sistemMimarisiBaslik">4. Hibrit Sistem Mimarisi</string>
+    <string name="sistemMimarisiText">• Modüler Enerji Birimleri: Her kaynak ayrı bir modül olarak entegre edilir.\n• Enerji Dağıtım Kartı: Hangi motor, sensör ya da işlemciye ne zaman güç verileceğini yönetir.\n• Soğutma Sistemleri: Aşırı ısınmayı ve enerji kaybını önler.</string>
+
+    <!-- 5. Application Areas -->
+    <string name="uygulamaAlanlari6Baslik">5. Kullanım Alanları</string>
+    <string name="uygulamaAlanlari6Text">• Afet Robotları: Enkaz altında güneş ve yakıt ile bataryayı destekler.\n• Tarım Robotları: Gündüz güneş, gece batarya veya yakıt ile çalışır.\n• Keşif Araçları: Mars veya okyanus robotları nükleer, güneş ve batarya kombinasyonu kullanır.\n• Askeri Robotlar: ICE ile uzun menzil, elektrik ile sessiz modda çalışır.\n• Lojistik Robotları: Değiştirilebilir hibrit güç modülleriyle şehir içi hizmet sağlar.</string>
+
+    <!-- 6. Advantages -->
+    <string name="avantajlar3Baslik">6. Avantajlar</string>
+    <string name="avantajlar3Text">• Daha Uzun Görev Süresi\n• Ortam Uyum Yeteneği\n• Yedek Güç Kaynağı\n• Daha Az Kesinti\n• Sürdürülebilirlik</string>
+
+    <!-- 7. Challenges -->
+    <string name="zorluklar10Baslik">7. Zorluklar</string>
+    <string name="zorluklar10Text">• Ağırlık ve Yer Sorunu\n• Karmaşık Enerji Yönetimi\n• Bakım Zorluğu\n• Maliyet ve Entegrasyon</string>
+
+    <string name="sonucText35">Hibrit robotik sistemler, geleceğin otonom makinelerinin temelini oluşturmaktadır. Çoklu enerji kaynakları ile çalışma yeteneği, onları daha dayanıklı, çevre dostu ve esnek hale getirir. Enerji teknolojilerindeki ilerlemelerle birlikte hibrit robotlar çok daha yaygın ve etkili bir kullanım alanına kavuşacaktır.</string>
+
+    <string name="ozet13">Geleneksel sert yapılı robotların yerini, doğadan ilham alan esnek ve akıllı sistemler almaktadır. Yumuşak robotik ve biyomimetik sistemler, canlıların hareket, algı ve öğrenme kabiliyetlerini taklit ederek robotların çevreyle daha uyumlu hale gelmesini sağlar. Bu makalede, bu teknolojilerin yapısı, işleyişi ve kullanım alanları ele alınmaktadır.</string>
+
+    <!-- 1. Introduction -->
+    <string name="giris13">1. Giriş</string>
+    <string name="giris13Text">Geleneksel robotlar güçlüdür ancak esnekliğe ihtiyaç duyulan alanlarda sınırlıdır. Yumuşak robotlar ve biyomimetik tasarımlar, doğadaki canlılardan ilham alarak daha akıllı ve çevik robotlar yaratılmasını sağlar.</string>
+
+    <!-- 2. Soft Robotics -->
+    <string name="yumusakRobotikBaslik">2. Yumuşak Robotik Nedir?</string>
+    <string name="yumusakRobotikText">Yumuşak robotlar; esnek ve şekil değiştirebilen malzemelerle üretilir:\n\n• Silikon, elastomerler, hidrojel\n• Pnömatik aktüatörler ve yapay kaslar\n• Esnek sensörler\n\nBu robotlar sıkışabilir, bükülebilir, esneyebilir. Özellikle hassas nesne taşıma veya dar alanlarda gezinme için idealdir.</string>
+
+    <!-- 3. Biomimetic Systems -->
+    <string name="biyomimetikBaslik">3. Biyomimetik Sistemler Nedir?</string>
+    <string name="biyomimetikText">Biyomimetik robotlar, doğadaki canlıların şekil ve işlevini taklit eder:\n\n• Balık gibi yüzen denizaltı robotları\n• Gecko gibi tırmanan robotlar\n• Ahtapot kolu gibi esnek uzuvlar\n• Böcek benzeri mikro robotlar\n\nBu tasarımlar biyomekanik, sinirsel kontrol ve evrimsel verimlilikten faydalanır.</string>
+
+    <!-- 4. Future Technologies -->
+    <string name="gelecekTeknolojilerBaslik">4. Geleceğin Robot Teknolojileri</string>
+    <string name="gelecekTeknolojilerText">• Yumuşak Sensörler ve Deriler\n• Kendini Onaran Malzemeler\n• Beyin Benzeri İşlemciler (Neuromorphic)\n• Enerji Toplayan Malzemeler\n• Yapay Zekâ ile Uyarlanabilirlik</string>
+
+    <!-- 5. Application Areas -->
+    <string name="uygulamaAlanlari7Baslik">5. Uygulama Alanları</string>
+    <string name="uygulamaAlanlari7Text">• Tıp: Ameliyat robotları, yapay uzuvlar, rehabilitasyon cihazları.\n• Arama-Kurtarma: Enkazda dolaşabilen esnek robotlar.\n• Tarım: Hassas meyve toplama.\n• Uzay: Hafif ve esnek yapılar.\n• Giyilebilir Robotlar: Kasları taklit eden dış iskeletler.</string>
+
+    <!-- 6. Challenges -->
+    <string name="zorluklar11Baslik">6. Zorluklar</string>
+    <string name="zorluklar11Text">• Malzeme Dayanıklılığı\n• Esnek yapının kontrolü\n• Elektronikle uyum\n• Enerji ve miniaturizasyon</string>
+
+    <string name="sonucText36">Robotik sistemlerin geleceği, doğa ile mühendisliğin birleşiminde yatmaktadır. Yumuşak ve biyomimetik robotlar; çevikliğin, verimliliğin ve insanla uyumun yeni anahtarı olacaktır. Gelişen yapay zekâ ve malzeme teknolojileriyle birlikte, bu sistemler günlük yaşamda önemli roller üstlenecektir.</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

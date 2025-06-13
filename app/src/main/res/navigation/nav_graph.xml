@@ -165,6 +165,12 @@
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_suruHalindeCalisanRobotikSistemlerFragment"
             app:destination="@id/suruHalindeCalisanRobotikSistemlerFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_hibritRobotikSistemlerFragment"
+            app:destination="@id/hibritRobotikSistemlerFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_geleceginRobotikTeknolojileriFragment"
+            app:destination="@id/geleceginRobotikTeknolojileriFragment" />
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
@@ -332,4 +338,12 @@
         android:id="@+id/suruHalindeCalisanRobotikSistemlerFragment"
         android:name="com.example.greenmindgreenenergy.suruHalindeCalisanRobotikSistemlerFragment"
         android:label="suruHalindeCalisanRobotikSistemlerFragment" />
+    <fragment
+        android:id="@+id/hibritRobotikSistemlerFragment"
+        android:name="com.example.greenmindgreenenergy.hibritRobotikSistemlerFragment"
+        android:label="hibritRobotikSistemlerFragment" />
+    <fragment
+        android:id="@+id/geleceginRobotikTeknolojileriFragment"
+        android:name="com.example.greenmindgreenenergy.geleceginRobotikTeknolojileriFragment"
+        android:label="geleceginRobotikTeknolojileriFragment" />
 </navigation>
