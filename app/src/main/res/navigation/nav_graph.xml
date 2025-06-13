@@ -120,6 +120,15 @@
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_elektronikBilesenlerVeSensorlerFragment"
             app:destination="@id/elektronikBilesenlerVeSensorlerFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_arduinoileKodlamaFragment"
+            app:destination="@id/arduinoileKodlamaFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_motorKontrolSistemleriFragment"
+            app:destination="@id/motorKontrolSistemleriFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_sensorEntegrasyonuFragment"
+            app:destination="@id/sensorEntegrasyonuFragment" />
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
@@ -224,4 +233,16 @@
         android:name="com.example.greenmindgreenenergy.elektronikBilesenlerVeSensorlerFragment"
         android:label="fragment_elektronik_bilesenler_ve_sensorler"
         tools:layout="@layout/fragment_elektronik_bilesenler_ve_sensorler" />
+    <fragment
+        android:id="@+id/arduinoileKodlamaFragment"
+        android:name="com.example.greenmindgreenenergy.arduinoileKodlamaFragment"
+        android:label="arduinoileKodlamaFragment" />
+    <fragment
+        android:id="@+id/motorKontrolSistemleriFragment"
+        android:name="com.example.greenmindgreenenergy.motorKontrolSistemleriFragment"
+        android:label="motorKontrolSistemleriFragment" />
+    <fragment
+        android:id="@+id/sensorEntegrasyonuFragment"
+        android:name="com.example.greenmindgreenenergy.sensorEntegrasyonuFragment"
+        android:label="sensorEntegrasyonuFragment" />
 </navigation>

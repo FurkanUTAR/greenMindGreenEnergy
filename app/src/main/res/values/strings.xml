@@ -1001,6 +1001,87 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <!-- 5. Sonuç -->
     <string name="sonucText20">Elektronik bileşenleri ve sensörleri anlamak, akıllı sistemler tasarlamak için kritik öneme sahiptir. Bu bilgiler, IoT ve robotik gibi alanlarda inovasyon için temel sağlar.</string>
 
+    <!-- 1. Giriş -->
+    <string name="arduinoGiris2">1. Arduino\'ya Giriş</string>
+    <string name="arduinoGiris2Text">Arduino, elektronik prototipleme, robotik ve otomasyon projeleri için geliştirilmiş açık kaynaklı bir mikrodenetleyici platformudur. Kolay kullanım sunan bir ortam sağlayarak hem yeni başlayanlara hem de profesyonellere hitap eder.\n\nArduino kartları, sensörlerden veri okuyabilir, motorları kontrol edebilir ve çeşitli elektronik bileşenleri yönetebilir. Kodlama, Arduino IDE (Entegre Geliştirme Ortamı) üzerinden C ve C++ dilleri kullanılarak yapılır.</string>
+
+    <!-- 2. Başlangıç -->
+    <string name="arduinoBaslangic">2. Arduino ile Kodlamaya Başlangıç</string>
+    <string name="ideKurulumu">2.1. Arduino IDE Kurulumu</string>
+    <string name="ideKurulumuText">Arduino ile kodlamaya başlamak için:\n\n• Arduino IDE\'yi resmi web sitesinden indirin ve kurun.\n• Arduino kartınızı USB kablo ile bilgisayarınıza bağlayın.\n• Arduino IDE\'den doğru kart ve portu seçin.\n• Kod yazın ve karta yükleyin.</string>
+    <string name="sketchYapisi">2.2. Arduino Sketch Yapısı</string>
+    <string name="sketchYapisiText">Arduino programları sketch olarak adlandırılır ve iki ana fonksiyon içerir:</string>
+    <string name="sketchYapisiKod">void setup() {\n    // Bu fonksiyon yalnızca bir kez çalışır.\n}\n\nvoid loop() {\n    // Bu fonksiyon sürekli tekrar eder.\n}</string>
+
+    <!-- 3. Temel Teknikler -->
+    <string name="temelTeknikler">3. Arduino\'da Temel Kodlama Teknikleri</string>
+    <string name="dijitalCikis">3.1. Dijital Çıkış (LED Kontrolü)</string>
+    <string name="dijitalCikisKod">int ledPin = 13;\n\nvoid setup() {\n    pinMode(ledPin, OUTPUT);\n}\n\nvoid loop() {\n    digitalWrite(ledPin, HIGH);\n    delay(1000);\n    digitalWrite(ledPin, LOW);\n    delay(1000);\n}</string>
+    <string name="dijitalGiris">3.2. Dijital Giriş (Buton Okuma)</string>
+    <string name="dijitalGirisKod">int buttonPin = 2;\nint ledPin = 13;\n\nvoid setup() {\n    pinMode(buttonPin, INPUT);\n    pinMode(ledPin, OUTPUT);\n}\n\nvoid loop() {\n    if (digitalRead(buttonPin) == HIGH) {\n        digitalWrite(ledPin, HIGH);\n    } else {\n        digitalWrite(ledPin, LOW);\n    }\n}</string>
+    <string name="analogGiris">3.3. Analog Giriş (Sensör Okuma)</string>
+    <string name="analogGirisKod">int sensorPin = A0;\nint ledPin = 9;\n\nvoid setup() {\n    pinMode(ledPin, OUTPUT);\n    Serial.begin(9600);\n}\n\nvoid loop() {\n    int sensorValue = analogRead(sensorPin);\n    analogWrite(ledPin, map(sensorValue, 0, 1023, 0, 255));\n    Serial.println(sensorValue);\n    delay(100);\n}</string>
+
+    <!-- 4. Sonuç -->
+    <string name="sonucText21">Arduino, elektronik ve kodlama öğrenmek için güçlü bir platformdur. Dijital/analog giriş-çıkış, sensör entegrasyonu ve motor kontrolü gibi temel konularla projeler geliştirmek mümkündür.</string>
+
+    <!-- 1. Giriş -->
+    <string name="motorGiris">1. Motor Kontrol Sistemlerine Giriş</string>
+    <string name="motorGirisText">Motor kontrol sistemleri, robotik, otomasyon ve endüstriyel uygulamalar için kritik öneme sahiptir. Motorlar, basit dönen mekanizmalardan robotik kollar gibi karmaşık sistemlere kadar birçok alanda kullanılır.\n\nServo motorlar, açısal hareket kontrolü için kullanılırken, DC motorlar sürekli hareket sağlayan mekanizmalardır.</string>
+
+    <!-- 2. DC Motorlar -->
+    <string name="dcMotorlar">2. DC Motorlar ve Kontrolleri</string>
+    <string name="dcMotorNedir">2.1. DC Motor Nedir?</string>
+    <string name="dcMotorNedirText">Bir DC motor (Doğru Akım Motoru), elektrik enerjisini mekanik harekete çeviren elektromekanik bir cihazdır.</string>
+    <string name="dcMotorTurleri">2.2. DC Motor Türleri</string>
+    <string name="dcMotorTurleriText">• Fırçalı DC Motorlar: Ucuz ve yaygın olarak kullanılır.\n• Fırçasız DC Motorlar: Daha verimli ve uzun ömürlüdür.\n• Dişli DC Motorlar: Daha fazla tork sağlar.</string>
+    <string name="dcMotorKontrol">2.3. Arduino ile DC Motor Kontrolü</string>
+    <string name="dcMotorDevre">Devre Kurulumu</string>
+    <string name="dcMotorDevreText">• Arduino Uno\n• L298N motor sürücü modülü\n• DC motor</string>
+    <string name="dcMotorOrnekKod">int motor1Pin1 = 5;\nint motor1Pin2 = 6;\nint enablePin = 9;\n\nvoid setup() {\n    pinMode(motor1Pin1, OUTPUT);\n    pinMode(motor1Pin2, OUTPUT);\n    pinMode(enablePin, OUTPUT);\n}\n\nvoid loop() {\n    analogWrite(enablePin, 150);\n    digitalWrite(motor1Pin1, HIGH);\n    digitalWrite(motor1Pin2, LOW);\n    delay(2000);\n\n    digitalWrite(motor1Pin1, LOW);\n    digitalWrite(motor1Pin2, HIGH);\n    delay(2000);\n}</string>
+
+    <!-- 3. Servo Motorlar -->
+    <string name="servoMotorlar">3. Servo Motorlar ve Kontrolleri</string>
+    <string name="servoMotorNedir">3.1. Servo Motor Nedir?</string>
+    <string name="servoMotorNedirText">Servo motor, hassas açısal hareket sağlar.</string>
+    <string name="servoMotorKontrol">3.2. Arduino ile Servo Motor Kontrolü</string>
+    <string name="servoMotorOrnekKod">#include &lt;Servo.h&gt;\nServo myServo;\nvoid setup() { myServo.attach(9); }\nvoid loop() {\n    myServo.write(0);\n    delay(1000);\n    myServo.write(90);\n    delay(1000);\n    myServo.write(180);\n    delay(1000);\n}</string>
+
+    <!-- Sonuç -->
+    <string name="sonucText22">Motor kontrol sistemleri, robotik projelerin temelini oluşturur. DC motorlar sürekli dönüş, servo motorlar ise hassas açı kontrolü için idealdir.</string>
+
+
+    <!-- 1. Giriş -->
+    <string name="sensorGiris">1. Robotikte Sensör Entegrasyonuna Giriş</string>
+    <string name="sensorGirisText">Sensörler, robotların çevresini algılamasına, veri toplamasına ve etkileşimde bulunmasına olanak tanır. Ultrasonik, LiDAR ve IR sensörleri, robotların engelleri tespit etmesine, mesafe ölçmesine ve otonom hareket etmesine yardımcı olur.</string>
+
+    <!-- 2. Ultrasonik Sensörler -->
+    <string name="ultrasonikSensorler">2. Ultrasonik Sensörler</string>
+    <string name="ultrasonikSensorNedir">2.1. Ultrasonik Sensör Nedir?</string>
+    <string name="ultrasonikSensorNedirText">Ultrasonik sensörler, ses dalgaları kullanarak mesafeyi ölçer.</string>
+    <string name="ultrasonikUygulamaAlanlari">2.2. Uygulama Alanları</string>
+    <string name="ultrasonikUygulamaAlanlariText">• Engel algılama\n• Otonom araçlar\n• Akıllı park sistemleri</string>
+    <string name="ultrasonikOrnekKod">2.3. Arduino ile Kullanımı</string>
+    <string name="ultrasonikOrnekKodText">const int trigPin = 9;\nconst int echoPin = 10;\n\nvoid setup() {\n    pinMode(trigPin, OUTPUT);\n    pinMode(echoPin, INPUT);\n    Serial.begin(9600);\n}\n\nvoid loop() {\n    digitalWrite(trigPin, LOW);\n    delayMicroseconds(2);\n    digitalWrite(trigPin, HIGH);\n    delayMicroseconds(10);\n    digitalWrite(trigPin, LOW);\n    long duration = pulseIn(echoPin, HIGH);\n    long distance = duration * 0.034 / 2;\n    Serial.print(\"Mesafe: \");\n    Serial.println(distance);\n    delay(100);\n}</string>
+
+    <!-- 3. LiDAR Sensörler -->
+    <string name="lidarSensorler">3. LiDAR Sensörleri</string>
+    <string name="lidarSensorNedir">3.1. LiDAR Sensör Nedir?</string>
+    <string name="lidarSensorNedirText">LiDAR, lazer ışını kullanarak mesafe ölçer ve 3D haritalar oluşturur.</string>
+    <string name="lidarUygulamaAlanlari">3.2. Kullanım Alanları</string>
+    <string name="lidarUygulamaAlanlariText">• Otonom araçlar\n• Dronelar için 3D haritalama</string>
+    <string name="lidarOrnekKod">3.3. Raspberry Pi ile Kullanımı</string>
+    <string name="lidarOrnekKodText">import rplidar\n\nlidar = rplidar.RPLidar(\'/dev/ttyUSB0\')\n\nfor scan in lidar.iter_scans():\n    for (_, angle, distance) in scan:\n        print(f\"Açı: {angle}, Mesafe: {distance}mm\")\n\nlidar.stop()\nlidar.disconnect()</string>
+
+    <!-- 4. IR Sensörler -->
+    <string name="irSensorler">4. IR Sensörleri</string>
+    <string name="irUygulamaAlanlari">4.1. Kullanım Alanları</string>
+    <string name="irUygulamaAlanlariText">• Hareket algılama\n• Çizgi takip eden robotlar</string>
+    <string name="irOrnekKod">4.2. Arduino ile Kullanımı</string>
+    <string name="irOrnekKodText">int sensorPin = 7;\n\nvoid setup() {\n    pinMode(sensorPin, INPUT);\n    Serial.begin(9600);\n}\n\nvoid loop() {\n    int sensorValue = digitalRead(sensorPin);\n    Serial.println(sensorValue);\n    delay(100);\n}</string>
+
+
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

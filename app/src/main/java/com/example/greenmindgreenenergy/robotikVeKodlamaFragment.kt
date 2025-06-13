@@ -45,6 +45,21 @@ class robotikVeKodlamaFragment : Fragment() {
             val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToElektronikBilesenlerVeSensorlerFragment()
             findNavController().navigate(action)
         }
+
+        binding.arduinoIleKodlamaButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToArduinoileKodlamaFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.motorKontrolSistemleriButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToMotorKontrolSistemleriFragment()
+            findNavController().navigate(action)
+        }
+
+        binding.sensorEntegrasyonuButton.setOnClickListener {
+            val action = robotikVeKodlamaFragmentDirections.actionRobotikVeKodlamaFragmentToSensorEntegrasyonuFragment()
+            findNavController().navigate(action)
+        }
     }
 
     override fun onDestroyView() {
