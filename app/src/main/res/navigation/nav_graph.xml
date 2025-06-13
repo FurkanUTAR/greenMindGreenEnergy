@@ -129,6 +129,15 @@
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_sensorEntegrasyonuFragment"
             app:destination="@id/sensorEntegrasyonuFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_algoritmaGelistirmeFragment"
+            app:destination="@id/algoritmaGelistirmeFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_mobilRobotikSistemlerFragment"
+            app:destination="@id/mobilRobotikSistemlerFragment" />
+        <action
+            android:id="@+id/action_robotikVeKodlamaFragment_to_otonomAraclarIcinAlgoritmaFragment"
+            app:destination="@id/otonomAraclarIcinAlgoritmaFragment" />
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
@@ -245,4 +254,18 @@
         android:id="@+id/sensorEntegrasyonuFragment"
         android:name="com.example.greenmindgreenenergy.sensorEntegrasyonuFragment"
         android:label="sensorEntegrasyonuFragment" />
+    <fragment
+        android:id="@+id/algoritmaGelistirmeFragment"
+        android:name="com.example.greenmindgreenenergy.algoritmaGelistirmeFragment"
+        android:label="algoritmaGelistirmeFragment" />
+    <fragment
+        android:id="@+id/mobilRobotikSistemlerFragment"
+        android:name="com.example.greenmindgreenenergy.mobilRobotikSistemlerFragment"
+        android:label="fragment_mobil_robotik_sistemler"
+        tools:layout="@layout/fragment_mobil_robotik_sistemler" />
+    <fragment
+        android:id="@+id/otonomAraclarIcinAlgoritmaFragment"
+        android:name="com.example.greenmindgreenenergy.otonomAraclarIcinAlgoritmaFragment"
+        android:label="fragment_otonom_araclar_icin_algoritma"
+        tools:layout="@layout/fragment_otonom_araclar_icin_algoritma" />
 </navigation>

@@ -1080,7 +1080,58 @@ Temel: Türbini zemine veya deniz tabanına sabitler.</string>
     <string name="irOrnekKod">4.2. Arduino ile Kullanımı</string>
     <string name="irOrnekKodText">int sensorPin = 7;\n\nvoid setup() {\n    pinMode(sensorPin, INPUT);\n    Serial.begin(9600);\n}\n\nvoid loop() {\n    int sensorValue = digitalRead(sensorPin);\n    Serial.println(sensorValue);\n    delay(100);\n}</string>
 
+    <string name="algoritmaGiris">1. Robotikte Algoritma Geliştirmenin Önemi</string>
+    <string name="algoritmaGirisText">Algoritmalar, robotların verileri işleyerek bağımsız kararlar almasını ve görevleri yerine getirmesini sağlayan temel yazılım yapı taşıdır.\n\nSensörlerden gelen verileri analiz eden, motorları kontrol eden ve çevresel değişkenlere tepki veren algoritmalar, robotların verimli çalışmasını sağlar.</string>
 
+    <string name="algoritmaKonseptler">2. Algoritma Geliştirme Temel Konseptleri</string>
+    <string name="girisIslemCikis">2.1. Giriş-İşlem-Çıkış Modeli</string>
+    <string name="girisIslemCikisText">Giriş: Sensörlerden veri okunur.\nİşlem: Algoritma, gelen verileri analiz eder.\nÇıkış: Motorlar veya diğer donanımlar belirlenen aksiyonları uygular.</string>
+    <string name="algoritmaTurleri">2.2. Robotikte Kullanılan Algoritma Türleri</string>
+    <string name="algoritmaTurleriText">Çizgi Takip Algoritmaları\nEngelden Kaçınma Algoritmaları\nYol Planlama Algoritmaları (A, Dijkstra)*\nYapay Zeka Destekli Algoritmalar</string>
+
+    <string name="temelAlgoritmalar">3. Robotlar İçin Temel Algoritmalar Geliştirme</string>
+    <string name="cizgiTakipAlgoritma">3.1. Örnek 1: Çizgi Takip Eden Robot Algoritması</string>
+    <string name="cizgiTakipKod">if (left == HIGH &amp;&amp; right == HIGH) {\n    digitalWrite(motorLeft, HIGH);\n    digitalWrite(motorRight, HIGH);\n} \nelse if (left == HIGH) {\n    digitalWrite(motorLeft, LOW);\n    digitalWrite(motorRight, HIGH);\n} \nelse if (right == HIGH) {\n    digitalWrite(motorLeft, HIGH);\n    digitalWrite(motorRight, LOW);\n}</string>
+    <string name="engeldenKacmaAlgoritma">3.2. Örnek 2: Engelden Kaçan Robot Algoritması</string>
+    <string name="engeldenKacmaKod">if (distance &lt; 10) {\n    digitalWrite(motorLeft, LOW);\n    digitalWrite(motorRight, HIGH);\n} \nelse {\n    digitalWrite(motorLeft, HIGH);\n    digitalWrite(motorRight, HIGH);\n}</string>
+
+    <string name="sonucText23">Robotik sistemlerde algoritma geliştirme, robotların otonom ve akıllı bir şekilde hareket etmesini sağlar. Çizgi takip eden, engellerden kaçan veya AI destekli sistemler için algoritmalar, robot teknolojisinin temelini oluşturur.</string>
+
+
+    <string name="mobilRobotikBaslik">Mobil Robotik Sistemler</string>
+
+    <string name="ozet">Mobil robotik sistemler, modern otomasyon ve akıllı sistemlerin ayrılmaz bir parçası haline gelmiştir. En yaygın mobil platformlar arasında tekerlekli ve paletli robotlar yer alır. Bu makalede, bu iki robot tipinin tasarımı, geliştirilmesi ve uygulama alanları incelenmekte; çeşitli ortamlardaki avantajları ve sınırlamaları değerlendirilmektedir.</string>
+
+    <string name="giris1">1. Giriş</string>
+    <string name="giris1Text">Endüstri 4.0 ve otonom sistemlerin yükselişiyle birlikte, mobil robotlar lojistikten tarıma, savunmadan keşif çalışmalarına kadar birçok alanda kullanılmaktadır. Hareket kabiliyeti, bir robotun kullanılabilirliğini belirleyen en önemli özelliklerden biridir.</string>
+
+    <string name="tekerlekliRobotlar">2. Tekerlekli Robotlar</string>
+    <string name="tekerlekliRobotlarText">Tekerlekli robotlar, tekerlekler aracılığıyla hareket eder. Enerji verimliliği yüksektir, kontrolü basittir ve düz zeminlerde (iç mekânlar, yollar) idealdir. Diferansiyel sürüş ve her yöne hareket edebilen tekerlek tasarımları yaygındır. Ancak engebeli arazilerde ve merdivenlerde yetersiz kalabilirler.</string>
+
+    <string name="paletliRobotlar">3. Paletli Robotlar</string>
+    <string name="paletliRobotlarText">Paletli robotlar, tanklarda kullanılanlara benzer sürekli palet sistemleri ile çalışır. Yumuşak veya engebeli zeminlerde üstün tutunma ve denge sağlarlar. Bu nedenle arama kurtarma, askeri operasyonlar ve tarımda idealdirler. Ancak, daha fazla enerji tüketirler ve bakımları daha karmaşıktır.</string>
+
+    <string name="gelecekYonelimleri">4. Gelecek Yönelimleri</string>
+    <string name="gelecekYonelimleriText">Gelecekte, her iki tasarımın avantajlarını birleştiren hibrit sistemler ön plana çıkacaktır. Yapay zekâ entegrasyonu, uyarlanabilir hareket sistemleri ve gelişmiş batarya teknolojileri, mobil robotik sistemlerin evrimini belirleyecektir.</string>
+
+    <string name="sonucText24">Tekerlekli ve paletli robotlar, robotik dünyasında önemli roller üstlenmektedir. Hangi sistemin seçileceği, görev ve çevre gereksinimlerine bağlıdır. Sürekli gelişen teknoloji ile daha yetenekli, uyarlanabilir ve akıllı robotik platformlar hayatımıza girmeye devam edecektir.</string>
+
+
+   <string name="ozet2">Otonom araçlar, çevrelerini yorumlayıp hareket kararları almak için büyük ölçüde hareket algoritmalarına dayanır. Bu makalede, temel bir örnek olan çizgi izleyen robotlar ele alınmakta ve bu robotların davranışlarını yönlendiren algoritmalar ile daha karmaşık otonom hareket sistemlerine geçiş süreci incelenmektedir.</string>
+
+    <string name="giris2">1. Giriş</string>
+    <string name="giris2Text">Otonom hareket, modern robot teknolojisinin temelidir. Özellikle sürücüsüz araçlar, mobil robotlar ve otomatik yönlendirmeli araçlar (AGV) gibi uygulamalarda önemli rol oynar. Otonom davranış öğreniminin başlangıç noktası, çizgi izleyen robotlardır.</string>
+
+    <string name="cizgiIzleyenRobotlar">2. Çizgi İzleyen Robotlar</string>
+    <string name="cizgiIzleyenRobotlarText">Bu robotlar, genellikle zıt renkli zeminler üzerine çizilmiş siyah veya beyaz çizgileri takip etmek üzere tasarlanmıştır. IR sensörler veya renk sensörleri gibi algılayıcılar sayesinde çizgiyi tespit edip motorlarını buna göre ayarlarlar. Bu sistem, geri besleme döngüsü, sensör tabanlı yön bulma ve basit karar alma algoritmaları gibi konuları öğrenmek için idealdir.</string>
+
+    <string name="hareketAlgoritmalari">3. Hareket Algoritmaları</string>
+    <string name="hareketAlgoritmalariText">Otonom hareket kontrolünde kullanılan bazı algoritmalar şunlardır:\n\nPID (Orantısal-Türevsel-İntegral): Sensör verilerine göre robotun yönünü hassas ve dengeli şekilde ayarlamayı sağlar.\nSonlu Durum Makineleri (FSM): Farklı senaryolara göre karar almayı ve durma, dönme, geri gitme gibi eylemleri gerçekleştirmeyi mümkün kılar.\nYol Planlama Algoritmaları: A*, Dijkstra gibi graf tabanlı algoritmalar, karmaşık ortamlarda en kısa yolu hesaplamak için kullanılır.</string>
+
+    <string name="gelismisUygulamalar">4. Gelişmiş Uygulamalar</string>
+    <string name="gelismisUygulamalarText">Otonom araçlar, şerit takibi ve engelden kaçınma için LIDAR, GPS, bilgisayarlı görü ve derin öğrenme kullanır.\nSürü robotlar, birden fazla robotun kolektif hareketini sağlayan algoritmalarla çalışır.</string>
+
+    <string name="sonucText25">Çizgi izleyen robotlar, otonom araç teknolojisine giriş için somut ve öğretici bir yol sunar. Teknoloji geliştikçe, daha sofistike algoritmalar sayesinde bu sistemler daha güvenli, akıllı ve hareket kabiliyeti yüksek hâle gelmektedir.</string>
 
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
