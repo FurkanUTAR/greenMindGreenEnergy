@@ -1,199 +1,260 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:padding="16dp">
+    android:background="@color/blue_50"> <com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/toolbar_optimization"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/accent_blue" app:titleTextColor="@color/white" app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/robotikSistemlerinOptimizasyonu"
+        android:textColor="@color/white" android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"/>
+</com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_optimization"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-        <!-- Kapak Görseli -->
-        <ImageView
-            android:id="@+id/optimizasyonImage"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:scaleType="centerCrop"
-            android:layout_margin="8dp"
-            android:layout_marginBottom="16dp"
-            android:src="@drawable/robotik_sistemlerin_optimizasyonu" />
-
-        <!-- Başlık -->
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/robotikSistemlerinOptimizasyonu"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="16dp" />
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
-        <!-- 1. Giriş -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/giris8"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/giris8Text"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <ImageView
+                        android:id="@+id/optimizasyonImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/robotik_sistemlerin_optimizasyonu"
+                        android:contentDescription="Robotik Sistemlerin Optimizasyonu Görseli"
+                        app:cardCornerRadius="8dp"/> <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/robotikSistemlerinOptimizasyonu"
+                    android:textSize="24sp"
+                    android:textColor="@color/accent_blue" android:textStyle="bold"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-        <!-- 2. Yazılım Optimizasyonu -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/yazilimOptimizasyonuBaslik"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-        <!-- 2.1 Kod Verimliliği -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/kodVerimliligi"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/kodVerimliligiText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giris8"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- 2.2 Algoritmik Optimizasyon -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/algoritmikOptimizasyon"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giris8Text"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/algoritmikOptimizasyonText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" /> <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yazilimOptimizasyonuBaslik"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
 
-        <!-- 2.3 Paralel İşleme -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/paralelIsleme"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kodVerimliligi"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="4dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/paralelIslemeText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/kodVerimliligiText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/algoritmikOptimizasyon"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="4dp"/>
 
-        <!-- 3. Donanım Optimizasyonu -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/donanimOptimizasyonuBaslik"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/algoritmikOptimizasyonText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <!-- 3.1 Bileşen Seçimi -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bilesenSecimi"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paralelIsleme"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="4dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bilesenSecimiText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/paralelIslemeText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <!-- 3.2 Mekanik Tasarım -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mekanikTasarim"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/mekanikTasarimText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/donanimOptimizasyonuBaslik"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bilesenSecimi"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="4dp"/>
 
-        <!-- 4. Sonuç -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sonuc"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bilesenSecimiText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sonucText31"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="24dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mekanikTasarim"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="4dp"/>
 
-    </LinearLayout>
-</ScrollView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mekanikTasarimText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonuc"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonucText31"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/accent_blue" app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,227 +5,277 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/green_50">
+
+    <!-- AppBar -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green_800"
+        app:titleTextColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_leaf"
+            android:layout_marginStart="8dp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yesilZihinlerYesilEnerji"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"/>
+    </com.google.android.material.appbar.MaterialToolbar>
 
     <!-- ScrollView tüm içeriği kapsayacak -->
-    <ScrollView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
-            <TextView
-                android:id="@+id/titleTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/yesilZihinlerYesilEnerji"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_margin="8dp"/>
-
-            <!-- Video Player (Artık ScrollView içinde) -->
-            <VideoView
-                android:id="@+id/videoPlayerView"
+            <!-- Video Player -->
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:layout_gravity="center" />
+                android:background="@color/green_50"
+                android:layout_margin="16dp"
+                android:foreground="?attr/selectableItemBackground">
+
+                <VideoView
+                    android:id="@+id/videoPlayerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
 
             <!-- İçerik Container -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="16dp">
+                android:paddingHorizontal="16dp">
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:id="@+id/subtitleTextView"
+                <!-- Bölüm Kartları -->
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/hakkimizda"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/girisTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/hakkimizdaText"/>
-
-                <!-- Project Objectives Öncesi Görsel -->
-                <ImageView
-                    android:id="@+id/objectivesImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"
-                    android:src="@drawable/green_mind_green_energy"
-                    android:contentDescription="@string/projeVizyonumuz" />
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@color/white">
 
-                <!-- Alt Başlık -->
-                <TextView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/subtitleTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hakkimizda"
+                            android:textSize="18sp"
+                            android:textColor="@color/green_800"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="12dp"/>
+
+                        <TextView
+                            android:id="@+id/girisTextView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/text_primary_dark"
+                            android:lineSpacingExtra="4dp"
+                            android:text="@string/hakkimizdaText"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Project Objectives -->
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/projeHedefleri"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/projeHedefleriText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/projeHedefleriText"/>
-
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/hedefKitle"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/hedefKitleText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/hedefKitleText"/>
-
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/atolyeCalismalariVeSeminerler"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/atolyeCalismalariVeSeminerlerText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/atolyeCalismalariVeSeminerlerText"/>
-
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/kulturelFaaliyetler"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/kulturelFaaliyetlerText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/kulturelFaaliyetlerText"/>
-
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/beklenenOgrenmeCiktilari"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/beklenenOgrenmeCiktilariText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/beklenenOgrenmeCiktilariText"/>
-
-
-                <!-- Key Steps Öncesi Görsel -->
-                <ImageView
-                    android:id="@+id/keyStepsImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:scaleType="centerCrop"
                     android:layout_marginBottom="16dp"
-                    android:src="@drawable/yesil_zihin"
-                    android:contentDescription="@string/projeUygulamaAdimlari"/>
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@color/white">
 
-                <!-- Alt Başlık -->
-                <TextView
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/objectivesImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/green_mind_green_energy"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/projeHedefleri"
+                                android:textSize="18sp"
+                                android:textColor="@color/green_800"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="12dp"/>
+
+                            <TextView
+                                android:id="@+id/projeHedefleriText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="@color/text_primary_dark"
+                                android:lineSpacingExtra="4dp"
+                                android:text="@string/projeHedefleriText"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Diğer bölümler aynı yapıda devam eder -->
+                <!-- Hedef Kitle -->
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/projeUygulamaAdimlari"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@color/white">
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/projeTemelAdimlariText"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hedefKitle"
+                            android:textSize="18sp"
+                            android:textColor="@color/green_800"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="12dp"/>
+
+                        <TextView
+                            android:id="@+id/hedefKitleText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/text_primary_dark"
+                            android:lineSpacingExtra="4dp"
+                            android:text="@string/hedefKitleText"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Proje Uygulama Adımları (Görselli) -->
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/projeTemelAdimlariText"/>
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@color/white">
 
-                <!-- Sonuç Paragrafı -->
-                <TextView
-                    android:id="@+id/sonucText"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/keyStepsImage"
+                            android:layout_width="match_parent"
+                            android:layout_height="180dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/yesil_zihin"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/projeUygulamaAdimlari"
+                                android:textSize="18sp"
+                                android:textColor="@color/green_800"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="12dp"/>
+
+                            <TextView
+                                android:id="@+id/projeTemelAdimlariText"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="14sp"
+                                android:textColor="@color/text_primary_dark"
+                                android:lineSpacingExtra="4dp"
+                                android:text="@string/projeTemelAdimlariText"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!-- Sonuç Bölümü -->
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:text="@string/sonucText"
-                    android:lineSpacingExtra="4dp"/>
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="4dp"
+                    app:cardBackgroundColor="@color/green_100">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/sonucText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:textColor="@color/green_900"
+                            android:text="@string/sonucText"
+                            android:lineSpacingExtra="4dp"
+                            android:textAlignment="center"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>
-    </ScrollView>
+    </androidx.core.widget.NestedScrollView>
 
-    <!-- Loading Indicator (hala sabit) -->
-    <ProgressBar
+    <!-- Loading Indicator -->
+    <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminate="true"
         android:visibility="gone"
+        app:indicatorColor="@color/green_800"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

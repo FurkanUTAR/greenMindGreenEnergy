@@ -1,221 +1,272 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:padding="16dp">
+    android:background="@color/blue_50"> <com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/toolbar_motor_control"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/accent_blue" app:titleTextColor="@color/white" app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
-        android:orientation="vertical"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/motorKontrolSistemleri"
+        android:textColor="@color/white" android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"/>
+</com.google.android.material.appbar.MaterialToolbar>
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_motor_control"
+        app:layout_constraintBottom_toBottomOf="parent">
 
-        <!-- Project Objectives Öncesi Görsel -->
-        <ImageView
-            android:id="@+id/objectivesImage"
-            android:layout_width="match_parent"
-            android:layout_height="180dp"
-            android:scaleType="centerCrop"
-            android:layout_margin="8dp"
-            android:layout_marginBottom="16dp"
-            android:src="@drawable/motor_kontrol_sistemleri" />
-
-        <!-- Başlık -->
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/motorKontrolSistemleri"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginBottom="16dp" />
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
-        <!-- 1. Giriş -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/motorGiris"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/motorGirisText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <ImageView
+                        android:id="@+id/objectivesImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/motor_kontrol_sistemleri"
+                        android:contentDescription="Motor Kontrol Sistemleri Görseli"
+                        app:cardCornerRadius="8dp"/> <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/motorKontrolSistemleri"
+                    android:textSize="24sp"
+                    android:textColor="@color/accent_blue" android:textStyle="bold"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-        <!-- 2. DC Motorlar -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorlar"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-        <!-- 2.1. DC Motor Nedir? -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorNedir"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorNedirText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/motorGiris"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- 2.2. DC Motor Türleri -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorTurleri"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/motorGirisText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorTurleriText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" /> <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dcMotorlar"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"/>
 
-        <!-- 2.3. Arduino ile DC Motor Kontrolü -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorKontrol"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorNedir"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- Devre Kurulumu -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorDevre"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorNedirText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorDevreText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorTurleri"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- Örnek Kod -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dcMotorOrnekKod"
-            android:textSize="14sp"
-            android:textColor="@color/black"
-            android:typeface="monospace"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorTurleriText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorKontrol"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- 3. Servo Motorlar -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/servoMotorlar"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorDevre"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/gray_700" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- 3.1. Servo Motor Nedir? -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/servoMotorNedir"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorDevreText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/servoMotorNedirText"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dcMotorOrnekKod"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:typeface="monospace"
+                        android:background="@color/gray_100" android:padding="12dp"
+                        android:layout_marginBottom="16dp" />
 
-        <!-- 3.2. Arduino ile Servo Motor Kontrolü -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/servoMotorKontrol"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-        <!-- Örnek Kod -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/servoMotorOrnekKod"
-            android:textSize="14sp"
-            android:textColor="@color/black"
-            android:typeface="monospace"
-            android:layout_marginBottom="12dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servoMotorlar"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_marginVertical="8dp"
-            android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servoMotorNedir"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-        <!-- Sonuç -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sonuc"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:layout_marginTop="8dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servoMotorNedirText"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sonucText22"
-            android:textSize="16sp"
-            android:textColor="@color/black"
-            android:layout_marginBottom="24dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servoMotorKontrol"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
 
-    </LinearLayout>
-</ScrollView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/servoMotorOrnekKod"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:typeface="monospace"
+                        android:background="@color/gray_100" android:padding="12dp"
+                        android:layout_marginBottom="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonuc"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/accent_blue" android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonucText22"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:indicatorColor="@color/accent_blue" app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

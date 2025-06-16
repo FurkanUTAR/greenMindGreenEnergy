@@ -1,32 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Mevcut renkler korundu -->
     <!-- Temel Renkler -->
     <color name="white">#FFFFFFFF</color>
     <color name="black">#FF000000</color>
-    <color name="gray">#FF808080</color>
+    <color name="gray_light">#FF9E9E9E</color>
+    <color name="gray_dark">#FF424242</color>
 
-    <!-- Yeşil Tema Renkleri -->
-    <color name="green_light">#FFE8F5E9</color>
-    <color name="green_primary">#FF4CAF50</color>
-    <color name="green_dark">#FF2E7D32</color>
-    <color name="green_darker">#FF1B5E20</color>
+    <!-- Yeşil Tema Renkleri (Gradient) -->
+    <color name="green_50">#FFE8F5E9</color>  <!-- Light -->
+    <color name="green_200">#FFA5D6A7</color> <!-- Medium Light -->
+    <color name="green_400">#FF66BB6A</color> <!-- Primary -->
+    <color name="green_600">#FF43A047</color> <!-- Dark -->
+    <color name="green_800">#FF2E7D32</color> <!-- Darker -->
+    <color name="green_900">#FF1B5E20</color> <!-- Darkest -->
 
-    <!-- Aksent Renkleri -->
-    <color name="accent_blue">#FF2196F3</color>
-    <color name="accent_yellow">#FFFFEB3B</color>
+    <!-- Aksan Renkleri -->
+    <color name="accent_teal">#FF26C6DA</color>    <!-- Robotik -->
+    <color name="accent_yellow">#FFFFC107</color>  <!-- Enerji -->
+    <color name="accent_orange">#FFFF9800</color>  <!-- Proje -->
+    <color name="accent_blue">#FF2196F3</color>    <!-- Genel Aksan -->
 
     <!-- Metin Renkleri -->
-    <color name="text_primary">#FF212121</color>
+    <color name="text_primary_dark">@color/black</color>
+    <color name="text_primary_light">@color/white</color>
     <color name="text_secondary">#FF757575</color>
-    <color name="text_on_green">#FFFFFFFF</color>
+    <color name="text_on_green">@color/white</color>
 
-    <!-- Arkaplan Renkleri -->
-    <color name="background_light">#FFF5F5F5</color>
-    <color name="background_dark">#FF303030</color>
+    <!-- Arkaplanlar -->
+    <color name="bg_gradient_start">@color/green_50</color>
+    <color name="bg_gradient_end">@color/green_200</color>
+    <color name="card_background">@color/white</color>
 
-    <!-- Diğer Yardımcı Renkler -->
-    <color name="divider">#1F000000</color>
+    <!-- Durum Renkleri -->
     <color name="error">#FFF44336</color>
-    <color name="success">#FF4CAF50</color>
-    <color name="warning">#FFFFC107</color>
+    <color name="success">@color/green_400</color>
+    <color name="warning">@color/accent_yellow</color>
+    <color name="gray">#FF808080</color>
+
+    <!-- Yeni Eklemeler -->
+
+    <!-- 1. Ek Gri Tonları -->
+    <color name="gray_100">#F5F5F5</color>  <!-- Çok açık gri -->
+    <color name="gray_300">#E0E0E0</color>  <!-- Açık gri (borderlar için) -->
+    <color name="gray_700">#616161</color>  <!-- Koyu gri -->
+
+    <!-- 2. Şeffaflık Eklenmiş Renkler -->
+    <color name="green_100">#C8E6C9</color>
+    <color name="green_800_50">#802E7D32</color>  <!-- %50 şeffaf -->
+    <color name="black_20">#33000000</color>      <!-- %80 şeffaf -->
+
+    <!-- 3. Yeni Aksan Renkleri -->
+    <color name="accent_purple">#FF9C27B0</color>  <!-- Etkinlikler -->
+    <color name="accent_red">#FF5252</color>       <!-- Acil durumlar -->
+    <color name="accent_cyan">#00BCD4</color>     <!-- Su temalı içerik -->
+    <color name="blue_50">#E3F2FD</color>     <!-- Su temalı içerik -->
+    <color name="orange_50">#FFF3E0</color>     <!-- Su temalı içerik -->
+
+    <!-- 4. Durum Renkleri Genişletme -->
+    <color name="info">#2196F3</color>            <!-- Bilgi mesajları -->
+    <color name="success_dark">#388E3C</color>     <!-- Onaylanmış durum -->
+    <color name="warning_dark">#FFA000</color>     <!-- Önemli uyarı -->
+
+    <!-- 5. Özel Efekt Renkleri -->
+    <color name="ripple_color">#1F000000</color>   <!-- Ripple efekti -->
+    <color name="divider_color">#1F000000</color>  <!-- Ayırıcı çizgiler -->
+
+    <!-- 6. Dark Mode Desteği -->
+    <color name="dark_bg">#121212</color>          <!-- Karanlık tema arkaplan -->
+    <color name="dark_card">#1E1E1E</color>        <!-- Karanlık tema kart -->
+    <color name="dark_text_primary">#E0E0E0</color>
+    <color name="dark_text_secondary">#B0B0B0</color>
+
+    <!-- 7. Gradient Renkleri -->
+    <color name="gradient_green_start">#FF4CAF50</color>
+    <color name="gradient_green_end">#FF2E7D32</color>
+    <color name="gradient_blue_green_start">#FF2196F3</color>
+    <color name="gradient_blue_green_end">#FF26C6DA</color>
+
+    <!-- 8. İkon Renkleri -->
+    <color name="icon_active">@color/green_600</color>
+    <color name="icon_inactive">@color/gray_light</color>
+    <color name="icon_warning">@color/accent_yellow</color>
+
+    <!-- 9. Buton Renkleri -->
+    <color name="button_primary">@color/green_600</color>
+    <color name="button_primary_pressed">@color/green_800</color>
+    <color name="button_secondary">@color/accent_blue</color>
+    <color name="button_disabled">@color/gray_300</color>
+
+    <!-- 10. Özel Vurgular -->
+    <color name="highlight_green">#664CAF50</color>  <!-- %40 şeffaf vurgu -->
+    <color name="highlight_yellow">#66FFC107</color>
 </resources>

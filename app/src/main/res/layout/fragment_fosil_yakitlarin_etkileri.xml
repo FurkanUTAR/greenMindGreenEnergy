@@ -5,245 +5,242 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/green_50"> <com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/toolbar_fossil_fuels"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/accent_yellow" app:titleTextColor="@color/black" app:layout_constraintTop_toTopOf="parent">
 
-    <!-- ScrollView tüm içeriği kapsayacak -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fosilYakitlarinEtkileri"
+        android:textColor="@color/black" android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"/>
+</com.google.android.material.appbar.MaterialToolbar>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_fossil_fuels"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
-            <!-- Project Objectives Öncesi Görsel -->
-            <ImageView
-                android:id="@+id/objectivesImage"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:scaleType="centerCrop"
-                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/objectivesImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fosil_yakitlarin_etkileri"
+                        android:contentDescription="Fosil Yakıtların Etkileri Görseli"
+                        app:cardCornerRadius="8dp"/> <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/fosilYakitlarinEtkileri"
+                    android:textSize="24sp"
+                    android:textColor="@color/accent_yellow" android:textStyle="bold"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
                 android:layout_marginBottom="16dp"
-                android:src="@drawable/fosil_yakitlarin_etkileri" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-            <TextView
-                android:id="@+id/titleTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/fosilYakitlarinEtkileri"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_margin="8dp"/>
-
-            <!-- İçerik Container -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!-- Alt Başlık -->
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/fosilYakitlarNedir"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/fosilYakitlarNedirText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/fosilYakitlarNedirText"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fosilYakitlarNedir"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <TextView
+                        android:id="@+id/fosilYakitlarNedirText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/fosilYakitlarNedirText"/>
 
-                <!-- Alt Başlık -->
-                <TextView
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" /> <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/fosilYakitlarinCevreselEtkileri"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:textSize="18sp"
+                    android:textColor="@color/accent_yellow" android:textStyle="bold"
+                    android:layout_marginBottom="12dp"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/havaKirliligi"
-                    android:textSize="15sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/havaKirliligi"
+                        android:textSize="16sp" android:textColor="@color/accent_yellow" android:textStyle="bold" android:layout_marginBottom="8dp"/> <TextView
                     android:id="@+id/havaKirliligiText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="6dp"
                     android:text="@string/havaKirliligiText"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/seraGazlariVeIklimDegisikligi"
-                    android:textSize="15sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/seraGazlariVeIklimDegisikligi"
+                        android:textSize="16sp" android:textColor="@color/accent_yellow" android:textStyle="bold" android:layout_marginBottom="8dp"/> <TextView
                     android:id="@+id/seraGazlariVeIklimDegisikligiText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="6dp"
                     android:text="@string/seraGazlariVeIklimDegisikligiText"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/suKirliligi"
-                    android:textSize="15sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/suKirliligi"
+                        android:textSize="16sp" android:textColor="@color/accent_yellow" android:textStyle="bold" android:layout_marginBottom="8dp"/> <TextView
                     android:id="@+id/suKirliligiText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="6dp"
                     android:text="@string/suKirliligiText"/>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/toprakBozulmasi"
-                    android:textSize="15sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/toprakBozulmasi"
+                        android:textSize="16sp" android:textColor="@color/accent_yellow" android:textStyle="bold" android:layout_marginBottom="8dp"/> <TextView
                     android:id="@+id/toprakBozulmasiText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
+                    android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="6dp"
                     android:text="@string/toprakBozulmasiText"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sosyalVeEkonomikEtkiler"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sosyalVeEkonomikEtkiler"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/sosyalVeEkonomikEtkileriText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/sosyalVeEkonomikEtkilerText"/>
+                    <TextView
+                        android:id="@+id/sosyalVeEkonomikEtkileriText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/sosyalVeEkonomikEtkilerText"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/fosilYakitlarinGecisSureci"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fosilYakitlarinGecisSureci"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/fosilYakitlardanGecisSureciText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/fosilYakitlarinGecisSureciText"/>
+                    <TextView
+                        android:id="@+id/fosilYakitlardanGecisSureciText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/fosilYakitlarinGecisSureciText"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sonuc5"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonuc5"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/sonuc5Text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/sonuc5Text"/>
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/sonuc5Text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/sonuc5Text"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
 
-    <!-- Loading Indicator (hala sabit) -->
-    <ProgressBar
+    <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminate="true"
         android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"
+        app:indicatorColor="@color/accent_yellow" app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

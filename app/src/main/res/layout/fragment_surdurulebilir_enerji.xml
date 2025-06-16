@@ -5,18 +5,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/green_50">
 
-    <!-- ScrollView tüm içeriği kapsayacak -->
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar_sustainable_energy"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/accent_yellow" app:titleTextColor="@color/black" app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_light"
+            android:layout_marginStart="8dp"
+            app:tint="@color/black" android:contentDescription="Energy Icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surdurulebilirEnerji"
+            android:textColor="@color/black" android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"/>
+    </com.google.android.material.appbar.MaterialToolbar>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_sustainable_energy"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
             <TextView
                 android:id="@+id/titleTextView"
@@ -24,197 +48,242 @@
                 android:layout_height="wrap_content"
                 android:text="@string/surdurulebilirEnerji"
                 android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_margin="8dp"/>
+                android:textColor="@color/accent_yellow" android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
 
-            <!-- İçerik Container -->
-            <LinearLayout
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-                <!-- Project Objectives Öncesi Görsel -->
-                <ImageView
-                    android:id="@+id/objectivesImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:scaleType="centerCrop"
-                    android:layout_marginBottom="16dp"
-                    android:src="@drawable/yesil_enerji"
-                    android:contentDescription="@string/yesilZihinlerYesilEnerji" />
-
-                <!-- Alt Başlık -->
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/surdurulebilirEnerjiVeYesilCevreIcerikBasliklari"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/surdurulebilirEnerjiText1"
+                    <ImageView
+                        android:id="@+id/objectivesImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/yesil_enerji"
+                        android:contentDescription="@string/yesilZihinlerYesilEnerji"
+                        app:cardCornerRadius="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/surdurulebilirEnerjiVeYesilCevreIcerikBasliklari"
+                        android:textSize="16sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView
+                        android:id="@+id/surdurulebilirEnerjiText1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/surdurulebilirEnerjiText1"/>
+
+                    <TextView
+                        android:id="@+id/surdurulebilirEnerjiText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700"
+                        android:layout_marginBottom="24dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/surdurulebilirEnerjiText2"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/surdurulebilirEnerjiText1"/>
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                <TextView
-                    android:id="@+id/surdurulebilirEnerjiText2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/surdurulebilirEnerjiText2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/makalelerimiz"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/makalelerimiz"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <Button
-                    android:id="@+id/surdurulebilirEnerjiyeGirisButton"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/surdurulebilirEnerjiyeGiris" />
-
-                <Button
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/surdurulebilirEnerjiyeGirisButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/surdurulebilirEnerjiyeGiris"
+                        android:layout_marginBottom="8dp"
+                        app:cornerRadius="8dp"
+                        android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/yesilEnerjiKaynaklariButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/yesilEnerjiKaynaklari" />
-
-                <Button
+                    android:text="@string/yesilEnerjiKaynaklari"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/fosilYakitlarinEtkileriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/fosilYakitlarinEtkileri" />
-
-                <Button
+                    android:text="@string/fosilYakitlarinEtkileri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/enerjiVerimliligiTeknikleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/enerjiVerimliligiTeknikleri" />
-
-                <Button
+                    android:text="@string/enerjiVerimliligiTeknikleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/gunesPanelleriTeknolojisiButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/gunesPanelleriTeknolojisi" />
-
-                <Button
+                    android:text="@string/gunesPanelleriTeknolojisi"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/ruzgarTurbinleriVeCalismaPrensipleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/ruzgarTurbinleriVeCalismaPrensipleri" />
-
-                <Button
+                    android:text="@string/ruzgarTurbinleriVeCalismaPrensipleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/hidroelektrikEnerjiVeBarajlarButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/hidroelektrikEnerjiVeBarajlar" />
-
-                <Button
+                    android:text="@string/hidroelektrikEnerjiVeBarajlar"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/yesilBinalarVeEnerjiYönetimiButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/yesilBinalarVeEnerjiYönetimi" />
-
-                <Button
+                    android:text="@string/yesilBinalarVeEnerjiYönetimi"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/karbonAyakIziHesaplamaButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/karbonAyakIziHesaplama" />
-
-                <Button
+                    android:text="@string/karbonAyakIziHesaplama"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/enerjiDepolamaSistemleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/enerjiDepolamaSistemleri" />
-
-                <Button
+                    android:text="@string/enerjiDepolamaSistemleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/akilliSebekeSistemleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/akilliSebekeSistemleri" />
-
-                <Button
+                    android:text="@string/akilliSebekeSistemleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/hibritEnerjiSistemleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/hibritEnerjiSistemleri" />
-
-                <Button
+                    android:text="@string/hibritEnerjiSistemleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/surdurulebilirUlasimCozumleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/surdurulebilirUlasimCozumleri" />
-
-                <Button
+                    android:text="@string/surdurulebilirUlasimCozumleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/yenilenebilirEnerjiPolitikalariButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/yenilenebilirEnerjiPolitikalari" />
-
-                <Button
+                    android:text="@string/yenilenebilirEnerjiPolitikalari"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/iklimDegisikligiVeEnerjiButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/iklimDegisikligiVeEnerji" />
-
-                <Button
+                    android:text="@string/iklimDegisikligiVeEnerji"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/enerjiUretimindeRobotikUygulamalariButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/enerjiUretimindeRobotikUygulamalari" />
-
-                <Button
+                    android:text="@string/enerjiUretimindeRobotikUygulamalari"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/enerjiVerimliligiIotKullanimiButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/enerjiVerimliligiIotKullanimi" />
-
-                <Button
+                    android:text="@string/enerjiVerimliligiIotKullanimi"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/yesilCevreProjeleriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/yesilCevreProjeleri" />
-
-                <Button
+                    android:text="@string/yesilCevreProjeleri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/toplumsalSurdurulebilirlikBilinciButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/toplumsalSurdurulebilirlikBilinci" />
-
-                <Button
+                    android:text="@string/toplumsalSurdurulebilirlikBilinci"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> <com.google.android.material.button.MaterialButton
                     android:id="@+id/geleceginEnerjiTeknolojileriButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/geleceginEnerjiTeknolojileri" />
+                    android:text="@string/geleceginEnerjiTeknolojileri"
+                    android:layout_marginBottom="8dp"
+                    app:cornerRadius="8dp"
+                    android:textColor="@color/black"  app:backgroundTint="@color/accent_yellow" /> </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
-            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
-    <!-- Loading Indicator (hala sabit) -->
-    <ProgressBar
+    <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminate="true"
         android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"
+        app:indicatorColor="@color/accent_yellow" app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

@@ -5,233 +5,245 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/green_50"> <com.google.android.material.appbar.MaterialToolbar
+    android:id="@+id/toolbar_iot_energy"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/accent_yellow" app:titleTextColor="@color/black" app:layout_constraintTop_toTopOf="parent">
 
-    <!-- ScrollView tüm içeriği kapsayacak -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enerjiVerimliligiIotKullanimi"
+        android:textColor="@color/black" android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"/>
+</com.google.android.material.appbar.MaterialToolbar>
+
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar_iot_energy"
+        app:layout_constraintBottom_toBottomOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
 
-            <!-- Project Objectives Öncesi Görsel -->
-            <ImageView
-                android:id="@+id/objectivesImage"
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="180dp"
-                android:scaleType="centerCrop"
-                android:layout_margin="8dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/objectivesImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/enerji_verimliliginde_iot_kullanimi"
+                        android:contentDescription="Enerji Verimliliğinde IoT Kullanımı Görseli"
+                        app:cardCornerRadius="8dp"/> <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enerjiVerimliligiIotKullanimi"
+                    android:textSize="24sp"
+                    android:textColor="@color/accent_yellow" android:textStyle="bold"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="8dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
                 android:layout_marginBottom="16dp"
-                android:src="@drawable/enerji_verimliliginde_iot_kullanimi" />
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
 
-            <TextView
-                android:id="@+id/titleTextView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/enerjiVerimliligiIotKullanimi"
-                android:textSize="24sp"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:layout_margin="8dp"/>
-
-            <!-- İçerik Container -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
-
-                <!-- Alt Başlık -->
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/giris"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:orientation="vertical"
+                    android:padding="16dp">
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/girisText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/girisText12"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/giris"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <TextView
+                        android:id="@+id/girisText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/girisText12"/>
 
-                <!-- Alt Başlık -->
-                <TextView
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" /> <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/enerjiVerimliligindeIoTNedir"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    android:textSize="18sp"
+                    android:textColor="@color/accent_yellow" android:textStyle="bold"
+                    android:layout_marginBottom="12dp"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/enerjiVerimliligindeIoTNedirText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/enerjiVerimliligindeIoTNedirText"/>
+                    <TextView
+                        android:id="@+id/enerjiVerimliligindeIoTNedirText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/enerjiVerimliligindeIoTNedirText"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iotEnerjiVerimliligindekiUygulamaAlanlari"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iotEnerjiVerimliligindekiUygulamaAlanlari"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/iotEnerjiVerimliligindekiUygulamaAlanlariText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/iotEnerjiVerimliligindekiUygulamaAlanlariText"/>
+                    <TextView
+                        android:id="@+id/iotEnerjiVerimliligindekiUygulamaAlanlariText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/iotEnerjiVerimliligindekiUygulamaAlanlariText"/>
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iotEnerjiVerimliligineKatkilari"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iotEnerjiVerimliligineKatkilari"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
+                    <TextView
+                        android:id="@+id/iotEnerjiVerimliligineKatkilariText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/iotEnerjiVerimliligineKatkilariText"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/iotEnerjiVerimliligineKatkilariText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/iotEnerjiVerimliligineKatkilariText"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/karsilasilanZorluklarVeDikkatEdilmesiGerekenler"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/karsilasilanZorluklarVeDikkatEdilmesiGerekenler"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:id="@+id/karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iotVeEnerjiVerimliligininGelecegi"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/iotVeEnerjiVerimliligininGelecegi"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
+                    <TextView
+                        android:id="@+id/iotVeEnerjiVerimliligininGelecegiText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/iotVeEnerjiVerimliligininGelecegiText"/>
 
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/iotVeEnerjiVerimliligininGelecegiText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/iotVeEnerjiVerimliligininGelecegiText"/>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginVertical="12dp"
+                        android:background="@color/gray_300" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_marginVertical="8dp"
-                    android:background="#000000" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sonuc"
+                        android:textSize="18sp"
+                        android:textColor="@color/accent_yellow" android:textStyle="bold"
+                        android:layout_marginBottom="12dp"/>
 
-                <!-- Alt Başlık -->
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/sonuc"
-                    android:textSize="16sp"
-                    android:textColor="@color/gray"
-                    android:layout_marginBottom="16dp"/>
-
-                <!-- Giriş Paragrafları -->
-                <TextView
-                    android:id="@+id/sonucText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="14sp"
-                    android:textColor="@color/black"
-                    android:layout_marginBottom="24dp"
-                    android:lineSpacingExtra="4dp"
-                    android:text="@string/sonucText14"/>
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/sonucText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray_700" android:layout_marginBottom="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:text="@string/sonucText14"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
         </LinearLayout>
     </ScrollView>
 
-    <!-- Loading Indicator (hala sabit) -->
-    <ProgressBar
+    <com.google.android.material.progressindicator.CircularProgressIndicator
         android:id="@+id/progressBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:indeterminate="true"
         android:visibility="gone"
-        app:layout_constraintTop_toTopOf="parent"
+        app:indicatorColor="@color/accent_yellow" app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>

@@ -45,6 +45,10 @@ class girisSayfaFragment : Fragment() {
             findNavController().navigate(action)
         }
 
+        binding.aktivitelerButton.setOnClickListener{
+
+        }
+
         binding.robotikVeKodlamaButton.setOnClickListener{
             val action = girisSayfaFragmentDirections.actionGirisSayfaFragmentToRobotikVeKodlamaFragment()
             findNavController().navigate(action)
