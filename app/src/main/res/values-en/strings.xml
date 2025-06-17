@@ -1,0 +1,743 @@
+<resources>
+    <string name="app_name">Green Mind Green Energy</string>
+    <string name="anaSayfa">Home Page</string>
+    <string name="projeHakkinda">About the Project</string>
+    <string name="aktiviteler">Activities</string>
+    <string name="surdurulebilirEnerji">Sustainable Energy</string>
+    <string name="robotikVeKodlama">Robotics &amp; Coding</string>
+    <string name="yesilZihinlerYesilEnerji">Green Minds Green Energy</string>
+    <string name="hakkimizda">About Us</string>
+    <string name="hakkimizdaText">We are a team that aims to produce innovative solutions in the fields of sustainable energy and robotics. Our project “Green Mind: Open Minds with Green Energy” aims to increase the energy awareness of students and society with environmentally friendly technologies. We develop robotic systems by utilizing renewable resources such as solar and wind energy. We conduct studies that encourage energy saving and inspire the engineers of the future. We are taking steps towards a greener world by bringing technology and nature together.</string>
+    <string name="projeVizyonumuz">Proje Vizyonumuz</string>
+    <string name="projeHedefleri">Project Goals:</string>
+    <string name="projeHedefleriText">Creating sustainable energy awareness.\nDeveloping robotics and coding skills.\nLearning innovative practices in Europe.</string>
+    <string name="hedefKitle">Target Audience:</string>
+    <string name="hedefKitleText">Participating students\' profiles and expectations within the project. Activities Training Program: Detailed diary of the internship program (orientation, training and practices).</string>
+    <string name="atolyeCalismalariVeSeminerler">Workshops and Seminars:</string>
+    <string name="atolyeCalismalariVeSeminerlerText">Workshops and topics to be organized during the project. </string>
+    <string name="kulturelFaaliyetler">Cultural Activities:</string>
+    <string name="kulturelFaaliyetlerText">Cultural and social activities in which the participants will take part. Details and stages of internship in Europe.</string>
+    <string name="beklenenOgrenmeCiktilari">Expected Learning Outcomes:</string>
+    <string name="beklenenOgrenmeCiktilariText">Targeted learning outcomes in robotic systems and sustainable energy technologies. </string>
+    <string name="projeUygulamaAdimlari">Project Implementation Steps</string>
+    <string name="projeTemelAdimlari">Basic Steps of the Project</string>
+    <string name="projeTemelAdimlariText">1-Sustainability Oriented Innovation\n2-Hands-on Learning Experience\n3-International Cooperation\n4-Advanced Technology Focus\n5-Comprehensive Support Services\n6-Eco-Friendly School Environment</string>
+    <string name="projeTanitimText1">TOKİ Kayaşehir Mesleki ve Teknik Anadolu Lisesi olarak yürüttüğümüz Erasmus+ KA122-VET “Yeşil Zihin: Yeşil Enerjiyle Zihinleri Açın” projesi, yenilenebilir enerji ve çevre dostu teknolojiler konusunda öğrencilerimizin mesleki becerilerini geliştirmeyi ve uluslararası düzeyde deneyim kazanmalarını sağlamayı amaçlamaktadır.</string>
+    <string name="projeTanitimText2">Within the scope of this project, our students will have the opportunity to develop their vocational knowledge and skills by doing internships in businesses operating in the field of renewable energy technologies in Europe. During the project, students will receive practical training on sustainable energy systems, green technology applications, and environmentally friendly production processes, and will gain global awareness by observing the renewable energy policies and practices of different countries on site.</string>
+    <string name="projeAmaci">Project Purpose</string>
+    <string name="projeAmaciText"> The main objectives of this project are: \n✅ To increase students\' knowledge and skills in renewable energy technologies \n✅ To enable them to gain professional experience at an international level \n✅ To raise environmental awareness and create awareness for sustainable energy practices \n✅ To increase the quality and prestige of vocational high schools and expand the employment opportunities of graduates \n✅ To help students improve their foreign language skills \n✅ To increase their competence in recognizing different cultures and adapting to global business environments</string>
+    <string name="projeAsamalari">Project Stages</string>
+    <string name="projeAsamalariText"> 📌 1. Planning and Preparation Phase (January – March 2025) \n\nInitiation of the student and teacher selection process for the project \n\nOrganizing information meetings for participants \n\nProviding pre-mobility language and cultural preparation training \n\nEstablishing communication with the businesses where the internship will take place and creating business plans \n\n📌 2. Mobility Process (11–31 May 2025) \n\nSelected students go to the designated European country and start their internships \n\nReceiving on-site observation and training on renewable energy applications \n\nActive participation in project and production processes in businesses \n\nLearning about the energy policies and practices of different countries \n\n📌 3. Reporting and Dissemination Phase (June – July 2025) \n\nStudents reporting their experiences and achievements regarding the internship process \n\nSharing project results within the school and on various platforms \n\nStudents transferring the knowledge they have acquired to other students through presentations and workshops \n\nEvaluating project outputs and preparing improvement suggestions for future projects</string>
+    <string name="projeKazanimlari">Project Gains</string>
+    <string name="projeKazanimlariText1"> 🌿 Gains for Students: \n✅ Acquiring vocational skills in the field of renewable energy \n✅ Gaining experience in international business environments \n✅ Improving foreign language skills (English and technical terminology) \n✅ Getting to know different cultures and acquiring multicultural working skills \n✅ Raising awareness about sustainable energy resources and developing an environmentally friendly approach \n✅ Gaining self-confidence and increasing awareness of individual responsibility</string>
+    <string name="projeKazanimlariText2"> 🌍 Gains for the School and Educational Institution: \n✅ Increasing the post-graduation employability of vocational high school students by gaining international experience \n✅ Improving the quality of education in the field of renewable energy and green technology \n✅ Raising students\' awareness in line with sustainable development goals \n✅ Increasing the recognition of our school through international projects</string>
+    <string name="surdurulebilirEnerjiVeYesilCevreIcerikBasliklari">Sustainable Energy and Green Environment Content Titles (From Basic to Advanced Level)</string>
+    <string name="surdurulebilirEnerjiText1">The Sustainable Energy and Green Environment module aims to raise students\' awareness of clean energy technologies and environmental protection. In today\'s world of climate change and environmental degradation, it is of great importance to teach young generations concepts such as renewable energy sources, carbon emission reduction strategies, and conscious consumption. Students discover how solar, wind, hydro, and geothermal energy systems contribute to a greener planet through hands-on projects, research, and real-life applications.</string>
+    <string name="surdurulebilirEnerjiText2">This content structure has been prepared to offer a wide range of education from basic knowledge to advanced applications. From the basics of energy efficiency to smart grid technologies, from AI-supported environmentally friendly solutions to sustainable living practices, students will gain the equipment to become conscious innovators and sustainability ambassadors of the future.</string>
+    <string name="makalelerimiz">Our Articles</string>
+    <string name="surdurulebilirEnerjiyeGiris">1.Introduction to Sustainable Energy</string>
+    <string name="yesilEnerjiKaynaklari">2.Green Energy Sources</string>
+    <string name="fosilYakitlarinEtkileri">3.Effects of Fossil Fuels</string>
+    <string name="enerjiVerimliligiTeknikleri">4.Energy Efficiency Techniques</string>
+    <string name="gunesPanelleriTeknolojisi">5.Solar Panel Technology</string>
+    <string name="ruzgarTurbinleriVeCalismaPrensipleri">6.Wind Turbines and Working Principles</string>
+    <string name="hidroelektrikEnerjiVeBarajlar">7.Hydroelectric Energy and Dams</string>
+    <string name="yesilBinalarVeEnerjiYonetimi">8.Green Buildings and Energy Management</string>
+    <string name="karbonAyakIziHesaplama">9.Carbon Footprint Calculation</string>
+    <string name="enerjiDepolamaSistemleri">10.Energy Storage Systems</string>
+    <string name="akilliSebekeSistemleri">11.Smart Grid Systems</string>
+    <string name="hibritEnerjiSistemleri">12.Hybrid Energy Systems</string>
+    <string name="surdurulebilirUlasimCozumleri">13.Sustainable Transportation Solutions</string>
+    <string name="yenilenebilirEnerjiPolitikalari">14.Renewable Energy Policies</string>
+    <string name="iklimDegisikligiVeEnerji">15.Climate Change and Energy</string>
+    <string name="enerjiUretimindeRobotikUygulamalari">16.Robotic Applications in Energy Production</string>
+    <string name="enerjiVerimliligiIotKullanimi">17.IoT Usage in Energy Efficiency</string>
+    <string name="yesilCevreProjeleri">18.Green Environment Projects</string>
+    <string name="toplumsalSurdurulebilirlikBilinci">19.Social Sustainability Awareness</string>
+    <string name="geleceginEnerjiTeknolojileri">20.Future Energy Technologies</string>
+    <string name="robotikVeKodlamaText">This project aims to introduce students to the world of robotic coding by offering a wide range of education from basic to advanced projects. Participants gain in-depth knowledge in areas such as microcontrollers, sensors, motor control, image processing, and artificial intelligence while developing robotic systems with practical applications. This process, ranging from Arduino to autonomous vehicle algorithms, from IoT integration to future biomimetic robotic systems, enables students to produce innovative and sustainable solutions. Our project aims to train future engineers, software developers, and innovative leaders by increasing interest in technology. Now let\'s examine our content topic by topic. Robotic Coding Content Topics (From Basic to Advanced)</string>
+    <string name="robotikKodlamayaGiris">1.Introduction to Robotic Coding: What is a robot? Basics of robotic coding</string>
+    <string name="mikrodenetleyiciyeGiris">2.Introduction to Microcontrollers: Introduction to devices like Arduino, Raspberry Pi</string>
+    <string name="elektronikBilesenlerVeSensorler">3.Electronic Components and Sensors: Using basic electronic components and working with sensors</string>
+    <string name="arduinoIleKodlama">4.Coding with Arduino: Basic coding techniques on the Arduino platform.</string>
+    <string name="motorKontrolSistemleri">5.Motor Control Systems: Servo motor and DC motor control.</string>
+    <string name="sensorEntegrasyonu">6.Sensor Integration: Using ultrasonic, Lidar, and IR sensors in robots</string>
+    <string name="algoritmaGelistirme">7.Algorithm Development: Creating basic algorithms for robotic systems.</string>
+    <string name="mobilRobotikSistemler">8.Mobile Robotic Systems: Development of wheeled and tracked robots.</string>
+    <string name="otonomAraclarIcinAlgoritmalar">9.Algorithms for Autonomous Vehicles: Line-following robots and autonomous movement algorithms.</string>
+    <string name="veriToplamaVeAnalizi">10.Data Collection and Analysis: Data collection and analysis processes from robotic systems</string>
+    <string name="yapayZekaTabanliRobotik">11.Artificial Intelligence-Based Robotics: Teaching tasks to robots with machine learning</string>
+    <string name="endustriyelRobotikUygulamalari">12.Industrial Robotic Applications: Robotic arms and systems used in factories</string>
+    <string name="rosIleCalisma">13.Working with ROS (Robot Operating System): Basics of ROS-based robotic projects</string>
+    <string name="goruntuIslemeveRobotik">14.Image Processing and Robotics: Image processing with cameras and robot control.</string>
+    <string name="robotikSistemlerinOptimizasyonu">15.Optimization of Robotic Systems: Software and hardware optimization to increase efficiency.</string>
+    <string name="robotikKollarinTasarimiVeKontrolu">16.Design and Control of Robotic Arms: Construction and motion control of mechanical arms.</string>
+    <string name="robotlarIcinIoTEntegrasyonu">17.IoT Integration for Robots: Connecting robots to the Internet of Things (IoT)</string>
+    <string name="suruHalindeCalisanRobotikSistemler">18.Swarm Robotic Systems: Coordination of multi-robot systems</string>
+    <string name="hibritRobotikSistemler">19.Hybrid Robotic Systems: Robots operating with different energy sources.</string>
+    <string name="geleceginRobotikTeknolojileri">20.Future Robotic Technologies: Soft robotics and biomimetic systems.</string>
+    <string name="sonucText">Bu projede yeşil enerji ve robotik teknolojileri birleştirerek geleceği şekillendiren bir öğrenme ortamı yaratıyoruz.</string>
+    <string name="surdurulebilirEnerjiNedir">1. What is Sustainable Energy?</string>
+    <string name="surdurulebilirEnerjiNedirText">Sustainable energy refers to energy sources that are renewable, environmentally friendly, and can meet today\'s energy needs without compromising the needs of future generations. Unlike fossil fuels, these energy sources, which are inexhaustible and do not pollute nature, include solar, wind, hydroelectric, and geothermal energy.</string>
+    <string name="nedenOnemlidir">2. Why is it Important?</string>
+    <string name="nedenOnemlidirText">🌡️ Combating Climate Change: Reduces greenhouse gas emissions. \n♻️ Conservation of Resources: Prevents the depletion of natural resources. \n💡 Energy Independence: Reduces dependence on foreign sources. \n🌱 Environmental Protection: Limits air, water, and soil pollution.</string>
+    <string name="surdurulebilirEnerjininTemelOzellikleri">3. Basic Features of Sustainable Energy</string>
+    <string name="surdurulebilirEnerjininTemelOzellikleriText">Renewable: Can continuously renew itself through natural means (sun, wind). \nLow Emission: Carbon emissions are negligible. \nWidespread Application: Suitable for everything from small home systems to large energy grids. \nTechnological Innovation: Increases efficiency by integrating with artificial intelligence and IoT.</string>
+    <string name="temelSurdurulebilirEnerjiKaynaklari">4. Basic Sustainable Energy Sources</string>
+    <string name="temelSurdurulebilirEnerjiKaynaklariText">Solar Energy: Obtained through photovoltaic panels and solar collectors. \nWind Energy: Produced by wind turbines on land and at sea. \nHydroelectric: Energy production from river and dam waters. \nGeothermal Energy: Heating and electricity generation using the earth\'s internal heat. \nBiomass: Energy obtained from organic materials.</string>
+    <string name="karsilasilanZorluklar">5. Challenges Encountered</string>
+    <string name="karsilasilanZorluklarText">Installation Cost: Solar and wind systems can be expensive initially. \nStorage: Battery and energy storage systems are needed for variable sources like solar and wind. \nInfrastructure: Old energy grids must be adapted to modern systems.</string>
+    <string name="egitimdekiYeri">6. Its Place in Education</string>
+    <string name="egitimdekiYeriText">Sustainable energy education is of great importance for raising generations that are sensitive to nature, innovative, and solution-oriented. Green-themed classrooms, solar-powered laboratories, and interactive workshops are becoming widespread in many schools around the world.</string>
+    <string name="yesilEnerjiKaynaklariNedir">1. What are Green Energy Sources?</string>
+    <string name="yesilEnerjiKaynaklariNedirText">Green energy sources are natural, renewable, and environmentally friendly energy sources. They do not harm the atmosphere, do not create carbon emissions, and provide energy production without consuming limited natural resources. Sun, wind, water, underground heat, and organic waste are the main ones. Green energy plays a critical role in combating climate change and for a clean environment.</string>
+    <string name="temelYesilEnerjiTurleri">2. Basic Types of Green Energy</string>
+    <string name="gunesEnerjisi">2.1. Solar Energy</string>
+    <string name="gunesEnerjisiText">Solar energy is obtained through photovoltaic (PV) panels or thermal systems. It is the most abundant energy source. \n\nUsage: homes, schools, vehicles, satellites. \nAdvantages: low maintenance cost, silent, applicable at any scale.</string>
+    <string name="ruzgarEnerjisi">2.2. Wind Energy</string>
+    <string name="ruzgarEnerjisiText">Wind turbines convert the kinetic energy of the wind into electrical energy. They can be installed on land or at sea. \n\nUsage: rural electricity supply, energy grids. \nAdvantages: clean, low operating cost, suitable for large-scale production.</string>
+    <string name="hidroelektrikEnerji">2.3. Hydroelectric Energy</string>
+    <string name="hidroelektrikEnerjiText">Hydroelectric energy is produced by turning turbines with rivers, dams, and tides. \n\nUsage: city electricity, irrigation systems. \nAdvantages: efficient, regular, renewable, and storable.</string>
+    <string name="jeotermalEnerji">2.4. Geothermal Energy</string>
+    <string name="jeotermalEnerjiText">Geothermal energy provides direct heating or electricity generation with steam turbines using underground heat reserves. \n\nUsage: home heating, district heating, power plants. \nAdvantages: constant energy production, low emissions, small land requirement.</string>
+    <string name="biyokutleEnerjisi">2.5. Biomass Energy</string>
+    <string name="biyokutleEnerjisiText">Biomass produces energy by burning or fermenting organic materials such as wood, agricultural waste, and algae. \n\nUsage: biofuel, biogas, biomass power plants. \nAdvantages: utilizes waste, can be sustainably carbon neutral.</string>
+    <string name="yesilEnerjininAvantajlari">3. Advantages of Green Energy</string>
+    <string name="yesilEnerjininAvantajlariText">✅ Reduces air and water pollution \n✅ Reduces dependence on fuel imports \n✅ Creates new employment areas \n✅ Provides energy independence \n✅ Protects ecosystems and biodiversity</string>
+    <string name="sonuc4">4. Conclusion</string>
+    <string name="sonuc4Text">Green energy sources are indispensable for a sustainable, clean, and safe future. As technology develops, these systems become more efficient and economical. By disseminating them through education and social awareness, they form the basis of environmentally friendly solutions.</string>
+    <string name="fosilYakitlarNedir">1. What are Fossil Fuels?</string>
+    <string name="fosilYakitlarNedirText">Fossil fuels are natural energy sources formed from the remains of living organisms that lived millions of years ago. The main types are coal, oil, and natural gas. They have played a leading role in energy production since the Industrial Revolution.</string>
+    <string name="fosilYakitlarinCevreselEtkileri">2. Environmental Effects of Fossil Fuels</string>
+    <string name="havaKirliligi">2.1. Air Pollution</string>
+    <string name="havaKirliligiText">When fossil fuels are burned, gases such as carbon dioxide (CO₂), nitrogen oxides (NOₓ), and sulfur dioxide (SO₂) are released into the atmosphere. Consequences: \n\nRespiratory diseases \nAcid rain \nFormation of smog in cities</string>
+    <string name="seraGazlariVeIklimDegisikligi">2.2. Greenhouse Gases and Climate Change</string>
+    <string name="seraGazlariVeIklimDegisikligiText">Fossil fuels are the main source of greenhouse gas emissions. CO₂, in particular, traps heat in the atmosphere, leading to global warming. \nEffects: \n\nMelting of glaciers and rising sea levels \nExtreme weather events (floods, droughts, storms) \nLoss of biodiversity and habitat destruction</string>
+    <string name="suKirliligi">2.3. Water Pollution</string>
+    <string name="suKirliligiText">Oil spills, coal mining waste, and shale gas extraction pollute water sources, threatening both human and animal health.</string>
+    <string name="toprakBozulmasi">2.4. Soil Degradation</string>
+    <string name="toprakBozulmasiText">Mining and drilling activities destroy ecosystems, make the soil infertile, and accelerate desertification.</string>
+    <string name="sosyalVeEkonomikEtkiler">3. Social and Economic Effects</string>
+    <string name="sosyalVeEkonomikEtkilerText">Health Costs: Respiratory diseases, cancer, and heart diseases become widespread. \nEnergy Insecurity: Countries dependent on fossil fuels become vulnerable to political and economic crises. \nInequality: Poor and disadvantaged communities are most affected by air and water pollution.</string>
+    <string name="fosilYakitlarinGecisSureci">4. Transition Process from Fossil Fuels</string>
+    <string name="fosilYakitlarinGecisSureciText">Fossil fuels are still used for transportation, electricity, and industry; however, the transition to renewable energy is essential for sustainability. In this process: \n\nGreen infrastructure investments \nClean transportation systems \nCarbon tax policies \nEnergy efficiency programs are becoming widespread.</string>
+    <string name="sonuc5">5. Conclusion</string>
+    <string name="sonuc5Text">Although fossil fuels have played an important role in the past, their environmental, health, and social harms are unsustainable. The transition to renewable energy is not just a technological development; it is also a moral responsibility for the future of the planet.</string>
+    <string name="enerjiVerimliligiNedir">1. What is Energy Efficiency?</string>
+    <string name="enerjiVerimliligiNedirText">Energy efficiency means doing the same job with less energy. The main goal is to reduce energy waste, lower costs, and minimize environmental impacts. Energy efficiency is generally based on providing the same performance with less consumption through smart technologies and advanced systems, rather than simply reducing energy use.</string>
+    <string name="nedenEnerjiVerimliligiOnemlidir">2. Why is Energy Efficiency Important?</string>
+    <string name="nedenEnerjiVerimliligiOnemlidirText">🔋 Reduces bill costs. \n🌍 Reduces greenhouse gas emissions and combats climate change. \n⚙️ Increases energy security, reduces external dependence. \n🌱 Contributes to the conservation of natural resources. \n🏢 Improves the performance of buildings and the efficiency of industry.</string>
+    <string name="yayginEnerjiVerimliligiTeknikleri">3. Common Energy Efficiency Techniques</string>
+    <string name="binalarVeAltyapi">3.1. Buildings and Infrastructure</string>
+    <string name="binalarVeAltyapiText">LED Lighting: Consumes 80% less energy than traditional bulbs. \nInsulation and Smart Windows: Balances indoor temperature, reduces energy demand. \nSmart Thermostats: Automatically optimizes heating/cooling systems. \nGreen Roofs &amp; Passive Design: Offers nature-friendly spaces with sunlight, ventilation, and landscaping.</string>
+    <string name="cihazlarVeDonanimlar">3.2. Devices and Equipment</string>
+    <string name="cihazlarVeDonanimlarText">Energy Efficiency Certified (A+++) Devices: Consume less electricity. \nEfficient Heating-Cooling Systems: Operate with sensors, use energy according to need. \nLow-Flow Faucets: Reduces the need for water heating.</string>
+    <string name="sanayiVeUretim">3.3. Industry and Production</string>
+    <string name="sanayiVeUretimText">Process Optimization: Reduces machine operating times. \nSpeed-Controlled Motors: Adjusts speed according to need. \nWaste Heat Recovery: Reuses wasted heat.</string>
+    <string name="ulasim">3.4. Transportation</string>
+    <string name="ulasimText">Electric and Hybrid Vehicles: Reduces dependence on fossil fuels. \nPublic Transportation Systems: Transports more people with less energy. \nSmart Traffic Management: Prevents waiting in traffic and fuel waste.</string>
+    <string name="dijitalVeIoTCozumleri">3.5. Digital and IoT Solutions</string>
+    <string name="dijitalVeIoTCozumleriText">Smart Meters: Shows consumption instantly, provides control. \nIoT Automation Systems: Automatically turns off unused devices. \nEnergy Management Systems: Optimizes energy use with central control.</string>
+    <string name="kureselVeUlusalStratejiler">4. Global and National Strategies</string>
+    <string name="kureselVeUlusalStratejilerText">Many countries implement the following policies to increase energy efficiency: \n\nCarbon tax and incentives for efficient devices \nGreen building certifications (LEED, BREEAM) \nPublic awareness campaigns \nInternational cooperation (e.g., Paris Agreement)</string>
+    <string name="sonuc5Text2">Energy efficiency is one of the most effective and economical ways to reduce carbon emissions. It supports renewable energy technologies and is a cornerstone of a sustainable future. Systems that do more with less energy make the world more livable both environmentally and economically.</string>
+    <string name="giris">Introduction</string>
+    <string name="girisText">Solar panel technology has revolutionized our understanding of energy production and consumption. With the global trend towards renewable energy sources, solar energy has become a key element in reducing carbon emissions, promoting environmental sustainability, and lowering energy costs. This technology is used in all areas, from residential rooftops to giant industrial facilities.</string>
+    <string name="gunesPaneliTeknolejisiNedir">1. What is Solar Panel Technology?</string>
+    <string name="gunesPaneliTeknolejisiNedirText">Solar panel technology enables the conversion of sunlight into electrical energy through photovoltaic cells. These cells are generally made from semiconductor materials such as silicon. They absorb light and release electrons, creating an electric current. \n\nThere are two main solar technologies: \n\nPhotovoltaic (PV) Panels: Convert sunlight directly into electricity. \nConcentrated Solar Power (CSP): Uses mirrors or lenses to concentrate sunlight and generate electricity through turbines.</string>
+    <string name="gunesPaneliTurleri">2. Types of Solar Panels</string>
+    <string name="gunesPaneliTurleriText">Monocrystalline Panels: High efficiency, long lifespan, high cost. \nPolycrystalline Panels: Medium efficiency, affordable price, shorter lifespan. \nThin Film Panels: Flexible, lightweight, low efficiency but ideal for portable solutions or curved surfaces.</string>
+    <string name="gunesPanelleriNasilCalisir">3. How Do Solar Panels Work?</string>
+    <string name="gunesPanelleriNasilCalisirText">Sunlight hits the cells and electrons are excited. \nElectron flow occurs, producing direct current (DC). \nAn inverter device converts DC to AC (alternating current). \nExcess energy can be stored in batteries or transferred to the grid (net metering system).</string>
+    <string name="gunesPaneliTeknolojisininKullanimAlanlari">4. Applications of Solar Panel Technology</string>
+    <string name="gunesPaneliTeknolojisininKullanimAlanlariText">Residences: Clean energy is produced with panels installed on roofs. \nIndustrial and Commercial Facilities: Large systems are installed to reduce energy costs. \nSchools and Universities: Reduces energy bills while instilling environmental awareness in students. \nRural Areas: Provides energy in regions where there is no electricity infrastructure.</string>
+    <string name="gunesEnerjisininFaydalari">5. Benefits of Solar Energy</string>
+    <string name="gunesEnerjisininFaydalariText">Environmentally Friendly: Reduces greenhouse gas emissions. \nEconomical: Provides significant savings on electricity bills. \nEnergy Independence: Reduces dependence on fossil fuels and foreign sources. \nLow Maintenance: Requires little maintenance after installation.</string>
+    <string name="zorluklarVeGelecekTrendler">6. Challenges and Future Trends</string>
+    <string name="zorluklarVeGelecekTrendlerText">High Installation Cost: Although decreasing over time, it is still high. \nDependence on Weather Conditions: Efficiency depends on sunlight. \nStorage Requirement: Efficient batteries or grid integration are needed. \n\nFuture developments: \nSolar roof tiles and building-integrated PV systems \nMore efficient and transparent solar panels \nAI-integrated energy management systems</string>
+    <string name="sonuc">Conclusion</string>
+    <string name="sonucText2">Solar panel technology is the pioneer of the green energy revolution. With its continuously developing structure, it will continue to be a part of daily life by making renewable energy more accessible and reliable.</string>
+    <string name="girisText1">Wind energy is one of the fastest-growing renewable energy sources worldwide. Wind turbines are at the center of this transformation, converting the kinetic energy of the wind into electrical energy. The need to reduce carbon emissions, diversify energy sources, and increase sustainability has led to the widespread use of wind turbines.</string>
+    <string name="ruzgarTurbiniNedir">1. What is a Wind Turbine?</string>
+    <string name="ruzgarTurbiniNedirText">A wind turbine is a device that captures the kinetic energy of the wind and converts it first into mechanical and then into electrical energy. They are generally installed in open fields, coastal areas, and offshore platforms.</string>
+    <string name="ruzgarTurbiniTurleri">2. Types of Wind Turbines</string>
+    <string name="ruzgarTurbiniTurleriText">Horizontal Axis Wind Turbines (HAWT): \n\tThe most common type. \n\tThe propeller rotates on a horizontal axis. \n\tEfficient at high wind speeds. \nVertical Axis Wind Turbines (VAWT): \n\tThe propeller rotates on a vertical axis. \n\tWorks better in irregular winds in urban areas. \n\tEasy to maintain, but has lower efficiency.</string>
+    <string name="ruzgarTurbinininParcalari">3. Parts of a Wind Turbine</string>
+    <string name="ruzgarTurbinininParcalariText">Blades: Capture wind energy. Rotor: Includes blades and the central hub. Nacelle (Housing): Contains the gearbox, generator, and control systems. Tower: Supports the blades and nacelle; allows access to higher winds. Foundation: Anchors the turbine to the ground or seabed.</string>
+    <string name="calismaPrensibi">4. Working Principle</string>
+    <string name="calismaPrensibiText">Wind hits the blades and starts them spinning. \nThe rotor turns and spins the shaft. \nThe gearbox increases the rotational speed. \nThe generator converts this energy into electricalenergy. \nElectricity is transmitted to the grid or battery via cables.</string>
+    <string name="ruzgarTurbiniKullanimAlanlari">5. Wind Turbine Applications</string>
+    <string name="ruzgarTurbiniKullanimAlanlariText">Large Wind Farms: Provide electricity to thousands of homes. \nDistributed Systems: Specialized systems for farms and businesses \nOffshore Projects: Benefit from stronger and more consistent winds. \nHybrid Systems: Integrated with solar energy or batteries.</string>
+    <string name="ruzgarEnerjisininAvantajlari">6. Advantages of Wind Energy</string>
+    <string name="ruzgarEnerjisininAvantajlariText">Clean and Renewable: Produces zero emissions. \nScalable: Ranges from small systems to massive farms. \nEconomical: Low operating cost after installation. \nLand Use Efficient: The area under the turbine can be used for agriculture.</string>
+    <string name="zorluklarVeYenilikler">7. Challenges and Innovations</string>
+    <string name="zorluklarVeYeniliklerText">Continuity Problem: Wind may not always blow. \nNoise and Visual Impact: Can create disturbance if close to settlements. \nWildlife Impact: Birds and bats can be particularly affected. \nSolutions: Taller towers, quieter blades, animal-friendly designs, AI-powered wind forecasting</string>
+    <string name="sonucText3">Wind turbines play a critical role in the transition to sustainable energy. With developing technologies and environmental policies, they will gain more prominence in the energy infrastructure of the future.</string>
+    <string name="girisText2">Hydroelectric energy is the most widely used renewable energy type in the world. It provides clean and reliable electricity generation by utilizing the kinetic energy of flowing or falling water. Dams, which are at the center of this process, allow us to control water flow, store energy, and balance seasonal demand. For a world trying to move away from fossil fuels, hydroelectric energy is a powerful solution for sustainable development.</string>
+    <string name="hidroelektrikEnerjiNedir">1. What is Hydroelectric Energy?</string>
+    <string name="hidroelektrikEnerjiNedirText">Hydroelectric energy (hydro energy) is the process of converting the energy of flowing water into electrical energy. This process is usually carried out with the help of a reservoir created by a dam. When water is released, it passes through turbines, turning them and generating electricity with the help of a connected generator.</string>
+    <string name="hidroelektrikSisteminTemelBilesenleri">2. Basic Components of a Hydroelectric System</string>
+    <string name="hidroelektrikSisteminTemelBilesenleriText">Dam: Provides potential energy by holding water \nReservoir: Allows controlled flow by storing water \nPenstock: Directs water to turbines \nTurbine: Rotates with water pressure and converts kinetic energy into mechanical energy \nGenerator: Converts mechanical energy into electrical energy \nTransmission Lines: Transports electricity to the grid</string>
+    <string name="hidroelektrikSantralTurleri">3. Types of Hydroelectric Power Plants</string>
+    <string name="hidroelektrikSantralTurleriText">Storage (Dam) Power Plants: The most common type; large reservoir and dam systems are used. \nRun-of-River Power Plants: Operate with natural river flow, water storage is minimal. \nPumped Storage Power Plants: Pumps water uphill when demand is low, generates energy when demand increases.</string>
+    <string name="hidroelektrikEnerjininAvantajlari">4. Advantages of Hydroelectric Energy</string>
+    <string name="hidroelektrikEnerjininAvantajlariText">Clean and Renewable: Does not release greenhouse gases during operation \nReliable and Continuous: Can provide base-load electricity \nFlexible: Has energy storage and grid balancing capacity \nContribution to Agriculture and Flood Control: Provides versatile societal benefits</string>
+    <string name="cevreselVeSosyalEtkiler">5. Environmental and Social Impacts</string>
+    <string name="cevreselVeSosyalEtkilerText">Ecosystem Disruption: Fish migrations and aquatic life can be affected \nDisplacement: Large reservoirs may sometimes require relocation of settlements \nSediment Accumulation: Can reduce reservoir efficiency over time \n\nSolutions: fish ladders, sediment removal systems, planning processes involving local communities</string>
+    <string name="gelecekteHidroelektrikEnerji">6. Future of Hydroelectric Energy</string>
+    <string name="gelecekteHidroelektrikEnerjiText">Micro-Hydro Systems: Ideal for rural and remote areas \nSmart Grid Integration: Efficiency and instant response time increase \nClimate Change Adaptation: More flexible systems according to precipitation and water regimes \nHybrid Systems: Provides integrated solutions with solar and wind</string>
+    <string name="sonucText4">Hydroelectric energy and dams represent the harmonious union of nature and technology. With responsible management, they produce not only electricity; but also hope, balance, and sustainable development. It is possible to work with nature without harming it.</string>
+    <string name="girisText3">In an era of increasing global environmental problems, the importance of sustainable urbanization is growing day by day. Green buildings and integrated energy management systems offer an effective solution in combating climate change, reducing energy consumption, and improving quality of life. These structures are not just reinforced concrete structures; they are dynamic parts of a healthy and clean urban life.</string>
+    <string name="yesilBinalarNedir">1. What are Green Buildings?</string>
+    <string name="yesilBinalarNedirText">Green buildings are structures designed, constructed, and operated to minimize environmental impacts. They use resources such as energy, water, and materials efficiently and offer comfortable, healthy living spaces to their users.</string>
+    <string name="yesilBinaTasarimininIlkeleri">2. Principles of Green Building Design</string>
+    <string name="yesilBinaTasarimininIlkeleriText">Energy Efficiency: Use of renewable energy such as solar, wind, geothermal \nWater Conservation: Rainwater harvesting, greywater recycling, efficient fixtures \nSustainable Materials: Recycled, local, and low-emission materials \nIndoor Quality: Air circulation, natural lighting, clean air \nSmart Technologies: Automation systems, energy monitoring and management</string>
+    <string name="yesilBinalardaEnerjiYonetimi">3. Energy Management in Green Buildings</string>
+    <string name="yesilBinalardaEnerjiYonetimiText">Energy management is the process of monitoring, controlling, and optimizing energy consumption in buildings. In green buildings, these systems include: \n\nSmart Metering and Sensors: Analyzes consumption, detects inefficiencies \nHVAC Optimization: High-efficiency heating-cooling systems \nLighting Control: LED and motion sensor systems \nEnergy Storage: Battery systems integrated with renewable sources \nDemand Response: Adjustment of consumption according to the electricity grid</string>
+    <string name="yesilBinalarinVeEnerjiYonetimininFaydalari">4. Benefits of Green Buildings and Energy Management</string>
+    <string name="yesilBinalarinVeEnerjiYonetimininFaydalariText">Environmental: \n\tLower carbon emissions \n\tReduction of urban heat island effect \nEconomic: \n\tLower energy bills \n\tHigher real estate value \nHealth and Comfort: \n\tBetter air quality \n\tImproved lighting and temperature comfort</string>
+    <string name="sertifikalarVeStandartlar">5. Certifications and Standards</string>
+    <string name="sertifikalarVeStandartlarText">LEED (Leadership in Energy and Environmental Design) \nBREEAM (Building Research Establishment Environmental Assessment Method) \nWELL Building Standard \nEnergy Star \n\nThese certifications promote quality and sustainability in green building projects.</string>
+    <string name="geleceginYesilSehirleri">6. Green Cities of the Future</string>
+    <string name="geleceginYesilSehirleriText">Future cities will be equipped with vertical gardens, solar-paneled roofs, green roads, and energy systems managed by artificial intelligence. Thanks to the Internet of Things (IoT) and artificial intelligence, resource use will become most efficient, waste will decrease, and urban life will become healthy.</string>
+    <string name="sonucText5">Green buildings and effective energy management are the cornerstones of sustainable urban life. These structures not only protect the environment; they also form the basis of healthier, happier, and more resilient societies. Future cities must be in harmony with nature and friendly to energy.</string>
+    <string name="girisText4">As global warming and climate change accelerate, it is becoming increasingly important for individuals and societies to understand their environmental impacts. One of the most common methods for measuring this impact is the carbon footprint calculation. Measuring and reducing our carbon footprint is a critical step towards a sustainable future.</string>
+    <string name="karbonAyakIziNedir">1. What is a Carbon Footprint?</string>
+    <string name="karbonAyakIziNedirText">A carbon footprint refers to the total amount of carbon dioxide (CO₂) and other greenhouse gases (e.g., methane and nitrousoxide) released into the atmosphere as a result of human activities. It is usually measured in tons of carbon dioxide equivalent (tCO₂e). \n\nThere are two main types: \n\n\tDirect emissions: From sources we control (vehicle fuel, natural gas use). \n\tIndirect emissions: From the production processes of products and services we consume (food, electricity, textiles, etc.).</string>
+    <string name="karbonAyakIzininBaslicaKaynaklari">2. Main Sources of Carbon Footprint</string>
+    <string name="karbonAyakIzininBaslicaKaynaklariText">Transportation: Use of cars, airplanes, and public transport \nEnergy Consumption: Use of electricity and natural gas at home or work \nNutrition: Consumption of meat and dairy products, imported foods \nProducts and Services: Clothing, electronics, online shopping \nWaste: Garbage production, recycling habits</string>
+    <string name="karbonAyakIziNasilHesaplanir">3. How is a Carbon Footprint Calculated?</string>
+    <string name="karbonAyakIziNasilHesaplanirText">Individual calculations can be made thanks to carbon footprint calculators on the internet. Generally, the following topics are asked: \n\nTransportation habits: Distance, type of transportation \nHome energy use: Type of heating, electricity consumption \nNutrition: Frequency of consumption of meat and dairy products \nShopping and waste: Monthly shopping amount, recycling behavior \n\nAs a result, your annual carbon emission amount is shown comparatively with the country or world average.</string>
+    <string name="nedenOnemlidir2">4. Why is it Important?</string>
+    <string name="nedenOnemlidir2Text">Awareness: Individuals and organizations can see their impact \nGoal Setting: Guides sustainable living choices \nPolicy Support: Provides data for governments\' climate policies \nClimate Action: Greenhouse gases must be reduced to avoid exceeding the 1.5°C warming limit</string>
+    <string name="karbonAyakIziNasilAzaltilir">5. How to Reduce Carbon Footprint?</string>
+    <string name="karbonAyakIziNasilAzaltilirText">Use public transport, ride a bike, or walk \nSwitch to renewable energy sources \nIncrease home insulation and energy efficiency \nReduce meat consumption, prefer local foods \nConsume less, reuse, recycle \nDo carbon offsetting (tree planting, clean energy investments)</string>
+    <string name="isletmelerinVeKurumlarinSorumlulugu">6. Responsibility of Businesses and Institutions</string>
+    <string name="isletmelerinVeKurumlarinSorumluluguText">Carbon accounting systems \nGreen supply chain practices \nEmployee transportation strategies \nSustainable production and packaging \nCarbon offset projects</string>
+    <string name="sonucText6">Calculating our carbon footprint is the first step in combating climate change. Knowing and reducing our emissions, whether as individuals or organizations, is the key to building a livable world for future generations.</string>
+    <string name="girisText5">As the world moves towards renewable energy and electrification, energy storage systems (ESS) have become one of the fundamental building blocks of modern energy infrastructure. These systems store excess electricity generated from renewable sources such as solar and wind, to be used when production is low or demand is high. Effective and scalable energy storage is critical for grid stability and the sustainable energy transition.</string>
+    <string name="enerjiDepolamaSistemiNedir">1. What is an Energy Storage System?</string>
+    <string name="enerjiDepolamaSistemiNedirText">Energy storage systems are technologies that store energy produced at one time for later use. These systems balance the time difference between energy production and consumption and provide flexibility and reliability to the energy infrastructure.</string>
+    <string name="enerjiDepolamaTurleri">2. Types of Energy Storage</string>
+    <string name="enerjiDepolamaTurleriText">Battery-Based Systems (BESS): \n\tThe most commonly used type \n\tLithium-ion, lead-acid, and solid-state batteries are used \n\tUsed in homes, workplaces, and electric vehicles \nPumped Hydro Storage: \n\tTwo water reservoirs at different heights are used \n\tEnergy is stored as potential energy in the form of water \nCompressed Air Energy Storage (CAES): \n\tEnergy is stored by compressing air into underground caverns \n\tElectricity is generated when the air is released \nFlywheel Energy Storage: \n\tKinetic energy is stored in a rotating mass \n\tIdeal for short-term, high-power needs \nThermal Energy Storage: \n\tEnergy is stored as heat (e.g., molten salt, water) \n\tUsed in solar power plants</string>
+    <string name="enerjiDepolamaSistemlerininKullanimAlanlari">3. Applications of Energy Storage Systems</string>
+    <string name="enerjiDepolamaSistemlerininKullanimAlanlariText">Grid Balancing: Balances supply and demand fluctuations \nRenewable Energy Integration: Excess generated energy is stored \nBackup Power: Provides support during power outages \nElectric Vehicles (EV): Energy is transported in batteries for transportation \nBattery Swap Stations: Fast battery exchange systems instead of charging</string>
+    <string name="enerjiDepolamaninFaydalari">4. Benefits of Energy Storage</string>
+    <string name="enerjiDepolamaninFaydalariText">More Reliable and Resilient Electricity Grids \nReduction in Energy Costs (Peak Shaving) \nReduced Dependence on Fossil Fuels \nIncreased Use of Renewable Energy \nSupport for Local and Distributed Energy Systems</string>
+    <string name="zorluklarVeYenilikler2">5. Challenges and Innovations</string>
+    <string name="zorluklarVeYenilikler2Text">High Initial Cost: Especially for large-scale systems \nBattery Life and Recycling: Waste management issues \nTechnological Development: Some systems are still in the early stages \n\nInnovations: \n\nHigh-density solid-state batteries \nEnergy management with artificial intelligence \nSmart grid integration with IoT sensors</string>
+    <string name="sonucText7">Energy storage systems are fundamentally changing the way we generate, store, and use energy. From homes to industry, from electric vehicles to national grids, they offer sustainable and flexible energy solutions in every field, paving the way for a green future.</string>
+    <string name="girisText6">Increasing energy demand and the need for sustainability have accelerated the development of smart grid systems. These advanced energy networks make energy management more flexible and effective by integrating digital communication, automation, and real-time data analysis into traditional electricity grids.</string>
+    <string name="akilliSebekeNedir">1. What is a Smart Grid?</string>
+    <string name="akilliSebekeNedirText">A smart grid is an electricity distribution network equipped with digital technology that can respond to local consumption changes. It connects producers, consumers, and energy storage systems through two-way communication, enabling instant control and data exchange.</string>
+    <string name="akilliSebekeninTemelOzellikleri">2. Basic Features of a Smart Grid</string>
+    <string name="akilliSebekeninTemelOzellikleriText">Two-Way Communication: Data exchange between the energy company and the user \nReal-Time Monitoring: Consumption tracking with smart meters and sensors \nAutomation: Automatically detects and intervenes in faults \nRenewable Energy Integration: Incorporates sources like solar and wind into the system \nData Analysis: Predictive maintenance, demand analysis, and efficiency optimization</string>
+    <string name="akilliSebekeninBilesenleri">3. Components of a Smart Grid</string>
+    <string name="akilliSebekeninBilesenleriText">Smart Meters: Measure electricity consumption and communicate with the energy company \nSensors and IoT Devices: Monitor voltage, frequency, and load status \nAdvanced Metering Infrastructure (AMI): Enables data collection and feedback \nControl Centers: Analyze data, manage energy flow, and respond to faults \nEnergy Storage and Distributed Generators: Establishes supply-demand balance</string>
+    <string name="akilliSebekeninFaydalari">4. Benefits of a Smart Grid</string>
+    <string name="akilliSebekeninFaydalariText">Energy Efficiency: Reduces losses and waste \nGrid Reliability: Quickly detects and isolates faults \nConsumer Empowerment: Allows users to see their usage habits and save money \nEnvironmental Impact: Increases the integration of renewable resources \nCost Reduction: Reduces the number of outages, optimizes energy management</string>
+    <string name="uygulamaZorluklari">5. Implementation Challenges</string>
+    <string name="uygulamaZorluklariText">High Installation Cost: Infrastructure upgrades can be expensive \nCybersecurity Risk: Digital connections make systems vulnerable to attacks \nData Privacy: Continuous monitoring can create privacy concerns \nLegal Challenges: Legislation needs to evolve and the market needs to adapt</string>
+    <string name="akilliSebekelerinGelecegi">6. Future of Smart Grids</string>
+    <string name="akilliSebekelerinGelecegiText">Smart grids are transforming with artificial intelligence, blockchain, and big data. These developments will: \n\nMake energy forecasts more accurate \nEnable decentralized energy markets \nIntroduce real-time pricing and personalized tariffs \nPromote energy sharing between homes and communities</string>
+    <string name="sonucText8">Smart grid systems are the foundation of future energy infrastructure. With their integration of renewable energy, flexibility, and user-friendly nature, they open the door to a cleaner, more resilient, and smarter energy world.</string>
+    <string name="girisText7">As global energy demand increases and environmental concerns grow, Hybrid Energy Systems (HES) are emerging as an important solution. These systems combine multiple energy sources, such as solar, wind, diesel generators, or batteries, to provide a reliable, efficient, and sustainable energy supply. Hybrid systems balance the intermittency of renewable energy and offer flexible use.</string>
+    <string name="hibritEnerjiSistemiNedir">1. What is a Hybrid Energy System?</string>
+    <string name="hibritEnerjiSistemiNedirText">A hybrid energy system is an energy generation system that works by integrating multiple energy sources. Generally, renewable sources are used together with traditional sources (generator, grid). The aim is to balance energy production, increase reliability, and reduce dependence on fossil fuels.</string>
+    <string name="hibritEnerjiSistemininBilesenleri">2. Components of a Hybrid Energy System</string>
+    <string name="hibritEnerjiSistemininBilesenleriText">Primary Renewable Sources: \n\tSolar Panels – Generate electricity from sunlight \n\tWind Turbines – Utilize wind energy \nSecondary Backup Sources: \n\tDiesel Generators – Activate when renewable sources are insufficient \n\tGrid Connection – Provides electricity when needed \nEnergy Storage: \n\tBattery Banks – Store excess generated energy \nPower Electronics and Control Devices: \n\tInverters, converters, and control systems regulate energy flow</string>
+    <string name="hibritEnerjiSistemiTurleri">3. Types of Hybrid Energy Systems</string>
+    <string name="hibritEnerjiSistemiTurleriText">Solar-Diesel Hybrid: Common in off-grid areas \nWind-Solar-Battery Hybrid: Ideal for remote and rural areas \nGrid-Connected Hybrid: Combination of renewable energy and the grid \nMicrogrid Systems: Local and independent energy systems</string>
+    <string name="hibritEnerjiSistemlerininAvantajlari">4. Advantages of Hybrid Energy Systems</string>
+    <string name="hibritEnerjiSistemlerininAvantajlariText">Reliability: Provides uninterrupted energy \nEfficiency: Balances energy production and consumption \nFlexibility: Adapts to different geographical and climatic conditions \nEnvironmental Impact: Reduces carbon emissions \nCost Savings: Lowers fuel and operating expenses</string>
+    <string name="zorluklar">5. Challenges</string>
+    <string name="zorluklarText">High Initial Cost: Equipment and installation expenses \nTechnical Complexity: Requires expert engineering and design \nMaintenance Requirement: Regular service of different systems is needed</string>
+    <string name="uygulamaAlanlari">6. Application Areas</string>
+    <string name="uygulamaAlanlariText">Rural Settlements: Energy solution for off-grid areas \nMilitary Bases: Secure and independent energy system \nDisaster Relief: Rapid energy supply in crisis zones \nIndustrial Areas: Load balancing and backup power needs</string>
+    <string name="gelecekVizyonu">7. Future Vision</string>
+    <string name="gelecekVizyonuText">Hybrid energy systems are becoming smarter with developing technologies: \n\n\tAI-powered control systems \n\tBlockchain applications for energy sharing \n\tModular and scalable microgrids \n\nWith decreasing costs and technological advancements, hybrid systems will play a key role in the global energy transition.</string>
+    <string name="sonucText9">Hybrid energy systems are a harmonious combination of renewable and traditional technologies. They are an indispensable solution for building the sustainable, flexible, and independent energy infrastructure of the future.</string>
+    <string name="girisText8">Transportation is one of the largest sources of global greenhouse gas emissions. With increasing urban populations and accelerating climate change, sustainable transportation solutions are vital for environmental protection and public health. These systems aim to reduce emissions, increase energy efficiency, and promote environmentally friendly, accessible forms of transportation.</string>
+    <string name="surdurulebilirUlasimNedir">1. What is Sustainable Transportation?</string>
+    <string name="surdurulebilirUlasimNedirText">Sustainable transportation refers to forms of transport that have a low impact on the environment and meet the mobility needs of individuals/societies. It is based on elements such as energy efficiency, use of renewable energy, emission reduction, and accessibility.</string>
+    <string name="surdurulebilirUlasiminTemelIlkeleri">2. Basic Principles of Sustainable Transportation</string>
+    <string name="surdurulebilirUlasiminTemelIlkeleriText">Environmental Responsibility: Reducing air and noise pollution \nEnergy Efficiency: Promotion of electric and hybrid vehicles \nAccessibility: Transportation suitable for all income and disability groups \nIntegrated Mobility: Easy transition between different transport modes \nTechnological Innovation: Use of smart systems, data analytics, and artificial intelligence</string>
+    <string name="surdurulebilirUlasimCozumleriTurleri">3. Types of Sustainable Transportation Solutions</string>
+    <string name="surdurulebilirUlasimCozumleriTurleriText">Electric Vehicles (EV): \n\tRun on electricity instead of fossil fuels \n\tZero emissions when charged with renewable sources \nPublic Transportation Systems: \n\tElectric buses, trams, metros \n\tReduces traffic congestion and air pollution \nCycling and Walking Infrastructure: \n\tBike lanes and pedestrian-friendly streets \n\tZero emissions, healthy living \nVehicle Sharing (Carpooling): \n\tFewer vehicles on the road, more efficient fuel use \nGreen Logistics: \n\tElectric delivery vehicles, cargo bikes \n\tSmart route planning systems</string>
+    <string name="surdurulebilirUlasimdaSehirPlanlamasi">4. Urban Planning in Sustainable Transportation</string>
+    <string name="surdurulebilirUlasimdaSehirPlanlamasiText">Cities play a key role in transportation transformation: \n\n\tMixed-use settlements shorten distances \n\tTransportation-oriented design encourages public transport \n\tCharging infrastructure for electric vehicles becomes widespread \n\tSmart traffic systems save energy and time</string>
+    <string name="surdurulebilirUlasiminFaydalari">5. Benefits of Sustainable Transportation</string>
+    <string name="surdurulebilirUlasiminFaydalariText">Low Carbon Emissions: Contribution to climate targets \nHealthier Societies: Clean air and increased physical activity \nReduced Dependence on Fossil Fuels \nEconomic Gains: Lower transportation costs, green employment \nLivable Cities: Quiet, clean, and safe environment</string>
+    <string name="zorluklarVeGelecekVizyonu">6. Challenges and Future Vision</string>
+    <string name="zorluklarVeGelecekVizyonuText">High Infrastructure Cost \n\tUser Behavior and Habits \n\tLegal and Political Compliance Process \n\tInitial Cost of New Technologies \nFuture Vision: \n\tAutonomous electric public transport \n\tSolar-powered public vehicles \n\tAI-powered guidance systems \n\tSmart mobility (MaaS) platforms</string>
+    <string name="sonucText10">Sustainable transportation is a necessity rather than a choice. The transition to green transportation methods plays an important role in combating climate change, protecting the environment, and improving public health. With the necessary infrastructure and social support, the future of transportation will be environmentally friendly.</string>
+    <string name="girisText9">In the face of global challenges such as climate change and energy security, renewable energy policies are at the center of national and international strategies. These policies aim to accelerate the transition from fossil fuels to clean and sustainable energy sources. An effective policy framework encourages investment while also shaping the future of green energy systems.</string>
+    <string name="yenilenebilirEnerjiPolitikasiNedir">1. What is Renewable Energy Policy?</string>
+    <string name="yenilenebilirEnerjiPolitikasiNedirText">Renewable energy policies are legal, regulatory, and financial measures implemented by governments. Their objectives are to: \n\n\tReduce greenhouse gas emissions \n\tSupport economic growth and innovation \n\tEnsure access to and security of energy \n\tCreate green employment and industry</string>
+    <string name="temelYenilenebilirEnerjiPolitikasiTurleri">2. Basic Types of Renewable Energy Policies</string>
+    <string name="temelYenilenebilirEnerjiPolitikasiTurleriText">Feed-in Tariffs: \n\tOffers a fixed purchase price for renewable electricity \n\tEncourages small and medium-sized projects \nRenewable Portfolio Standards (RPS): \n\tRequirement that a certain percentage of electricity generation comes from renewable sources \nTax Incentives and Subsidies: \n\tReduces the cost of investments such as solar panels and wind turbines \nNet Metering: \n\tAllows excess electricity from homes to be sold to the grid \nGreen Public Procurement: \n\tSupports public institutions in choosing green energy \nCarbon Pricing (Carbon Tax / Emissions Trading): \n\tEncourages emission reduction by setting a cost for carbon emissions</string>
+    <string name="dunyadanPolitikaOrnekleri">3. Policy Examples from Around the World</string>
+    <string name="dunyadanPolitikaOrnekleriText">European Union: \n\tGreen Deal, Fit for 55 package, hydrogen and renewable investments \nUSA: \n\tLarge-scale green energy support under the Inflation Reduction Act \nChina: \n\tLeadership in wind and solar capacity, pioneering production technologies \nDeveloping Countries: \n\tOff-grid solar projects and mini-grids implemented with international support</string>
+    <string name="politikaCevresininOnemi">4. Importance of the Policy Framework</string>
+    <string name="politikaCevresininOnemiText">Long-Term Vision: Gives confidence to the private sector \nRegulatory Clarity: Prevents uncertainties in the market \nCompetitive Environment: Facilitates competition with fossil fuels \nGrid Compatibility: Ensures infrastructure can meet growth</string>
+    <string name="uygulamadakiZorluklar">5. Implementation Challenges</string>
+    <string name="uygulamadakiZorluklarText">Policy Uncertainty: Sudden changes can deter investors \nFossil Fuel Lobbies: Slow down the political process \nInfrastructure Deficiencies: Weak grid and insufficient storage capacity \nSocial Justice: Protection of low-income groups during the transition process</string>
+    <string name="geleceginEnerjiPolitikalari">6. Future Energy Policies</string>
+    <string name="geleceginEnerjiPolitikalariText">Decentralized Energy Markets \nDigital Policies (blockchain, AI-supported forecasting systems) \nCross-Border Green Energy Trade \nIntegration of Climate and Energy Laws</string>
+    <string name="sonucText11">Renewable energy policies are the engine of the green transformation. Thanks to clear incentives, regulatory stability, and long-term planning, a sustainable energy future becomes possible. Governments, sectors, and individuals must work together to turn these policies into concrete actions.</string>
+    <string name="girisText10">Climate change is one of the most urgent problems of the 21st century and is largely triggered by the way we produce and consume energy. Fossil fuels such as coal, oil, and natural gas are the main source of greenhouse gases, especially carbon dioxide (CO₂). To avoid the worst effects of climate change, our energy systems need to undergo a rapid and radical transformation. The transition to clean and renewable energy is a global as well as an environmental imperative.</string>
+    <string name="iklimDegisikligiVeEnerjiArasindakiBaglanti">1. The Link Between Climate Change and Energy</string>
+    <string name="iklimDegisikligiVeEnerjiArasindakiBaglantiText">The energy sector accounts for approximately 75% of global greenhouse gas emissions. The burning of fossil fuels in electricity generation, heating, and transportation leads to: \n\n\tGlobal temperature increase \n\tMelting of glaciers and rising sea levels \n\tExtreme weather events (floods, droughts, storms) \n\tBiodiversity loss</string>
+    <string name="iklimDegisikligininEtkileri">2. Effects of Climate Change</string>
+    <string name="iklimDegisikligininEtkileriText">The effects of climate change are global and multidimensional: \n\n\tEnvironmental: Desertification, glacier loss, sea level rise \n\tEconomic: Agricultural damage, infrastructure damage, climate migration \n\tSocial and Health: Epidemics, food insecurity, water scarcity</string>
+    <string name="enerjiSektorununDonusumu">3. Transformation of the Energy Sector</string>
+    <string name="enerjiSektorununDonusumuText">In the fight against climate change, it is essential for the energy sector to transition to low-carbon andrenewable sources. Key strategies include: \n\n\tDecarbonization of Electricity Generation: Investment in solar, wind, hydro, and geothermal resources \n\tEnergy Efficiency: Buildings, vehicles, and devices operating with less energy \n\tElectrification: Using electricity instead of fossil fuels in areas like heating and transportation \n\tSmart Grids: Flexible and digital infrastructure investments</string>
+    <string name="uluslararasiAnlasmalarVeHedefler">4. International Agreements and Targets</string>
+    <string name="uluslararasiAnlasmalarVeHedeflerText">Global frameworks supporting the energy-climate transition: \n\n\tParis Agreement (2015): Aims to keep global warming below 2°C \n\tUN Sustainable Development Goal 7: Clean and accessible energy for all \n\tCOP Summits: Annual global meetings where climate action is discussed</string>
+    <string name="bireylerinVeToplumlarinRolu">5. Role of Individuals and Societies</string>
+    <string name="bireylerinVeToplumlarinRoluText">Everyone has a role to play in combating climate change: \n\n\tReducing energy consumption \n\tPreferring clean transportation options \n\tSupporting green energy providers \n\tAdvocating for climate-friendly policies</string>
+    <string name="acilEylemGerekliligi">6. Need for Urgent Action</string>
+    <string name="acilEylemGerekliligiText">Scientists emphasize that limiting global warming to 1.5°C is critical to prevent irreversible impacts. For this target: \n\n\tGlobal emissions must be reduced by 50% by 2030, \n\tA net-zero emissions target by 2050 is necessary.</string>
+    <string name="sonucText12">The relationship between climate change and energy is clear, and the key to the solution is energy transformation. Changing the way the world produces and consumes energy is the most effective way to protect the planet. The right time to act is now—both globally and individually.</string>
+    <string name="girisText11">In an era of increasing global energy demand and prioritizing sustainability, robotic technologies are becoming increasingly important in energy production. From traditional power plants to solar and wind farms, and nuclear facilities, robots are enhancing efficiency, ensuring safety, and reducing human error in every field. The integration of automation into energy systems is revolutionizing production processes.</string>
+    <string name="enerjiUretimindeNedenRobotik">1. Why Robotics in Energy Production?</string>
+    <string name="enerjiUretimindeNedenRobotikText">Energy production facilities are often located in challenging, hazardous, or difficult-to-access environments. Robots offer the following advantages by undertaking tasks that are impossible or risky for humans: \n\n\tIncreased Safety: Reduces the need for human presence in dangerous environments \n\tHigh Efficiency: Can operate continuously, moves quickly and precisely \n\tCost Reduction: Minimizes maintenance and downtime \n\tData Accuracy: Collects real-time and accurate data</string>
+    <string name="farkliEnerjiAlanlarindaRobotikUygulamalari">2. Robotic Applications in Different Energy Fields</string>
+    <string name="farkliEnerjiAlanlarindaRobotikUygulamalariText">a. Fossil Fuel Power Plants \n\tInspection Robots: Enter boilers, pipes, and turbines to detect cracks and corrosion \n\tCleaning Robots: Automate the cleaning of ash and residues \n\tMaintenance Drones: Observe the condition of equipment and infrastructure \n\n\tb. Renewable Energy Systems \n\tSolar Power Plants: \n\t\tCleaning Robots: Increase efficiency by cleaning the surface of panels \n\t\tDrones: Detect faults with infrared sensors in large areas \n\tWind Turbines: \n\t\tClimbing Robots: Inspect and repair turbine blades at high altitudes \n\t\tAerial Drones: Monitor turbine performance \n\tHydroelectric Power Plants: \n\t\tUnderwater Robots (ROV): Inspect dam walls and turbines \n\t\tAutomatic Gate Systems: Precisely control water flow \n\n\tc. Nuclear Energy \n\tRadiation-Resistant Robots: Perform maintenance and inspection tasks in radioactive areas \n\tDecommissioning Robots: Ensure the safe dismantling of old nuclear reactors</string>
+    <string name="enerjiRobotlarindaYapayZekaVeMakineOgrenimi">3. Artificial Intelligence and Machine Learning in Energy Robots</string>
+    <string name="enerjiRobotlarindaYapayZekaVeMakineOgrenimiText">With AI integration, robots are becoming smarter: \n\n\tFault prediction and preventive maintenance \n\tAnomaly detection \n\tEnergy consumption forecasting \n\tAutonomous decision-making and microgrid management</string>
+    <string name="robotikEnerjiUygulamalarininAvantajlari">4. Advantages of Robotic Energy Applications</string>
+    <string name="robotikEnerjiUygulamalarininAvantajlariText">Increased Worker Safety \n\n\tReduction of Human Errors \n\tOptimization of Maintenance Scheduling \n\tRemote Control and Real-Time Monitoring \n\tAdaptation to Harsh Conditions</string>
+    <string name="gelecekPerspektifi">5. Future Perspective</string>
+    <string name="gelecekPerspektifiText">As robotics and artificial intelligence advance, their impact on the energy sector will also increase: \nSwarm robot technology in solar and wind farms \n\n\tOff-grid system management with autonomous robot teams \n\tFull integration with digital twins and smart grids \n\tRobotic energy harvesting systems</string>
+    <string name="sonucText13">Robotic applications are making energy production safer, more efficient, and more sustainable. While these technologies are becoming the building blocks of future energy systems, they will also play a critical role in achieving global climate goals.</string>
+    <string name="girisText12">In the age of digital transformation and sustainability, the Internet of Things (IoT) stands out as a significant technology in energy efficiency. IoT devices can monitor, analyze, and optimize energy usage in real-time. From smart homes to industrial facilities and energy grids, IoT is making energy management smarter, greener, and more economical.</string>
+    <string name="enerjiVerimliligindeIoTNedir">1. What is IoT in Energy Efficiency?</string>
+    <string name="enerjiVerimliligindeIoTNedirText">The Internet of Things allows interconnected sensor-equipped devices to collect data and control systems by analyzing this data. In energy efficiency applications, these devices: \n\n\tMonitor energy consumption \n\tDetect inefficiencies \n\tAutomatically optimize systems \n\tProvide real-time control and reporting</string>
+    <string name="iotEnerjiVerimliligindekiUygulamaAlanlari">2. Application Areas of IoT in Energy Efficiency</string>
+    <string name="iotEnerjiVerimliligindekiUygulamaAlanlariText">a. Smart Homes and Buildings \n\tSmart Thermostats: Temperature adjustment based on user and weather conditions \n\tLighting Systems: Energy savings with motion sensors and timers \n\tEnergy Monitors: Device-level consumption analysis \n\tRemote Control: Automatically turn off unused devices \nb. Industrial and Commercial Energy Management \n\tPredictive Maintenance: Early warning before failures occur \n\tReal-Time Consumption Tracking: Reduction of peak consumption \n\tHVAC Optimization: Climate control adjustment based on usage intensity \nc. Smart Grids and Energy Infrastructure \n\tSmart Meters: Provide detailed energy usage data \n\tLoad Balancing: Balances supply and demand \n\tFault Detection: Automatic notification for power outages and system problems \n\tDistributed Energy Resources Management: Solar, wind, and battery systems</string>
+    <string name="iotEnerjiVerimliligineKatkilari">3. Contributions of IoT to Energy Efficiency</string>
+    <string name="iotEnerjiVerimliligineKatkilariText">Reduction in Energy Costs \n\tReducing Environmental Impact: Less carbon
+emissions \n\tExtending Device Lifespan: Efficient use and regular maintenance \n\tUser Awareness: Real-time consumption information \n\tLegal Compliance: Ease of providing data for energy audits</string>
+    <string name="karsilasilanZorluklarVeDikkatEdilmesiGerekenler">4. Challenges Encountered and Considerations</string>
+    <string name="karsilasilanZorluklarVeDikkatEdilmesiGerekenlerText">Cybersecurity: Connected devices can be vulnerable to attacks \n\tData Management: Large volumes of data need to be stored and processed \n\tHigh Initial Cost: System installation requires investment \n\tCompatibility Issues: Interoperability of devices from different manufacturers</string>
+    <string name="iotVeEnerjiVerimliligininGelecegi">5. Future of IoT and Energy Efficiency</string>
+    <string name="iotVeEnerjiVerimliligininGelecegiText">Integration with Artificial Intelligence: Smart decisions based on usage habits \n\tBlockchain in Energy Trading: Secure peer-to-peer energy exchange \n\tIoT with Renewable Energy: Optimization of production and maintenance \n\tSmart Cities: Management of transportation, lighting, and energy systems with IoT</string>
+    <string name="sonucText14">IoT is revolutionizing energy efficiency. Thanks to real-time monitoring, automatic control, and smart analytics, everyone from individuals to large institutions can achieve more benefits with less energy. This technology is a powerful tool for a sustainable energy future.</string>
+    <string name="girisText13">As environmental degradation and climate change accelerate, green environmental projects have become an indispensable part of the global sustainability movement. These projects are carried out in line with goals such as repairing ecosystems, reducing pollution, protecting biological diversity, and increasing environmental awareness in societies. Governments, non-governmental organizations, the private sector, and individuals are increasingly investing in environmentally friendly projects.</string>
+    <string name="yesilCevreProjesiNedir">1. What is a Green Environmental Project?</string>
+    <string name="yesilCevreProjesiNedirText">Green environmental projects are sustainable development-oriented initiatives aimed at protecting and restoring natural ecosystems. Their main areas are: \n\n\tAfforestation and reforestation \n\tUse of renewable energy \n\tWaste management and recycling \n\tAccess to clean water and protection of resources \n\tWildlife conservation \n\tUrban greening and smart city projects \n\nThese projects are generally community-based and aim to provide both education and direct environmental benefits.</string>
+    <string name="yesilProjeOrnekleri">2. Examples of Green Projects</string>
+    <string name="yesilProjeOrnekleriText">a. Afforestation Initiatives \n\n\tReforestation of degraded areas \n\tTree planting to improve air quality in cities \n\tSeedling planting campaigns with public participation \n\nb. Clean Energy Applications \n\tInstallation of solar panels on school and public buildings \n\tWind turbines in rural areas \n\tMicro-hydro systems in mountainous regions \n\nc. Sustainable Waste Management \n\tCompost and recycling centers \n\tCampaigns to reduce plastic use \n\tWaste-to-energy plants \n\nd. Water Conservation Projects \n\tRainwater harvesting systems \n\tRestoration of wetlands \n\tPrevention of pollution in rivers and lakes \n\ne. Environmental Education and Awareness \n\tNature clubs in schools \n\tWorkshops and environmental cleanup days \n\tGreen certificates for workplaces and educational institutions</string>
+    <string name="yesilProjelerinFaydalari">3. Benefits of Green Projects</string>
+    <string name="yesilProjelerinFaydalariText">Environmental: Improved air and water quality, protection of habitats \nEconomic: Green employment opportunities, energy and resource savings \nSocial: Community participation, health improvements, environmental awareness \nClimate Resilience: Support for adaptation and mitigation against climate change</string>
+    <string name="karsilasilanZorluklar2">4. Challenges Encountered</string>
+    <string name="karsilasilanZorluklar2Text">Insufficient funding and sustainable support \nBureaucratic obstacles and political difficulties \nLack of public awareness \nNeed for technical knowledge and human resources</string>
+    <string name="yesilProjelerinGelecegi">5. Future of Green Projects</string>
+    <string name="yesilProjelerinGelecegiText">With the increase in green financing and ESG investments, environmental projects are expected to become even more widespread in the coming years. Technologies such as artificial intelligence, geographic information systems (GIS), and IoT will facilitate the planning and monitoring of projects.</string>
+    <string name="sonucText15">Green environmental projects are the cornerstones of building a cleaner, healthier, and more sustainable world. These projects bring nature and people closer, encourage environmentally friendly behaviors, and restore ecosystems. Every individual and institution can contribute to these efforts and invest in the future of the planet.</string>
+    <string name="girisText14">Within the general framework of sustainable development, social sustainability often remains in the shadow of environmental and economic sustainability. However, social sustainability is the most humane dimension of sustainability, based on issues such as individual well-being, equality, participation, and social resilience. Increasing this awareness is vital for building peaceful, just, and inclusive societies.</string>
+    <string name="toplumsalSurdurulebilirlikNedir">1. What is Social Sustainability?</string>
+    <string name="toplumsalSurdurulebilirlikNedirText">Social sustainability is the capacity of a society to maintain the following characteristics in the long term: \n\n\tEnsuring justice, equality, and human rights \n\tAccepting differences and promoting inclusiveness \n\tGuaranteeing access to basic needs (housing, education, health) \n\tEnsuring participation of community members in decision-making processes \n\tProtecting solidarity, empathy, and social cohesion</string>
+    <string name="toplumsalSurdurulebilirliginTemelUnsurlari">2. Basic Elements of Social Sustainability</string>
+    <string name="toplumsalSurdurulebilirliginTemelUnsurlariText">Equality and Human Rights \n\tEqual access to education, health, and employment \n\tProtection of disadvantaged groups \nCommunity Participation \n\tPublic participation in local decision-making processes \n\tSupport for civil society and volunteerism \nCultural Sustainability \n\tRespect for local cultures and languages \n\tPromotion of intercultural dialogue \nHealth and Well-being \n\tPrograms supporting physical and mental health \n\tSafe and inclusive living spaces \nInclusiveness in Education and Employment \n\tLearning opportunities at all ages \n\tWork environments that support diversity</string>
+    <string name="toplumsalSurdurulebilirlikBilincininOnemi">3. Importance of Social Sustainability Awareness</string>
+    <string name="toplumsalSurdurulebilirlikBilincininOnemiText">Strengthens Democratic Participation: Citizens participate more actively in social life \n\tIncreases Tolerance and Peace: Reduces discrimination and conflict \n\tImproves Quality of Life: Facilitates access to basic needs \n\tIncreases Social Resilience: Increases the community\'s ability to recover in crises \n\tContributes to SDGs: Directly supports Goals 1, 5, 10, and 16 in particular</string>
+    <string name="bilinclendirmeFaaliyetlerineOrnekler">4. Examples of Awareness Activities</string>
+    <string name="bilinclendirmeFaaliyetlerineOrneklerText">Public workshops on diversity and inclusion \n\tAwareness seminars in schools and universities \n\tNeighborhood festivals and cultural integration days \n\tSocial sustainability modules in academic curricula \n\tInclusive urban planning meetings</string>
+    <string name="zorluklar2">5. Challenges</string>
+    <string name="zorluklar2Text">Inequality and systemic discrimination \n\tLack of political representation \n\tDigital divide and inequality in education \n\tResistance to change and social apathy</string>
+    <string name="gelecekVizyonu2">6. Future Vision</string>
+    <string name="gelecekVizyonu2Text">As global societies diversify and become more interconnected, social sustainability awareness will become even more important. Technology, education, and local leadership will play important roles in this process."</string>
+    <string name="sonucText16">Social sustainability awareness is the foundation of building a livable world in peace, justice, and solidarity. Educating individuals, encouraging societies to participate, and acting together are the keys to a stronger, more inclusive, and resilient future.</string>
+    <string name="girisText15">With climate change, increasing energy demand, and the depletion of fossil fuels, future energy technologies play a key role in building a cleaner, smarter, and more sustainable energy system. Many innovations, from advanced solar cells to green hydrogen, from fusion energy to AI-supported smart grids, are transforming our energy production and consumption habits.</string>
+    <string name="nedenGeleceginEnerjiCozumlerineİhtiyacimizVar">1. Why Do We Need Future Energy Solutions?</string>
+    <string name="nedenGeleceginEnerjiCozumlerineİhtiyacimizVarText">The current energy model, largely based on coal, oil, and natural gas, is the main source of global greenhouse gas emissions. Therefore, the transition to low-carbon, renewable, and decentralized energy systems is critical for the following goals: \n\n\tReducing the impacts of climate change \n\tIncreasing energy security \n\tEnsuring universal access to energy \n\tMeeting the needs of the digital and electric age</string>
+    <string name="oneCikanGelecekEnerjiTeknolojileri">2. Prominent Future Energy Technologies</string>
+    <string name="oneCikanGelecekEnerjiTeknolojileriText">a. Next-Generation Solar Energy \n\tPerovskite Solar Cells: Higher efficiency, lower cost \n\tFloating Solar Farms: Installed on lakes and dams \n\tBuilding Integrated Photovoltaics (BIPV): Transparent solar glass and facades \nb. Advanced Wind Energy \n\tFloating Wind Turbines: Wind energy generation in deep seas \n\tVertical Axis Turbines: More efficient in cities \n\tSmart Turbines: Sensor and AI-supported performance control \nc. Green Hydrogen \n\tHydrogen production from water using renewable energy \n\tCan be used in industry, heating, and transportation \n\tProduces zero emissions when burned \nd. Energy Storage Innovations \n\tSolid-State Batteries: More energy, faster charging \n\tGravity-Based Storage: Energy storage using height difference \n\tThermal and Compressed Air Storage: Storing excess energy as heat or compressed air \ne. Fusion Energy \n\tMimics the sun\'s energy production model \n\tTheoretically unlimited and clean energy source \n\tBeing developed with experimental reactors like ITER \nf. Artificial Intelligence and Smart Systems \n\tAI for grid management, energy forecasting, and trading \n\tSmart meters and devices with IoT \n\tDecentralized energy exchange with blockchain</string>
+    <string name="yeniEnerjiTeknolojilerininFaydalari">3. Benefits of New Energy Technologies</string>
+    <string name="yeniEnerjiTeknolojilerininFaydalariText">Low or Zero Emissions \n\tEnergy Independence \n\tEconomical in the Long Run \n\tResilient to Climate Events \n\tFlexibility suitable for urban and rural areas</string>
+    <string name="zorluklarVeDikkatEdilmesiGerekenler">4. Challenges and Considerations</string>
+    <string name="zorluklarVeDikkatEdilmesiGerekenlerText">High R&amp;D and infrastructure costs \n\tPolicy and regulatory inconsistencies \n\tSocial awareness and habit change \n\tTechnological maturity and scalability issues</string>
+    <string name="gelecekVizyonu3">5. Future Vision</string>
+    <string name="gelecekVizyonu3Text">By 2050, the global energy system is expected to become largely carbon-free, digital, and distributed. Future energy technologies will be decisive in the following areas: \n\n\tSmart cities \n\n\tClean transportation systems \n\n\tCircular economy structures \n\n\tClimate-resilient infrastructures</string>
+    <string name="sonucText17">Future energy technologies are not just innovations, but also a commitment: for a cleaner, more connected, and carbon-neutral world. Investing in these technologies today means laying the foundation for a sustainable tomorrow.</string>
+    <string name="robotNedir">1. What is a Robot?</string>
+    <string name="robotNedirText">A robot is a machine that can be programmed to perform specific tasks, perceives its environment through sensors and actuators, and can move. Robots are used in many fields such as industry, healthcare, space exploration, and home automation.</string>
+    <string name="robotlarinEvrimi">1.1. Evolution of Robots</string>
+    <string name="robotlarinEvrimiText">• Early Mechanical Systems: Simple machines imitating human movements (e.g., Jacquard loom).\n• Industrial Robots (1950‑1970): Robot arms used for production in factories.\n• Mobile Robots (1980‑1990): Robots that can perceive their environment and move.\n• Artificial Intelligence Robots (2000‑Present): Robot systems that can make autonomous decisions and learn.</string>
+    <string name="robotTurleri">1.2. Types of Robots</string>
+    <string name="robotTurleriText">• Industrial Robots\n• Autonomous Mobile Robots (AMR)\n• Humanoid Robots\n• Medical Robots\n• Swarm Robots</string>
+    <string name="robotikKodlamaninTemelleri">2. Basics of Robotic Coding</string>
+    <string name="robotikKodlamaninTemelleriText">Robotic coding allows teaching robots how to perform their tasks. This processincludes stages such as processing sensor data, creating decision-making mechanisms, and controlling motors.</string>
+    <string name="robotikSisteminTemelBilesenleri">2.1. Basic Components of a Robotic System</string>
+    <string name="robotikSisteminTemelBilesenleriText">Sensors: Components that collect data from the environment.\nMicrocontrollers: Electronic boards that manage the robot by processing data.\nActuators: Motor and servo systems.\nPower Source: Battery or solar energy.\nCommunication Modules: Systems like Wi-Fi, Bluetooth for data sharing between robots.</string>
+    <string name="ornekArduinoIleBasitRobotikKodlama">2.2. Example: Simple Robotic Coding with Arduino</string>
+    <string name="ornekArduinoIleBasitRobotikKodlamaText">int sensorPin = A0;\nint motorPin = 9;\n\nvoid setup() {\n pinMode(motorPin, OUTPUT);\n}\n\nvoid loop() {\n int sensorValue = analogRead(sensorPin);\n if (sensorValue > 500) {\n digitalWrite(motorPin, HIGH);\n } else {\n digitalWrite(motorPin, LOW);\n }\n delay(100);\n}</string>
+    <string name="sonucText18">Robotic coding enables the development of automated systems by combining programming and hardware. This field, which is among the technologies of the future, is important for preparing for career paths such as engineering and artificial intelligence.</string>
+    <!--  Article Title  -->
+    <!--  1. What is a Microcontroller?  -->
+    <string name="mikrodenetleyiciNedir">1. What is a Microcontroller?</string>
+    <string name="mikrodenetleyiciNedirText">A microcontroller is a small and independent computer chip designed to perform specific tasks in embedded systems. Unlike general-purpose computers, microcontrollers are optimized to control hardware, process data from sensors, and manage actuators.\n\nMicrocontrollers are widely used in many fields such as robotics, automation, IoT (Internet of Things), and consumer electronics.</string>
+    <!--  1.1. Basic Features of Microcontrollers  -->
+    <string name="mikrodenetleyiciTemelOzellikler">1.1. Basic Features of Microcontrollers</string>
+    <string name="mikrodenetleyiciTemelOzelliklerText">• Compact and Integrated: Includes CPU, RAM, storage, and input/output units.\n• Low Power Consumption: Suitable for battery-powered devices.\n• Real-Time Processing: Executes commands instantly.\n• Sensor and Actuator Control: Receives data from sensors and controls motors and displays.\n• Economical: Low cost compared to full-scale computers.</string>
+    <!--  2. Introduction to Arduino  -->
+    <string name="arduinoGiris">2. Introduction to Arduino</string>
+    <string name="arduinoNedir">2.1. What is Arduino?</string>
+    <string name="arduinoNedirText">Arduino is an open-source microcontroller platform used for developing electronic projects. Arduino consists of hardware (Arduino boards) and software (Arduino IDE) components.</string>
+    <string name="populerArduinoKartlari">2.2. Popular Arduino Boards</string>
+    <string name="populerArduinoKartlariText">• Arduino Uno: The most commonly used model for beginners.\n• Arduino Mega: Has more input/output pins.\n• Arduino Nano: Ideal for small-sized projects.\n• Arduino Due: A high-performance model with a 32-bit processor.</string>
+    <string name="arduinoKullanimAlanlari">2.3. Arduino Application Areas</string>
+    <string name="arduinoKullanimAlanlariText">• Smart home systems.\n• Robotic projects.\n• Weather stations.\n• IoT applications.</string>
+    <string name="arduinoOrnekKod">2.4. Example Code – Blinking an LED (Arduino)</string>
+    <string name="arduinoOrnekKodText">int led = 13;\n\nvoid setup() {\n pinMode(led, OUTPUT);\n}\n\nvoid loop() {\n digitalWrite(led, HIGH);\n delay(1000);\n digitalWrite(led, LOW);\n delay(1000);\n}</string>
+    <!--  3. Introduction to Raspberry Pi  -->
+    <string name="raspberryPiGiris">3. Introduction to Raspberry Pi</string>
+    <string name="raspberryPiNedir">3.1. What is Raspberry Pi?</string>
+    <string name="raspberryPiNedirText">Raspberry Pi is a low-cost, small-sized single-board computer developed for learning, coding, and electronics projects.</string>
+    <string name="populerRaspberryPiModelleri">3.2. Popular Raspberry Pi Models</string>
+    <string name="populerRaspberryPiModelleriText">• Raspberry Pi 4 Model B: Powerful processor and up to 8GB RAM support.\n• Raspberry Pi 3 Model B+: An older, but widely used model.\n• Raspberry Pi Zero: A small and low-cost version.</string>
+    <string name="raspberryPiKullanimAlanlari">3.3. Raspberry Pi Application Areas</string>
+    <string name="raspberryPiKullanimAlanlariText">• Home media centers.\n• Artificial intelligence and machine learning projects.\n• Web servers.\n• IoT applications.</string>
+    <string name="raspberryPiOrnekKod">3.4. Example Code – Blinking an LED (Python &amp; Raspberry Pi)</string>
+    <string name="raspberryPiOrnekKodText">import RPi.GPIO as GPIO\nimport time\n\nled = 18\nGPIO.setmode(GPIO.BCM)\nGPIO.setup(led, GPIO.OUT)\n\nwhile True:\n GPIO.output(led, GPIO.HIGH)\n time.sleep(1)\n GPIO.output(led, GPIO.LOW)\n time.sleep(1)</string>
+    <!--  4. Conclusion  -->
+    <string name="sonucText19">Arduino and Raspberry Pi have revolutionized the world of microcontrollers and embedded systems. While Arduino is ideal for hardware control, Raspberry Pi is suitable for more complex computing operations. Learning these devices provides a great advantage for those who want to develop robotics and automation projects.</string>
+    <!--  1. Introduction  -->
+    <string name="elektronikGiris">1. Introduction to Electronic Components and Sensors</string>
+    <string name="elektronikGirisText">Electronics is the foundation of modern technology and enables the development of smart devices, automation systems, and robots. Understanding basic electronic components and sensors is important for designing functional circuits and robotic systems.</string>
+    <!--  2. Basic Components  -->
+    <string name="temelBilesenler">2. Basic Electronic Components and Their Functions</string>
+    <string name="direncler">2.1. Resistors</string>
+    <string name="direnclerText">Components that limit electric current.\n\n• Unit: Ohm (Ω)\n• Applications: LED brightness control, voltage dividers.</string>
+    <string name="kapasitorler">2.2. Capacitors</string>
+    <string name="kapasitorlerText">Temporarily stores electrical energy and releases it when needed.\n\n• Applications: Power supply stabilization, filtering circuits.</string>
+    <!--  3. Introduction to Sensors  -->
+    <string name="sensorlereGiris">3. Introduction to Sensors</string>
+    <string name="sensorTurleri">3.1. Types of Sensors and Their Applications</string>
+    <string name="sensorTurleriText">• Temperature Sensors: Smart thermostats.\n• Light Sensors: Automatic lighting systems.\n• Motion Sensors: Security systems.\n• Distance Sensors: Robotic obstacle detection.\n• Gas Sensors: Air quality monitoring.</string>
+    <!--  4. Example: Ultrasonic Sensor  -->
+    <string name="ultrasonikSensorOrnek">4. Working with Sensors: Example – Using an Ultrasonic Sensor with Arduino</string>
+    <string name="devreKurulumu">4.1. Circuit Setup</string>
+    <string name="devreKurulumuText">• Arduino Uno\n• HC-SR04 Ultrasonic Sensor\n• Breadboard, Jumper Wires</string>
+    <string name="ornekKod">4.2. Example Code</string>
+    <string name="ornekKodText">const int trigPin = 9;\nconst int echoPin = 10;\n\nvoid setup() {\n pinMode(trigPin, OUTPUT);\n pinMode(echoPin, INPUT);\n Serial.begin(9600);\n}\n\nvoid loop() {\n digitalWrite(trigPin, LOW);\n delayMicroseconds(2);\n digitalWrite(trigPin, HIGH);\n delayMicroseconds(10);\n digitalWrite(trigPin, LOW);\n long duration = pulseIn(echoPin, HIGH);\n long distance = duration * 0.034 / 2;\n Serial.print(\"Distance: \");\n Serial.println(distance);\n delay(100);\n}</string>
+    <!--  5. Conclusion  -->
+    <string name="sonucText20">Understanding electronic components and sensors is critically important for designing smart systems. This knowledge provides a foundation for innovation in fields like IoT and robotics.</string>
+    <!--  1. Introduction  -->
+    <string name="arduinoGiris2">1. Introduction to Arduino</string>
+    <string name="arduinoGiris2Text">Arduino is an open-source microcontroller platform developed for electronic prototyping, robotics, and automation projects. It offers an easy-to-use environment, catering to both beginners and professionals.\n\nArduino boards can read data from sensors, control motors, and manage various electronic components. Coding is done using C and C++ languages via the Arduino IDE (Integrated Development Environment).</string>
+    <!--  2. Getting Started  -->
+    <string name="arduinoBaslangic">2. Getting Started with Arduino Coding</string>
+    <string name="ideKurulumu">2.1. Arduino IDE Setup</string>
+    <string name="ideKurulumuText">To start coding with Arduino:\n\n• Download and install the Arduino IDE from the official website.\n• Connect your Arduino board to your computer with a USB cable.\n• Select the correct board and port from the Arduino IDE.\n• Write code and upload it to the board.</string>
+    <string name="sketchYapisi">2.2. Arduino Sketch Structure</string>
+    <string name="sketchYapisiText">Arduino programs are called sketches and contain two main functions:</string>
+    <string name="sketchYapisiKod">void setup() {\n // This function runs only once.\n}\n\nvoid loop() {\n // This function repeats continuously.\n}</string>
+    <!--  3. Basic Techniques  -->
+    <string name="temelTeknikler">3. Basic Coding Techniques in Arduino</string>
+    <string name="dijitalCikis">3.1. Digital Output (LED Control)</string>
+    <string name="dijitalCikisKod">int ledPin = 13;\n\nvoid setup() {\n pinMode(ledPin, OUTPUT);\n}\n\nvoid loop() {\n digitalWrite(ledPin, HIGH);\n delay(1000);\n digitalWrite(ledPin, LOW);\n delay(1000);\n}</string>
+    <string name="dijitalGiris">3.2. Digital Input (Button Reading)</string>
+    <string name="dijitalGirisKod">int buttonPin = 2;\nint ledPin = 13;\n\nvoid setup() {\n pinMode(buttonPin, INPUT);\n pinMode(ledPin, OUTPUT);\n}\n\nvoid loop() {\n if (digitalRead(buttonPin) == HIGH) {\n digitalWrite(ledPin, HIGH);\n } else {\n digitalWrite(ledPin, LOW);\n }\n}</string>
+    <string name="analogGiris">3.3. Analog Input (Sensor Reading)</string>
+    <string name="analogGirisKod">int sensorPin = A0;\nint ledPin = 9;\n\nvoid setup() {\n pinMode(ledPin, OUTPUT);\n Serial.begin(9600);\n}\n\nvoid loop() {\n int sensorValue = analogRead(sensorPin);\n analogWrite(ledPin, map(sensorValue, 0, 1023, 0, 255));\n Serial.println(sensorValue);\n delay(100);\n}</string>
+    <!--  4. Conclusion  -->
+    <string name="sonucText21">Arduino is a powerful platform for learning electronics and coding. It is possible to develop projects with basic topics such as digital/analog input-output, sensor integration, and motor control.</string>
+    <!--  1. Introduction  -->
+    <string name="motorGiris">1. Introduction to Motor Control Systems</string>
+    <string name="motorGirisText">Motor control systems are critically important for robotics, automation, and industrial applications. Motors are used in many areas, from simple rotating mechanisms to complex systems like robotic arms.\n\nServo motors are used for angular motion control, while DC motors are mechanisms that provide continuous motion.</string>
+    <!--  2. DC Motors  -->
+    <string name="dcMotorlar">2. DC Motors and Their Control</string>
+    <string name="dcMotorNedir">2.1. What is a DC Motor?</string>
+    <string name="dcMotorNedirText">A DC motor (Direct Current Motor) is an electromechanical device that converts electrical energy into mechanical motion.</string>
+    <string name="dcMotorTurleri">2.2. Types of DC Motors</string>
+    <string name="dcMotorTurleriText">• Brushed DC Motors: Inexpensive and widely used.\n• Brushless DC Motors: More efficient and durable.\n• Geared DC Motors: Provide more torque.</string>
+    <string name="dcMotorKontrol">2.3. DC Motor Control with Arduino</string>
+    <string name="dcMotorDevre">Circuit Setup</string>
+    <string name="dcMotorDevreText">• Arduino Uno\n• L298N motor driver module\n• DC motor</string>
+    <string name="dcMotorOrnekKod">int motor1Pin1 = 5;\nint motor1Pin2 = 6;\nint enablePin = 9;\n\nvoid setup() {\n pinMode(motor1Pin1, OUTPUT);\n pinMode(motor1Pin2, OUTPUT);\n pinMode(enablePin, OUTPUT);\n}\n\nvoid loop() {\n analogWrite(enablePin, 150);\n digitalWrite(motor1Pin1, HIGH);\n digitalWrite(motor1Pin2, LOW);\n delay(2000);\n\n digitalWrite(motor1Pin1, LOW);\n digitalWrite(motor1Pin2, HIGH);\n delay(2000);\n}</string>
+    <!--  3. Servo Motors  -->
+    <string name="servoMotorlar">3. Servo Motors and Their Control</string>
+    <string name="servoMotorNedir">3.1. What is a Servo Motor?</string>
+    <string name="servoMotorNedirText">A servo motor provides precise angular motion.</string>
+    <string name="servoMotorKontrol">3.2. Servo Motor Control with Arduino</string>
+    <string name="servoMotorOrnekKod">#include &lt;Servo.h&gt; \nServo myServo;\nvoid setup() { myServo.attach(9); }\nvoid loop() {\n myServo.write(0);\n delay(1000);\n myServo.write(90);\n delay(1000);\n myServo.write(180);\n delay(1000);\n}</string>
+    <!--  Conclusion  -->
+    <string name="sonucText22">Motor control systems form the basis of robotic projects. DC motors are ideal for continuous rotation, while servo motors are ideal for precise angle control.</string>
+    <!--  1. Introduction  -->
+    <string name="sensorGiris">1. Introduction to Sensor Integration in Robotics</string>
+    <string name="sensorGirisText">Sensors allow robots to perceive their environment, collect data, and interact. Ultrasonic, LiDAR, and IR sensors help robots detect obstacles, measure distance, and move autonomously.</string>
+    <!--  2. Ultrasonic Sensors  -->
+    <string name="ultrasonikSensorler">2. Ultrasonic Sensors</string>
+    <string name="ultrasonikSensorNedir">2.1. What is an Ultrasonic Sensor?</string>
+    <string name="ultrasonikSensorNedirText">Ultrasonic sensors measure distance using sound waves.</string>
+    <string name="ultrasonikUygulamaAlanlari">2.2. Application Areas</string>
+    <string name="ultrasonikUygulamaAlanlariText">• Obstacle detection\n• Autonomous vehicles\n• Smart parking systems</string>
+    <string name="ultrasonikOrnekKod">2.3. Usage with Arduino</string>
+    <string name="ultrasonikOrnekKodText">const int trigPin = 9;\nconst int echoPin = 10;\n\nvoid setup() {\n pinMode(trigPin, OUTPUT);\n pinMode(echoPin, INPUT);\n Serial.begin(9600);\n}\n\nvoid loop() {\n digitalWrite(trigPin, LOW);\n delayMicroseconds(2);\n digitalWrite(trigPin, HIGH);\n delayMicroseconds(10);\n digitalWrite(trigPin, LOW);\n long duration = pulseIn(echoPin, HIGH);\n long distance = duration * 0.034 / 2;\n Serial.print(\"Distance: \");\n Serial.println(distance);\n delay(100);\n}</string>
+    <!--  3. LiDAR Sensors  -->
+    <string name="lidarSensorler">3. LiDAR Sensors</string>
+    <string name="lidarSensorNedir">3.1. What is a LiDAR Sensor?</string>
+    <string name="lidarSensorNedirText">LiDAR measures distance and creates 3D maps using a laser beam.</string>
+    <string name="lidarUygulamaAlanlari">3.2. Application Areas</string>
+    <string name="lidarUygulamaAlanlariText">• Autonomous vehicles\n• 3D mapping for drones</string>
+    <string name="lidarOrnekKod">3.3. Usage with Raspberry Pi</string>
+    <string name="lidarOrnekKodText">import rplidar\n\nlidar = rplidar.RPLidar(\'/dev/ttyUSB0\')\n\nfor scan in lidar.iter_scans():\n for (_, angle, distance) in scan:\n print(f\"Angle: {angle}, Distance: {distance}mm\")\n\nlidar.stop()\nlidar.disconnect()</string>
+    <!--  4. IR Sensors  -->
+    <string name="irSensorler">4. IR Sensors</string>
+    <string name="irUygulamaAlanlari">4.1. Application Areas</string>
+    <string name="irUygulamaAlanlariText">• Motion detection\n• Line-following robots</string>
+    <string name="irOrnekKod">4.2. Usage with Arduino</string>
+    <string name="irOrnekKodText">int sensorPin = 7;\n\nvoid setup() {\n pinMode(sensorPin, INPUT);\n Serial.begin(9600);\n}\n\nvoid loop() {\n int sensorValue = digitalRead(sensorPin);\n Serial.println(sensorValue);\n delay(100);\n}</string>
+    <string name="algoritmaGiris">1. Importance of Algorithm Development in Robotics</string>
+    <string name="algoritmaGirisText">Algorithms are the fundamental software building blocks that enable robots to process data, make independent decisions, and perform tasks.\n\nAlgorithms that analyze data from sensors, control motors, and respond to environmental variables ensure that robots operate efficiently.</string>
+    <string name="algoritmaKonseptler">2. Basic Concepts of Algorithm Development</string>
+    <string name="girisIslemCikis">2.1. Input-Process-Output Model</string>
+    <string name="girisIslemCikisText">Input: Data is read from sensors.\nProcess: The algorithm analyzes the incoming data.\nOutput: Motors or other hardware implement the determined actions.</string>
+    <string name="algoritmaTurleri">2.2. Types of Algorithms Used in Robotics</string>
+    <string name="algoritmaTurleriText">Line Following Algorithms\nObstacle Avoidance Algorithms\nPath Planning Algorithms (A*, Dijkstra)\nArtificial Intelligence Supported Algorithms</string>
+    <string name="temelAlgoritmalar">3. Developing Basic Algorithms for Robots</string>
+    <string name="cizgiTakipAlgoritma">3.1. Example 1: Line Following Robot Algorithm</string>
+    <string name="cizgiTakipKod">if (left == HIGH &amp;&amp; right == HIGH) {\n digitalWrite(motorLeft, HIGH);\n digitalWrite(motorRight, HIGH);\n} \nelse if (left == HIGH) {\n digitalWrite(motorLeft, LOW);\n digitalWrite(motorRight, HIGH);\n} \nelse if (right == HIGH) {\n digitalWrite(motorLeft, HIGH);\n digitalWrite(motorRight, LOW);\n}</string>
+    <string name="engeldenKacmaAlgoritma">3.2. Example 2: Obstacle Avoiding Robot Algorithm</string>
+    <string name="engeldenKacmaKod">if (distance &lt; 10) {\n digitalWrite(motorLeft, LOW);\n digitalWrite(motorRight, HIGH);\n} \nelse {\n digitalWrite(motorLeft, HIGH);\n digitalWrite(motorRight, HIGH);\n}</string>
+    <string name="sonucText23">Algorithm development in robotic systems enables robots to move autonomously and intelligently. Algorithms for line-following, obstacle-avoiding, or AI-supported systems form the basis of robot technology.</string>
+    <string name="mobilRobotikBaslik">Mobile Robotic Systems</string>
+    <string name="ozet">Mobile robotic systems have become an integral part of modern automation and intelligent systems. Wheeled and tracked robots are among the most common mobile platforms. This article examines the design, development, and application areas of these two robot types, evaluating their advantages and limitations in various environments.</string>
+    <string name="giris1">1. Introduction</string>
+    <string name="giris1Text">With the rise of Industry 4.0 and autonomous systems, mobile robots are used in many fields, from logistics to agriculture, defense to exploration. Mobility is one of the most important features determining a robot\'s usability.</string>
+    <string name="tekerlekliRobotlar">2. Wheeled Robots</string>
+    <string name="tekerlekliRobotlarText">Wheeled robots move using wheels. They have high energy efficiency, are simple to control, and are ideal for flat surfaces (indoors, roads). Differential drive and omnidirectional wheel designs are common. However, they may be inadequate on rough terrain and stairs.</string>
+    <string name="paletliRobotlar">3. Tracked Robots</string>
+    <string name="paletliRobotlarText">Tracked robots operate with continuous track systems similar to those used in tanks. They provide superior traction and stability on soft or uneven ground. Therefore, they are ideal for search and rescue, military operations, and agriculture. However, they consume more energy and their maintenance is more complex.</string>
+    <string name="gelecekYonelimleri">4. Future Trends</string>
+    <string name="gelecekYonelimleriText">In the future, hybrid systems combining the advantages of both designs will come to the fore. Artificial intelligence integration, adaptive motion systems, and advanced battery technologies will determine the evolution of mobile robotic systems.</string>
+    <string name="sonucText24">Wheeled and tracked robots play important roles in the robotics world. The choice of system depends on the task and environmental requirements. With continuously developing technology, more capable, adaptable, and intelligent robotic platforms will continue to enter our lives.</string>
+    <string name="ozet2">Autonomous vehicles rely heavily on motion algorithms to interpret their environment and make movement decisions. This article discusses line-following robots as a basic example and examines the algorithms that guide the behavior of these robots and the transition process to more complex autonomous motion systems.</string>
+    <string name="giris2">1. Introduction</string>
+    <string name="giris2Text">Autonomous motion is the foundation of modern robot technology. It plays an important role in applications such as driverless cars, mobile robots, and automated guided vehicles (AGVs). The starting point for learning autonomous behavior is line-following robots.</string>
+    <string name="cizgiIzleyenRobotlar">2. Line-Following Robots</string>
+    <string name="cizgiIzleyenRobotlarText">These robots are generally designed to follow black or whitelines drawn on contrasting colored surfaces. They detect the line and adjust their motors accordingly thanks to sensors such as IR sensors or color sensors. This system is ideal for learning topics such as feedback loops, sensor-based navigation, and simple decision-making algorithms.</string>
+    <string name="hareketAlgoritmalari">3. Motion Algorithms</string>
+    <string name="hareketAlgoritmalariText">Some algorithms used in autonomous motion control are:\n\nPID (Proportional-Integral-Derivative): Allows precise and balanced adjustment of the robot\'s direction based on sensor data.\nFinite State Machines (FSM): Makes it possible to make decisions according to different scenarios and perform actions such as stopping, turning, and reversing.\nPath Planning Algorithms: Graph-based algorithms such as A*, Dijkstra are used to calculate the shortest path in complex environments.</string>
+    <string name="gelismisUygulamalar">4. Advanced Applications</string>
+    <string name="gelismisUygulamalarText">Autonomous vehicles use LIDAR, GPS, computer vision, and deep learning for lane keeping and obstacle avoidance.\nSwarm robots operate with algorithms that enable the collective movement of multiple robots.</string>
+    <string name="sonucText25">Line-following robots offer a concrete and instructive way to enter autonomous vehicle technology. As technology develops, these systems are becoming safer, smarter, and more mobile thanks to more sophisticated algorithms.</string>
+    <string name="ozet3">Today\'s robotic systems are equipped with advanced sensors and data collection modules that enable real-time monitoring and autonomous decision-making processes. This article explains in detail how robots collect data, how they process and analyze this data, and how raw data is transformed into decision-making mechanisms.</string>
+    <string name="giris3">1. Introduction</string>
+    <string name="giris3Text">Robotics is not just about movement; it is also about perception and interpretation. Data is the fuel of robot intelligence. Robots, which need a lot of data from simple temperature measurements to high-resolution 3D mapping, understand their environment and make decisions in this way. The process begins with data collection and ends with meaningful analysis.</string>
+    <string name="veriToplama">2. Data Collection in Robotic Systems</string>
+    <string name="veriToplamaText">Robots collect data with a wide variety of sensors:\n\nProximity Sensors (Ultrasonic, IR, LiDAR): Measure distance and detect obstacles.\nVisual Systems (Cameras, Depth Sensors): Provide object recognition and image analysis.\nEnvironmental Sensors (Temperature, Humidity, Gas): Monitor environmental conditions.\nMotion Sensors (IMU, Accelerometer, Gyroscope): Provide position and orientation information.\nTouch Sensors (Pressure, Force): Detect physical interactions.\n\nThe collected data is transferred to the robot\'s processor or cloud systems.</string>
+    <string name="veriIsleme">3. Data Processing and Analysis Techniques</string>
+    <string name="veriIslemeText">The following steps are followed for raw data to gain meaning:\n\nPreprocessing: Noise reduction, filtering, and normalization.\nFeature Extraction: Identification of important data (edges, patterns, changes).\nMachine Learning Models: Learning by classifying, predicting, or grouping data.\nReal-Time Analysis: The robot\'s instant response to environmental changes.\nVisualization: Presentation of data with 3D maps, graphics, or control panels.</string>
+    <string name="uygulamaAlanlari2">4. Application Areas</string>
+    <string name="uygulamaAlanlari2Text">Autonomous Vehicles: Mapping, localization (SLAM), route planning.\nIndustrial Robots: Predictive maintenance with vibration, heat, and torque data.\nService Robots: Service adjustment according to user behavior.\nAgricultural Robots: Crop analysis with image and environmental data.</string>
+    <string name="zorluklar3">5. Challenges and Future Vision</string>
+    <string name="zorluklar3Text">Data Stack: Filtering necessary information from large data streams.\nLatency: Reducing processing time for real-time decisions.\nIntegration: Compatibility of data from different sources.\nEdge AI and IoT: The future lies in processing data on local (edge) processors.</string>
+    <string name="sonucText26">Data collection and analysis are the basis of robotic intelligence. This process, which turns sensors into interpreters of the environment and data into the building blocks of decisions, transforms robot technologies into cognitive systems. With advances in machine learning and edge processing technologies, robots are becoming much smarter, more agile, and more effective.</string>
+    <string name="ozet4">Artificial intelligence (AI) has revolutionized the field of robotics, enabling machines to learn, adapt, and make decisions. This article explains how robots are taught tasks such as object grasping and navigating the environment using machine learning (ML) techniques.</string>
+    <string name="giris4">1. Introduction</string>
+    <string name="giris4Text">In classic robotic systems, all actions must be explicitly defined by programmers. AI-based robotics, on the other hand, enables robots to learn through experience, develop over time, and generalize to new situations. This is achieved through algorithms trained with data, rather than manual coding of behaviors.</string>
+    <string name="makineOgrenmesi">2. What is Machine Learning in Robotics?</string>
+    <string name="makineOgrenmesiText">Machine learning provides robots with the following capabilities:\n\nPerception: Recognizing the environment with sensors and cameras.\nUnderstanding: Learning patterns in data and extracting information.\nAction: Performing tasks by giving appropriate responses.\n\nRobots are trained with datasets or real-time trials and become capable of applying what they have learned.</string>
+    <string name="mlTeknikleri">3. ML Techniques Used in Robotics</string>
+    <string name="mlTeknikleriText">Supervised Learning: Object recognition or task learning with labeled data.\nReinforcement Learning: Learning by receiving rewards for correct actions (e.g., walking without falling).\nUnsupervised Learning: Pattern recognition, clustering without labels.\nDeep Learning: Neural networks (especially CNNs) are used for tasks such as image analysis and object detection.</string>
+    <string name="gorevOgretimi">4. Teaching Tasks to Robots</string>
+    <string name="gorevOgretimiText">Some tasks that can be taught using AI:\n\nObject Manipulation: Grasping and releasing objects with visual feedback.\nAutonomous Navigation: Mapping with SLAM and CNN combinations.\nSpeech Recognition and Response: Understanding human commands with NLP models.\nHuman-Robot Interaction (HRI): Interpreting facial expressions, tone, and body language.</string>
+    <string name="uygulamalar">5. Real Applications</string>
+    <string name="uygulamalarText">Healthcare: Robots assisting the elderly.\nManufacturing: Cobots collaborating with workers.\nEducation: Tutorial robots that adapt to learning.\nExploration: Autonomous robots learning in environments like Mars.</string>
+    <string name="zorluklar4">6. Challenges</string>
+    <string name="zorluklar4Text">Data Requirement: Large datasets are needed.\nSafety: Learned behavior must be predictable and safe.\nTransfer Learning: Problems in transitioning from simulation to the real world.\nEthical Issues: Bias, privacy, accountability.</string>
+    <string name="sonucText27">AI-powered robotics is opening the door to an age of intelligent machines. Teaching tasks with ML transforms robots from fixed machines to flexible collaborators. As algorithms develop, it is inevitable that robots will become active and reliable actors among humans.</string>
+    <string name="ozet5">Industrial robots, especially robot arms, have made production processes more precise, efficient, and safe. This article discusses the structure, types, application areas, advantages, and future vision of robotic systems used in factory environments.</string>
+    <string name="giris5">1. Introduction</string>
+    <string name="giris5Text">Automation in production is no longer an option, but a necessity. Industrial robots are the cornerstones of smart factories and Industry 4.0. Robot arms are the most commonly used systems and perform repetitive, dangerous, or high-precision tasks with great consistency.</string>
+    <string name="yapiBilesenler">2. Structure and Components of Robots</string>
+    <string name="yapiBilesenlerText">A robot arm generally consists of the following components:\n\nJoints (Axes): Provide rotational or linear movement.\nEnd-Effector (Gripper or Tool): Enables interaction with objects (e.g., welding torch, vacuum, drill).\nControl Unit: Processes commands, analyzes sensor data.\nPower Source: Can be electric, hydraulic, or pneumatic.\nSensors: Provide visual perception, force control, and calibration.</string>
+    <string name="robotTurleri2">3. Types of Industrial Robots</string>
+    <string name="robotTurleri2Text">Articulated Robots: Multi-jointed, suitable for welding and assembly.\nSCARA Robots: High-speed, precise placement operations.\nDelta Robots: Parallel arm design for fast sorting and packaging.\nCartesian Robots: Linear axis systems for CNC machines and 3D printers.\nCollaborative Robots (Cobots): Limited-force systems that can work safely with humans.</string>
+    <string name="kullanimAlanlari">4. Application Areas</string>
+    <string name="kullanimAlanlariText">Welding: High precision in spot or arc welding.\nAssembly: Screw tightening, placement operations in the automotive and electronics sectors.\nMaterial Handling: Sorting, packaging, palletizing.\nQuality Control: Defect and misalignment detection with visual systems.\nPainting and Coating: Even application without exposure to toxic chemicals.</string>
+    <string name="avantajlar">5. Advantages</string>
+    <string name="avantajlarText">Efficiency: Ability to work 24/7.\nPrecision: Micrometer-level operations.\nSafety: Reduces the need for humans in hazardous jobs.\nEconomical: Although the initial investment is high, it provides long-term savings.</string>
+    <string name="zorluklar5">6. Challenges</string>
+    <string name="zorluklar5Text">High Installation Cost\nProgramming Difficulty\nIntegration with Existing Systems\nNeed for Skilled Workforce</string>
+    <string name="gelecekTrendler">7. Future Trends</string>
+    <string name="gelecekTrendlerText">AI Integration: Real-time decision making.\nDigital Twins: Risk reduction by simulating beforehand.\nIoT and Edge Computing: Faster responses with local data processing.\nFlexible Production: Robots that can learn tasks.</string>
+    <string name="sonucText28">Industrial robot arms are the backbone of modern manufacturing. With their diversity, speed, and adaptability, they will continue to increase the efficiency and competitiveness of factories.</string>
+    <string name="ozet6">Robot Operating System (ROS) provides a flexible and modular platform for developing robot software. Widely used in advanced robot projects, ROS enables faster and more efficient development of robots with its hardware abstraction, communication infrastructure, and toolset. This article discusses the basic components, architecture, and application areas of ROS.</string>
+    <string name="giris6">1. Introduction</string>
+    <string name="giris6Text">As robotic systems become more complex, the need for a modular and standardized software infrastructure has increased. ROS allows developers to create projects with reusable software components. At the same time, its open-source nature supports collaboration and innovation.</string>
+    <string name="rosNedir">2. What is ROS?</string>
+    <string name="rosNedirText">ROS is not an operating system in the classic sense. It is more of a meta-operating system that provides services such as:\n\nHardware abstraction\nLow-level device control\nInter-process messaging\nPackage management.\n\nIt usually runs on Ubuntu Linux and supports C++ and Python languages.</string>
+    <string name="temelBilesenler2">3. Basic Components of ROS</string>
+    <string name="temelBilesenler2Text">Node: Independent processing unit that performs calculations (e.g., camera data processing).\nTopic: Publish-subscribe system for data exchange between nodes.\nService: Request-response based communication.\nMessage: Data structures (e.g., sensor_msgs/Image).\nMaster: Enables all nodes to find each other.\nLaunch File: XML structure, starts multiple nodes simultaneously.</string>
+    <string name="araclarArayuzler">4. ROS Tools and Interfaces</string>
+    <string name="araclarArayuzlerText">RViz: Sensor data and map visualization.\nGazebo: Realistic physics-based simulation
+environment.\nrqt_graph: Shows the data flow graph between nodes.\nrosbag: Used for recording and replaying messages.</string>
+    <string name="gercekUygulamalar">5. Real Applications</string>
+    <string name="gercekUygulamalarText">Autonomous Vehicles: SLAM, route planning, and obstacle detection.\nUAVs: Real-time control and sensor data processing.\nService Robots: Warehouse, hospital, and customer service applications.\nEducation: Robot programming and simulation training for students.</string>
+    <string name="avantajlar2">6. Advantages</string>
+    <string name="avantajlar2Text">Modular and reusable structure\nLarge open-source community\nEasy integration with AI and ML\nSupport for a wide variety of robots</string>
+    <string name="zorluklar6">7. Challenges</string>
+    <string name="zorluklar6Text">Steep learning curve\nLack of real-time capability (ROS 1)\nDifficulty in dependency management\nLinux knowledge requirement</string>
+    <string name="not">Note: The new generation ROS 2 overcomes many of these limitations, offering a more powerful and cross-platform structure.</string>
+    <string name="sonucText29">ROS has become a standard in both academic and industrial robot projects. Learning its architecture and operating principles is the cornerstone of modern robotic projects. With the innovations offered by ROS 2, the robot development process is becoming more reliable, flexible, and accessible.</string>
+    <string name="ozet7">The integration of image processing technology in robotic systems has greatly increased the ability of robots to perceive, analyze, and act accordingly to their environment. Thanks to cameras and visual sensors, robots can successfully perform tasks such as object recognition, line following, and obstacle detection. This article discusses in detail the role of image processing in robotic systems and the contributions it provides.</string>
+    <string name="giris7">1. Introduction</string>
+    <string name="giris7Text">In traditional robots, perception was generally limited to simple distance sensors. However, with the development of computer vision and image processing technologies, robots can now \"see\" and understand their environment. This feature is critical for tasks that require precision, decision-making, and adaptation.</string>
+    <string name="goruntuIslemeNedir">2. What is Image Processing in Robotics?</string>
+    <string name="goruntuIslemeNedirText">Image processing is the analysis of visual data received by cameras and its conversion into a form understandable by the robot. This allows the robot to perform tasks such as:\n\nObject detection and tracking\nColor and shape recognition\nFace and gesture recognition\nDepth estimation\nEnvironment mapping.</string>
+    <string name="temelTeknikler2">3. Basic Techniques and Algorithms</string>
+    <string name="temelTeknikler2Text">Edge Detection (Canny, Sobel): Determines the boundaries of objects.\nContour Detection: Used in shape and outline analysis.\nTemplate Matching: Finds specific patterns in an image.\nHough Transform: Defines geometric structures like lines and circles.\nCNN (Convolutional Neural Networks): Object recognition with deep learning.\nOptical Flow: Estimates motion in an image.</string>
+    <string name="uygulamalar2">4. Applications in Robot Control</string>
+    <string name="uygulamalar2Text">Autonomous Navigation: Path following and obstacle detection with visual data.\nPick and Place Robots: Determines object position with image and picks it up.\nLine Following Robots: Finds direction by following contrast lines.\nHuman-Robot Interaction (HRI): Responds to gestures and facial expressions.\nAgricultural Robotics: Detects maturity and diseases with visual analysis.</string>
+    <string name="araclarKutuphaneler">5. Tools and Libraries Used</string>
+    <string name="araclarKutuphanelerText">OpenCV: Open-source library for real-time image processing.\nTensorFlow/Keras: ML infrastructure for image recognition models.\nROS: Integration of image processing nodes into robot software.\nYOLO, SSD, Faster R-CNN: Fast object recognition algorithms.</string>
+    <string name="zorluklar7">6. Challenges</string>
+    <string name="zorluklar7Text">Sensitivity to lighting conditions\nHigh processor requirement\nCamera calibration\nNoise and blur\nNeed for real-time capability</string>
+    <string name="sonucText30">Image processing gives robots visual intelligence. Robots equipped with cameras and algorithms can make smart decisions by better perceiving their surroundings. With the increase in artificial intelligence and edge processing power, image processing is becoming one of the most powerful tools for robots.</string>
+    <!--  1. Introduction  -->
+    <string name="giris8">1. Introduction</string>
+    <string name="giris8Text">Optimization is the foundation of efficient robotic systems. From factory automation to autonomous vehicles, performance bottlenecks can arise in both software and hardware. An optimized system not only runs faster but also consumes less energy and becomes more reliable.</string>
+    <!--  2. Software Optimization  -->
+    <string name="yazilimOptimizasyonuBaslik">2. Software Optimization</string>
+    <!--  2.1 Code Efficiency  -->
+    <string name="kodVerimliligi">2.1 Code Efficiency</string>
+    <string name="kodVerimliligiText">• Writing lightweight, modular code with few dependencies\n• Compiled languages like C++ for performance-critical operations\n• Optimization of loops, algorithms, and memory management</string>
+    <!--  2.2 Algorithmic Optimization  -->
+    <string name="algoritmikOptimizasyon">2.2 Algorithmic Optimization</string>
+    <string name="algoritmikOptimizasyonText">• Efficient path planning algorithms (A*, RRT)\n• Correct gain tuning in PID controllers\n• Position estimation with Kalman filter and sensor fusion</string>
+    <!--  2.3 Parallel Processing  -->
+    <string name="paralelIsleme">2.3 Parallel and Real-Time Processing</string>
+    <string name="paralelIslemeText">• Multithreading for sensor and motor feedback\n• Real-time operating systems or ROS 2\n• GPU acceleration in image processing tasks</string>
+    <!--  3. Hardware Optimization  -->
+    <string name="donanimOptimizasyonuBaslik">3. Hardware Optimization</string>
+    <!--  3.1 Component Selection  -->
+    <string name="bilesenSecimi">3.1 Component Selection</string>
+    <string name="bilesenSecimiText">• Brushless DC motors for low energy consumption\n• Low-power sensors in mobile systems\n• Energy-efficient microcontrollers</string>
+    <!--  3.2 Mechanical Design  -->
+    <string name="mekanikTasarim">3.2 Mechanical Design</string>
+    <string name="mekanikTasarimText">• Lightweight materials (carbon fiber, aluminum)\n• Reduction of friction with efficient joint structures\n• Weight distribution optimization for dynamic balance</string>
+    <string name="sonucText31">Robotic system optimization requires a combination of software engineering, mechanical design, and artificial intelligence. A properly optimized robot is both energy-efficient and more compatible with the environment. As technology develops, these systems will become smarter and self-optimizing.</string>
+    <string name="ozet9">Robot arms are one of the most important and versatile components of modern automation. Their design and control require the integration of mechanical engineering, electronics, and software fields. This article discusses the structural design, motion equations, drive systems, and control strategies of robot arms.</string>
+    <!--  1. Introduction  -->
+    <string name="giris9">1. Introduction</string>
+    <string name="giris9Text">Robot arms perform tasks such as assembly, welding, and handling by imitating the movements of the human arm. They are indispensable in many fields from industrial robots to surgical systems due to their high accuracy and programmability. Effective robot arm design requires mastery of both mechanical structure and motion control principles.</string>
+    <!--  2. Mechanical Design of Robot Arms  -->
+    <string name="mekanikTasarimBaslik">2. Mechanical Design of Robot Arms</string>
+    <string name="yapisalElemanlar">2.1 Structural Elements</string>
+    <string name="yapisalElemanlarText">• Links and Joints: Form the skeleton of the robot arm. Aluminum or carbon composite is generally used as the material.\n• Degrees of Freedom (DoF): The number of independent movements the arm can make.\n• Load Capacity and Reach Distance: The arm\'s reach capability and the amount of load it can carry.</string>
+    <string name="tahrikSistemleri">2.2 Drive Systems</string>
+    <string name="tahrikSistemleriText">• Servo Motors: Provide high-precision position control.\n• Stepper Motors: Rotate in fixed steps.\n• Hydraulic/Pneumatic Actuators: Used for high force and fast response.</string>
+    <string name="ucEfektorler">2.3 End Effectors</string>
+    <string name="ucEfektorlerText">• Grippers\n• Task-oriented tools such as welding torches, screwdriving bits, cameras.</string>
+    <!--  3. Motion Control  -->
+    <string name="hareketKontroluBaslik">3. Motion Control</string>
+    <string name="kinematikHesaplamalar">3.1 Kinematic Calculations</string>
+    <string name="kinematikHesaplamalarText">• Forward Kinematics: Calculating the end effector position from the angles of the joints.\n• Inverse Kinematics: Determines the necessary joint angles to reach a specific position.</string>
+    <string name="yorungePlanlamasi">3.2 Trajectory Planning</string>
+    <string name="yorungePlanlamasiText">• Trajectories are designed for smooth, efficient, and collision-free movement.\n• Bézier curves, cubic splines, and real-time constraints are used.</string>
+    <string name="kontrolSistemleri">3.3 Control Systems</string>
+    <string name="kontrolSistemleriText">• PID Controller: Basic closed-loop control.\n• Model Predictive Control (MPC): Creates a control strategy based on future states.\n• Impedance/Admittance Control: Provides safe interaction in uncertain environments.</string>
+    <!--  4. Sensors and Feedback  -->
+    <string name="sensorlerGeriBildirim">4. Sensors and Feedback</string>
+    <string name="sensorlerGeriBildirimText">• Encoders: Measure the position of the joints.\n• Force/Torque Sensors: Detect resistance upon contact.\n• Image Processing: Provides object recognition and adaptive control.</string>
+    <!--  5. Application Areas  -->
+    <string name="uygulamaAlanlari3">5. Application Areas</string>
+    <string name="uygulamaAlanlari3Text">• Industrial Automation: Welding, painting, assembly.\n• Medicine: Robot-assisted surgeries.\n• Space: Object management in zero gravity.\n• Education and R&amp;D: Teaching robotic principles.</string>
+    <!--  6. Challenges and Innovations  -->
+    <string name="zorluklarYenilikler">6. Challenges and Innovations</string>
+    <string name="zorluklarYeniliklerText">• High Precision Requirement\n• Safety in Human-Robot Collaboration\n• Cost-Performance Balance\n• Adaptive Control with AI</string>
+    <string name="sonucText32">Robot arm design and control is a field where mechanical structure, electronic circuits, and control theory integrate. With the development of technologies such as AI and the Internet of Things (IoT), these systems are becoming smarter, more flexible, and more collaborative.</string>
+    <string name="ozet10">The integration of robotic systems with the Internet of Things (IoT) has initiated a new era in automation and intelligent systems. Thanks to real-time data sharing, remote control, and cloud-based decision-making capabilities, IoT-enabled robots are becoming more efficient, agile, and collaborative. This article discusses how IoT technologies are integrated into robotic systems and the transformation this creates.</string>
+    <!--  1. Introduction  -->
+    <string name="giris10">1. Introduction</string>
+    <string name="giris10Text">IoT enables devices to connect to each other over the internet and share data. When robots are included in this network, they can interact with other devices, analyze sensor data, and be managed remotely. Thus, robots cease to be merely independent machines and become an active part of the digital ecosystem.</string>
+    <!--  2. Basic Components  -->
+    <string name="temelBilesenlerBaslik">2. Basic Components of IoT-Enabled Robots</string>
+    <string name="temelBilesenlerText">• Sensors: Collect data from the environment (temperature, light, gas, position, etc.).\n• Connectivity Modules: Provide communication via Wi-Fi, Bluetooth, Zigbee, LTE, or 5G.\n• Microcontrollers/Processors: Perform local decision-making and actuator-sensor control.\n• Cloud Services: Provide data storage, analysis, and remote control.\n• Panels &amp; Interfaces: Display robot status, allow remote intervention.</string>
+    <!--  3. Acquired Capabilities  -->
+    <string name="kazanilanYeteneklerBaslik">3. Capabilities Gained with IoT</string>
+    <string name="kazanilanYeteneklerText">• Remote Monitoring and Control: Robots can be controlled from anywhere in the world.\n• Predictive Maintenance: Failures are predicted with sensor data before they occur.\n• Fleet Management: Multiple robots can work synchronously.\n• Environmental Awareness: Robot behavior is shaped according to data from other devices.\n• Data-Driven Decision Making: Robots move dynamically according to cloud analytics.</string>
+    <!--  4. Application Areas  -->
+    <string name="uygulamaAlanlari4Baslik">4. Application Areas</string>
+    <string name="uygulamaAlanlari4Text">• Smart Manufacturing: Robots that instantly adapt to production lines.\n• Healthcare: Robots that receive patient data and act accordingly.\n• Logistics: Instant location and stock updates of warehouse robots.\n• Agriculture: Drones and field robots that act according to soil and weather conditions.\n• Smart Homes: Home robots that work with voice commands and automatic scheduling.</string>
+    <!--  5. Challenges  -->
+    <string name="zorluklar8Baslik">5. Challenges</string>
+    <string name="zorluklar8Text">• Cybersecurity Risks\n• Data Overload\n• Latency Issues\n• Inter-Device Incompatibility</string>
+    <string name="sonucText33">IoT integration transforms robots into connected and environmentally aware intelligent systems. With the support of technologies such as 5G, artificial intelligence, and edge computing, these systems will become more agile, collaborative, and efficient.</string>
+    <string name="ozet11">Swarm robotics is an innovative field of robotics inspired by the collective behavior of social insects such as ants, bees, and termites. The goal is for many simple robots to work together to perform complex tasks. This article discusses the basic principles, algorithms, structures, and application areas of swarm robotic systems.</string>
+    <!--  1. Introduction  -->
+    <string name="giris11">1. Introduction</string>
+    <string name="giris11Text">Swarm robotics, unlike centralized systems, is based on the principles of distributed structure, scalability, and fault tolerance. Each robot creates collective behavior by making decisions only with the information it receives from its environment and neighbors.</string>
+    <!--  2. Basic Features  -->
+    <string name="temelOzelliklerBaslik">2. Basic Features</string>
+    <string name="temelOzelliklerText">• Scalability: The performance of the system increases as new robots are added.\n• Robustness: The system continues to operate even if some robots fail.\n• Simplicity: Each robot has low processing power and limited sensors.\n• Local Interaction: Robots only communicate with their immediate surroundings.</string>
+    <!--  3. Coordination Methods  -->
+    <string name="koordinasyonYontemleriBaslik">3. Coordination Methods</string>
+    <string name="davranisTabanliKontrol">3.1 Behavior-Based Control</string>
+    <string name="davranisTabanliKontrolText">Each robot follows simple rules such as \"avoid collision,\" \"follow,\" \"merge.\"</string>
+    <string name="sanalKuvvetler">3.2 Virtual Forces</string>
+    <string name="sanalKuvvetlerText">Robots form formations by applying attractive and repulsive forces to each other.</string>
+    <string name="stigmerji">3.3 Stigmergy</string>
+    <string name="stigmerjiText">Communication is established through traces or signs left in the environment (e.g., digital pheromones).</string>
+    <string name="uzlasiAlgoritmalari">3.4 Consensus Algorithms</string>
+    <string name="uzlasiAlgoritmalariText">Collective decisions are made through methods such as voting and averaging.</string>
+    <!--  4. Communication Models  -->
+    <string name="iletisimModelleriBaslik">4. Communication Models</string>
+    <string name="iletisimModelleriText">• Direct: Wireless data exchange between robots (Wi-Fi, Zigbee).\n• Indirect: Information sharing through the environment (color, light, signs).</string>
+    <!--  5. Application Areas  -->
+    <string name="uygulamaAlanlari5Baslik">5. Application Areas</string>
+    <string name="uygulamaAlanlari5Text">• Search and Rescue: Scanning large areas and detecting victims.\n• Environmental Monitoring: Fire, gas leak, or air quality measurements.\n• Agriculture: Sequential planting, harvesting, soil analysis.\n• Military: Reconnaissance, mine detection, coordinated operations.\n• Construction: Modular structure construction by small robots.</string>
+    <!--  6. Challenges  -->
+    <string name="zorluklar9Baslik">6. Challenges</string>
+    <string name="zorluklar9Text">• Collision and Blocking\n• Energy Management\n• Localization and Mapping\n• Communication Delays\n• Security and Manipulation Hazard</string>
+    <string name="sonucText34">Swarm robotic systems symbolize the transition from individual intelligence to collective intelligence. With coordination methods inspired by nature and distributed control approaches, these systems will hold an important place in the future of automation. When combined with artificial intelligence and communication technologies, robots can learn to work together and become the workforce of the new era.</string>
+    <string name="ozet12">Hybrid robotic systems are robots that can operate using multiple energy sources together, such as electricity, solar, fuel cells, and internal combustion engines. This approach provides longer mission duration, more power, and sustainability. This article discusses the structure, energy management strategies, and application areas of hybrid robots.</string>
+    <!--  1. Introduction  -->
+    <string name="giris12">1. Introduction</string>
+    <string name="giris12Text">Robots operating with a single energy source may face limitations, especially in long-duration or outdoor missions. Hybrid systems overcome this obstacle by integrating different energy sources, extending mission duration, and providing better adaptation to the environment.</string>
+    <!--  2. Energy Sources  -->
+    <string name="enerjiKaynaklariBaslik">2. Energy Sources Used</string>
+    <string name="enerjiKaynaklariText">• Electricity (Battery): Quiet, clean, and ideal for indoor use.\n• Solar Energy: Provides sustainable energy outdoors.\n• Hydrogen Fuel Cell: Environmentally friendly power source with high efficiency and fast refueling advantages.\n• Internal Combustion Engine (ICE): Offers high torque and durability on challenging terrain.\n• Kinetic Energy Recovery System (KERS): Provides energy recovery during motion.</string>
+    <!--  3. Energy Management  -->
+    <string name="enerjiYonetimiBaslik">3. Energy Management and Transition System</string>
+    <string name="enerjiYonetimiText">Smart controllers manage energy transition based on the following criteria:\n• Battery level\n• Sunlight status\n• Task type and power requirement\n• Environmental conditions\n\nEnergy Harvesting Modules provide passive charging during idle times.</string>
+    <!--  4. System Architecture  -->
+    <string name="sistemMimarisiBaslik">4. Hybrid System Architecture</string>
+    <string name="sistemMimarisiText">• Modular Energy Units: Each source is integrated as a separate module.\n• Energy Distribution Board: Manages when power is supplied to which motor, sensor, or processor.\n• Cooling Systems: Prevent overheating and energy loss.</string>
+    <!--  5. Application Areas  -->
+    <string name="uygulamaAlanlari6Baslik">5. Application Areas</string>
+    <string name="uygulamaAlanlari6Text">• Disaster Robots: Support the battery with solar and fuel under debris.\n• Agricultural Robots: Operate with solar during the day and battery or fuel at night.\n• Exploration Vehicles: Mars or ocean robots use a combination of nuclear, solar, and battery power.\n• Military Robots: Operate with ICE for long range and electric for silent mode.\n• Logistics Robots: Provide urban services with replaceable hybrid power modules.</string>
+    <!--  6. Advantages  -->
+    <string name="avantajlar3Baslik">6. Advantages</string>
+    <string name="avantajlar3Text">• Longer Mission Duration\n• Environmental Adaptability\n• Backup Power Source\n• Less Downtime\n• Sustainability</string>
+    <!--  7. Challenges  -->
+    <string name="zorluklar10Baslik">7. Challenges</string>
+    <string name="zorluklar10Text">• Weight and Space Issues\n• Complex Energy Management\n• Maintenance Difficulty\n• Cost and Integration</string>
+    <string name="sonucText35">Hybrid robotic systems form the basis of future autonomous machines. The ability to operate with multiple energy sources makes them more durable, environmentally friendly, and flexible. With advances in energy technologies, hybrid robots will find a much wider and more effective area of use.</string>
+    <string name="ozet13">Traditional rigid robots are being replaced by flexible and intelligent systems inspired by nature. Soft robotics and biomimetic systems enable robots to become more compatible with the environment by imitating the movement, perception, and learning capabilities of living things. This article discusses the structure, operation, and application areas of these technologies.</string>
+    <!--  1. Introduction  -->
+    <string name="giris13">1. Introduction</string>
+    <string name="giris13Text">Traditional robots are powerful but limited in areas where flexibility is needed. Soft robots and biomimetic designs, inspired by living creatures in nature, enable the creation of smarter and more agile robots.</string>
+    <!--  2. Soft Robotics  -->
+    <string name="yumusakRobotikBaslik">2. What is Soft Robotics?</string>
+    <string name="yumusakRobotikText">Soft robots are made with flexible and shape-changing materials:\n\n• Silicone, elastomers, hydrogel\n• Pneumatic actuators and artificial muscles\n• Flexible sensors\n\nThese robots can be compressed, bent, and stretched. They are especially ideal for handling delicate objects or navigating in narrow spaces.</string>
+    <!--  3. Biomimetic Systems  -->
+    <string name="biyomimetikBaslik">3. What are Biomimetic Systems?</string>
+    <string name="biyomimetikText">Biomimetic robots imitate the shape and function of living creatures in nature:\n\n• Underwater robots that swim like fish\n• Robots that climb like geckos\n• Flexible limbs like octopus arms\n• Insect-like micro robots\n\nThese designs benefit from biomechanics, neural control, and evolutionary efficiency.</string>
+    <!--  4. Future Technologies  -->
+    <string name="gelecekTeknolojilerBaslik">4. Future Robot Technologies</string>
+    <string name="gelecekTeknolojilerText">• Soft Sensors and Skins\n• Self-Healing Materials\n• Brain-Like Processors (Neuromorphic)\n• Energy Harvesting Materials\n• Adaptability with Artificial Intelligence</string>
+    <!--  5. Application Areas  -->
+    <string name="uygulamaAlanlari7Baslik">5. Application Areas</string>
+    <string name="uygulamaAlanlari7Text">• Medicine: Surgical robots, artificial limbs, rehabilitation devices.\n• Search and Rescue: Flexible robots that can navigate through rubble.\n• Agriculture: Delicate fruit harvesting.\n• Space: Lightweight and flexible structures.\n• Wearable Robots: Exoskeletons that mimic muscles.</string>
+    <!--  6. Challenges  -->
+    <string name="zorluklar11Baslik">6. Challenges</string>
+    <string name="zorluklar11Text">• Material Durability\n• Control of flexible structure\n• Compatibility with electronics\n• Energy and miniaturization</string>
+    <string name="sonucText36">The future of robotic systems lies in the combination of nature and engineering. Soft and biomimetic robots will be the new key to agility, efficiency, and human compatibility. With developing artificial intelligence and material technologies, these systems will undertake important roles in daily life.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

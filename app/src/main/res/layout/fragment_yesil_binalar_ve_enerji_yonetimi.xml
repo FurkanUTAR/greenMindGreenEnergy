@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/yesilBinalarVeEnerjiYönetimi"
+        android:text="@string/yesilBinalarVeEnerjiYonetimi"
         android:textColor="@color/black" android:textSize="18sp"
         android:textStyle="bold"
         android:layout_marginStart="8dp"/>
@@ -57,7 +57,7 @@
                     android:id="@+id/titleTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/yesilBinalarVeEnerjiYönetimi"
+                    android:text="@string/yesilBinalarVeEnerjiYonetimi"
                     android:textSize="24sp"
                     android:textColor="@color/accent_yellow" android:textStyle="bold"
                     android:layout_marginHorizontal="16dp"
