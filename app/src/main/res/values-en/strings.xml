@@ -76,7 +76,7 @@
     <string name="suruHalindeCalisanRobotikSistemler">18.Swarm Robotic Systems: Coordination of multi-robot systems</string>
     <string name="hibritRobotikSistemler">19.Hybrid Robotic Systems: Robots operating with different energy sources.</string>
     <string name="geleceginRobotikTeknolojileri">20.Future Robotic Technologies: Soft robotics and biomimetic systems.</string>
-    <string name="sonucText">Bu projede yeşil enerji ve robotik teknolojileri birleştirerek geleceği şekillendiren bir öğrenme ortamı yaratıyoruz.</string>
+    <string name="sonucText">In this project, we create a learning environment that shapes the future by combining green energy and robotic technologies.</string>
     <string name="surdurulebilirEnerjiNedir">1. What is Sustainable Energy?</string>
     <string name="surdurulebilirEnerjiNedirText">Sustainable energy refers to energy sources that are renewable, environmentally friendly, and can meet today\'s energy needs without compromising the needs of future generations. Unlike fossil fuels, these energy sources, which are inexhaustible and do not pollute nature, include solar, wind, hydroelectric, and geothermal energy.</string>
     <string name="nedenOnemlidir">2. Why is it Important?</string>

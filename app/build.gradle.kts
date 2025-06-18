@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.greenmindgreenenergy"
+    namespace = "com.TKMTAL.greenmindgreenenergy"
     compileSdk = 35
 
     buildFeatures {
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.greenmindgreenenergy"
+        applicationId = "com.TKMTAL.greenmindgreenenergy"
         minSdk = 29
         targetSdk = 35
         versionCode = 1
@@ -54,8 +54,4 @@ dependencies {
     // Navigation
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
-
-    // Firebase
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.analytics)
 }

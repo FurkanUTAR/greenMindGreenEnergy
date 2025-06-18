@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/splashFragment"
-        android:name="com.example.greenmindgreenenergy.splashFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.splashFragment"
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/girisSayfaFragment"
-        android:name="com.example.greenmindgreenenergy.girisSayfaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.girisSayfaFragment"
         android:label="fragment_giris_sayfa"
         tools:layout="@layout/fragment_giris_sayfa" >
         <action
@@ -34,17 +34,17 @@
     </fragment>
     <fragment
         android:id="@+id/anaSayfaFragment"
-        android:name="com.example.greenmindgreenenergy.anaSayfaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.anaSayfaFragment"
         android:label="fragment_ana_sayfa"
         tools:layout="@layout/fragment_ana_sayfa" />
     <fragment
         android:id="@+id/hakkimizdaSayfaFragment"
-        android:name="com.example.greenmindgreenenergy.hakkimizdaSayfaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.hakkimizdaSayfaFragment"
         android:label="fragment_hakkimizda_sayfa"
         tools:layout="@layout/fragment_hakkimizda_sayfa" />
     <fragment
         android:id="@+id/surdurulebilirEnerjiFragment"
-        android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.surdurulebilirEnerjiFragment"
         android:label="surdurulebilirEnerjiFragment" >
         <action
             android:id="@+id/action_surdurulebilirEnerjiFragment_to_surdurulebilirEnerjiGirisFragment"
@@ -109,7 +109,7 @@
     </fragment>
     <fragment
         android:id="@+id/robotikVeKodlamaFragment"
-        android:name="com.example.greenmindgreenenergy.robotikVeKodlamaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.robotikVeKodlamaFragment"
         android:label="robotikVeKodlamaFragment" >
         <action
             android:id="@+id/action_robotikVeKodlamaFragment_to_robotikKodlamayaGirisFragment"
@@ -174,176 +174,176 @@
     </fragment>
     <fragment
         android:id="@+id/surdurulebilirEnerjiGirisFragment"
-        android:name="com.example.greenmindgreenenergy.surdurulebilirEnerjiGirisFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.surdurulebilirEnerjiGirisFragment"
         android:label="surdurulebilirEnerjiGirisFragment" />
     <fragment
         android:id="@+id/yesilEnerjiKaynaklariFragment"
-        android:name="com.example.greenmindgreenenergy.yesilEnerjiKaynaklariFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.yesilEnerjiKaynaklariFragment"
         android:label="yesilEnerjiKaynaklariFragment" />
     <fragment
         android:id="@+id/fosilYakitlarinEtkileriFragment"
-        android:name="com.example.greenmindgreenenergy.fosilYakitlarinEtkileriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.fosilYakitlarinEtkileriFragment"
         android:label="fosilYakitlarinEtkileriFragment" />
     <fragment
         android:id="@+id/enerjiVerimliligiTeknikleriFragment"
-        android:name="com.example.greenmindgreenenergy.enerjiVerimliligiTeknikleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.enerjiVerimliligiTeknikleriFragment"
         android:label="enerjiVerimliligiTeknikleriFragment" />
     <fragment
         android:id="@+id/gunesPanelleriTeknolojisi"
-        android:name="com.example.greenmindgreenenergy.gunesPanelleriTeknolojisi"
+        android:name="com.TKMTAL.greenmindgreenenergy.gunesPanelleriTeknolojisi"
         android:label="fragment_gunes_panelleri_teknolojisi"
         tools:layout="@layout/fragment_gunes_panelleri_teknolojisi" />
     <fragment
         android:id="@+id/ruzgarTurbinleriVeCalismaPrensipleriFragment"
-        android:name="com.example.greenmindgreenenergy.ruzgarTurbinleriVeCalismaPrensipleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.ruzgarTurbinleriVeCalismaPrensipleriFragment"
         android:label="ruzgarTurbinleriVeCalismaPrensipleriFragment" />
     <fragment
         android:id="@+id/hidroelektrikEnerjiVeBarajlarFragment"
-        android:name="com.example.greenmindgreenenergy.hidroelektrikEnerjiVeBarajlarFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.hidroelektrikEnerjiVeBarajlarFragment"
         android:label="fragment_hidroelektrik_enerji_ve_barajlar"
         tools:layout="@layout/fragment_hidroelektrik_enerji_ve_barajlar" />
     <fragment
         android:id="@+id/yesilBinalarVeEnerjiYonetimiFragment"
-        android:name="com.example.greenmindgreenenergy.yesilBinalarVeEnerjiYonetimiFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.yesilBinalarVeEnerjiYonetimiFragment"
         android:label="yesilBinalarVeEnerjiYonetimiFragment" />
     <fragment
         android:id="@+id/karbonAyakIziHesaplamaFragment"
-        android:name="com.example.greenmindgreenenergy.karbonAyakIziHesaplamaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.karbonAyakIziHesaplamaFragment"
         android:label="fragment_karbon_ayak_izi_hesaplama"
         tools:layout="@layout/fragment_karbon_ayak_izi_hesaplama" />
     <fragment
         android:id="@+id/enerjiDepolamaSistemleriFragment"
-        android:name="com.example.greenmindgreenenergy.enerjiDepolamaSistemleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.enerjiDepolamaSistemleriFragment"
         android:label="fragment_enerji_depolama_sistemleri"
         tools:layout="@layout/fragment_enerji_depolama_sistemleri" />
     <fragment
         android:id="@+id/akilliSebekeSistemleriFragment"
-        android:name="com.example.greenmindgreenenergy.akilliSebekeSistemleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.akilliSebekeSistemleriFragment"
         android:label="fragment_akilli_sebeke_sistemleri"
         tools:layout="@layout/fragment_akilli_sebeke_sistemleri" />
     <fragment
         android:id="@+id/hibritEnerjiSistemleriFragment"
-        android:name="com.example.greenmindgreenenergy.hibritEnerjiSistemleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.hibritEnerjiSistemleriFragment"
         android:label="hibritEnerjiSistemleriFragment" />
     <fragment
         android:id="@+id/surdurulebilirUlasimCozumleriFragment"
-        android:name="com.example.greenmindgreenenergy.surdurulebilirUlasimCozumleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.surdurulebilirUlasimCozumleriFragment"
         android:label="fragment_surdurulebilir_ulasim_cozumleri"
         tools:layout="@layout/fragment_surdurulebilir_ulasim_cozumleri" />
     <fragment
         android:id="@+id/yenilenebilirEnerjiPolitikalariFragment"
-        android:name="com.example.greenmindgreenenergy.yenilenebilirEnerjiPolitikalariFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.yenilenebilirEnerjiPolitikalariFragment"
         android:label="fragment_yenilenebilir_enerji_politikalari"
         tools:layout="@layout/fragment_yenilenebilir_enerji_politikalari" />
     <fragment
         android:id="@+id/iklimDegisikligiVeEnerjiFragment"
-        android:name="com.example.greenmindgreenenergy.iklimDegisikligiVeEnerjiFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.iklimDegisikligiVeEnerjiFragment"
         android:label="fragment_iklim_degisikligi_ve_enerji"
         tools:layout="@layout/fragment_iklim_degisikligi_ve_enerji" />
     <fragment
         android:id="@+id/enerjiUretimindeRobotikUygulamalariFragment"
-        android:name="com.example.greenmindgreenenergy.enerjiUretimindeRobotikUygulamalariFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.enerjiUretimindeRobotikUygulamalariFragment"
         android:label="enerjiUretimindeRobotikUygulamalariFragment" />
     <fragment
         android:id="@+id/enerjiVerimliligindeIoTKullanimiFragment"
-        android:name="com.example.greenmindgreenenergy.enerjiVerimliligindeIoTKullanimiFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.enerjiVerimliligindeIoTKullanimiFragment"
         android:label="enerjiVerimliligindeIoTKullanimiFragment" />
     <fragment
         android:id="@+id/yesilCevreProjeleriFragment"
-        android:name="com.example.greenmindgreenenergy.yesilCevreProjeleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.yesilCevreProjeleriFragment"
         android:label="fragment_yesil_cevre_projeleri"
         tools:layout="@layout/fragment_yesil_cevre_projeleri" />
     <fragment
         android:id="@+id/toplumsalSurdurulebilirlikBilinciFragment"
-        android:name="com.example.greenmindgreenenergy.toplumsalSurdurulebilirlikBilinciFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.toplumsalSurdurulebilirlikBilinciFragment"
         android:label="fragment_toplumsal_surdurulebilirlik_bilinci"
         tools:layout="@layout/fragment_toplumsal_surdurulebilirlik_bilinci" />
     <fragment
         android:id="@+id/geleceginEnerjiTeknolojileriFragment"
-        android:name="com.example.greenmindgreenenergy.geleceginEnerjiTeknolojileriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.geleceginEnerjiTeknolojileriFragment"
         android:label="geleceginEnerjiTeknolojileriFragment" />
     <fragment
         android:id="@+id/robotikKodlamayaGirisFragment"
-        android:name="com.example.greenmindgreenenergy.robotikKodlamayaGirisFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.robotikKodlamayaGirisFragment"
         android:label="robotikKodlamayaGirisFragment" />
     <fragment
         android:id="@+id/mikrodenetleyiciyeGirisFragment"
-        android:name="com.example.greenmindgreenenergy.mikrodenetleyiciyeGirisFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.mikrodenetleyiciyeGirisFragment"
         android:label="mikrodenetleyiciyeGirisFragment" />
     <fragment
         android:id="@+id/elektronikBilesenlerVeSensorlerFragment"
-        android:name="com.example.greenmindgreenenergy.elektronikBilesenlerVeSensorlerFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.elektronikBilesenlerVeSensorlerFragment"
         android:label="fragment_elektronik_bilesenler_ve_sensorler"
         tools:layout="@layout/fragment_elektronik_bilesenler_ve_sensorler" />
     <fragment
         android:id="@+id/arduinoileKodlamaFragment"
-        android:name="com.example.greenmindgreenenergy.arduinoileKodlamaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.arduinoileKodlamaFragment"
         android:label="arduinoileKodlamaFragment" />
     <fragment
         android:id="@+id/motorKontrolSistemleriFragment"
-        android:name="com.example.greenmindgreenenergy.motorKontrolSistemleriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.motorKontrolSistemleriFragment"
         android:label="motorKontrolSistemleriFragment" />
     <fragment
         android:id="@+id/sensorEntegrasyonuFragment"
-        android:name="com.example.greenmindgreenenergy.sensorEntegrasyonuFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.sensorEntegrasyonuFragment"
         android:label="sensorEntegrasyonuFragment" />
     <fragment
         android:id="@+id/algoritmaGelistirmeFragment"
-        android:name="com.example.greenmindgreenenergy.algoritmaGelistirmeFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.algoritmaGelistirmeFragment"
         android:label="algoritmaGelistirmeFragment" />
     <fragment
         android:id="@+id/mobilRobotikSistemlerFragment"
-        android:name="com.example.greenmindgreenenergy.mobilRobotikSistemlerFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.mobilRobotikSistemlerFragment"
         android:label="fragment_mobil_robotik_sistemler"
         tools:layout="@layout/fragment_mobil_robotik_sistemler" />
     <fragment
         android:id="@+id/otonomAraclarIcinAlgoritmaFragment"
-        android:name="com.example.greenmindgreenenergy.otonomAraclarIcinAlgoritmaFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.otonomAraclarIcinAlgoritmaFragment"
         android:label="fragment_otonom_araclar_icin_algoritma"
         tools:layout="@layout/fragment_otonom_araclar_icin_algoritma" />
     <fragment
         android:id="@+id/yapayZekaTabanliRobotikFragment"
-        android:name="com.example.greenmindgreenenergy.yapayZekaTabanliRobotikFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.yapayZekaTabanliRobotikFragment"
         android:label="yapayZekaTabanliRobotikFragment" />
     <fragment
         android:id="@+id/endustriyelRobotikUygulamalariFragment"
-        android:name="com.example.greenmindgreenenergy.endustriyelRobotikUygulamalariFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.endustriyelRobotikUygulamalariFragment"
         android:label="fragment_endustriyel_robotik_uygulamalari"
         tools:layout="@layout/fragment_endustriyel_robotik_uygulamalari" />
     <fragment
         android:id="@+id/veriToplamaVeAnaliziFragment"
-        android:name="com.example.greenmindgreenenergy.veriToplamaVeAnaliziFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.veriToplamaVeAnaliziFragment"
         android:label="veriToplamaVeAnaliziFragment" />
     <fragment
         android:id="@+id/rosileCalismakFragment"
-        android:name="com.example.greenmindgreenenergy.rosileCalismakFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.rosileCalismakFragment"
         android:label="rosileCalismakFragment" />
     <fragment
         android:id="@+id/goruntuIslemeVeRobotikFragment"
-        android:name="com.example.greenmindgreenenergy.goruntuIslemeVeRobotikFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.goruntuIslemeVeRobotikFragment"
         android:label="goruntuIslemeVeRobotikFragment" />
     <fragment
         android:id="@+id/robotikSistemlerinOptimizasyonuFragment"
-        android:name="com.example.greenmindgreenenergy.robotikSistemlerinOptimizasyonuFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.robotikSistemlerinOptimizasyonuFragment"
         android:label="robotikSistemlerinOptimizasyonuFragment" />
     <fragment
         android:id="@+id/robotKollarininTasarimiVeKontroluFragment"
-        android:name="com.example.greenmindgreenenergy.robotKollarininTasarimiVeKontroluFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.robotKollarininTasarimiVeKontroluFragment"
         android:label="robotKollarininTasarimiVeKontroluFragment" />
     <fragment
         android:id="@+id/robotlarIcinIotEntegrasyonu"
-        android:name="com.example.greenmindgreenenergy.robotlarIcinIotEntegrasyonu"
+        android:name="com.TKMTAL.greenmindgreenenergy.robotlarIcinIotEntegrasyonu"
         android:label="robotlarIcinIotEntegrasyonu" />
     <fragment
         android:id="@+id/suruHalindeCalisanRobotikSistemlerFragment"
-        android:name="com.example.greenmindgreenenergy.suruHalindeCalisanRobotikSistemlerFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.suruHalindeCalisanRobotikSistemlerFragment"
         android:label="suruHalindeCalisanRobotikSistemlerFragment" />
     <fragment
         android:id="@+id/hibritRobotikSistemlerFragment"
-        android:name="com.example.greenmindgreenenergy.hibritRobotikSistemlerFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.hibritRobotikSistemlerFragment"
         android:label="hibritRobotikSistemlerFragment" />
     <fragment
         android:id="@+id/geleceginRobotikTeknolojileriFragment"
-        android:name="com.example.greenmindgreenenergy.geleceginRobotikTeknolojileriFragment"
+        android:name="com.TKMTAL.greenmindgreenenergy.geleceginRobotikTeknolojileriFragment"
         android:label="geleceginRobotikTeknolojileriFragment" />
 </navigation>
